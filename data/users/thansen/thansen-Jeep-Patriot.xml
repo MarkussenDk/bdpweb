@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="thansen" Password="thansen" Created="09-05-2011 15:46:37">
+  <car_make car_make_name="Jeep">
+    <car_model car_model_name="Patriot">
+      <car_models_to_spare_part_prices year_to="2008" year_from="2008">
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="171370081100" name="Oliefilter Patri 2,0D 1/08-" description="Oliefilter Patri 2,0D 1/08-" spare_part_url="http://www.thansen.dk/product.asp?c=5282268798&amp;n=-1221360916&amp;pn=-1034052485" spare_part_image_url="http://media.thg.dk/DAT/pic/s/502662981100.JPG" spare_part_category_free_text="Motordele - Filtre - Oliefilter" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="2009" year_from="2009">
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="171370081100" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="2010" year_from="2010">
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="171370081100" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="2011" year_from="2011">
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="171370081100" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

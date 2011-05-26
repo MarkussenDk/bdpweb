@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="thansen" Password="thansen" Created="04-05-2011 22:46:06">
+  <car_make car_make_name="Chevrolet">
+    <car_model car_model_name="Tahoe">
+      <car_models_to_spare_part_prices year_to="1994" year_from="1994">
+        <Spare_Part_Price price_inc_vat="1499,00" supplier_part_number="812257949650" name="Batteri Tahoe 5,7 10/94-9/95" description="Batteri Tahoe 5,7 10/94-9/95" spare_part_url="http://www.thansen.dk/product.asp?c=5256734214&amp;n=-1387006892&amp;pn=-1386998407" spare_part_category_free_text="Elektriske dele - Batteri - " />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1995" year_from="1995">
+        <Spare_Part_Price price_inc_vat="1499,00" supplier_part_number="812257949650" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

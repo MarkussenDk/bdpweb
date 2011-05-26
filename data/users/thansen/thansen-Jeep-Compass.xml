@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="thansen" Password="thansen" Created="09-05-2011 15:46:37">
+  <car_make car_make_name="Jeep">
+    <car_model car_model_name="Compass">
+      <car_models_to_spare_part_prices year_to="2006" year_from="2006">
+        <Spare_Part_Price price_inc_vat="49,00" supplier_part_number="171124069250" name="T&amp;aelig;ndr&amp;oslash;r Compass 2,4 9/06- (Denso)" description="T&amp;aelig;ndr&amp;oslash;r Compass 2,4 9/06- (Denso)" spare_part_url="http://www.thansen.dk/product.asp?c=5282268798&amp;n=-1476557119&amp;pn=-1476553697" spare_part_image_url="http://media.thg.dk/DAT/pic/s/DENSO.JPG" spare_part_category_free_text="Elektriske dele - T&amp;aelig;ndingsdele - T&amp;aelig;ndr&amp;oslash;r" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="2007" year_from="2007">
+        <Spare_Part_Price price_inc_vat="49,00" supplier_part_number="171124069250" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="2008" year_from="2008">
+        <Spare_Part_Price price_inc_vat="49,00" supplier_part_number="171124069250" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

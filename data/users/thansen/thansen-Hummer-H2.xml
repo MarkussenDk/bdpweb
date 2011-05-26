@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="thansen" Password="thansen" Created="08-05-2011 09:17:24">
+  <car_make car_make_name="Hummer">
+    <car_model car_model_name="H2">
+      <car_models_to_spare_part_prices year_to="2004" year_from="2004">
+        <Spare_Part_Price price_inc_vat="189,00" supplier_part_number="211060040370" name="Viskerblads&amp;aelig;t flex H2 6,0 9/04-" description="Viskerblads&amp;aelig;t flex H2 6,0 9/04-" spare_part_url="http://www.thansen.dk/product.asp?c=5273679288&amp;n=-1251458695&amp;pn=-1627363138" spare_part_image_url="http://media.thg.dk/DAT/pic/s/VISKER_FLEX_DOUBLE.JPG" spare_part_category_free_text="Udstyr - tilbeh&amp;oslash;r m.v. - Viskerblade - Viskerblads&amp;aelig;t - Carline Flex " />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="2005" year_from="2005">
+        <Spare_Part_Price price_inc_vat="189,00" supplier_part_number="211060040370" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="2006" year_from="2006">
+        <Spare_Part_Price price_inc_vat="189,00" supplier_part_number="211060040370" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="2007" year_from="2007">
+        <Spare_Part_Price price_inc_vat="189,00" supplier_part_number="211060040370" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

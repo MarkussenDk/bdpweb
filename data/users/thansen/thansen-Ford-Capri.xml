@@ -1,0 +1,717 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="thansen" Password="thansen" Created="05-05-2011 08:10:21">
+  <car_make car_make_name="Ford">
+    <car_model car_model_name="Capri">
+      <car_models_to_spare_part_prices year_to="1968" year_from="1968">
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601713685250" name="Forfjeder Capri I 1,3 12/68-12/73" description="Forfjeder Capri I 1,3 12/68-12/73" spare_part_url="http://www.thansen.dk/product.asp?c=5256680727&amp;n=-1593862561&amp;pn=-1593850376" spare_part_category_free_text="St&amp;oslash;dd&amp;aelig;mper, fjedre, manchetter - Fjedre - Forfjeder" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1969" year_from="1969">
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601713685250" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1970" year_from="1970">
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601713685250" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1971" year_from="1971">
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601713685250" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1972" year_from="1972">
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601713685250" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1973" year_from="1973">
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601713685250" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1974" year_from="1974">
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601713745250" name="Forfjeder Capri II 1,3 2/74-8/77" description="Forfjeder Capri II 1,3 2/74-8/77" spare_part_url="http://www.thansen.dk/product.asp?c=5256680727&amp;n=-1593858295&amp;pn=-1593842117" spare_part_category_free_text="St&amp;oslash;dd&amp;aelig;mper, fjedre, manchetter - Fjedre - Forfjeder" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1975" year_from="1975">
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601713745250" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1976" year_from="1976">
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601713745250" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1977" year_from="1977">
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601713745250" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1978" year_from="1978">
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" name="Forlygte h.s Capri 1/78-4/87" description="Forlygte h.s Capri 1/78-4/87" spare_part_url="http://www.thansen.dk/product.asp?c=5256680727&amp;n=-1593856897&amp;pn=-1099896855" spare_part_image_url="http://media.thg.dk/DAT/pic/s/601713788110.JPG" spare_part_category_free_text="Lygter, frontruder og spejle - Lygter foran - Forlygte h.s." />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" name="Forlygte v.s Capri 1/78-4/87" description="Forlygte v.s Capri 1/78-4/87" spare_part_url="http://www.thansen.dk/product.asp?c=5256680727&amp;n=-1593856898&amp;pn=-1099898844" spare_part_image_url="http://media.thg.dk/DAT/pic/s/601713788110.JPG" spare_part_category_free_text="Lygter, frontruder og spejle - Lygter foran - Forlygte v.s." />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1979" year_from="1979">
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1980" year_from="1980">
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1981" year_from="1981">
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1982" year_from="1982">
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1983" year_from="1983">
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1984" year_from="1984">
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1985" year_from="1985">
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1969" year_from="1969">
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716695250" name="Forfjeder Capri I 1,6 1/69-2/74" description="Forfjeder Capri I 1,6 1/69-2/74" spare_part_url="http://www.thansen.dk/product.asp?c=5256680727&amp;n=-1593848162&amp;pn=-1593842656" spare_part_category_free_text="St&amp;oslash;dd&amp;aelig;mper, fjedre, manchetter - Fjedre - Forfjeder" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1970" year_from="1970">
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716695250" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1971" year_from="1971">
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716695250" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1972" year_from="1972">
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716695250" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1973" year_from="1973">
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716695250" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1974" year_from="1974">
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" name="Forlygte h.s Capri 2/74-" description="Forlygte h.s Capri 2/74-" spare_part_url="http://www.thansen.dk/product.asp?c=5256680727&amp;n=1584042878&amp;pn=-1779834489" spare_part_image_url="http://media.thg.dk/DAT/pic/s/601716748111.JPG" spare_part_category_free_text="Lygter, frontruder og spejle - Lygter foran - Forlygte h.s." />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" name="Forlygte h.s Capri 2/74-" description="Forlygte h.s Capri 2/74-" spare_part_url="http://www.thansen.dk/product.asp?c=5256680727&amp;n=1584042878&amp;pn=-1779825490" spare_part_image_url="http://media.thg.dk/DAT/pic/s/202473838111.JPG" spare_part_category_free_text="Lygter, frontruder og spejle - Lygter foran - Forlygte h.s." />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" name="Forlygte v.s Capri 2/74-" description="Forlygte v.s Capri 2/74-" spare_part_url="http://www.thansen.dk/product.asp?c=5256680727&amp;n=1584042877&amp;pn=-1779839319" spare_part_image_url="http://media.thg.dk/DAT/pic/s/601716748111.JPG" spare_part_category_free_text="Lygter, frontruder og spejle - Lygter foran - Forlygte v.s." />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" name="Forlygte v.s Capri 2/74-" description="Forlygte v.s Capri 2/74-" spare_part_url="http://www.thansen.dk/product.asp?c=5256680727&amp;n=1584042877&amp;pn=-1779827666" spare_part_image_url="http://media.thg.dk/DAT/pic/s/202473838111.JPG" spare_part_category_free_text="Lygter, frontruder og spejle - Lygter foran - Forlygte v.s." />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" name="Oliefilter Capri 1,3-3,0 1/74-4/87" description="Oliefilter Capri 1,3-3,0 1/74-4/87" spare_part_url="http://www.thansen.dk/product.asp?c=5256680727&amp;n=1584042709&amp;pn=-1602932004" spare_part_image_url="http://media.thg.dk/DAT/pic/s/601825001100.JPG" spare_part_category_free_text="Motordele - Filtre - Oliefilter" />
+        <Spare_Part_Price price_inc_vat="249,00" supplier_part_number="601716741410" name="Remstrammerhjul Capri 1,6+2,0 2/74-4/87" description="Remstrammerhjul Capri 1,6+2,0 2/74-4/87" spare_part_url="http://www.thansen.dk/product.asp?c=5256680727&amp;n=1584042735&amp;pn=1715232690" spare_part_image_url="http://media.thg.dk/DAT/pic/s/602218851410.JPG" spare_part_category_free_text="Motordele - Tandremme og tilbeh&amp;oslash;r - Remstr.hjul" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" name="D&amp;oslash;rplade, 2-d&amp;oslash;rs Capri 1,6-3,0 74-87 v.s" description="D&amp;oslash;rplade, 2-d&amp;oslash;rs Capri 1,6-3,0 74-87 v.s" spare_part_url="http://www.thansen.dk/product.asp?c=5256680727&amp;n=1584042874&amp;pn=1584041734" spare_part_image_url="http://media.thg.dk/DAT/pic/s/601716787110.JPG" spare_part_category_free_text="Pladedele -  - " />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" name="D&amp;oslash;rplade, 2-d&amp;oslash;rs Capri 1,6-3,0 74-87 h.s" description="D&amp;oslash;rplade, 2-d&amp;oslash;rs Capri 1,6-3,0 74-87 h.s" spare_part_url="http://www.thansen.dk/product.asp?c=5256680727&amp;n=1584042874&amp;pn=1584048080" spare_part_category_free_text="Pladedele -  - " />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716695250" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716745250" name="Forfjeder Capri II 1,6 2/74-12/77" description="Forfjeder Capri II 1,6 2/74-12/77" spare_part_url="http://www.thansen.dk/product.asp?c=5256680727&amp;n=1584042832&amp;pn=-1593842012" spare_part_category_free_text="St&amp;oslash;dd&amp;aelig;mper, fjedre, manchetter - Fjedre - Forfjeder" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716740120" name="Rep.h&amp;aring;ndbog Capri II+III 2/74-4/87" description="Rep.h&amp;aring;ndbog Capri II+III 2/74-4/87" spare_part_url="http://www.thansen.dk/product.asp?c=5256680727&amp;n=1584042685&amp;pn=-2048463868" spare_part_image_url="http://media.thg.dk/DAT/pic/s/601716740120.JPG" spare_part_category_free_text="Udstyr - tilbeh&amp;oslash;r m.v. - Reparationsh&amp;aring;ndb&amp;oslash;ger - " />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1975" year_from="1975">
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="249,00" supplier_part_number="601716741410" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716745250" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716740120" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1976" year_from="1976">
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="249,00" supplier_part_number="601716741410" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716745250" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716740120" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1977" year_from="1977">
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="249,00" supplier_part_number="601716741410" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716745250" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716740120" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1978" year_from="1978">
+        <Spare_Part_Price price_inc_vat="29,00" supplier_part_number="601716789255" name="T&amp;aelig;ndr&amp;oslash;r Capri 1,6+2,0 1/78-12/85 (Denso)" description="T&amp;aelig;ndr&amp;oslash;r Capri 1,6+2,0 1/78-12/85 (Denso)" spare_part_url="http://www.thansen.dk/product.asp?c=5256680727&amp;n=1558359585&amp;pn=-1739922724" spare_part_image_url="http://media.thg.dk/DAT/pic/s/DENSO.JPG" spare_part_category_free_text="Elektriske dele - T&amp;aelig;ndingsdele - T&amp;aelig;ndr&amp;oslash;r" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="249,00" supplier_part_number="601716741410" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716740120" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1979" year_from="1979">
+        <Spare_Part_Price price_inc_vat="29,00" supplier_part_number="601716789255" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="249,00" supplier_part_number="601716741410" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716740120" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1980" year_from="1980">
+        <Spare_Part_Price price_inc_vat="29,00" supplier_part_number="601716789255" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="249,00" supplier_part_number="601716741410" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716740120" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1981" year_from="1981">
+        <Spare_Part_Price price_inc_vat="29,00" supplier_part_number="601716789255" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="249,00" supplier_part_number="601716741410" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716740120" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1982" year_from="1982">
+        <Spare_Part_Price price_inc_vat="29,00" supplier_part_number="601716789255" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="249,00" supplier_part_number="601716741410" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716740120" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1983" year_from="1983">
+        <Spare_Part_Price price_inc_vat="29,00" supplier_part_number="601716789255" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="249,00" supplier_part_number="601716741410" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716740120" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1984" year_from="1984">
+        <Spare_Part_Price price_inc_vat="29,00" supplier_part_number="601716789255" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="249,00" supplier_part_number="601716741410" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716740120" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1985" year_from="1985">
+        <Spare_Part_Price price_inc_vat="29,00" supplier_part_number="601716789255" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="249,00" supplier_part_number="601716741410" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716740120" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1986" year_from="1986">
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="249,00" supplier_part_number="601716741410" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716740120" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1987" year_from="1987">
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" reference="true" />
+        <Spare_Part_Price price_inc_vat="249,00" supplier_part_number="601716741410" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716740120" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1969" year_from="1969">
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601720695250" name="Forfjeder Capri I 2,0 2/69-2/74" description="Forfjeder Capri I 2,0 2/69-2/74" spare_part_url="http://www.thansen.dk/product.asp?c=5256680727&amp;n=-1593839317&amp;pn=-1593836896" spare_part_category_free_text="St&amp;oslash;dd&amp;aelig;mper, fjedre, manchetter - Fjedre - Forfjeder" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1970" year_from="1970">
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601720695250" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1971" year_from="1971">
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601720695250" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1972" year_from="1972">
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601720695250" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1973" year_from="1973">
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601720695250" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1974" year_from="1974">
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="249,00" supplier_part_number="601716741410" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601720695250" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716740120" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1975" year_from="1975">
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="249,00" supplier_part_number="601716741410" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716740120" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1976" year_from="1976">
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="249,00" supplier_part_number="601716741410" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601720765250" name="Forfjeder Capri II 2,0 4/76-12/77" description="Forfjeder Capri II 2,0 4/76-12/77" spare_part_url="http://www.thansen.dk/product.asp?c=5256680727&amp;n=1584045126&amp;pn=-1593834507" spare_part_category_free_text="St&amp;oslash;dd&amp;aelig;mper, fjedre, manchetter - Fjedre - Forfjeder" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716740120" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1977" year_from="1977">
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="249,00" supplier_part_number="601716741410" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601720765250" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716740120" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1978" year_from="1978">
+        <Spare_Part_Price price_inc_vat="29,00" supplier_part_number="601716789255" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="249,00" supplier_part_number="601716741410" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716740120" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1979" year_from="1979">
+        <Spare_Part_Price price_inc_vat="29,00" supplier_part_number="601720799250" name="T&amp;aelig;ndr&amp;oslash;r Capri III 2,0 1/78-12/85 (Denso)" description="T&amp;aelig;ndr&amp;oslash;r Capri III 2,0 1/78-12/85 (Denso)" spare_part_url="http://www.thansen.dk/product.asp?c=5256680727&amp;n=1558363453&amp;pn=1788123272" spare_part_image_url="http://media.thg.dk/DAT/pic/s/DENSO.JPG" spare_part_category_free_text="Elektriske dele - T&amp;aelig;ndingsdele - T&amp;aelig;ndr&amp;oslash;r" />
+        <Spare_Part_Price price_inc_vat="29,00" supplier_part_number="601716789255" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="249,00" supplier_part_number="601716741410" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716740120" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1980" year_from="1980">
+        <Spare_Part_Price price_inc_vat="29,00" supplier_part_number="601720799250" reference="true" />
+        <Spare_Part_Price price_inc_vat="29,00" supplier_part_number="601716789255" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="249,00" supplier_part_number="601716741410" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716740120" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1981" year_from="1981">
+        <Spare_Part_Price price_inc_vat="29,00" supplier_part_number="601720799250" reference="true" />
+        <Spare_Part_Price price_inc_vat="29,00" supplier_part_number="601716789255" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="249,00" supplier_part_number="601716741410" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716740120" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1982" year_from="1982">
+        <Spare_Part_Price price_inc_vat="29,00" supplier_part_number="601720799250" reference="true" />
+        <Spare_Part_Price price_inc_vat="29,00" supplier_part_number="601716789255" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="249,00" supplier_part_number="601716741410" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716740120" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1983" year_from="1983">
+        <Spare_Part_Price price_inc_vat="29,00" supplier_part_number="601720799250" reference="true" />
+        <Spare_Part_Price price_inc_vat="29,00" supplier_part_number="601716789255" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="249,00" supplier_part_number="601716741410" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716740120" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1984" year_from="1984">
+        <Spare_Part_Price price_inc_vat="29,00" supplier_part_number="601720799250" reference="true" />
+        <Spare_Part_Price price_inc_vat="29,00" supplier_part_number="601716789255" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="249,00" supplier_part_number="601716741410" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716740120" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1985" year_from="1985">
+        <Spare_Part_Price price_inc_vat="29,00" supplier_part_number="601720799250" reference="true" />
+        <Spare_Part_Price price_inc_vat="29,00" supplier_part_number="601716789255" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="249,00" supplier_part_number="601716741410" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716740120" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1974" year_from="1974">
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1975" year_from="1975">
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1976" year_from="1976">
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1977" year_from="1977">
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1978" year_from="1978">
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1979" year_from="1979">
+        <Spare_Part_Price price_inc_vat="39,00" supplier_part_number="601723799255" name="T&amp;aelig;ndr&amp;oslash;r Capri 2,3V6 6/79-12/85 (Denso)" description="T&amp;aelig;ndr&amp;oslash;r Capri 2,3V6 6/79-12/85 (Denso)" spare_part_url="http://www.thansen.dk/product.asp?c=5256680727&amp;n=1558366159&amp;pn=-1739908942" spare_part_image_url="http://media.thg.dk/DAT/pic/s/DENSO.JPG" spare_part_category_free_text="Elektriske dele - T&amp;aelig;ndingsdele - T&amp;aelig;ndr&amp;oslash;r" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1980" year_from="1980">
+        <Spare_Part_Price price_inc_vat="39,00" supplier_part_number="601723799255" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1981" year_from="1981">
+        <Spare_Part_Price price_inc_vat="39,00" supplier_part_number="601723799255" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1982" year_from="1982">
+        <Spare_Part_Price price_inc_vat="39,00" supplier_part_number="601723799255" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1983" year_from="1983">
+        <Spare_Part_Price price_inc_vat="39,00" supplier_part_number="601723799255" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1984" year_from="1984">
+        <Spare_Part_Price price_inc_vat="39,00" supplier_part_number="601723799255" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1985" year_from="1985">
+        <Spare_Part_Price price_inc_vat="39,00" supplier_part_number="601723799255" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1981" year_from="1981">
+        <Spare_Part_Price price_inc_vat="39,00" supplier_part_number="601728819250" name="T&amp;aelig;ndr&amp;oslash;r Capri 2,8 V6 1/81-4/87 (Denso)" description="T&amp;aelig;ndr&amp;oslash;r Capri 2,8 V6 1/81-4/87 (Denso)" spare_part_url="http://www.thansen.dk/product.asp?c=5256680727&amp;n=1558368435&amp;pn=1789449998" spare_part_image_url="http://media.thg.dk/DAT/pic/s/DENSO.JPG" spare_part_category_free_text="Elektriske dele - T&amp;aelig;ndingsdele - T&amp;aelig;ndr&amp;oslash;r" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+        <Spare_Part_Price price_inc_vat="299,00" supplier_part_number="601728810120" name="Rep.h&amp;aring;ndbog Capri II+III 1/81-4/87" description="Rep.h&amp;aring;ndbog Capri II+III 1/81-4/87" spare_part_url="http://www.thansen.dk/product.asp?c=5256680727&amp;n=1558368202&amp;pn=-2048446870" spare_part_image_url="http://media.thg.dk/DAT/pic/s/601728810120.JPG" spare_part_category_free_text="Udstyr - tilbeh&amp;oslash;r m.v. - Reparationsh&amp;aring;ndb&amp;oslash;ger - " />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1982" year_from="1982">
+        <Spare_Part_Price price_inc_vat="39,00" supplier_part_number="601728819250" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+        <Spare_Part_Price price_inc_vat="299,00" supplier_part_number="601728810120" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1983" year_from="1983">
+        <Spare_Part_Price price_inc_vat="39,00" supplier_part_number="601728819250" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+        <Spare_Part_Price price_inc_vat="299,00" supplier_part_number="601728810120" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1984" year_from="1984">
+        <Spare_Part_Price price_inc_vat="39,00" supplier_part_number="601728819250" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+        <Spare_Part_Price price_inc_vat="299,00" supplier_part_number="601728810120" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1985" year_from="1985">
+        <Spare_Part_Price price_inc_vat="39,00" supplier_part_number="601728819250" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+        <Spare_Part_Price price_inc_vat="299,00" supplier_part_number="601728810120" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1986" year_from="1986">
+        <Spare_Part_Price price_inc_vat="39,00" supplier_part_number="601728819250" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+        <Spare_Part_Price price_inc_vat="299,00" supplier_part_number="601728810120" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1987" year_from="1987">
+        <Spare_Part_Price price_inc_vat="39,00" supplier_part_number="601728819250" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+        <Spare_Part_Price price_inc_vat="299,00" supplier_part_number="601728810120" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1978" year_from="1978">
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1979" year_from="1979">
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1980" year_from="1980">
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1981" year_from="1981">
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748121" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748120" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788120" reference="true" />
+        <Spare_Part_Price price_inc_vat="349,00" supplier_part_number="601716748111" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716748110" reference="true" />
+        <Spare_Part_Price price_inc_vat="599,00" supplier_part_number="601713788110" reference="true" />
+        <Spare_Part_Price price_inc_vat="69,00" supplier_part_number="601716741100" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787110" reference="true" />
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="601716787111" reference="true" />
+        <Spare_Part_Price price_inc_vat="299,00" supplier_part_number="601728810120" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

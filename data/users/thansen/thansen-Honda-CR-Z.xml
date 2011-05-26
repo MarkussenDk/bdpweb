@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="thansen" Password="thansen" Created="09-05-2011 11:29:00">
+  <car_make car_make_name="Honda">
+    <car_model car_model_name="CR-Z">
+      <car_models_to_spare_part_prices year_to="2010" year_from="2010">
+        <Spare_Part_Price price_inc_vat="59,00" supplier_part_number="251715101100" name="Oliefilter CR-Z 1,5 6/10-" description="Oliefilter CR-Z 1,5 6/10-" spare_part_url="http://www.thansen.dk/product.asp?c=5280289558&amp;n=-1086954221&amp;pn=-1031699648" spare_part_image_url="http://media.thg.dk/DAT/pic/s/251000871101.JPG" spare_part_category_free_text="Motordele - Filtre - Oliefilter" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="2011" year_from="2011">
+        <Spare_Part_Price price_inc_vat="59,00" supplier_part_number="251715101100" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

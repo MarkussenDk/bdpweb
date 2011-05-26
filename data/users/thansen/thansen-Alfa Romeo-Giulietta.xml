@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="thansen" Password="thansen" Created="02-05-2011 23:20:41">
+  <car_make car_make_name="Alfa Romeo">
+    <car_model car_model_name="Giulietta">
+      <car_models_to_spare_part_prices year_to="2010" year_from="2010">
+        <Spare_Part_Price price_inc_vat="49,00" supplier_part_number="672614101100" name="Oliefilter Giullietta 1,4 4/10" description="Oliefilter Giullietta 1,4 4/10" spare_part_url="http://www.thansen.dk/product.asp?c=5247128871&amp;n=-1135194966&amp;pn=-1037522492" spare_part_category_free_text="Motordele - Filtre - Oliefilter" />
+        <Spare_Part_Price price_inc_vat="89,00" supplier_part_number="672618101100" name="Oliefilter Giullietta 1,8 TBi 4/10-" description="Oliefilter Giullietta 1,8 TBi 4/10-" spare_part_url="http://www.thansen.dk/product.asp?c=5247128871&amp;n=-1135194966&amp;pn=-1037510061" spare_part_category_free_text="Motordele - Filtre - Oliefilter" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="2011" year_from="2011">
+        <Spare_Part_Price price_inc_vat="49,00" supplier_part_number="672614101100" reference="true" />
+        <Spare_Part_Price price_inc_vat="89,00" supplier_part_number="672618101100" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

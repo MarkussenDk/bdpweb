@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="thansen" Password="thansen" Created="09-05-2011 15:46:37">
+  <car_make car_make_name="Jaguar">
+    <car_model car_model_name="XJS">
+      <car_models_to_spare_part_prices year_to="1994" year_from="1994">
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="831940942700" name="Lambda-sonde XJSC 4,0 7/94-3/96" description="Lambda-sonde XJSC 4,0 7/94-3/96" spare_part_url="http://www.thansen.dk/product.asp?c=5282248412&amp;n=-1473736110&amp;pn=-1315781481" spare_part_image_url="http://media.thg.dk/DAT/pic/s/671516892700.JPG" spare_part_category_free_text="Udst&amp;oslash;dning - Lambda-sonde - " />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1995" year_from="1995">
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="831940942700" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1996" year_from="1996">
+        <Spare_Part_Price price_inc_vat="399,00" supplier_part_number="831940942700" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

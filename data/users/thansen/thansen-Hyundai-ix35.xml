@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="thansen" Password="thansen" Created="09-05-2011 15:46:37">
+  <car_make car_make_name="Hyundai">
+    <car_model car_model_name="ix35">
+      <car_models_to_spare_part_prices year_to="2010" year_from="2010">
+        <Spare_Part_Price price_inc_vat="49,00" supplier_part_number="873520101100" name="Oliefilter ix35 2,0 4/10-" description="Oliefilter ix35 2,0 4/10-" spare_part_url="http://www.thansen.dk/product.asp?c=5281567629&amp;n=-1149446377&amp;pn=-1031543470" spare_part_category_free_text="Motordele - Filtre - Oliefilter" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="2011" year_from="2011">
+        <Spare_Part_Price price_inc_vat="49,00" supplier_part_number="873520101100" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="2010" year_from="2010">
+        <Spare_Part_Price price_inc_vat="299,00" supplier_part_number="873570101120" name="Br.stoffilter ix35 2,0CRDi 3/10-" description="Br.stoffilter ix35 2,0CRDi 3/10-" spare_part_url="http://www.thansen.dk/product.asp?c=5281567629&amp;n=-1149446001&amp;pn=-1092565857" spare_part_category_free_text="Motordele - Filtre - Br&amp;aelig;ndstoff." />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

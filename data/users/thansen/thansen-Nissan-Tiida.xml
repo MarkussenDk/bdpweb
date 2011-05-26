@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="thansen" Password="thansen" Created="09-05-2011 15:45:54">
+  <car_make car_make_name="Nissan">
+    <car_model car_model_name="Tiida">
+      <car_models_to_spare_part_prices year_to="2008" year_from="2008">
+        <Spare_Part_Price price_inc_vat="89,00" supplier_part_number="204516081150" name="Luftfilter Tiida 1,6 16V 1/08-" description="Luftfilter Tiida 1,6 16V 1/08-" spare_part_url="http://www.thansen.dk/product.asp?c=5282779132&amp;n=-1443112509&amp;pn=-1126743237" spare_part_category_free_text="Motordele - Filtre - Luftfilter" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="2009" year_from="2009">
+        <Spare_Part_Price price_inc_vat="89,00" supplier_part_number="204516081150" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="2010" year_from="2010">
+        <Spare_Part_Price price_inc_vat="89,00" supplier_part_number="204516081150" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="2008" year_from="2008">
+        <Spare_Part_Price price_inc_vat="89,00" supplier_part_number="204518081150" name="Luftfilter Tiida 1,8 16V 1/08-" description="Luftfilter Tiida 1,8 16V 1/08-" spare_part_url="http://www.thansen.dk/product.asp?c=5282779132&amp;n=-1443110819&amp;pn=-1126742525" spare_part_category_free_text="Motordele - Filtre - Luftfilter" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="2009" year_from="2009">
+        <Spare_Part_Price price_inc_vat="89,00" supplier_part_number="204518081150" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="2010" year_from="2010">
+        <Spare_Part_Price price_inc_vat="89,00" supplier_part_number="204518081150" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

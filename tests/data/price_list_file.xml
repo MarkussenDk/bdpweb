@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<price_List>
+	<Spare_Part_Price description="Dette er udstødningsrøret til en gammel Folkevogn æ ø å Æ Ø Å" price_inc_vat="1250 DKK" spare_part_image_url="http://www.biltema.dk/Archive/ProductCat/bil/Avgassystem.jpg" part_placement="N/A" part_placement_left_right="Middle" part_placement_front_back="middle" original_part_number="02-3214" producer_make_name="Bosch" spare_part_url="http://www.biltema.dk/carparts/carpart_info.asp?iSecId=1642&amp;strCarId=Volkswagen&amp;iItemId=132243&amp;iRelItemId=132244" name="Udstødningsrør" spare_part_category_free_text="RUSFRIT UDSTØDNINGSSYSTEM" suplier_part_number="21341234">
+		<Car_Model car_model_name="Polo" car_make_name="Volkswagen" year_from="1987" year_to="1993" chassis_no_from="100000"></Car_Model>
+		<Car_Make car_make_name="VW">
+			<Car_Model car_model_name="Golf MK1" year_from="1987"
+				year_to="1993" chassis_no_from="123000">
+			</Car_Model></Car_Make>
+		<car_models_to_spare_part_prices year_to="1986" year_from="1985" chassis_no_from="120000" chassis_to_from="99999999" month_to="">
+			<Car_Make car_make_name="Seat">
+				<Car_Model car_model_name="Cordoba"></Car_Model>
+			</Car_Make></car_models_to_spare_part_prices></Spare_Part_Price>
+	<Car_Model car_make_name="VW" car_model_name="Passat"></Car_Model></price_List>

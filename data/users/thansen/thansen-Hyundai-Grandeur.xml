@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="thansen" Password="thansen" Created="09-05-2011 15:46:37">
+  <car_make car_make_name="Hyundai">
+    <car_model car_model_name="Grandeur">
+      <car_models_to_spare_part_prices year_to="2007" year_from="2007">
+        <Spare_Part_Price price_inc_vat="299,00" supplier_part_number="873172071120" name="Br.stoffilter Grandeur 2,2CRDi 1/07-" description="Br.stoffilter Grandeur 2,2CRDi 1/07-" spare_part_url="http://www.thansen.dk/product.asp?c=5281505965&amp;n=-1492706034&amp;pn=-1092570691" spare_part_category_free_text="Motordele - Filtre - Br&amp;aelig;ndstoff." />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="2008" year_from="2008">
+        <Spare_Part_Price price_inc_vat="299,00" supplier_part_number="873172071120" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

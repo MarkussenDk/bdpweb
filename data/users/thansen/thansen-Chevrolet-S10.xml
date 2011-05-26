@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="thansen" Password="thansen" Created="04-05-2011 22:46:06">
+  <car_make car_make_name="Chevrolet">
+    <car_model car_model_name="S10">
+      <car_models_to_spare_part_prices year_to="1994" year_from="1994">
+        <Spare_Part_Price price_inc_vat="299,00" supplier_part_number="815122940120" name="Rep.h&amp;aring;ndbog S10 2,2 10/94-9/98" description="Rep.h&amp;aring;ndbog S10 2,2 10/94-9/98" spare_part_url="http://www.thansen.dk/product.asp?c=5256721675&amp;n=-1144812800&amp;pn=-1144806502" spare_part_image_url="http://media.thg.dk/DAT/pic/s/815122940120.JPG" spare_part_category_free_text="Udstyr - tilbeh&amp;oslash;r m.v. - Reparationsh&amp;aring;ndb&amp;oslash;ger - " />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1995" year_from="1995">
+        <Spare_Part_Price price_inc_vat="299,00" supplier_part_number="815122940120" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1996" year_from="1996">
+        <Spare_Part_Price price_inc_vat="299,00" supplier_part_number="815122940120" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1997" year_from="1997">
+        <Spare_Part_Price price_inc_vat="299,00" supplier_part_number="815122940120" reference="true" />
+      </car_models_to_spare_part_prices>
+      <car_models_to_spare_part_prices year_to="1998" year_from="1998">
+        <Spare_Part_Price price_inc_vat="299,00" supplier_part_number="815122940120" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>
