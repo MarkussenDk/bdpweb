@@ -1,0 +1,72 @@
+<style type="text/css">
+@CHARSET "ISO-8859-1";
+		.{font-size:9}
+		body{		}
+		h1{ margin: 0 0 0 0 ; font-size:18px}
+        h2{ margin: 0 0 0 0;font-size:13px}
+       /*div{border:1px solid gray;}*/
+		 div#bdp-div-page/*{width:820px;margin:auto; } 
+#pageWrapper*/ {
+	width: 25em /* was 25 em*/ ;
+	margin: .1em auto;
+	padding: .1em 0;
+	-moz-border-radius: 3px;
+
+}
+	div#bdp-div-header{ color: navy;
+	height: 4em;
+	padding: .1em .2em;
+}
+		div#bdp-div-main{ }
+		div#bdp-div-left-box{float:left; padding-left:10px; no-background-color: silver;width: 00px; height: 300px;}
+		div#bdp-div-content{ padding-left: 50px; padding-right:10px;
+background-color-none: white; }
+		div#REMOVED-bdp-div-right-box{ float:top; background-color: red;
+				position:absolute;leftX:710px;top:124px;			
+				width: 159	px; heighXt: 300px;
+				}
+		div#bdp-div-footer{ clear:both;no-background-color-REM: lightblue; no-font-style: italic; font-weight:bold; width: 100%; height: 20px;}
+		div#some-relative-div{background-color:red; 
+						position: relative;left:100px;top:30px;
+						border-style:solid;
+						border-width:1px;
+						border-color:black;
+						width:100px;
+						}
+		#bdp-span-nav-bar{/*background-color: silver;width:100%;xheight:28px; padding:4px;xfont-weight: bold; font-size: 13px; }
+		#nav {*/
+			background: url(../images/nav.jpg) repeat-x #FD9421;
+			/*background: url(skins/blues/images/nav.jpg) repeat-x #FD9421;*/
+			height: 1.5em;
+			margin: 0em .5em .5em 0;
+			padding: .5em 0;
+			border-top: #FD9421 1px solid;
+		}
+		#bdp-span-nav-item{/*border-style:solid;border-color:black;border-width:1px; */
+							color:white; xwidth:75px;xheight:25px; margin: 0 .1em 0 .1em;  padding:0 .1em 0 .1em;  }
+		#divbdpresults {
+	width: 20em;
+	margin: .1em auto;
+	padding: .1em .1em .1em .2em;
+	-moz-border-radius: 2px;
+}
+
+       .bdp_tr_spare_part_price{
+	margin: .025em auto;
+	padding: .1em .1em .1em .2em;
+	-moz-border-radius: 3px;
+    no-background: silver; 	
+       	
+       }
+	.bdp_td_spare_part_price{
+	margin: .1em auto;
+	padding: .1em .1em .1em .2em;
+	-moz-border-radius: 3px;
+    no-background: lightsilver;   		
+       	
+       }
+
+       
+       
+		span.active{color:silver;}
+		</style>

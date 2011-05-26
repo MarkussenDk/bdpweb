@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <project name="bildelspriser.dk" default="help" basedir=".">
+
+    <property name="dir.public"    value="public"/>
+    <property name="dir.bin"       value="bin"/>
+    <property name="dir.sync"      value="sync"/>
+
+	<tstamp/>	
+    
+    <!-- define a fileset for PHP Web sources -->
+    <fileset dir="${dir.public}" id="php.sources">
+        <include name="**"/>
+        <exclude name="images/**"/>
+        <exclude name="**/.svn/**"/>
+    </fileset>
+
+    <!-- define a fileset for PHP Web images -->
+    <fileset dir="${dir.public}/images" id="php.images">
+        <include name="**"/>
+        <exclude name="**/.svn/**"/>
+    </fileset>
+
+	<target name="dbmigrate" description="DB Migration">
+	
+	<taskdef name="dbdeploy" classname="phing.tasks.ext.dbdeploy.DbDeployTask"/>
+
+	<!-- these two filenames will contain the generated SQL to do the deploy and roll it back-->
+	<property name="build.dir" value="." />
+	<property name="build.dbdeploy.deployfile" value="db\deploy\scripts\deploy-${DSTAMP}${TSTAMP}.sql" />
+	<property name="build.dbdeploy.undofile" value="db\deploy\scripts\undo-${DSTAMP}${TSTAMP}.sql" />
+	<property name="progs.mysql.org" value="C:\Program Files\Zend\MySQL51\bin\mysql.exe" />	
+	<property name="progs.mysql" value="C:\MySQL51\bin\mysql.exe" />	
+	<property name="db.user" value="admin" />
+	<property name="db.pass" value="mysql" />
+	<property name="db.name" value="bdp_dev" />
+	<property name="db.host" value="localhost" />
+	
+	<dbdeploy
+	  url="mysql:host=${db.host};dbname=${db.name}"
+	  userid="${db.user}"
+	  password="${db.pass}"	  
+	  outputfile="${project.basedir}\${build.dbdeploy.deployfile}"
+      undooutputfile="${project.basedir}\${build.dbdeploy.undofile}"
+	  dir="${project.basedir}\db\deltas"
+	/>
+	
+	<!-- execute the SQL - Use mysql command line to avoid trouble with large files or many statements and PDO -->
+	
+	<exec
+		command="${progs.mysql} -h${db.host} -u${db.user} -p${db.pass} ${db.name} &lt; ${build.dbdeploy.deployfile}"
+		dir="${project.basedir}"
+		checkreturn="true" 
+		/>
+	
+	</target >
+	
+	<target name="unittest" >
+		<phpunit haltonfailure="true" printsummary="true" >
+			<batchtest>
+				<fileset dir="./tests">
+					<include name="*TestCase.php" />
+					<include name="*Test.php" />
+				</fileset>
+			</batchtest>		
+		</phpunit>
+	</target>
+	
+	
+
+    <!-- get environment -->
+    <target name="get-env" description="get the environment for an action">
+       <input propertyname="environment" 
+           validargs="dev,test,prod">Enter environment name </input>
+       <property file="${environment}.properties"/>
+    </target>
+
+    <!-- deploy the applications files to the specific environment -->
+    <target name="initial" depends="get-env"
+        description="update the application files in a specific environment">
+       <exec command=".\${dir.bin}\FTPSync.exe ${environment} /FTPSYNCDATA:.\${dir.sync} /INIT" />
+    </target>
+
+    <!-- deploy the applications files to the specific environment -->
+    <target name="deploy" depends="get-env"
+        description="update the application files in a specific environment">
+       <exec command=".\${dir.bin}\FTPSync.exe ${environment} /FTPSYNCDATA:.\${dir.sync} /INCREMENTAL" />
+    </target>
+	
+	
+      
+    
+</project>
