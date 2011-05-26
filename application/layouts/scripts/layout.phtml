@@ -1,0 +1,212 @@
+<?
+header("Content-Type: text/html; charset=ISO-8859-1"); 
+$php_self = $_SERVER['PHP_SELF'];
+$php_host = $_SERVER['HTTP_HOST'];
+$php_dir = dirname($php_self);
+echo "<!-- php_dir $php_dir and $php_self -->";
+$php_app_root = str_replace('/public','',$php_dir);
+if($php_app_root==''){
+	$php_app_root = $php_dir;
+}
+$css = $php_app_root.'/media/css/basis.css';
+$request_js = $php_app_root.'/media/request.js';
+$request_js = str_replace('//','/',$request_js);
+$css = str_replace('//','/',$css);
+if(isset($_GET['css'])){
+	$css = urldecode($_GET['css']);
+}
+$this->headLink()->appendStylesheet($css);
+$mobile=false;
+$mobile_ua = strtolower(substr($_SERVER['HTTP_USER_AGENT'],0,4));
+$mobile_agents = array(
+    'w3c ','acs-','alav','alca','amoi','audi','avan','benq','bird','blac',
+    'blaz','brew','cell','cldc','cmd-','dang','doco','eric','hipt','inno',
+    'ipaq','java','jigs','kddi','keji','leno','lg-c','lg-d','lg-g','lge-',
+    'maui','maxo','midp','mits','mmef','mobi','mot-','moto','mwbp','nec-',
+    'newt','noki','oper','palm','pana','pant','phil','play','port','prox',
+    'qwap','sage','sams','sany','sch-','sec-','send','seri','sgh-','shar',
+    'sie-','siem','smal','smar','sony','sph-','symb','t-mo','teli','tim-',
+    'tosh','tsm-','upg1','upsi','vk-v','voda','wap-','wapa','wapi','wapp',
+    'wapr','webc','winw','winw','xda','xda-');
+ 
+if(in_array($mobile_ua,$mobile_agents)) {
+    $mobile=true;
+}
+if( strpos($php_host,'m.')>-1){
+	$mobile=true;
+}
+$user_agent = getenv('HTTP_USER_AGENT'); 
+//echo "device $device ";
+if($mobile){// android, S60, you name it
+	$mobile_css = str_replace('//','/',$php_app_root.'/media/css/mobile.css');  
+	$this->headLink()->appendStylesheet($mobile_css);  
+}
+
+/*if (Zend_Controller_Front::getInstance()->getRequest()->getParam('nojs', false)) {
+    $this->dojo()->disable();
+    $content = preg_replace('#href="([^"]*)"#s', 'href="$1?nojs=true"', $content);
+}*/
+?>
+<?php 
+$google_key='ABQIAAAA9KzjVQeNwg9PxP5W9KU97RQq67XTNzbzZjqno17fliVJumdGxxTFxepvDBc9pv6X7MuYsNwoo9OyWg';
+echo $this->doctype();
+$meta_desc = 'bildelspriser.dk - danmarks eneste prisguide til reservedele, tilbehør og styling til din bil.';
+$meta_keywords = 'billigste reservedele bildele tilbehør styling billige';
+$this->headMeta()->appendName('description',$meta_desc);
+$this->headMeta()->appendName('keywords',$meta_keywords);
+//æøå se http://e-tidsskrift.dk/dev/tegntabel.html
+///* http://hjemmesideskolen.dk/html/float.php */
+?>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<?php echo $this->headTitle() ?>
+	<?php echo $this->headLink() ?>
+	<?php echo $this->headMeta() ?>
+	<?php echo $this->headStyle() ?>
+	<?php echo $this->headScript();
+			
+
+	?>
+<!-- <style type="text/css">
+		
+		body{margin:0px;padding:0px;border:0px; font-family: verdana; }
+		/*div{border:1px solid gray;}*/
+		/* div#bdp-div-page{width:820px;margin:auto; } */
+		div#bdp-div-header{background-color: lightblue;widdth:808px; height: 100px; padding-left:10px;}
+		div#bdp-div-main{ }
+		div#bdp-div-left-box{float:left; padding-left:10px; background-color: silver;width: 00px; height: 300px;}
+		div#bdp-div-content{ padding-left: 50px; padding-right:10px;
+background-color: white; }
+		div#bdp-div-right-box{ float:top; background-color: red;
+				position:absolute;leftX:710px;top:124px;			
+				width: 159	px; heighXt: 300px;
+				}
+		div#bdp-div-footer{ clear:both;background-color: lightblue;width: 100%; height: 20px;}
+		div#some-relative-div{background-color:red; 
+						position: relative;left:100px;top:30px;
+						border-style:solid;
+						border-width:1px;
+						border-color:black;
+						width:100px;
+						}
+	</style>*/ -->	
+	<!--  No google code yet
+	<script type="text/javascript" src="http://www.google.com/jsapi?key=<?php echo $google_key ?>"></script>
+	 -->	
+<?php
+$dojo_enabled=false;
+$dojo; 
+try{
+	$dojo = $this->dojo();
+	$dojo_enabled = true;
+}
+catch(Exception $e ){
+	//die("could not fetch dojo");
+	unset($dojo);//=null;	
+}
+if ( $dojo_enabled==true && $dojo->isEnabled()){
+	// google.load("dojo", "1.4.1"); 
+	// http://ajax.googleapis.com/ajax/libs/dojo/1.4.1/dojo/dojo.xd.js
+	// http://code.google.com/intl/da/apis/ajaxlibs/documentation/index.html#dojo
+	//
+	//$this->dojo()->setCdn('google')
+	             //->setCdnVersion('1.4.1')
+	             //http://localhost/bdp2010/bdpgui/public/dojo.css
+	$res = '/bdp2010/bdpgui';
+	$css_dojo_path = $res.'/public/dojo.css';
+	$js_dojo_path = '/js/dojo/dojo.js'; //original location of dojo.js
+//	$js_dojo_path = $res.'/dojo.js';	
+	$this->dojo()->setLocalPath($js_dojo_path)
+				 ->addStyleSheetModule('dijit.themes.tundra')
+//				 ->addStyleSheet($css_dojo_path)
+                 ->addStyleSheet('/js/dojox/grid/resources/tundraGrid.css') //inports grid.css
+                 ->addStyleSheet('/js/dojox/grid/enhanced/resources/tundraEnhancedGrid.css')
+                 ->setDjConfigOption('parseOnLoad',true)
+                 ->setDjConfigOption('isDebug',true)
+//                 ->setUseDeclarative()
+                 ;
+	Zend_Dojo_View_Helper_Dojo::setUseDeclarative();	                 
+    echo $this->dojo();
+   }
+// else
+// 	die("dojo not loaded! ;-)");
+?>	
+ <?php echo $this->headScript() ?>
+ <script src="<?php echo $request_js; ?>" type="text/javascript"></script>
+ 	<!-- <script src="http://ajax.googleapis.com/ajax/libs/dojo/1.5/dojo/dojo.xd.js" type="text/javascript">
+		dojo.require("dijit.dijit");
+		dojo.require("dojox.grid.DataGrid");
+		dojo.require("dojox.grid.EnhancedGrid");
+		dojo.require("dojo.data.ItemFileWriteStore");
+		dojo.require("dojox.data.QueryReadStore");
+		dojo.require("dojo.parser"); 	
+ 	</script>  -->
+	
+<!-- 
+	<script type="text/javascript" src="/js/dojo/dojo.js">
+		//dojo.require("dijit.dijit");
+		dojo.require("dojox.grid.DataGrid");
+		//dojo.require("dojox.grid.EnhancedGrid");
+		//dojo.require("dojo.data.ItemFileWriteStore");
+		dojo.require("dojox.data.QueryReadStore");
+		//dojo.require("dojo.parser");
+	</script>
+	  -->
+</head>
+
+<body class="tundra">
+<?php include_once("googleanalyticstracking.php") ?>
+<div id='bdp-div-page'>
+<!-- Header header start -->
+<div id='bdp-div-header' >
+	<h1>
+		<a style='text-decoration: none; color: navy; font-weight:bold;' href='http://bildelspriser.dk'
+			title="bildelspriser vejen til de billigste reservedele til bilen - billige reservedele " >
+		bildelspriser.dk </a> 
+	</h1>
+	<h2><a style='text-decoration: none; color: navy' href='http://bildelspriser.dk'
+			title="bildelspriser - prisguide til reservedele og tilbehør til din bil " >
+	 - prisguide til reservedele og tilbehør til din bil
+	 </a></h2>
+</div >
+<div id='bdp-div-navigation' >
+	<?php 
+	$this->navigation()->menu()->setPartial(array('nav1.phtml','default'));
+	echo utf8_decode($this->navigation()->menu()); ?>
+</div >  
+<!-- Header header end -->
+<!-- removed for now 
+<div>div
+<form>form
+	<input/>
+</form>
+</div>
+ -->
+<!--  Main area start -->
+<div id='bdp-div-main'>
+	<!-- Left Box is hidden until we have somthing valuabele to put into it. 
+	<div id='bdp-div-left-box'>
+		Left Box
+	</div>
+	 -->
+	<!--  Dbox hidden until we have some one that wants to pay
+	<div id='bdp-div-right-box'>
+		D-Box
+	</div>
+	 -->
+	<div id='bdp-div-content'>
+		<?php echo $this->layout()->content ?>
+		<?php echo $this->inlineScript() ?>
+		
+	</div>
+
+
+</div>
+<!--  Main area start -->
+<div id='bdp-div-footer'>
+<center>bildelspriser.dk</center>
+</div>
+</div>
+</body>
+</html>
