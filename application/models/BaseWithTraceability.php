@@ -50,7 +50,8 @@ class Default_Model_BaseWithTraceability //extends Default_Model_Base
 		}
 		$where_clause_ar = array();
 		$where_post_fix = ' = ? ';
-		assertEx(is_array($unique_vars),"Unique vars can only be an array.");
+        is_array($unique_vars)
+        	or error('Variable \$unique_vars can only be an array.');
 		$table = $this->getMapper()->getDbTable();
 		$stmt =  $table->select();  
 		//	->from($table,'spare_part_price_id')      
@@ -194,7 +195,7 @@ class Default_Model_BaseWithTraceability //extends Default_Model_Base
     }*/
     
     final public function getCurrent_user_name(){
-    	$user_name;
+    	$user_name=null;
     	if(empty($this->_current_user_name)){
     		try{
 	       		$user_name = Default_Model_SparePartSuppliersMapper::getIdentityAsString(false);
