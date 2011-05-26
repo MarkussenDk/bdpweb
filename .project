@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>bdpgui</name>
+	<name>bdp.google</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -25,11 +25,4 @@
 		<nature>org.eclipse.php.core.PHPNature</nature>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 	</natures>
-	<linkedResources>
-		<link>
-			<name>dojo</name>
-			<type>2</type>
-			<location>C:/Program Files/Zend/ZendServer/share/ZendFramework/externals/dojo</location>
-		</link>
-	</linkedResources>
 </projectDescription>
