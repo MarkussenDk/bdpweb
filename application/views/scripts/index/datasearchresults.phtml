@@ -1,0 +1,85 @@
+<?php
+$this->headMeta()->appendHttpEquiv('Content-Type','text/html; charset=utf-8');
+// Fetch results from the model; again, merely illustrative
+$results = $this->results;
+$html_debug = false;
+if(array_key_exists('debug',$this->params)){
+	$html_debug = true;
+	echo "<H1>Parameters</H1><table border=1><tr><td>Parameter</td><td>value</td>";
+	foreach($this->params as $key=>$val){
+		echo "<tr><td>$key</td><td>$val</td></td>";
+	}
+	echo "<tr><td>SQL</td><td>".nl2br($this->sql)."</td></td>";
+	echo "</table>";	
+}
+
+if(array_key_exists('format',$this->params)){
+	switch($this->params['format']){
+		case 'html':
+			//var_dump($results);
+			die(make_html_table_from_results($results,true));
+		default: // json
+			die(new Zend_Dojo_Data('spare_part_price_id', $results, 'name'));
+	}	
+}
+
+function escape($html){
+	return utf8_encode($html);	
+}
+
+function make_html_table_from_results($results){
+// name, description, spare_part_image_url, price_inc_vat, producer_make_name, part_placement,suplier_part_number, supplier_name
+ if (count($results)): ?>
+<table border=1px >
+    <!--  thead>
+        <tr>
+            <th field="name" width="16em">Navn</th>
+           <!--  <th field="description">Beskrivelse</th>  -->
+            <th field="price">Pris</th>
+            <th field="producer_make_name">Producent</th>
+            <th field="supplier_name">Butik</th>
+        </tr>
+    </thead -->
+    <? 
+    $int = 0;
+    foreach ($results as $item): ?>
+    <tr>
+        <? 
+        foreach ($item as $key => $val)
+        {
+        	echo "<td><b>$key</b></td>";
+        }
+        echo "</tr><tr>";
+		foreach ($item as $key => $val)
+        {
+        	echo "<td>$val</td>";        	
+        }
+        ?>
+            </tr>
+    <? endforeach ?>
+</table>
+<? endif; 
+
+}
+
+
+
+
+//var_dump($this->request->getParams());  
+
+// Now, create a Zend_Dojo_Data object.
+// The first parameter is the name of the field that has a
+// unique identifier. The second is the dataset. The third
+// should be specified for autocompletion, and should be the
+// name of the field representing the data to display in the
+// dropdown. Note how it corresponds to "name" in the 
+// AutocompleteReadStore.
+
+if($html_debug)
+	$data = make_html_table_from_results($results,true);
+else	{
+	$this->layout()->disableLayout();
+	$data = new Zend_Dojo_Data('id', $results, 'name');
+}
+// Send our output
+echo $data;

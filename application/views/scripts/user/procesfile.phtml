@@ -1,0 +1,23 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<LINK REL=StyleSheet HREF="/bdp/public/css/b2b_user.css" TYPE="text/css" MEDIA=screen>
+<title>Insert title here</title>
+	<style type="text/css"   ></style>
+</head>
+<body>
+<h2>Proces Files</h2>
+<?php
+
+	echo "<div id='user_process_file_info_box' ><br/>Parsed File size: ".$this->file_size;
+	echo "<br/>Result: ".$this->parseResult;
+	if(isset($this->xml_parser_exeption)){
+		echo "<br>Exception occured";
+		echo var_dump($this->xml_parser_exeption);		
+	}
+	echo "<br/>Message: ".$this->message;
+	echo '<br><a href="/user/filelist">Jump to File List</a></div>';
+?>
+</body>
+</html>

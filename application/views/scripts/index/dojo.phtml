@@ -1,0 +1,359 @@
+<?php
+$this->headMeta()->appendHttpEquiv('Content-Type','text/html; charset=utf-8');
+$this->dojo()->requireModule("dojox.data.QueryReadStore")
+			 ->requireModule("dojox.grid.DataGrid")
+			 ->requireModule("dojo.data.ItemFileReadStore")
+                         ->requireModule("dijit.form.TextBox")
+			;
+// Define a new data store class, and 
+// setup our autocompleter data store
+	$this->dojo()->javascriptCaptureStart() ?>
+	// In view scrip index.phtml
+	dojo.provide("custom.AutocompleteReadStore");
+	dojo.declare(
+	    "custom.AutocompleteReadStore", 
+	    dojox.data.QueryReadStore, 
+	    {
+	        fetch: function(request) {
+	            request.serverQuery = {q: request.query.name};
+	            return this.inherited("fetch", arguments);
+	        }
+	    }
+	);
+
+var autocompleter_car_models;
+var autocompleter_car_makes;
+var js_fs1_car_model;
+var js_fs1_car_make;
+var selected_car_make_id;
+var selected_car_make_name;
+var selected_car_model_id;
+var selected_car_model_name;
+var results_store
+var current_ds_url;
+var tableGrid;
+var tableGridState = "uninitialized";
+var pending_ds_url;
+
+
+function tableGridStateComplete(){
+    tableGridState = "complete";
+}
+
+function getFuncName(f){
+    var s= f.tostring().match(/function (\w*)/)[1];
+    if((s==null) || (s.length == 0)) return "anonumous()";
+    return s+"()";
+}
+
+function getStackTrace(seperator){
+    if(!seperator)
+        seperator = "-";
+    var s="";
+    for(var a = arguments.caller;a != null; a = a.caller){
+        console.log("In loop");
+        s += getFuncName(a.callee) + seperator;
+    }
+    return s;
+}
+
+function myInfo(s){
+   // var stack = getStackTrace("-");
+    //console.log(stack+"::"+s);
+}
+
+function fs1_car_make_changed(){
+        myInfo("start");
+	//alert("Inside fs1_car_make_changed ?  ");
+	var new_car_make_id = dijit.byId('fs1_car_make').value;
+	if(new_car_make_id != selected_car_make_id){
+		// Time to delete the content of some vars
+		selected_car_make_name = "";
+		selected_car_model_id = "";
+		selected_car_model_name ="";
+		console.log("car_make_id changed from " + selected_car_make_id + " to " + new_car_make_id );
+	}
+	else{
+		console.log("?? car_make_id DID NOT change from "  + selected_car_make_id  + " to " + new_car_make_id);
+	}
+	selected_car_make_id = new_car_make_id;
+	try{
+		set_car_model_id(selected_car_make_id);
+	}
+	catch(err){
+		alert('some error');
+	}
+        myInfo("end");
+}
+
+function fs1_car_model_changed(){
+    var new_car_model_id = dijit.byId('fs1_car_model').value;
+    if(new_car_model_id != selected_car_model_id){
+         console.log("car_model_id changed from " + selected_car_model_id + " to " + new_car_model_id);
+         selected_car_model_id = new_car_model_id;
+    }
+}
+
+function set_car_model_id(car_make_id){
+	if(car_make_id == ""){
+		alert("No car make defined");
+		dijit.byId("fs1_car_model").attr({disabled:true});
+		return;
+		}
+	dijit.byId("fs1_car_model").attr({disabled:false});
+
+	var new_url = "/index/autocompletecarmodels/car_make_id/"+car_make_id;
+        autocompleter_car_models = new custom.AutocompleteReadStore({
+            url:	new_url
+            ,requestMethod: "get"
+        });
+
+        if(!fs1_car_model){
+            fs1_car_model = dijit.byId("fs1_car_model");
+            console.log("Needed to find the 'fs1_car_model' by ID? ");
+            if(!fs1_car_model){
+                console.error("Unable to find the fs1_car_model");
+                alert("Unable to find the fs1_car_model");
+            }
+            fs1_car_model.value = ""; // reset the value, since we changed the car_make
+        }
+	fs1_car_model.attr({     store: autocompleter_car_models      });
+
+        /*if(!tx_free_text_search){
+            console.log("Needed to find the "tx_free_text_search" by ID? ");
+            tx_free_text_search = dijit.byId("tx_free_text_search");
+            if(!tx_free_text_search){
+                alert("Unable to find the tx_free_text_search control?");
+            }
+        }
+	var q = tx_free_text_search.Value;	*/
+	//update_iframe(q,car_model_id);
+	//dijit.byId("resultsStore").refresh();
+}
+
+function update_iframe(name, car_model_id){
+        console.log("Update_iframe  " + name + "," + car_model_id);
+//alert("name: " + name + "\ncar_model_id:" + car_model_id);
+//	dijit.byId("tx_free_text_search").src = "about:error";
+	var  newurl = "/index/datasearchresults"
+        if(!car_model_id && selected_car_model_id > 0){
+            car_model_id = selected_car_model_id;
+            console.log("setting car_model_id from selected " + car_model_id);
+        }
+        if(car_model_id){
+		newurl += "/car_model_id/" + car_model_id ;
+	}
+        else
+            { console.log(" car_model_id was empty ?? ");
+            }
+	if(name && name != "Skriv hvad du mangler" ){
+		newurl += "/q/" + name;
+	}
+        else
+            { console.log(" name was empty ?? ");}	//alert("new url " + newurl);
+        if(!tableGrid)
+            tableGrid = dijit.byId("tableGrid");
+        if(!tableGrid)
+            alert("Could not find tableGrid?");
+        //tg.store.url = newurl;
+        //
+       // var new_store = new dojox.data.QueryReadStore({  url: newurl , query: {id:'*'}, method : get    });
+       //var new_store = new dojox.data.QueryReadStore({  url: newurl });
+       // var new_store = new dojo.data.ItemFileReadStore({  url: newurl    });
+        //new_store.fetch();
+        //var i = new_store.getItems();
+        //var new_store = getDataSearchJson(car_model_id,q);
+       // infoField = dojo.byId("InfoField");
+       if(current_ds_url == newurl){
+            console.log("The Url was already set to '"+newurl+"' - so I will not ask for it again");
+            return;
+       }
+       if( tableGridState == "creatingReadstore"){
+            pending_ds_url = newurl;
+            console.log("The tableGridState was " +tableGridState+ "  - no start & pending_ds_url =  " + pending_ds_url);
+            return;
+
+       }
+       current_ds_url = newurl;
+    console.log("New url is "+newurl);
+        tableGridState = "creatingReadstore";
+    var new_store = new dojo.data.ItemFileReadStore({ url: newurl });
+    console.log("DataStore updated");
+            new_store.fetch({
+                query: { id: '*' }
+        }); // ends fetch call.
+        try { tableGrid.setStore(new_store);
+            console.log("Store set on the grid"); }
+        catch(e)
+        {
+            console.log("Error while setting the store to the grid");
+            console.log("Error when setting" + e);
+        }
+        if(pending_ds_url){
+            console.log("There was a pending ds url, lets run the event handler again");
+            pending_ds_url = null;
+            btn_submitButton();
+        }
+        tableGridState = "complete";
+}
+
+function btn_submitButton(){
+        var q = "";
+        var car_model_id = -1;
+        tx_free_text_search = dojo.byId("tx_free_text_search");
+        if(tx_free_text_search){
+           q = tx_free_text_search.value;
+        }
+	else
+        {
+            console.error("Error the tx_free_text_search was not set");
+            alert("Error the tx_free_text_search was not set");
+        }
+        if(q == "Skriv hvad du mangler")
+            q = "";
+        var o_fs1_car_model;
+        if(fs1_car_model){
+           o_fs1_car_model = fs1_car_model;
+           console.log("fs1_car_model was already defined");
+        } else { 
+            o_fs1_car_model =  dijit.byId("fs1_car_model");
+        }
+        car_model_id = o_fs1_car_model.value;
+        if( !(car_model_id>0) && selected_car_model_id>0 ){
+            car_model_id = selected_car_model_id;
+            console.log("Took car_model_id from selected_car_model_id" + selected_car_model_id);
+        }
+        console.log("Will call update_iframe with car_model_id="+car_model_id+" and q='"+q+"' !")
+	update_iframe(q,car_model_id);
+	return false;
+}
+
+function getDataSearchJson(car_model_id,q){
+    var  newurl = "/index/datasearchresults/"
+    if(car_model_id){
+            newurl += "car_model_id/" + car_model_id + "/" ;
+    }
+    if(name && name != "Skriv hvad du mangler" ){
+            newurl += "q/" + name  + "/";
+    }
+    //var stdUrl = "/index/datasearchresults/";
+    infoField = dijit.byId("InfoField");
+    infoField.Value = "New url is " + newurl;
+    var jsonStore = new dojo.data.ItemFileWriteStore({ url: newurl });
+    UpdateItemWriteStore();
+    infoField.Value += "DataStore updated";
+    return jsonStore;
+}
+
+var UpdateItemWriteStore = function(){
+        jsonStore.fetch({
+                query: { id: '*' }
+        }); // ends fetch call.
+}// ends function
+
+
+<?php $this->dojo()->javascriptCaptureEnd();
+
+// Once dijits have been created and all classes defined,
+// instantiate the autocompleter and attach it to the element.
+$this->dojo()->onLoadCaptureStart() ?>
+function() {
+//	alert("ca");
+    autocompleter_car_makes = new custom.AutocompleteReadStore({
+        url: "/index/autocompletecarmakes",
+        requestMethod: "get"
+    });
+
+   
+   
+    dijit.byId("fs1_car_make").attr({
+        store: autocompleter_car_makes
+    });   
+
+	/*grid.store = attr({
+        store: new 
+    }); */  
+ 	
+	/*fs1_car_make = dijit.byId("fs1_car_make");
+	fs1_car_model = dijit.byId("fs1_car_model");
+	alert("fs1_car_make was " + fs1_car_make + " - " + autocompleter_car_makes);
+	alert("fs1_car_model was " + fs1_car_model + " - " +autocompleter_car_models);
+*/
+	
+}
+
+<?php $this->dojo()->onLoadCaptureEnd() ?>
+<div  class="tundra">
+<?php echo $this->form ?>
+<!-- <div id="div-debug-info" style="width: 100%; height: 100px;"></>info</div>  -->
+<!--span dojoType="dojox.data.QueryReadStore" id="myStore"
+   jsId="myStore" url="/index/datasearchresults/"  query="{id: '*'}"  requestMethod="get">
+</span-->
+<script type="text/javascript" >
+function makeEditButton(inDatum) {
+    var editButton = "<button dojoType=\"dijit.form.Button\" title=\"Edit\"";
+    editButton += " class=\"dijitButtonNode dijitButtonContents\" onClick=\"editUser('"+inDatum+"')\">";
+    editButton += "<img src=\""+baseUrl+"/images/edit.png\" border=\"0\" width=\"14\" height=\"14\"/>"
+    editButton += "</button>";
+    return editButton;
+}
+
+function makeNameLink_works(name) {
+    var link = "<a href='+spare_part_url+' target='anotherWindow'>"+name+"</a>";
+    return link;
+}
+
+function makeNameLink(id) {
+	var row;
+	try{
+		row = this.grid.store._itemsByIdentity[id];
+		
+		var fullinfo = "Info";
+		for (var item in row){ 
+			fullinfo += "\n - "+item+ " : " + row[item]; 
+			} 
+			//fullinfo +=	
+	    var link = "<a href='"+row.spare_part_url+"' title='"+fullinfo+"' ";
+	    	link +=	" target='anotherWindow'>"+row.name+"</a>";
+	    return link;
+		}
+	catch(err)
+	{
+		return "error: "+err;
+	}
+}
+
+function makeImage(spare_part_image_url) {
+	//return spare_part_image_url;
+    var link = "<img src='"+spare_part_image_url+"' height='30px' /> ";
+    return link;
+}
+
+
+
+</script>
+<!--form dojoType="dijit.form.TextBox" >
+    <input JsId="InfoField" id="InfoField" width="100%" height="100px" />
+</form-->
+<table  dojoType="dojox.grid.DataGrid" width="100%" query="{id: '*'}" id="tableGrid" JsId="tableGrid"  >
+   <thead>
+    <tr>
+      <th field="id" width="20px">ID</th>
+      <th field="supplier_name">Butik</th>
+      <th field="spare_part_image_url"   formatter="makeImage" >Billede</th>  
+      <th field="id" width="250px"   formatter="makeNameLink" >Navn</th>
+      <th field="price_inc_vat" _width="100px">pris</th>
+    <!--  <th field="spare_part_image_url" _width="400px">Url</th> -->
+      <th field="description" width="250px" >Beskrivelse</th>
+      <th field="part_placement" >Placering</th>
+	 <!-- spare_part_url,   -->
+    </tr>
+  </thead>  
+</table>
+<!-- 
+Now comes myGrid
+<div id="div-my-grid" style="width: 100px; height: 100px;" >myGrid</div>
+ -->
+
+
+</div>

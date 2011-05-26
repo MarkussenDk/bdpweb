@@ -1,0 +1,214 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<LINK REL=StyleSheet HREF="/bdp/public/css/b2b_user.css" TYPE="text/css" MEDIA=screen>
+<title>bildelspriser.dk - selvbetjening for butikker</title>
+	<style type="text/css"   ></style>
+</head>
+<script language="JavaScript"  >
+var g_slt;
+var g_ifr_parse;
+var g_path = "/user/procesfile";
+var g_user = "/username/autostumper/password/pwautostumper";
+g_user="";
+var itemSelectedIndex=0;
+var is_allowed_to_run = true;
+var last_file_size = 0;
+var last_start_time = 0;
+var last_run_time = 0;
+var last_processing_speed = 0;
+//************************* stopwatch start********************************************
+var ms = 0;
+var state = 0;
+var then;
+function startstop() {
+if (state == 0) {
+state = 1;
+then = new Date();
+then.setTime(then.getTime() - ms);
+} else {
+state = 0;
+now = new Date();
+ms = now.getTime() - then.getTime();
+document.stpw.time.value = ms;
+   }
+}
+
+function start() {
+	if (state == 0) { //not running
+	state = 1; // start to run 
+	then = new Date();
+	then.setTime(then.getTime() - ms);
+	} else {throw new exception("Was already running");
+	   }
+	}
+
+function swreset() {
+state = 0;
+ms = 0;
+document.stpw.time.value = ms;
+}
+
+function getTime() {
+	if (state == 1)  {now = new Date();
+	ms = now.getTime() - then.getTime();
+	document.stpw.time.value = ms;
+	   }
+	 return ms;
+	}
+
+function display() {
+//setTimeout("display();", 50);
+if (state == 1)  {now = new Date();
+ms = now.getTime() - then.getTime();
+document.stpw.time.value = ms;
+   }
+}
+
+function stopAndGet(){
+	if(state == 0){ // not running
+		return -1;
+	}
+	else{ // stop watch is running
+		startstop();
+		return getTime();
+	}
+		
+}
+
+
+// ************************* stopwatch end *************************
+
+
+function getIfr(){
+	g_ifr_parse =  document.getElementById('ifr_parse');
+	if(g_ifr_parse)
+		return g_ifr_parse;
+	appendTa("Ifr_parse was not set");
+}
+
+function iframeLoaded(){
+	//appendTa("iframe loaded");
+	var slt = document.getElementById("slt");
+	var len = slt.options.length;
+	var html = getIfr().innerHTML; 
+	//appendTa(html);
+	var html_len = html.length ;
+	var succes_pos = html.indexOf("ended without errors");
+	if(succes_pos!=-1){
+		appendTa("It was a success - "+succes_pos);
+		last_run_time = stopAndGet();
+		last_processing_speed = last_file_size/last_run_time;	
+	}
+	appendTa("The HTML was "+html_len + ' bytes and it was processed in ' 
+			+ last_processing_speed + ' ms.');
+	last_file_size = html_len;
+	takeNextAndParse();	
+}
+
+function takeNextAndParse(){
+	if(!is_allowed_to_run){
+		appendTa("I was cancelled after "+stopAndGet()+' ms.');
+		return;		
+	}
+	slt = document.getElementById("slt");
+	var len = slt.options.length;
+	if(len>=itemSelectedIndex){
+		var filename = slt.options[itemSelectedIndex].value;
+		appendTa(" "+len+"/"+itemSelectedIndex + ": Ready to load file " + filename);
+		parseFile(filename); 
+		itemSelectedIndex++;
+	}
+}
+
+function appendTa(str){
+	var ta =  document.getElementById("ta");
+	ta.value+="\n"+str;
+	ta.scrollTop = ta.scrollHeight; 
+}
+
+function parseFile(finename){
+	g_ifr_parse = getIfr();
+	var p = g_path + g_user + '/filename/' + finename+'/info.htm';
+	appendTa(p);
+		g_ifr_parse.src =  p;
+//	g_ifr_parse.document.onload = iframeLoaded;
+	
+}
+
+function parseSelected(){
+	var x=document.getElementById("slt");
+	var p = x.options[x.selectedIndex];
+	appendTa(p.value);	
+	parseFile(p.value);
+}
+
+function toggleIsAllowedToRun(){
+	var val = "true";
+	var btn_batch_toggle = document.getElementById("btn_batch_toggle");
+	if(is_allowed_to_run){
+		val = "false";
+		btn_batch_toggle.value = "Disable batch";
+		is_allowed_to_run = false;
+	}
+	else{
+		btn_batch_toggle.value = "Enable batch";
+		is_allowed_to_run = true;
+	}
+	appendTa("Toggling is_allowed_to_run it is now "+val);
+	
+}
+
+</script>
+<body>
+	<div id="header">
+		<a href='/user/logout'>Logout</a> |  <a href='about:blank'>List Files</a> | <a href='/user/fileupload'>Upload File</a>
+	</div>
+<h2>Proces Files</h2>
+<form ><table><tr><td>
+<select id="slt" name="slt"  multiple="multiple" size="10"> 
+<?php
+
+//echo $this->form;
+$date_format= 'h:i:s d-m-Y';
+if(isset($this->user_file_directory_iterator)){
+//	$c = ' class="user_process_file" ';
+//	echo "<b>Uploaded Files</b>";
+	foreach ($this->user_file_directory_iterator as $file){
+		$fn = $file->getFilename();
+		if($file->isDir()){
+			continue; // to ignore . and ..			
+		}
+		$bn = basename($fn);
+		$unix_timestamp = $file->getCTime();
+		$fs = round($file->getSize()/1024,1);
+		$date = date($date_format, $unix_timestamp);
+		if(strpos($bn,'.xml') < 1 ){
+			continue;
+		}
+		$value=$bn;
+		$name="$bn - $fs - $date ";
+		echo "\n\t<option value='$value' >$name</option >";
+	//	echo "<tr><td $c ><input type='radio' name='filename' value='$fn'></td><td $c >$bn</td><td $c >$date</td><td $c>&nbsp;$fs kb</td> </tr>";
+	}	
+}
+else
+{
+	echo "Unable to process files - no iterator";
+	echo "Directory ".nl2br(var_export($this,true));
+}
+
+?>
+</select>
+</td>
+<td>
+	<textarea rows="10" cols="80" id="ta" ></textarea>
+</td>
+</tr></table>
+<button onclick="parseSelected();return false;" onsubmit="alert('sub');return false;" type="button" >Process File</button>
+<button id="btn_batch_toggle"  onclick="toggleIsAllowedToRun();"  type="button"  >Disable batch</button>
+</form>
+<iframe onload='iframeLoaded();' id='ifr_parse' name='ifr_parse' src ="/index/index/" width="100%" height="300">
+  <p>Your browser does not support iframes.</p>
+</iframe>

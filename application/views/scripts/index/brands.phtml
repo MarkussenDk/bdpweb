@@ -1,0 +1,123 @@
+<?php
+// Disable layouts
+$back_text = "(retur)";
+//$this->layout()->disableLayout();
+$html_debug = true;
+if(array_key_exists('debug',$this->params)){
+	$html_debug = true;
+	echo "<H1>Parameters</H1><table border=1><tr><td>Parameter</td><td>value</td>";
+	foreach($this->params as $key=>$val){
+		echo "<tr><td>$key</td><td>$val</td></td>";
+	}
+	echo "</table>";	
+	$this->model->setDebug();
+}
+
+// Fetch results from the model; again, merely illustrative
+$results = $this->model->query('');
+$id="";
+$name="";
+$mod_id="";
+$mod_name="";
+$car_make_link = "";
+$car_model_link = "";
+$page_link = "/index/brands";
+if(!array_key_exists('brand',$this->params)){
+	echo "<h3>V&aelig;lg et bilmaerke</h3>";
+	foreach($results as $ar_brand){
+		$id = $ar_brand['id'];
+		$name = $ar_brand['name'];
+		$car_make_link = "$page_link/brand/$name/car_make_id/$id";
+		echo " <a href='$car_make_link' >$name</a> &nbsp; <br/> ";
+	}
+}else{
+	$brand = urldecode($this->params['brand']);
+	$cmi = urldecode($this->params['car_make_id']);
+	echo "Du har valgt <br>Mærke: <b>$brand</b> <a href='$page_link'>$back_text</a><br/>";
+	$this->headTitle()->append($brand); 
+	$id = $cmi;
+	$name = $brand;
+	$car_make_link = "$page_link/brand/$name/car_make_id/$id";
+	if(!array_key_exists('car_model_id',$this->params)){
+		$res = $this->car_model->query($this->params);
+		if(sizeof($res)==0)
+		{
+			echo "<br/>Der var ingen modeller";
+		}
+		echo "<H2>V&aelig;lg en bilmodel</h2>";
+		foreach($res as $ar_brand){
+			$mod_name = $ar_brand['name'];
+			$mod_id = $ar_brand['id'];
+			$car_model_link = $car_make_link."/car_model_id/$mod_id/car_model_name/$mod_name";
+			echo " <a href='$car_model_link' >$mod_name</a> &nbsp; <br/> ";
+		}
+	}
+	else{
+		$mod_name=$this->params['car_model_name'];
+		$mod_id=$this->params['car_model_id'];
+		$car_model_link = $car_make_link."/car_model_id/$mod_id/car_model_name/$mod_name";
+		echo " Model: ".$mod_name." <a href='$car_make_link'>$back_text</a><br/>";		
+	}
+}
+
+if($mod_id){
+	echo "<h3>Bildele til $brand $mod_name</h3>";
+	$this->headTitle()->append($mod_name);
+	$meta_desc = 'Billige reservedele til '.$name.' '.$mod_name;
+	$meta_keywords = 'billigste reservedele bildele tilbehør styling billige';
+	$this->headMeta()->prependName('description',$meta_desc);
+	$this->headMeta()->prependName('keywords',$meta_keywords);	
+	$url='/index/newsearch/car_model_id/'.$mod_id;
+	//echo "<iframe src='$url' width='100%' height='600px' >";
+}
+
+if(!$this->prices and $this->all_names){
+	/*    'supplier_name' =&gt; 'Autostumper',
+		  'car_make_name' =&gt; 'Alfa Romeo',
+		  'car_model_name' =&gt; '145',
+		  'car_model_id' =&gt; 1155,
+		  'spare_part_price_id' =&gt; 418178,
+		  'name' =&gt; 'DENSO TÃ†NDRÃ˜R FLERE',
+		  'description' =&gt; '1,6ie AR33201',
+		  'spare_part_url' =&gt; 'http://www.autostumper.dk/shop/productinfo.asp?id=Q00046',
+		  'spare_part_image_url' =&gt; 'http://www.autostumper.dk/shop/productinfo.asp?id=Q00046',
+		  'spare_part_category_id' =&gt; NULL,
+		  'spare_part_category_free_text' =&gt; NULL,
+		  'part_placement' =&gt; NULL,
+		  'part_placement_left_right' =&gt; NULL,
+		  'part_placement_front_back' =&gt; NULL,
+		  'supplier_part_number' =&gt; 'Q00046',
+		  'original_part_number' =&gt; NULL,
+		  'price_inc_vat' =&gt; '21.00',
+		  'producer_make_name' =&gt; NULL,
+		  'producer_part_number' =&gt; '0',
+		  'spare_part_supplier_id' =&gt; 6,
+		  'year_from' =&gt; NULL,
+		  'month_from' =&gt; NULL,
+		  'year_to' =&gt; NULL,
+		  'month_to' =&gt; NULL,
+		  'chassis_no_from' =&gt; NULL,
+		  'chassis_no_to' =&gt; NULL, */
+	echo "<ul>";
+	$current_url = $_SERVER["REDIRECT_URL"];
+	foreach($this->all_names as $obj){
+		$name = utf8_decode($obj['name']);
+		$q=urlencode($name);
+		echo "<li><a href='$current_url/q/$q' > ".$name."</a></li>";	
+		
+		}
+	echo "<ul/>";
+}
+
+if($this->prices){
+	echo "<h1>Priser på $this->q </h1>";
+	foreach ($this->prices as $price) {
+		;
+		echo $this->sparePartPricePrinter($price);
+	}
+	
+}
+
+//echo "</table>"
+
+// Send our output

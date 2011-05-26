@@ -1,0 +1,120 @@
+<?php
+function removevarenummer($str){
+	$rem = "Varenummer:Â";
+	//$rem = "Varenummer:";
+	return trim(str_ireplace($rem,'',$str));
+}
+
+function extractDetailedTitleTag($view,$spp){
+	$t=$view->headTitle();
+	if($spp->Producer_make_name){
+		$t->append($spp->Producer_make_name.' '.$spp->Name.' '.$spp->Producer_part_number);
+		if($spp->Original_part_number){
+			$t->append(' '.$spp->Original_part_number);
+		return;
+		}
+	}
+	if($spp->Original_part_number){
+		$t->append($spp->Name.' '.$spp->Original_part_number);
+		//TODO Find all cars it matches, and show .. EG. Volvo/Mitshubitch or AUDI/VV/SEAT/SKODA"
+		//Iterate through car_models_to_spare_part_prices;
+		return;
+	}	
+	if($spp->Supplier_part_number){
+		$t->append($spp->Name.' '.$spp->Supplier_part_number);
+		//TODO Find all cars it matches, and show .. EG. Volvo/Mitshubitch or AUDI/VV/SEAT/SKODA"
+		//Iterate through car_models_to_spare_part_prices;
+	}
+}
+
+function price_format($number){
+	return number_format($number,2,',', '.').' kr';
+}
+
+	$row_count=0;
+function mktr($key,$val){
+	global $row_count;
+	$class="";
+	
+	if($val==""){
+		$val="<span class='bdp_unknown_value'>(ikke oplyst)<span>";
+	}
+	if($row_count++&1){
+		$class = 'bdp_td_alt_odd';
+	}else{
+		$class = 'bdp_td_alt_even';
+	}
+	return '<tr><td class="'.$class.'" >'.$key.'</td><td style="text-align:right"  class="'.$class.'" >'.$val.'</td></tr>'; //Make proper table with alternating rows;
+}
+$spp = $this->spare_part_price;
+$spp instanceof Default_Model_SparePartPrices
+	or error('SPP var ikke sat og ikke af den rigtige type.'||gettype($spp));	
+
+extractDetailedTitleTag($this,$spp);
+$link_start='<a href="'.$spp->Spare_part_url.'&bdpFrom=bdp" target="_new" title="link til varen hos butikken" >';
+$table = '<table class="bdp_table_price" >'
+	.mktr('Navn',$spp->Name)
+	.mktr('Beskrivelse',$spp->Description) // was this->escape - but it should not be so. 
+	// the database must contain HTML ready chars i.e. &Oeslash and not Ø
+	.mktr('Placering',$spp->Part_placement)
+	.mktr('Kategori',$spp->Spare_part_category_free_text)
+	.mktr('Butikkens varenr.',$spp->Supplier_part_number)
+	.mktr('Originalt varenr.',$spp->Original_part_number)
+	.mktr('Producent',$spp->Producer_make_name)
+	.mktr('Producentens varenr.',$spp->Producer_part_number)
+	.mktr('Pris (inkl.moms)',price_format($spp->Price_inc_vat))
+	.mktr('Vis hos butik',$link_start.$spp->Name.'</a>')
+	.'</tr></table>';
+//echo $table;
+$img_src = FixUrl($spp->spare_part_image_url,'img');
+// die($img_src);
+$img = '<center><h2>Butikens billede</h2><img src="'.$img_src.'" style="padding:20px;margin:20px;border:5px solid orange;" alt="alt" title="Titel" height="200px" width="200px"  ></center>';
+$tbody = mktr($table,$img);
+$name = $spp->Name;
+echo "<h3>Alle detaljer for</h3><div class='bdp_price_all_details' ><h1>$name</h1><table>$tbody</table></div>";
+/* '_name' => NULL,
+   '_description' => NULL,
+   '_spare_part_url' => NULL,
+   '_spare_part_image_url' => NULL,
+   '_spare_part_category_id' => NULL,
+   '_spare_part_category_free_text' => NULL,
+   '_part_placement' => NULL,
+   '_part_placement_left_right' => NULL,
+   '_part_placement_front_back' => NULL,
+   '_supplier_part_number' => NULL,
+   '_original_part_number' => NULL,
+   '_price_inc_vat' => NULL,
+   '_producer_make_name' => NULL,
+   '_producer_part_number' => NULL,
+   '_spare_part_supplier_id' => NULL,
+   '_created' => NULL,
+   '_created_by' => NULL,
+   '_updated' => NULL,
+   '_updated_by' => NULL,
+   '_mapper'  */
+$Cmo2Spps = $spp->getCmo2Spp();
+is_array($Cmo2Spps) 
+	or error("The spareprice ".$spp->spare_part_price_id.' did not contain models'.print_r($models));
+$tbody = '<tr><th>Denne vare passer til</th></tr>'; 
+$cmo_mapper = Default_Model_CarModelsMapper::getInstance('Default_Model_CarModelsMapper');
+foreach ($Cmo2Spps as $cmm2spp){	
+	   		$cmm2spp instanceof Default_Model_CarModelsToSparePartPrices
+   				or error("instance was not a type Default_Model_CarModelsToSparePartPrices ");
+   			$model = new Default_Model_CarModels( 
+   				$cmo_mapper->find($cmm2spp->getCar_model_id())->current()->toArray());
+   			$model instanceof Default_Model_CarModels
+   				or error("instance was not a type Default_Model_CarModels ");
+
+	
+	$full_name = $model->car_make_name.' '.$model->car_model_name;
+	$make_url = '/index/brands/brand/'.$model->car_make_name.'/car_make_id/'.$model->car_make_id;
+	$model_url = $make_url. '/car_model_id/'.$model->car_model_id.'/car_model_name/'.$model->car_model_name; 
+	 $tbody.='<tr><td>'
+	 .'<a href="'.$make_url.'" title="Se alle reservedele til '.$model->car_make_name.'" >'
+	.$model->car_make_name.'</a> ' ///index/brands/brand/Alfa%20Romeo/car_make_id/101
+	.'<a href="'.$model_url.'" title="Se alle reservedele til '.$full_name.'" >'
+	.$model->car_model_name.'</a> '
+	.'</td></tr>';
+}
+echo "<table>$tbody</table>";
+

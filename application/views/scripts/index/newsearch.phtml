@@ -1,0 +1,218 @@
+<?php
+
+function dk_amount($num){
+	$int = floor($num);
+	$reminder = ((int)(($num - $int)*100))*0.01;
+	//return $int.','.$reminder.' kr.';
+	return number_format($num,2,',','.').' kr.';
+}
+
+if(isset($this->car_make_name)){	
+	$this->headTitle()->append($this->car_make_name);
+	ECHO utf8_encode('Mærke: '.$this->car_make_name);	
+	if(isset($this->car_model_name)){
+		$this->headTitle()->append($this->car_model_name);
+		ECHO utf8_encode('Model: '.$this->car_make_name);			
+	}
+}
+else {
+	echo "Intet bilmærke.Søger i alle mærker";
+	var_export($this);	
+}
+//$this->headMeta()->appendHttpEquiv('Content-Type','text/html; charset=utf-8');
+/*'supplier_name'
+'car_make_name'
+'car_model_name'
+'car_model_id'
+'spare_part_price_id'
+'name', 'description'
+'spare_part_url'
+'spare_part_image_url'
+'spare_part_category_id'
+ 'spare_part_category_free_text'
+'part_placement'
+'part_placement_left_right'
+ 'part_placement_front_back'
+'supplier_part_number'
+'original_part_number'
+'price_inc_vat'
+'producer_make_name'
+'producer_part_number'
+'spare_part_supplier_id'
+'year_from'
+'month_from'
+'year_to'
+'month_to'
+'chassis_no_from'
+'chassis_no_to'*/
+
+function printChassis($ar){
+	$r = '<span alt="Stel nr">Chassis nr: ';
+	$range = '';
+	$end_r = '</span>';	
+	if(array_key_exists('chassis_no_from',$ar)){		
+		if(array_key_exists('chassis_no_to',$ar)){
+			return $r.$ar['chassis_no_from'].'-'.$ar['chassis_no_to'].$end_r;
+		}
+		return $r.$ar['chassis_no_from'].'-'.$end_r;		
+	}
+	if(array_key_exists('chassis_no_to',$ar)){
+		return $r.'-'.$ar['chassis_no_to'].$end_r;
+	}
+//	return $r.' alle '
+}
+
+function printImage($ar){
+	if(!array_key_exists('spare_part_image_url',$ar))
+		return;
+	$img_src = $ar['spare_part_image_url'];
+	return "<img src='$img_src' height=100px width=100px >";
+}
+
+function printMonthYear($year,$month){
+	if(isset($year))
+		if(isset($month))
+			return $year.'.'.$month;
+		else
+			return $year;
+}
+function printYearRange($ar){
+	$yf = $ar['year_from'];
+	$yt = $ar['year_to'];
+	$mf = $ar['month_from'];
+	$mt = $ar['month_to'];
+	$yr;
+	if(isset($yf)){
+		$yr = printMonthYear($yf,$mf).'-';
+		if(isset($yt)){
+			 $yr = $yr.printMonthYear($yt,$mt);
+		}
+		return $yr;
+	}	
+	if(isset($yt))
+		return printMonthYear($yt,$mt).'-';
+	else
+		return 'alle';
+}
+
+$t_body = "\n<!-- t_body initialised -->";
+if(isset($this->user_message)){
+	$t_body .= '\n<tr><td class="bdp_td_user_message" >'.$this->_user_message.'</td><td>';	
+}
+if(isset($this->spare_part_prices_results)){
+	foreach($this->spare_part_prices_results as $price ){
+		//$img = printImage($price);
+		$colspan;
+		if(!$img){
+		//	$colspan = ' colspan=2 '
+		}
+		$details_url = '/index/details/spare_part_price_id/'.$price['spare_part_price_id'];
+		$jump_to_url = '/index/jump_to/spare_part_price_id/'.$price['spare_part_price_id'];
+		$cell  = "\n\t<h3>".$price['name'].'</h3>';
+		$cell .= "\n\t<!--  spare_part_price_id ".$price['spare_part_price_id'].'-->';
+		$cell .= "\n\t<a href='/index/jump_to/spare_part_price_id/".$price['spare_part_price_id']."'>".$price['name'].'</a>';
+		$cell .= "\n\t ".$price['description'];
+		$cell .= "\n\t <br/>(Butikens varenr :  ".$price['supplier_part_number'].') - ';
+		$cell .= "\n\t (Orginalt Varenr :  ".$price['original_part_number'].') - ';
+		$cell .= "\n\t (Producent Varenr: ".$price['producer_part_number'].')';
+		$cell .= "\n\t <br/><b>Pris inkl. moms : ".$price['price_inc_vat'].'</b>';
+		$cell .= utf8_encode('<br/>Årgang: ').printYearRange($price).'<br/>';
+		//$cell .= "\n\t </td><td>".
+		$cell .= "\n\t </td><td class='bdp_td_spare_part_price' ><br/><b>Pris inkl. moms : ".dk_amount($price['price_inc_vat']).'</b>';
+		$cell .= '<br/><a href="'.$details_url.'">Se detaljer</a>';
+//		$cell .= var_export($price,true); 
+		$t_body .= "\n<tr class='bdp_tr_spare_part_price' ><td class='bdp_td_spare_part_price' >".$cell.'</td><td>';
+	}
+	$this->results = $this->_spare_part_prices_results;
+}
+elseif(isset($this->found_spare_part_categories)){
+	echo "<br>Categories was found";	
+}
+else{
+	$error = "Der opstod en fejl - der var ingen data";
+	$t_body .="\n<tr><td>".$error."<td><tr>";	
+}
+
+$results = $this->results;
+$html_debug = false;
+if(array_key_exists('debug',$this->params)){
+	$html_debug = true;
+	echo "<H1>Parameters</H1><table border=1><tr><td>Parameter</td><td>value</td>";
+	foreach($this->params as $key=>$val){
+		echo "<tr><td>$key</td><td>$val</td></td>";
+	}
+	echo "<tr><td>SQL</td><td>".nl2br($this->sql)."</td></td>";
+	echo "</table>";	
+}
+
+
+function escape($html){
+	return utf8_encode($html);	
+}
+
+function make_html_table_from_results($results){
+// name, description, spare_part_image_url, price_inc_vat, producer_make_name, part_placement,suplier_part_number, supplier_name
+ if (count($results)): ?>
+<table border=1px >
+    <!--  thead>
+        <tr>
+            <th field="name" width="16em">Navn</th>
+           <!--  <th field="description">Beskrivelse</th>  -->
+            <th field="price">Pris</th>
+            <th field="producer_make_name">Producent</th>
+            <th field="supplier_name">Butik</th>
+        </tr>
+    </thead -->
+    <? 
+    $int = 0;
+    foreach ($results as $item): ?>
+    <tr>
+        <? 
+        foreach ($item as $key => $val)
+        {
+        	echo "<td><b>$key</b></td>";
+        }
+        echo "</tr><tr>";
+		foreach ($item as $key => $val)
+        {
+        	echo "<td>$val</td>";        	
+        }
+        ?>
+            </tr>
+    <? endforeach ?>
+</table>
+<? endif; 
+
+}
+
+
+
+
+//var_dump($this->request->getParams());  
+
+// Now, create a Zend_Dojo_Data object.
+// The first parameter is the name of the field that has a
+// unique identifier. The second is the dataset. The third
+// should be specified for autocompletion, and should be the
+// name of the field representing the data to display in the
+// dropdown. Note how it corresponds to "name" in the 
+// AutocompleteReadStore.
+
+$this->layout()->disableLayout();
+echo $this->_user_message;
+if($this->suggested_names){
+	$html = "<h3>Vi har fundet priser med disse navne</h3>";
+	$car_model_id = $this->car_model_id;
+	$url = "/index/newsearch/car_model_id/$car_model_id";
+	foreach($this->suggested_names as $name){
+		$n = $name['name'];
+		$html.="<a href='$url/q/$n' >$n</a> - ";
+	}
+	echo $html.'<br>';
+}
+
+
+echo "\n<table class='bdp_table_spare_part_prices_results' >$t_body</table>\n";
+die();
+if($html_debug)
+	echo make_html_table_from_results($this->results,true);

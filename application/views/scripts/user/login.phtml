@@ -1,0 +1,60 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<LINK REL=StyleSheet HREF="/bdp/public/css/b2b_user.css" TYPE="text/css" MEDIA=screen>
+<title>Insert title here</title>
+	<style type="text/css"   ></style>
+</head>
+<body> 
+<style>
+    
+    a:link,
+    a:visited
+    {
+     /*   color: #0398CA;*/
+    }
+
+    span#zf-name
+    {
+       /* color: #91BE3F;*/
+    }
+
+    div#welcome
+    {
+       /* color: #FFFFFF;
+        /*background-image: url(http://framework.zend.com/images/bkg_header.jpg);*/
+        width:  600px;
+        height: 400px;
+        border: 2px solid #444444;
+        overflow: hidden;
+    }
+    
+    div#more-information
+    {
+       /* background-image: url(http://framework.zend.com/images/bkg_body-bottom.gif);*/
+        height: 100%;
+    }
+
+</style>
+<center>
+	<div id="header">
+		<a href='/user/logout'>Logout</a> |  <a href='/user/filelist'>List Files</a>
+                | Username: <?php echo $this->username; ?>
+	</div>
+    <div id="welcome">
+        <center>
+        <br />
+        <h1>Welcome - you are now logged in.</h1>
+        <h3>This is your main admin page</h3>        
+        <div id="more-information">
+            <ul>
+            	<li><a href="/user/fileupload">Upload new file</a></li>
+            	<li><a href="/user/filelist">Process uploaded files</a></li>            
+            </ul>        
+        </div>
+    </div>
+</center>
+
+</body>
+</html>
