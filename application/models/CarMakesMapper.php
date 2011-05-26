@@ -115,7 +115,7 @@ class Default_Model_CarMakesMapper extends MapperBase
     }
 
    
-    public function findAndSet($id, Default_Model_CarMakes $carmake)
+   /* public function findAndSet($id, Default_Model_CarMakes $carmake)
     {
         //$result = $this->getDbTable()->find($id);
         $result = car_makes::GetWhere("car_make_id = $id;");
@@ -128,9 +128,10 @@ class Default_Model_CarMakesMapper extends MapperBase
         $carmake->setId($row->id)
                   ->setEmail($row->email)
                   ->setComment($row->comment)
-                  ->setCreated($row->created);*/
+                  ->setCreated($row->created);* /
                  
-    }
+    }*/
+    
     /**
      * 
      * @param $select
@@ -184,7 +185,7 @@ class Default_Model_CarMakesMapper extends MapperBase
 		//$mb = new MapperBase('car_models');
 		$db = $makes->getDbAdapter();
 		$select = $db->select()->from('car_makes_v')->columns(array('car_make_name','car_make_id'))->where('1=1');
-		$rows = $select->query()->fetchAll(ZEND_DB::FETCH_ASSOC);
+		$rows = $select->query()->fetchAll(Zend_Db::FETCH_ASSOC);
 		$r = $array;
 		foreach($rows as $row){
 			//print_r($row);
