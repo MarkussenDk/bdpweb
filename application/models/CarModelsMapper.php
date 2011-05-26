@@ -17,8 +17,10 @@ class Default_Model_CarModelsMapper extends MapperBase
 	 */
 	public function getCarModelIdByCarModelNameAndCarMakeId($car_model_name,$car_make_id){
 		//assertEx(false,"Car_model_id is empty".var_export("Car_model_name  ".$car_model_name." & car_make_id = ".$car_make_id,true) );
-		assertEx(isset($car_make_id),"Car_make_id was missing while trying to get a new car model.");
-		assertEx($car_model_name,"Car_model_name was missing while trying to get a new car model.");
+		isset($car_make_id)
+			or error('Car_make_id was missing while trying to get a new car model.');
+		isset($car_model_name)
+			or error('Car_model_name was missing while trying to get a new car model.');
 		// first lookup the car makes
 		$db = $this->getDbAdapter();
 		$qoute_car_make_id = $db->quote($car_make_id);
@@ -40,7 +42,8 @@ class Default_Model_CarModelsMapper extends MapperBase
 		// if it does not exist, create it.
 		$new_cmo_obj = new Default_Model_CarModels(array('car_model_name'=>$car_model_name,'car_make_id'=>$car_make_id));
 		$new_cmo_id = $new_cmo_obj->save();
-		assertEx($new_cmo_id,'The new car_model was perhaps saved, but I dont know the ID?');
+		isset($new_cmo_id)
+			or error('The new car_model was perhaps saved, but I dont know the ID?');
 		return $new_cmo_id;		
 	}
 	

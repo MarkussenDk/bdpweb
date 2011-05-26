@@ -84,9 +84,11 @@ class Default_Model_SparePartSuppliersMapper extends MapperBase
     static function setIdentity(Default_Model_SparePartSuppliers  $sps){
     	//die("In set identity ".var_Export($sps,true));
     	$obj = Default_Model_SparePartSuppliersMapper::getInstance('Default_Model_SparePartSuppliersMapper');
-    	assertEx($obj,"Object was not defined");
+    	isset($obj)
+    		or error('Object was not defined - ' || var_export($object,true) );
     	$obj->_active_user = $sps;
-    	assertEx($obj->_active_user,'Active user was not defined in setIdentity');
+    	isset($obj->_active_user)
+    		or error('Active user was not defined in setIdentity');
     }
     /**
      * 

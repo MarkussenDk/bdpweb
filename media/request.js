@@ -44,8 +44,8 @@ var Http = {
 	_cache: new Object(),
 	
 	Init: function(){
-		Http._get = Http._getXmlHttp()
-		Http.enabled = (Http._get != null)
+		Http._get = Http._getXmlHttp();
+		Http.enabled = (Http._get != null);
 		Http.logging = (window.Logging != null);
 	},
 	

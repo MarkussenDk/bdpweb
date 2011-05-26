@@ -269,10 +269,10 @@ class IndexController extends Zend_Controller_Action
 				$limit = 49;
 			$limit = " LIMIT ".$limit;
 		}
-		$car_model_name;
-		$car_make_name;
-		$car_model_row;
-		$car_make_row;
+		$car_model_name=null;
+		$car_make_name=null;
+		$car_model_row=null;
+		$car_make_row=null;
 		if(array_key_exists('car_model_id',$this->view->params)){
 			$car_model_id = (int)$this->view->params['car_model_id'];
 			if(is_int($car_model_id) && $car_model_id>0){

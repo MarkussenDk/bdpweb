@@ -58,7 +58,8 @@ class Bildelspriser_DB_DBObject
 
   function load( $id )
   {
-    $db = $this->getDb();
+    $row=null;
+  	$db = $this->getDb();
     $res = $db->query(
   "SELECT * FROM ".$this->table." WHERE ".
    $this->id_name."=?",

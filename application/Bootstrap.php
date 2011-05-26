@@ -23,8 +23,7 @@ class Bootstrap extends Zend_Application_Bootstrap_Bootstrap
                           ); 
      if(!file_exists($cache_dir))
       {
-      	ECHO "DIR was missing $cache_dir ";
-      	
+      	ECHO "DIR was missing $cache_dir ";      	
 		$r = mkdir($cache_dir);
       	echo " -$r- now created\n<br>";
       }

@@ -408,48 +408,19 @@ class Default_Model_SparePartPrices extends Default_Model_BaseWithTraceability
         return $this->_mapper;
     }*/
     
-    public function save()
+  /*  public function save()
     {
     	$this->validate_before_safe();
         return $this->getMapper()->save($this);
-    }
+    }*/
 
     public function validate_before_safe(){
-    	assertEx(isset($this->_spare_part_supplier_id),"Spare_Part_Supplier_id must be set, before an element can be saved.");
-    	assertEx(isset($this->_name),"Name must be defined");
-    	//assertEx(isset($this->_description),"Description must be defined<br>");    	
+    	isset($this->_spare_part_supplier_id)
+    		or error('Spare_Part_Supplier_id must be set, before an element can be saved.');
+    	isset($this->_name)
+    		or error('Name must be defined');
     }
     
-  /*  public function find($id)
-    {
-        $this->getMapper()->find($id, $this);
-        return $this;
-    }*/
-    
-   
- /*   public function addAsSimpleXmlChildNode(SimpleXMLElement &$elem){
-    	$child = $elem->addChild('car_makes');
-    	$child->addChild('car_make_id',$this->getCar_make_id());
-    	$child->addChild('car_make_name',$this->getCar_make_name());
-    	$main_id = $this->getCar_make_main_id() or $this->getCar_make_id();
-    	$child->addChild('car_make_main_id',$m_id);
-    	$child->addChild('state',$this->getState());    	
-    	$child->addChild('created',$this->getCreated());  
-    	$child->addChild('updated',$this->getUpdated());
-    	return $child;
-    }*/
-
-  /*  public function fetchAll($select)
-    {
-        $mapper=$this->getMapper();
-        if(!isset($mapper)){
-        	//return "Mapper not set";
-        	throw new exception("mapper not set in fetchAll");
-        } 
-        else
-        	//die("Mapper was set");
-    	return $this->getMapper()->fetchAll($select);
-    }*/   
     
     /**
      * 

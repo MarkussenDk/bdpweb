@@ -159,7 +159,8 @@ class Default_Model_CarModels extends Default_Model_BaseWithTraceability
     }
     
     public function validate_before_safe(){
-    	assertEx($this->_car_model_name,"Cant save without a car make");
+    	!empty($this->_car_model_name)
+    		or error("Cant save without a car make");
 //		assertEx("","The object was ".var_dump_array($this));
     }
     
@@ -243,6 +244,7 @@ class Default_Model_CarModels extends Default_Model_BaseWithTraceability
     
     
     public function addAsSimpleXmlChildNode(SimpleXMLElement &$elem){
+    	throw new exeception("addAsSimpleXmlChildNode this should not be used");
     	$child = $elem->addChild('car_models');
     	$child->addChild('car_model_id',$this->getCar_Model_id());
     	$child->addChild('car_model_name',$this->getCar_Model_name());
