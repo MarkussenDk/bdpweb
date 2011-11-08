@@ -17,7 +17,7 @@ public function __construct($username, $password)
  	self::$_password = $password;
     self::$_username = $username;
     self::$_instance = $this;
-    $this->_sps_mapper = Default_Model_SparePartSuppliersMapper::getInstance('Default_Model_SparePartSuppliersMapper');
+    $this->_sps_mapper = MapperFactory::getSpsMapper();
     $this->_sps_object = new Default_Model_SparePartSuppliers();
     $this->_isAuthenticated = false;
     $this->_no_session = false; // by default use sessions
@@ -83,8 +83,13 @@ public function getSparePartSupplier(){
 }
 
 private function saveInSession(){
-	@session_start();
 	global $_SESSION;
+	if(empty(self::$_username)){
+		//throw new exception("Why save when no user?");
+	}
+	//echo "<br>SaveInSession";
+	if(is_null($_SESSION))
+		@session_start();
 	assertEx(self::$_username,"Username was blank in saveInSession");
 	$_SESSION['username'] = self::$_username;
 	$_SESSION['password'] = self::$_password;
@@ -93,8 +98,11 @@ private function saveInSession(){
 }
 
 static function checkInSession(&$username,&$password,&$auth_object){
-	@session_start();
+	//echo "<br>checkInSession";
 	global $_SESSION;
+	if(is_null($_SESSION))
+		@session_start();
+//	Kint::dump($_SESSION);
 	//echo "<br>Checking session vars - ";
 	if(array_key_exists('username',$_SESSION) && array_key_exists('password',$_SESSION)){
 		$username = $_SESSION['username'];
@@ -104,7 +112,7 @@ static function checkInSession(&$username,&$password,&$auth_object){
 		return true;
 	}
 	else{
-		echo "<br>session  ".var_export($_SESSION,true);
+		echo "<br>session  ".var_dump($_SESSION,true);
 	}
 	
 	return false;

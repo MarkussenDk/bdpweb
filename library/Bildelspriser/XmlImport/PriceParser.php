@@ -68,8 +68,8 @@ class XmlParserException extends Exception{
 						$_grand_parent_attributes,
 						$_grand_parent_element_name,
 						$_code = null){
-		die('constructio'.$message);
-							$this->message = $_message;
+		die('XmlParserException<br>'.$_message);
+		$this->message = $_message;
 		$this->parent_attributes = $_parent_attributes;
 		$this->parent_element_name	= $_parent_element_name;
 		$this->grand_parent_attributes = $_grand_parent_attributes;
@@ -79,7 +79,7 @@ class XmlParserException extends Exception{
 		$this->message .= "<br>Parent Element</b> :<br>&lt;".$_parent_element_name.$this->attribs_to_string($_parent_attributes).'&gt;';
 		$this->message .= "<br>GrandParent Element</b> :<br>&lt;".$_grand_parent_element_name.$this->attribs_to_string($_grand_parent_attributes).'&gt;';
 		*/
-		parent::__construct($this->message);		
+		parent::__construct($this->message,$_code);		
 	}	
 
 	function attribs_to_string($attribs){
@@ -120,6 +120,7 @@ class Bildelspriser_XmlImport_PriceParser extends XML_Parser{
 	var $_cmo_count;
 	var $_c2s_count;
 	var $_log_level;
+	public $file_size;
 	
 	
 	/** 
@@ -128,13 +129,20 @@ class Bildelspriser_XmlImport_PriceParser extends XML_Parser{
 	 */
 	var $_logging_items;
 	
-	function __construct(Default_Model_SparePartSuppliers $spp){
+	function __construct(Default_Model_SparePartSuppliers $spp,$price_parser_id=null,$file_base_name='none-in__con'){
+		bdp::set_logger(new table_logger());
 		$this->load_success_count = array();
 		$this->_dbo = new Default_Model_DynPriceParserRun();
-		$this->_dbo->xml_http_request_id = self::$_xml_http_request_id;
-		//$this->_dbo->file_base_name = "none";
-		$this->_dbo->status = 'constructed';
-		self::$_price_parser_run_id = $this->_dbo->insert();
+		if($price_parser_id){
+			$this->_dbo->load($price_parser_id);
+			self::$_price_parser_run_id=$price_parser_id;
+		}else{
+			$this->_dbo->xml_http_request_id = self::$_xml_http_request_id;
+			$this->_dbo->file_base_name = $file_base_name;
+			//$this->_dbo->file_base_name = "none";
+			$this->_dbo->status = 'constructed';
+			self::$_price_parser_run_id = $this->_dbo->insert();
+		}
 		$spare_part_supplier_id = $spp->getSpare_part_supplier_id();
 		$this->parse_assert($spare_part_supplier_id>0, "SparePartSupplier must be higher than 0 ($spare_part_supplier_id) ");
 // Does not work		$this->parse_assert(null == $spare_part_supplier_id, "SparePartSupplier must be different from null ($spare_part_supplier_id)");
@@ -153,19 +161,19 @@ class Bildelspriser_XmlImport_PriceParser extends XML_Parser{
 		 * Initializes the XML_Parser in func mode. 
 		 */
 		ob_implicit_flush(true);
-		ini_set('output_buffering',1024);
+		//ini_set('output_buffering',1);
 		$this->_start_mktime = microtime(true);
 		//if(params->log_level is set) set $this->_log_level = $get_log_level
 		self::$_instance = $this;
 		global $pp_instance;
 		$pp_instance = $this;
-		parent::__construct('','func');
+		parent::__construct(null,'func');
 		try{
 			set_time_limit(0);
-			echo "<br/>Set time limit(0) was a sucess";
+			bdp::info('<br/>Set time limit(0) was a sucess');
 		}
 		catch(Exception $e){
-			echo "<br/>Set time limit(0) failed - current limit  unknown" . $e;
+			bdp::info("<br/>Set time limit(0) failed - current limit  unknown" . $e);
 		}	
 	}
 
@@ -177,6 +185,7 @@ class Bildelspriser_XmlImport_PriceParser extends XML_Parser{
 	
 	public function setPath($string){
 		$this->_dbo->setFile_base_name($string);
+		$this->_dbo->update();
 		self::$_path = $string;
 	}
 	
@@ -201,8 +210,12 @@ class Bildelspriser_XmlImport_PriceParser extends XML_Parser{
 	}
 	
 	public function log($message){
-		echo '<br/>Log:'.$this->timeStamp().': '.$message.'stats'.$this->get_stats();	
+		bdp::log($message);
+		return;
+		//echo '<br/>Log:'.$this->timeStamp().': '.$message. ' - stats - '.$this->get_stats();	
 		//ob_flush();
+		$item = array('time'=>$this->timeStamp(), 'message'=>$message);
+		array_push($this->_logging_items, $item);
 		//array_push($this->_logging_items,$message);
 	}
 	
@@ -252,7 +265,7 @@ class Bildelspriser_XmlImport_PriceParser extends XML_Parser{
 		$li_start = "<$item_element_name>";
 		$li_end = "</$item_element_name>";		
 		foreach($this->_logging_items as $item){
-			$xml.="\t".$li_start.$item.$li_end."\n";
+			$xml.="\t".$li_start.$item['time'].'--'.$item['message'].$li_end."\n";
 		}
 		$xml.="</$list_element_name>\n";
 	//	return htmlentities($xml,ENT_QUOTES,"ISO-8859-1");
@@ -260,6 +273,7 @@ class Bildelspriser_XmlImport_PriceParser extends XML_Parser{
 	}
 	
 	function get_log_as_html(){
+		return table_logger::formatHtmlTable();
 //		return "";
 		return "<div style='border:red solid 3px;' >"
 					.nl2br($this->get_log_as_xml("ol type='1'",'li'))
@@ -641,6 +655,10 @@ class Bildelspriser_XmlImport_PriceParser extends XML_Parser{
 		/**
 		 * Parent and grand Parent elements.
 		 */
+		if(array_key_exists('REFERENCE', $attribs) && $attribs['REFERENCE']=='true'){
+			$this->gen_start($xp,$element,$attribs);
+			return;
+		}
 		$parent_elem = $this->get_parent_elem();
 		$parent_attribs = $this->get_parent_attribs();
 		$grand_parent_elem = $this->get_grand_parent_elem();
@@ -661,7 +679,7 @@ class Bildelspriser_XmlImport_PriceParser extends XML_Parser{
 		//var_dump_array(array('spare_part_price_id'=>$spare_part_price_id));
 		//print "START -spare_part_price_Handler [$element]\n";		
 		//var_dump($attribs);
-		$this->log("Creating a Spare_Part_price ".$attribs['SUPPLIER_PART_NUMBER'].' spp.id='.$spare_part_price_id);
+		//$this->log("Creating a Spare_Part_price ".$attribs['SUPPLIER_PART_NUMBER'].' spp.id='.$spare_part_price_id);
 		/*Now determine the parent element and see what to do*/
 		switch(strtoupper($parent_elem)){
 			case 'SPARE_PART_PRICE': $this->parse_error("Error - SPARE_PART_PRICE can not be nested in another SPARE_PART_PRICE element.");
@@ -682,7 +700,7 @@ class Bildelspriser_XmlImport_PriceParser extends XML_Parser{
 						break;							
 					default: $this->parse_error('Unknown element under SPARE_PART_PRICE\CAR_MODEL_TO_SPARE_PART_PRICE\ called '.$grand_parent_elem.". ");
 				}
-			default: $this->parse_error('Unknown element under SPARE_PART_PRICE\\ called '.$grand_parent_elem.". ");					
+			default: $this->parse_error('Unknown element under SPARE_PART_PRICE\\ called '.$grand_parent_elem.". or ".$parent_elem);					
 		}
 		
 		$this->_spp_count++;
@@ -763,7 +781,7 @@ class Bildelspriser_XmlImport_PriceParser extends XML_Parser{
 					.'<br> In file: '.$e->getFile().':'.$e->getLine()."\n".$e->getTraceAsString();
 			//."Exception dump ".nl2br(var_export($e,true))
 			//."Type of ".get_class($e)
-			die($this->get_log_as_html().nl2br($msg));		
+			error($this->get_log_as_html().nl2br($msg));		
 			//throw $e;
 		}// end exception
 		$timeparts = explode(' ',microtime());
@@ -774,15 +792,50 @@ class Bildelspriser_XmlImport_PriceParser extends XML_Parser{
 	}// end parseString	
 	
 	function parseFileName($fileName,$eof = false){
+		if($fileName==''){
+			error(' $fileName was empty ');
+		} // Filename was C:\Program Files\Zend\Apache2\htdocs\bdp.google/data/users/nvautodele/nvautodele-PriceList_2011-06-29_08-18.xml
+		//else(die("Filename was $fileName"));
+		$ret = "Parsing $fileName ";
 		  $timeparts = explode(' ',microtime());
 		  $dbo = $this->_dbo;
+		  $dbo->selectWhere(array('file_base_name'=>basename(($fileName))
+		  						 ,'file_create_time'=>phpDateToDbDate(filectime($fileName))
+		  						 ,'file_size' => filesize($fileName) ));
+		  //Kint::dump($dbo);				
+		  $dbo->processing_start = phpDateToDbDate(time());
+		  switch($dbo->status){
+		  	case 'constructed':
+		  		break; // Try normally first
+		  	case 'parsing file':	
+		  	case 'parsing_file': // already parsing file - so it failed?
+		  		$this->log('Parsing using FastParser - for SparePartPrices only');
+		  		Zend_Loader_Autoloader::autoload('Bildelspriser_XmlImport_FastParser');
+		  		include_once 'Bildelspriser/XmlImport/FastParser.php';
+		  		$fastPaser = new Bildelspriser_XmlImport_FastParser($fileName);
+		  		$fastPaser->price_parser_run_id = $this->_dbo->price_parser_run_id;
+		  		Bildelspriser_XmlImport_SparePartPriceSaver::$spare_part_supplier_id = $this->_spare_part_supplier_id;	
+		  		$fastPaser->parseSparePartPrices();
+		  		$dbo->status = 'spp parsed';
+		  		$dbo->processing_end = phpDateToDbDate(time());
+				$dbo->update();
+		  		return;
+		  		break;
+		  	case 'success':
+		  		$this->log('This file has already been completed with success');
+		  		return;
+		  		break;
+		  	default:
+		  		$this->log("<b>WARNING: Unmapped status  '$dbo->status'</b> ");	
+		  }
 		  $starttime = $timeparts[1].substr($timeparts[0],1);
-		  $dbo->file_base_name = basename($fileName);
+		  $dbo->file_base_name = basename(utf8_encode($fileName));
 		  $dbo->file_create_time  = phpDateToDbDate(filectime($fileName));		  
 		  $dbo->file_size = filesize($fileName);
+		  $this->file_size = $dbo->file_size;
 		  $dbo->status = 'parsing file';
-		  $this->log("before update");
-		  try{$dbo->update();}
+		  $this->log("before update of Database object in PriceParser");
+		  try{$dbo->update();$this->log('After update');}
 		  catch(exception $e){
 		  	$this->log("Update throw an exception $e ");
 		  }
@@ -791,33 +844,25 @@ class Bildelspriser_XmlImport_PriceParser extends XML_Parser{
 		   $this->_cmo_count=0;
 		   $this->_c2s_count=0;
 		try{
-			$this->log("Parsefilename started. $fileName ");
+			$this->log("Parsefilename started. ".utf8_encode($fileName)." , next step is setInputFile");
 			parent::setInputFile($fileName);
+			$this->log("setInputFile completed, next step is ::parse() :-) ");
 			$result = parent::parse();
+			$this->log("parse-completed completed");
+			$this->_dbo->status = 'parse ended';
 			$this->log("parse() ended");
 			if (PEAR::isError($result)) {
-				//$pe = new PEAR_Error();
-				//$pe->
-	    		$this->log($result->getMessage().'<br>ERROR: '.$result);
-	    		$this->_dbo->{'status'} = 'failed';
-	    		$this->_dbo->update();
-	    		return false;
-			}
+				$this->log($result->getMessage().'<br>PEAR ERROR: '.$result);
+	    		$dbo->status = 'failed';
+	    	}
 			else{
 				$path = self::$_path;
-				$this->log("ParseStringng ended without errors");
-				/*$sppm = Default_Model_SparePartPricesMapper::getInstance('Default_Model_SparePartPricesMapper');
-				$db_load_file = $path.'/spare_part_price_data.dat';
-				$sppm->SavePostponedValuesToFile($db_load_file);
-				$cm2sppm = Default_Model_CarModelsToSparePartPricesMapper::getInstance('Default_Model_CarModelsToSparePartPricesMapper');
-				$db_load_file = $path.'/car_models_to_spare_part_price_data.dat';				
-				$cm2sppm->SavePostponedValuesToFile($db_load_file);
-				$this->_dbo->{'status'} = 'success';
-	    		$this->_dbo->update();				
-				return true;*/
+				$this->log("Parse String ended without errors");
+				$dbo->status = 'success';
 			}
-			//	return $result;
-			
+			$dbo->processing_end = phpDateToDbDate(time());
+			$dbo->update();
+			return $result;			
 		}
 /*		catch(Zend_Db_Statement_Mysqli_Exception $zdb_st_ex){
 			die($this->get_log_as_html()
@@ -829,6 +874,7 @@ class Bildelspriser_XmlImport_PriceParser extends XML_Parser{
 		catch(Exception $e){
 			$t = get_class($e);
 			$info = "";
+			$this->_dbo->exception_message = $e->getMessage();
 			switch($t){
 				case 'Zend_Db_Statement_Mysqli_Exception':
 					//$zdb_ex = new Zend_Db_Statement_Mysqli_Exception();
@@ -836,22 +882,29 @@ class Bildelspriser_XmlImport_PriceParser extends XML_Parser{
 					$zdbe = new Zend_Db_Exception_Helper($e);
 					$info .= "<br>SQL Statement = " . $zdbe->getSqlFormatedStatementAsString();
 					$info .=$zdbe->getSqlAsInsertTable();
-						
+		    		$this->_dbo->{'status'} = 'failed-zdbe';
+		    		$this->_dbo->update();					
+							
 					break;
 				default:
+		    		$this->_dbo->{'status'} = 'failed-other';
+		    		$this->_dbo->exception_message = $e->getMessage();
+		    		$this->_dbo->update();
 					break;
 			};
 			$msg = 'Exception of type '.$t.':<br>Message: '.$e->getMessage()
 					.$info
 					.'<br> In file: '.$e->getFile().':'.$e->getLine()."\n".$e->getTraceAsString();
-			//."Exception dump ".nl2br(var_export($e,true))
+			bdp::info($msg);
+					//."Exception dump ".nl2br(var_export($e,true))
 			//."Type of ".get_class($e)
-			die($this->get_log_as_html().nl2br($msg));		
-			//throw $e;
+			//error('Call to error'.$this->get_log_as_html().nl2br($msg));		
+			throw $e;
 		}// end exception
 		$timeparts = explode(' ',microtime());
 		$endtime = $timeparts[1].substr($timeparts[0],1);
 		$this->log( "Timing was " . bcsub($endtime,$starttime,6));
+		$this->log($this->get_stats());
 		echo "Timing was " . bcsub($endtime,$starttime,6);
 		
 	}// end parseString	
@@ -929,9 +982,9 @@ class Zend_Db_Exception_Helper{
 		$c =  ' class="sql_info_table" ';
 		$trtd = "\n\t\t<tr $c ><td $c >";		
 		//var_dump($words);
-		$table = '<table border=1px'.$c.' >'.$trtd.'TableName</th><th '.$c.' >'.$words[2].'</th></tr>';
+		$table = '<table border=0px '.$c.' >'.$trtd.'TableName</th><th '.$c.' >'.$words[2].'</th></tr>';
 		$table .= $trtd.'Insert</td><td>'.$ins[0].'<td>';
-		$table .= $trtd.'td>Values</td><td>'.$val[0].'<td>';
+		$table .= $trtd.'Values</td><td>'.$val[0].'<td>';
 		$ins_ar = explode(',',$ins[0]);
 		$val_ar = explode(',',$val[0]);
 		for($i=0;$i<sizeof($ins_ar);$i++){

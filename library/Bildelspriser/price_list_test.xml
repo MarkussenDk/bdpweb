@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<price_list xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                      xmlns="http://bildelspriser.dk"
+                      xsi:schemaLocation="http://bildelspriser.dk price_list.xsd"                   >
+	
+
+	<car_make car_make_name="A">
+		<car_model car_model_name="B" >
+			<spare_part_price  ></spare_part_price>
+		</car_model>
+				
+	</car_make>
+	
+</price_list>

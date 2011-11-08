@@ -169,7 +169,7 @@ function get_stack_trace(){
 function print_with_line_numbers($message,$print_to_screen = 'off'){
 	//is array
 	if(!is_array($message)){
-		$message = split("\n",$message);
+		$message = explode("\n",$message);
 	}
 	$line_no = 1;
 	foreach($message as $line){
@@ -180,3 +180,134 @@ function print_with_line_numbers($message,$print_to_screen = 'off'){
 	}
 	return $html;
 }
+
+interface bdp_logger{
+	public static function log($msg);
+}
+
+class bdp{
+	static $_log_obj;
+	
+	public static function l($msg){
+		self::info($msg);
+	}
+	public static function log($msg){
+		//if($msg=='1') 			Error("Please be a bit more specifit than just 1");
+		if(self::$_log_obj){
+			self::$_log_obj->log($msg);
+		}	
+	}
+
+	public static function info($msg){
+		//if($msg=='1') 			Error("Please be a bit more specifit than just 1");
+		if(self::$_log_obj){
+			self::$_log_obj->log($msg);
+		}	
+	}
+	
+	public static function set_logger(bdp_logger $_logger){
+		self::$_log_obj = $_logger;
+	}
+	
+	public static function set_logger_type($type='direct'){
+		ini_set('output_buffering',1);
+		ob_start();
+		ob_flush();
+		self::set_logger(new screen_logger());
+		echo "setting logger to screen_logger";
+	}	
+}
+
+function human_readable_seconds($secs_as_float) {
+	$log10 = log10($secs_as_float);
+	$iv=intval($log10/3,10);
+	$s = "  ";
+	switch($iv){
+		case -0: // milli secs
+			$s .= round($secs_as_float*1000,1) . ' mS ';
+			break;
+		case -1: // milli secs
+			$s .= round($secs_as_float*1000*1000,1) . ' uS ';
+			break;
+		case -2: // milli secs
+			$s .= rount($secs_as_float*1000*1000*1000,1) . ' nS ';
+			break;
+		default:
+			$s .='Unknown value  IV: $iv ';
+	}
+	return $s;
+}
+
+class screen_logger implements bdp_logger{
+	public static function log($msg){
+		$style = ' style="border:solid silver 1px" ';
+		$i=++table_logger::$i;
+		$mt = microtime(true);
+		$t = $mt - table_logger::$start_microtime;
+		$dt = $mt - table_logger::$last_microtime;
+		$hdt = human_readable_seconds($dt); 
+		table_logger::$last_microtime = $mt;
+		$t = ' '.$t.' </td><td width="10pt" >'.$hdt ;
+		$ob_lvl = ob_get_level();
+		$tbody= "<table width='100%' ><tr  $style > <td width='50pt'  $style >$i</td><td width='60pt' >$t</td> <td dwidth='10pt'  $style >$msg</td> <td  $style ></td> </tr><table>";
+		echo "<div style=' '><!-- (OB level: $ob_lvl)-->$tbody<div>";
+		$i=0;
+		//$s='<hr>';
+		while($ob_lvl=ob_get_level()){
+			//echo "($lvl) - flushing;";
+			//$s .= '<br>'.$i++.' - '.$ob_lvl;
+			if($ob_lvl>0){
+				ob_flush();
+				flush();
+				ob_end_flush();
+			}
+			if($i>8){
+				//$s .= ' breaking '; 
+				break;
+			}
+		}
+		//ob_start();
+		//echo $s;			
+	}
+}
+
+class table_logger implements  bdp_logger{
+	static $_logger_items = array();
+	static $i = 0;		
+	public static $last_microtime = null;
+	public static $start_microtime = null;
+	public static function log($msg){
+		self::$_logger_items[] = array( 'message' => $msg, 'microtime'=>microtime(true));
+	}
+
+	public static function formatHtmlTable(){
+		$style = ' style="border:solid silver 1px" ';
+		$tbody = "<tr><th >Id</th><th >Time</th> <th>Message</th> </tr>";
+		foreach (self::$_logger_items as $item) {
+			$m = $item['message'];
+			$mt = $item['microtime'];
+			$t = $mt - self::$start_microtime;
+			$dt = $mt - self::$last_microtime;
+			self::$last_microtime = $mt;
+			$t = ' '.$t.' d ='.$dt ;
+			$i=++self::$i;
+			$tbody.= "<tr  $style > <td  $style width='50pt' >$i</td><td width='300pt' >$t</td> <td  $style >$m</td> <td  $style ></td> </tr>";
+		}
+		return "<table width='100%' $style >$tbody</table>";
+	}	
+	
+	public static function toString(){
+		return self::formatHtmlTable();
+	}
+}
+
+table_logger::$start_microtime = microtime(true);
+table_logger::$last_microtime = table_logger::$start_microtime;
+
+class buffered_logger implements bdp_logger{
+	public static function log($msg){
+			
+	}
+}
+
+

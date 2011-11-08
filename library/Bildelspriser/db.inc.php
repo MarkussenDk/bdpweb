@@ -126,6 +126,35 @@ function where_clause_formater($array){
   	return date( 'Y-m-d H:i:s', $phpdate );
   }
   
+  function DkFloatToMySQL($value){
+  	$comma_pos = strrpos($value, ',');
+  	$dot_pos = strrpos($value, '.');
+  	if($comma_pos){
+  		if($dot_pos){//both 10.000,30 and 10,000.00
+  			if($comma_pos==2){ // only 10.000,30
+  				$r = str_replace('.','',$value); // now 10000,30
+  				return str_replace('.','',$r);  // now 10000.30 = ok for mysql			
+  			}else{// only 10,000.00
+  				//return $value;
+  				return str_replace(',','',$value);
+  			}
+  		}else{ // either // 10,000 and 10000,12
+		  	if($comma_pos==2){ //10000,12
+		 		return str_replace(',','.',$value);  // now 10000.30 = ok for mysql 		
+		  	}else{ // 10,000
+		 		return str_replace(',','',$value); 		
+		  	}
+  		}		  			
+  	}
+  	if($dot_pos){//both 10.000 and 10.30
+  		if($dot_pos==2){// only 10.30
+  			return $value;
+  		}else{
+  			return str_replace('.','',$value); //now only 10000 = ok for mysql;
+  		}  		
+  	}
+  }
+  
   function DbDateToPhpDate($dbdate){
   	return strtotime( $mysqldate );
   }
