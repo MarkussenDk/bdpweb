@@ -78,6 +78,7 @@ var Http = {
 		var cache = params.cache || Http.Cache.Get;
 		var method = params.method || Http.Method.Get;
 		var callback = params.callback;
+		var async = params.async;
 		
 		if ((cache == Http.Cache.FromCache) || (cache == Http.Cache.GetCache))
 		{
@@ -106,7 +107,12 @@ var Http = {
 			}
 		}
 		
-		Http._get.open(method, url, true);
+		var async_flag = true;
+		if(!async){			
+			async_flag = false;
+		}
+//		Http._get.open(method, url, true);
+		Http._get.open(method, url, async_flag);
 
 		Http._get.onreadystatechange =  function() {
 			if (Http._get.readyState != Http.ReadyState.Complete) return;
