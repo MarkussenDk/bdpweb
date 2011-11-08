@@ -36,8 +36,7 @@ class SparePartSupplierTest extends PHPUnit_Framework_TestCase{
 	}
 	
 	public function testFindPrice()    {
-		//$spp_mapper = Default_Model_SparePartPricesMapper::getInstance('Default_Model_SparePartPricesMapper');
-		$spp_mapper = new Default_Model_SparePartPricesMapper();
+		$spp_mapper =MapperFactory::getSppMapper();
 		$spp_rowset = $spp_mapper->find(286);
 		$this->assertType('Zend_Db_Table_Rowset',$spp_rowset);
 		$cmo2spp_mapper = new Default_Model_CarModelsToSparePartPricesMapper();
