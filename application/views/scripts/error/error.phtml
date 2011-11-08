@@ -1,3 +1,9 @@
+<?php 
+$ex = $this->exception;
+/**
+ * @var ex Zend_Exception
+ */
+?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"; "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd> 
 <html xmlns="http://www.w3.org/1999/xhtml"> 
 <head>  
@@ -8,12 +14,32 @@
   <h1>Ups - Der skete en fejl...</h1> 
   <h2><?= $this->message ?></h2> 
 
-  <!-- ? if ('development' == APPLICATION_ENV or true): ? -->
+  <?/* if ('development' == APPLICATION_ENV or true):*/ ?>
  
   <h3>Exception information:</h3> 
   <p> 
       <b>Message:</b> <?= nl2br($this->exception->getMessage()) ?> 
   </p> 
+  <p>
+  	<b>Type:</b><?
+/**
+ * @var ex Zend_Exception
+ */
+  	//$ex = new Zend_Exception();
+  	switch (get_class($ex)) {
+  		case 'Zend_Db_Table_Exception':
+  			$zex = new Zend_Db_Table_Exception();
+  			Zend_Debug::dump($ex,'Ex',true);
+  		;
+  		break;
+  		
+  		default:
+  			echo 'Exeption type was <b>'.get_class($ex).'</b><br/>';
+  			;
+  		break;
+  	}
+  	echo nl2br($ex->__toString()) ?>
+  </p>
 
    <h3>Stack trace:</h3> 
   <pre><?= $this->exception->getTraceAsString() ?> 
@@ -22,40 +48,10 @@
   <h3>Request Parameters:</h3> 
   <pre><? var_dump($this->request->getParams()); ?> 
   </pre> 
-  <!--  ? endif ?- - >
-  <% echo "asp tags" %>--!> 
-  
-  
-  <!-- h1>An few errors occurred</h1>
-  < ?php foreach($this->ar_errors as $er){   ?> 
-  <h2><!-- ?= $er->message ?--></h2>
-  < ?php print ' Type : '.gettype($er). ' and Class : '.get_class($er).'</br>';?> 
 
- < ?php if(gettype($er)=='object' && is_subclass_of($er,'Zend_Exception')): ?>
-  <h3>Exception information:</h3> 
-  <p> 
-      <b>Message:</b> < ?= $er->getMessage() ? > 
-  </p> 
-
-  <h3>Stack trace:</h3> 
-  <pre>< ?= $er->getTraceAsString() ?> 
-  </pre> 
- < ? endif ?>
- 
- < ?php if(gettype($er)=='string') 
- 		print "The string is '".$er."'";
- ? >
- 
-  < ?php if(gettype($er)=='object' && is_a($er,'Zend_Controller_Request_Abstract'))
-  {
-  	print "<h3>Request Parameters:</h3>";
-  	var_dump($er->getParams());
-  } 
- 	//print "The string is '".$er."'";
- ? >--> 
    
     
 </body> 
 </html>
 <?php 
-phpinfo();?>
+phpinfo(); ?>

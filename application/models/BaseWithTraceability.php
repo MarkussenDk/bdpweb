@@ -6,6 +6,13 @@ require_once('Base.php');
 // for inspiration to this class - see
 // http://framework.zend.com/docs/quickstart/create-a-model-and-database-table
 
+class state_enum{
+	const _suggestion = 'Forslag'; 	
+	const _public = 'Offentlig';
+	const _alternative = 'Alternativ';
+	const _deleted = 'Slettet'; 	
+}
+
 class Default_Model_BaseWithTraceability //extends Default_Model_Base
 { 	
 	private $_created=null;
@@ -18,6 +25,8 @@ class Default_Model_BaseWithTraceability //extends Default_Model_Base
 	private $_guid; // used to keep reference with delayed writes; // as a replacement primary key.
 	private $_dirty_flag;
 	public $_user_name_required;
+	private static $_rows;
+	public $class_vars;
 	/**
 	 * 
 	 * @var Zend_Db_Table_Row
@@ -32,14 +41,18 @@ class Default_Model_BaseWithTraceability //extends Default_Model_Base
     	if(is_string($mapper_name)){
         	$this->_mapper_name = $mapper_name;
         }
-        if (is_array($options)) {
+		if(!isset($this->class_vars)){
+			 $this->class_vars = get_class_vars($this->getMapper()->getModelName());
+		}
+		if (is_array($options)) {
             $this->setOptions($options);
-        }        
-		$db = $this->getMapper()->getDbAdapter();
-		$db->query('SET NAMES utf8');
-		$db->query('SET CHARACTER SET utf8');
+        }
+        /*$cls =$this->getMapper()->getModelName();
+        $this_list = Zend_Debug::dump(get_class_vars($cls),'__CONSTRUCTOR_TIMEClassVars:THIS '.$cls,false);
+		$this_list = Zend_Debug::dump($this->class_vars,'_Constructor time '.$cls.'vars');
+        die($this_list);*/
+        $db = $this->getMapper()->getDbAdapter();
 
-		
     }   
    
 	public function checkForExistanceAndSetPrimaryKey(array &$data){
@@ -122,23 +135,49 @@ class Default_Model_BaseWithTraceability //extends Default_Model_Base
     	if($in_options instanceof Zend_Db_Table_Row){
     		$options = $in_options->toArray();
     	}
-		$this->checkForExistanceAndSetPrimaryKey($options);
+		$exists=$this->checkForExistanceAndSetPrimaryKey($options);
     	$this->_options = array();	
     	$class_vars = get_class_vars(get_class($this));
     	$methods = get_class_methods($this);
-        foreach ($options as $key => $value) {
-        	if(array_key_exists($key,$class_vars)){ // search for public direct vars e.g. key
+    	$log = "setOptions $exists ".$this->_mapper_name;
+        foreach ($options as $key => $value_raw) {
+        	//$log .= "<br/> $key => $value_raw ".strpos($key, '_id');
+        	if(2>strpos($key, '_id') && (strpos($value_raw,'Ã') || strpos($value_raw,'Â'))  ){ // anything but primary keys
+	        	$val_dec = utf8_decode($value_raw);	        	
+        		$val_enc = utf8_encode($value_raw);
+	        	$value = $val_enc;
+	        	/*if($val_enc != $val_dec){
+	        		$log.="<br/><h2>$key-  Now for some UNICODE FUN </h2>";
+	        	}*/
+	        	if(strlen($value) > strlen($val_dec) ){
+	        		$value = $val_dec;
+	        	}
+	        	$enc_data = array( 'normal' => $value , 'enc'=> $val_enc , 'decod'=>$val_dec);
+	        	$table = '<table>';
+	        	/*foreach($enc_data as $key => $val)
+	        		$table .= '<tr><td><b>'.$key.'</b></td><td>'.$val.'</td></tr>';*/
+	        		$table .= '<tr><td><b>normal</b></td><td>'.$value.'</td></tr>';
+	        		$table .= '<tr><td><b>enc</b></td><td>'.$val_enc.'</td></tr>';
+	        		$table .= '<tr><td><b>decod</b></td><td>'.$val_dec.'</td></tr>';
+	        		$table .= "</table>";
+	        	$log.=$table; 
+	        	//$log .= "<table><tr><td><b>encoded</b> $val_enc - decoded $val_dec - normal $value ";
+        	}
+        	else
+        		$value = $value_raw;
+        	if(array_key_exists($key,$this->class_vars)){ // search for public direct vars e.g. key
+        		//Zend_Debug::dump($class_vars,'LocalClassVars');
+        		//Zend_Debug::dump($class_vars,'ClassVars');
         		$this->$key = $value;
         		continue;
         	}
-            if(array_key_exists('_'.$key,$class_vars)){ // search for public sub vars e.g. _key
+            if(array_key_exists('_'.$key,$this->class_vars)){ // search for public sub vars e.g. _key
         		$this->{'_'.$key} = $value;
         		continue;
         	}
         	$method = 'set' . ucfirst(strtolower($key));
             if (in_array($method, $methods)) {
-                $this->$method(utf8_encode($value));
-                //$this->_options[$key] = $value;
+                $this->$method($value);
             }            
             else{
             	$class = get_class($this);            	
@@ -147,18 +186,18 @@ class Default_Model_BaseWithTraceability //extends Default_Model_Base
             		."\nValue used was '$value' - '$key' "
             		.". \n<br>The array was ".nl2br(var_export($options,true)));            	
             }
+            $log.="\n end($key=>$value)";
         }
-/*        $user_name = Default_Model_SparePartSuppliersMapper::getIdentityAsString();
+        bdp::log($log);
+/*      $user_name = Default_Model_SparePartSuppliersMapper::getIdentityAsString();
         $class = get_class($this);
         assertEx($user_name,"No UserName was found in class $class, perhabs you havent authenticated on the SPS.");
         $this->_current_user_name = $user_name;*/
         //$this->setUpdated_by($user_name);
         return $this;
-    }   
-    
- 
-	
-   /* public function __set($name, $value)
+    }
+		
+	/* public function __set($name, $value)
     {
         $method = 'set' . $name;
         if (('mapper' == $name) || !method_exists($this, $method)) {
@@ -166,19 +205,31 @@ class Default_Model_BaseWithTraceability //extends Default_Model_Base
         }
         $this->$method($value);
     }*/
-
-    public function __get($name)
-    {//$name holds the name of the undefined attributes getting called.
-    	
-        $method = 'get' . ucfirst($name);
-        if (('mapper' == $name) || !method_exists($this, $method)) {
-        	$class_name = get_class($this);
-            throw new Exception('Invalid Base property - "'.$name.'" - Method requested : "'
-            	.$class_name.'->'.$method.'()"'
-            //.var_export($this,true)
-            );
-        }
-        return $this->$method();
+	
+	public function __get($name) { //$name holds the name of the undefined attributes getting called.
+		//Zend_Debug::dump(get_class_vars(__CLASS__),__CLASS__.'Class Vars  '.$name,true);
+		//$cls = $this->getMapper()->getModelName();
+		//Zend_Debug::dump(get_class_vars($cls),$cls.'Class Vars  '.$name,true);
+		//echo "Looking for name"
+		if (array_key_exists($name, $this->class_vars )) { // search for public direct vars e.g. key
+			return $this->$name;
+		}
+		if (array_key_exists( '_' . $name, $this->class_vars )) { // search for public sub vars e.g. _key
+			return $this->{'_' . $name};
+		}
+		$method = 'get' . ucfirst ( $name );
+		if (('mapper' == $name) || ! method_exists ( $this, $method )) {
+			$class_name = get_class ( $this );
+			$this_list = Zend_Debug::dump('ClassVars: '.__class__,get_class_vars($class_name),false);
+			$this_list = Zend_Debug::dump('ClassVars: '.__class__,get_class_vars(__CLASS__),false);
+			$this_list = Zend_Debug::dump('ClassVars:THIS '.__class__,get_class_vars(this),false);
+			$this_list .= Zend_Debug::dump($this,'This',false);
+			$method_list = Zend_Debug::dump(get_class_methods($this),'Class Methods in '.__CLASS__,false);
+			//die();
+			throw new Exception ( 'BaseWithTrace:Invalid Base property - "' . $name . '" - Method requested : "' . $class_name . '->' . $method . '()"'.$method_list.$this_list  )//.var_export($this,true)
+			;
+		}
+		return $this->$method ();
     }
 
     final public function getCreated_by(){
@@ -319,8 +370,8 @@ class Default_Model_BaseWithTraceability //extends Default_Model_Base
    /* public function __toString()
     {
     	$class_info = 'Class'.get_class($this)."<ul>";
-    	$class_vars = get_object_vars($this);
-    	foreach($class_vars as $key){
+    	$this->class_vars = get_object_vars($this);
+    	foreach($this->class_vars as $key){
     		$class_info .= "<li>key</li>";
     	}
     	$class_info .='<ul/>';
@@ -335,7 +386,8 @@ class Default_Model_BaseWithTraceability //extends Default_Model_Base
      */
     public function save()
     {
-        $this->_current_user_name = $this->getCurrent_user_name();
+        $verbose = false;
+    	$this->_current_user_name = $this->getCurrent_user_name();
     	$mapper=$this->getMapper();
         //assert($mapper,"Mapper must be set");
         //die("type was")
@@ -345,8 +397,28 @@ class Default_Model_BaseWithTraceability //extends Default_Model_Base
     		//throw new exception ("Type was ".gettype($mapper)." \nThe var export ".var_export($mapper,true));
     		//$type = gettype($mapper);
     		//$mapper=$this->getMapper();
-    		assertEx($mapper instanceof MapperBase,"Mapper was does not inherit a Mapper_base, Coding error! - Contact support!");
-    		return $this->getMapper()->save($this);
+    		$mapper instanceof MapperBase
+    			or error("Mapper was does not inherit a Mapper_base, Coding error! - Contact support!");
+    		//$id_array = array();
+    		$id=$mapper->save($this);
+    		if( is_scalar($id))		
+    			if($id <= 0) //PK 
+    			{    				
+    				throw new exception('PK should be higher than 0 it was '.$id);
+    			}
+    		else {
+				/*$id_array = id;
+				$id = first()
+    			throw new exception('PK was array '.print_r($id,true));*/
+    		}
+    		if($verbose){
+	    		print "<hr>(baseWithTrace::Save()-ID was  ";
+	    		print_r($id);
+	    		print ' <br> primary key name ';
+	    		print_r($this->getPrimaryKeyName());
+    		}
+    		return $id;	
+    		//return $this->getMapper()->save($this);
         }
         catch(Zend_Db_Exception $zend_db_ex){
         	$class = get_class($this);        	
@@ -393,7 +465,10 @@ class Default_Model_BaseWithTraceability //extends Default_Model_Base
     {
         $ret = $this->getMapper()->find($id, $this);
         $ar=$ret->toArray();
-        $this->setOptions($ar[0]);
+        if(!is_array($ar)){
+        	error("Spp not found '$id'");
+        	return null;
+        }$this->setOptions($ar[0]);
         return $this;
     }
     
@@ -403,13 +478,12 @@ class Default_Model_BaseWithTraceability //extends Default_Model_Base
     	$child->addChild('car_make_name',$this->getCar_make_name());
     	$main_id = $this->getCar_make_main_id() or $this->getCar_make_id();
     	$child->addChild('car_make_main_id',$m_id);
-    	$child->addChild('state',$this->getState());    	
     	$child->addChild('created',$this->getCreated());  
     	$child->addChild('updated',$this->getUpdated());
     	return $child;
     }*/
 
-    public function fetchAll($select)
+    public function fetchAll($select=null)
     {
         $mapper=$this->getMapper();
         if(!isset($mapper)){
@@ -417,6 +491,33 @@ class Default_Model_BaseWithTraceability //extends Default_Model_Base
         } 
         else
     	return $this->getMapper()->fetchAll($select);
+    }
+    
+    public function getCachedById($id){
+    	if(empty(self::$_rows)){
+    		$select = $this->getMapper()->getDbTable()->select(true);
+    		//$select->from($this->getMapper()->getDbTable()->);
+    		$select->limit(1000);
+    		$tmp_rows=array();  		
+    		//($where = null, $order = null, $count = null, $offset = null)
+    		//$tmp_rows = $this->getMapper()->getDbTable()->fetchAll('1=1',$this->getPrimaryKeyName(),1000);
+    		$tmp_rows = $this->fetchAll_Array($select);
+    		$pk_ar = $this->getPrimaryKeyName();
+    		if(count($pk_ar)==1){    			
+	    		$pk_name = implode($this->getPrimaryKeyName(),'');
+	    		//print_r($tmp_rows);
+	    		foreach ($tmp_rows as $row){
+	    			echo '<!-- <hr>caching '.$pk_name.' = '.$row[$pk_name].'-->';
+	    			self::$_rows[$pk_name] = $row;
+	    		}
+    		}    		
+    	}
+    	if(is_array(self::$_rows) and  array_key_exists($id, self::$_rows)){
+    		return self::$_rows[$id];
+    	}
+    	else{
+    		return self::find($id);
+    	}    	
     }
     
     public function fetchAll_Array($select)
@@ -432,7 +533,8 @@ class Default_Model_BaseWithTraceability //extends Default_Model_Base
     }
     
     public function __call($methodName, $args){
-    	echo "\n\n## - call";
-		echo "methodName  $methodName, args=$args" ;    
+    	echo "\n\n<br>## - call";
+		echo "methodName  $methodName, args=".print_r($args,true) ;
+		die("Ended - unknown function called");    
     }
 }

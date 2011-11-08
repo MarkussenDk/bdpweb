@@ -3,7 +3,7 @@
 
 class Default_Model_DynPriceParserRun extends Default_Model_DynBase{
 	static $db;
-	public function __construct($options = null){
+	public function __construct(array $options = null){
 		/*class Default_Model_
 		 * 
 		 */

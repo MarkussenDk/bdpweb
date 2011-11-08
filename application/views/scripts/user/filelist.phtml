@@ -18,7 +18,11 @@
 
 //echo $this->form;
 $date_format= 'h:i:s d-m-Y';
+/*
+ * @var $this->db Zend_Db_Adapter_Mysqli
+ */
 
+$rows = array();
 if(isset($this->user_file_directory_iterator)){
 	$c = ' class="user_process_file" ';
 	echo "<b>Uploaded Files</b>";
@@ -29,6 +33,17 @@ if(isset($this->user_file_directory_iterator)){
 			continue; // to ignore . and ..			
 		}
 		$bn = basename($fn);
+		$q = $this->db->select()
+			  ->from('price_parse_runs')
+			  ->where('file_base_name = ?',$bn)
+			  ->where('file_size = ?',$file->getSize())
+			  ->where('status in (?)',"'parsing file', 'success'")
+			  ->order('file_size DESC')
+			  //->order('price_parser_run_id DESC')
+			  ;
+		$row = $this->db->fetchRow($q);
+		$rows[] = $row;
+		die(Zend_Debug::dump($row,'fecthing Row',true));
 		$unix_timestamp = $file->getCTime();
 		$fs = round($file->getSize()/1024,1);
 		$date = date($date_format, $unix_timestamp);
@@ -45,5 +60,10 @@ else
 
 ?>
 </table>
+<?php 
+echo "<h1>Priting rows</h1>";
+foreach($rows as $row ){
+	echo Zend_Debug::dump($row,'fecthing Row',true);
+}?>
 <button type="submit" >Process File</button>
 </form>

@@ -41,6 +41,20 @@ class Default_Model_SparePartPricesMapper extends MapperBase
 		}
 	}
 	
+	static public function existsInCache($lower_attribs,&$spare_part_price_id,&$natual_key){
+		$spp_mapper = MapperFactory::getSppMapper();
+		$spp_mapper->verifySparePartSupplierId($lower_attribs['spare_part_supplier_id']);
+		if(array_key_exists('supplier_part_number',$lower_attribs)){
+			$natual_key = $lower_attribs['supplier_part_number'];
+		}
+		else{error('Attribs did not contain supplier_part_number '.var_dump($lower_attribs));
+		}
+				
+		return 
+			is_array(self::$prices_from_current_supplier) 
+			&& array_key_exists($natual_key,self::$prices_from_current_supplier);		
+	}
+	
 	/**
 	 * 
 	 * Enter description here ...
@@ -49,21 +63,11 @@ class Default_Model_SparePartPricesMapper extends MapperBase
 	 * @return Default_Model_DbTable_SparePartPrices
 	 */
 	static public function getOrCreatePrice($attribs,&$spare_part_price_id){
-		ob_flush();
-		flush();
-		$obj = self::getInstance('Default_Model_SparePartPricesMapper');
+		$natual_key=null;
 		$lower_attribs = array_change_key_case($attribs,CASE_LOWER);
-		//$pk = $attribs['spare_part_price_id'];
-		$natual_key;
-		if(array_key_exists('supplier_part_number',$lower_attribs)){
-			$natual_key = $lower_attribs['supplier_part_number'];
-		}
-		else{die('Attribs did not contain supplier_part_number '.var_dump($lower_attribs));
-		}
-		$obj->verifySparePartSupplierId($lower_attribs['spare_part_supplier_id']);
 		
-		if( is_array(self::$prices_from_current_supplier) 
-			&& array_key_exists($natual_key,self::$prices_from_current_supplier)){
+		if(self::existsInCache($lower_attribs, $spare_part_price_id, $natual_key))
+		{
 			//Cache hit!
 			//echo "<br>cache hit! - $natual_key";
 			$spp = self::$prices_from_current_supplier[$natual_key];
@@ -75,18 +79,21 @@ class Default_Model_SparePartPricesMapper extends MapperBase
 			//cache miss
 			if(Bildelspriser_XmlImport_PriceParser::$_instance->_log_level > 20)
 				Bildelspriser_XmlImport_PriceParser::$_instance->log(
-				"<hr>cache miss! - $natual_key ".var_export	($attribs,true));
+				bdp::log("cache miss! - $natual_key ".var_export	($attribs,true)));
 			//$da;
 			//echo "Dumping cache ".var_export(self::$prices_from_current_supplier,true);
 			$new_obj=null;
 			try{
 				$new_obj = new Default_Model_SparePartPrices($lower_attribs);
 				$spare_part_price_id = $new_obj->save();
+				isset($spare_part_price_id)
+					or error('SparePartPrices was NOT created in '.__FILE__);
 				$lower_attribs['spare_part_price_id'] = $spare_part_price_id ;
 				self::$prices_from_current_supplier[$natual_key] = $lower_attribs;
+				bdp::log('SparePartPrices created with key id='.$spare_part_price_id);
 			}catch(exception $e)
 			{
-				echo "Error $e ";
+				error ("Error $e ");
 			}
 			return $new_obj;
 		}
@@ -109,22 +116,22 @@ class Default_Model_SparePartPricesMapper extends MapperBase
 			private $_state=null;
 			private $_updated=null;
 			private $_updated_by=null;*/
-    	assertEx(Bildelspriser_XmlImport_PriceParser::$_price_parser_run_id,
-    		"price_parser_run_id was null");
-    	$data = array(
-	    	'spare_part_price_id' => $spp->getSpare_part_price_id(),
-			'name' => $spp->getName(),
-			'description' => $spp->getDescription(),
-			'spare_part_url' => $spp->getSpare_part_url(),
-			'spare_part_image_url' => $spp->getSpare_part_image_url(),
-			'spare_part_category_id' => $spp->getSpare_part_category_id(),
-			'spare_part_category_free_text' => $spp->getSpare_part_category_free_text(),
-			'part_placement' => $spp->getPart_placement(),
+    	if(Bildelspriser_XmlImport_PriceParser::$_price_parser_run_id == null)
+    		error("Bildelspriser_XmlImport_PriceParser::price_parser_run_id was null");
+    	//bdp::info('Saving spare_price_id = '.$spp->getSpare_part_price_id());
+    	$data = array(	    	
+			'name' => utf8_encode($spp->name),
+			'description' => utf8_encode($spp->description),
+			'spare_part_url' => $spp->spare_part_url,
+			'spare_part_image_url' => $spp->spare_part_image_url,
+			'spare_part_category_id' => $spp->spare_part_category_id,
+			'spare_part_category_free_text' => $spp->spare_part_category_free_text,
+			'part_placement' =>  $spp->part_placement,
 			'part_placement_left_right' => $spp->getPart_placement_left_right(),
 			'part_placement_front_back' => $spp->getPart_placement_front_back(),
-			'supplier_part_number' => $spp->getsupplier_part_number(),
+			'supplier_part_number' => ($spp->supplier_part_number),
 			'original_part_number' => $spp->getOriginal_part_number(),
-			'price_inc_vat' => $spp->getPrice_inc_vat(),
+			'price_inc_vat' => $spp->price_inc_vat,
 			'producer_make_name' => $spp->getProducer_make_name(),
 			'producer_part_number' => $spp->getProducer_part_number(),
 			'spare_part_supplier_id' => $spp->getSpare_part_supplier_id(),
@@ -132,24 +139,31 @@ class Default_Model_SparePartPricesMapper extends MapperBase
             'created' 		  => date('Y-m-d H:i:s'),
     		'price_parser_run_id' => Bildelspriser_XmlImport_PriceParser::$_price_parser_run_id
 //            'updated' 		  => date('Y-m-d H:i:s')    	
-        );
+        );  
+        $str = implode('<br>',$data);
+        if((strpos($str,'Ãƒ') || strpos($str,'Ã‚'))) {
+        	die("<h1>Unicode issues</h1>".$str);
+        }     
         //$this->PostponeSave($data);
         //return $this->_guid;
-        //die("It there . ".$data['created_by']);
-        //var_export($data);
+        bdp::info('Saving Price with Supplier_part_number =  '.$spp->supplier_part_number);
         if (null === ($id = $spp->getSpare_part_price_id())) {
-            unset($data['spare_part_price_id']);
-            //$data['spare_part_price_id']=null;
-            //$car_make_id = $carmake->InsertIntoDb(xmlModelHandler::get_DB_SCHEMA());
-           /* if($data['car_make_name']== ""){
-            	//var_dump($data);
-            	throw new Exception('No car make name defined in class!');
-            }
-            $data['state']= "Foreslag";
-            $data['state_enum']= "Foreslag";*/
-//            var_dump_array($data);
-            $insert_id = $this->getDbTable()->insert($data);
-//            echo "<H3>Saving - ".$data['name'].' - '.$data['supplier_part_number'].' - '.$insert_id." <H3/>";
+        	unset($data['spare_part_price_id']);
+            $insert_id = null;
+			try {
+				$insert_id = $this->getDbTable()->insert($data);
+			} catch (Exception $e) {
+				echo "<hr>Exception when saving data in ".__CLASS__.'->'.__METHOD__." \n<br/>"; 
+				echo "<div style='font:8px;' >small<ul>";
+				foreach($data as $k=>$p){
+					echo "<li><b>$k</b> : $p</li>";
+				}
+				echo "</ul><font size='2'>";
+				echo '<br>'.nl2br($e->__toString()).'</font></div>';
+				throw $e;
+				return;
+			}				
+            //echo "<H3>Saving - ".$data['name'].' - '.$data['supplier_part_number'].' - '.$insert_id." <H3/>";
             if(null===$insert_id){
             	throw new Exception("insert(\$data) did not return an insert ID! '$insert_id'  ");
             }
@@ -176,10 +190,11 @@ class Default_Model_SparePartPricesMapper extends MapperBase
         	assertEx($pk_value && is_scalar($pk_value),"PK_Value was not specified" . var_export($pk_value,true));
         	$ar = array("$pk_name = ?" => $pk_value);
         	//$where_clause = " `$pk_name` =  ".$pk_value;
-        	//die(var_export($ar,true)."<hr>".$pk_value);
+        	//die(var_export($ar,true)."<hr>".$pk_value);*/
         	$this->getDbTable()->update($data,  $ar);
-        	return $pk_value;*/
+        	return $pk_value;
         }
+        bdp::info('Done saving spare_part_price');
     }
 
     
@@ -195,7 +210,7 @@ class Default_Model_SparePartPricesMapper extends MapperBase
     	catch(Exception $e){
     		echo "Exception occured '$select' ";
     		var_dump($e,$select);
-   		 	die("End of story");
+   		 	echo("End of story");
     	}
     	/* @var unknown_type */
     	$row = $resultSet[0];
@@ -226,7 +241,7 @@ class Default_Model_SparePartPricesMapper extends MapperBase
     	//$o =  $select->query(Zend_Db::FETCH_ASSOC);
     	//$o = $this->getDbTable()->fetchAll(' spare_part_supplier_id = '..' ',);
     	//var_dump($o);
-    	//$sql_grp = "SELECT COUNT(*) AS `Rækker`, `spare_part_supplier_id` FROM `spare_part_prices` GROUP BY `spare_part_supplier_id` ORDER BY `spare_part_supplier_id` LIMIT 0, 30 ";
+    	//$sql_grp = "SELECT COUNT(*) AS `Rï¿½kker`, `spare_part_supplier_id` FROM `spare_part_prices` GROUP BY `spare_part_supplier_id` ORDER BY `spare_part_supplier_id` LIMIT 0, 30 ";
     	$sql = "select * from spare_part_prices where spare_part_supplier_id = $spare_part_supplier_id ";
     	//$sql = $o;
     	$ar = $db->fetchAll($sql);
@@ -263,7 +278,7 @@ class Default_Model_SparePartPricesMapper extends MapperBase
     	$o =  $select->query(Zend_Db::FETCH_ASSOC);
     	//$o = $this->getDbTable()->fetchAll(' spare_part_supplier_id = '..' ',);
     	//var_dump($o);
-    	$sql_grp = "SELECT COUNT(*) AS `Rækker`, `spare_part_supplier_id` FROM `spare_part_prices` GROUP BY `spare_part_supplier_id` ORDER BY `spare_part_supplier_id` LIMIT 0, 30 ";
+    	$sql_grp = "SELECT COUNT(*) AS `Rï¿½kker`, `spare_part_supplier_id` FROM `spare_part_prices` GROUP BY `spare_part_supplier_id` ORDER BY `spare_part_supplier_id` LIMIT 0, 30 ";
     	*/
     	$sql = "select * from spare_part_prices where spare_part_supplier_id = $spare_part_supplier_id ";
     	//$sql = $o;
@@ -272,7 +287,7 @@ class Default_Model_SparePartPricesMapper extends MapperBase
     	$result = $mysqli->query($sql);
     	$s1 = microtime(true);
     	$diff_load  =  microtime_diff($start);
-    	print("Num rows".$rows=$result->num_rows.' <br> ');
+    	bdp::log("Number of SparePartPrices (DB rows before parse) ".$rows=$result->num_rows.' <br> ');
         if ($result) {
             while ($row = $result->fetch_assoc()) {
 	            $id = $row['supplier_part_number'];
@@ -285,14 +300,17 @@ class Default_Model_SparePartPricesMapper extends MapperBase
             $result->close();
         }
 		else{
-			die("sql:<br>$sql<br>No result".$mysqli->error.$mysqli->sqlstate);	
-		}  	
+			error("sql:<br>$sql<br>No result".$mysqli->error.$mysqli->sqlstate);	
+		}
+		
+		if(bdp::$_log_obj){  	
     	$diff_2 =  microtime_diff($s1);
-    	echo "<hr>Direct Rows loaded $rows  from supplier id $spare_part_supplier_id ";
-    	echo "<br> Load time = $diff_load seconds  ".(1.0*$rows/$diff_load)." rows pr sec ";
-    	echo "<br> Foreach time = $diff_2 seconds  ".(1.0*$rows/$diff_2)." rows pr sec ";    	
+    		bdp::log("SPPM: Direct Rows loaded $rows  from supplier id $spare_part_supplier_id ");
+    		bdp::log(" Load time = $diff_load seconds  ".(1.0*$rows/$diff_load)." rows pr sec ");
+    		bdp::log(" Foreach time = $diff_2 seconds  ".(1.0*$rows/$diff_2)." rows pr sec ");    
+		}	
     }
-    
+
     function fillCacheAll(){
     	self::$prices = array();
 		$start = microtime(true);
@@ -304,7 +322,7 @@ class Default_Model_SparePartPricesMapper extends MapperBase
     	//$o =  $select->query(Zend_Db::FETCH_ASSOC);
     	//$o = $this->getDbTable()->fetchAll(' spare_part_supplier_id = '..' ',);
     	//var_dump($o);
-    	$sql_grp = "SELECT COUNT(*) AS `Rækker`, `spare_part_supplier_id` FROM `spare_part_prices` GROUP BY `spare_part_supplier_id` ORDER BY `spare_part_supplier_id` LIMIT 0, 30 ";
+    	$sql_grp = "SELECT COUNT(*) AS `RÃ¦kker`, `spare_part_supplier_id` FROM `spare_part_prices` GROUP BY `spare_part_supplier_id` ORDER BY `spare_part_supplier_id` LIMIT 0, 30 ";
     	$sql = "select * from spare_part_prices ";
     	//$sql = $o;
     	$ar = $db->fetchAll($sql);
@@ -321,9 +339,11 @@ class Default_Model_SparePartPricesMapper extends MapperBase
     	//self::$prices[$spare_part_supplier_id];    	
     	$rows = count($ar);
     	$diff_2 =  microtime_diff($s1);
-    	echo "<hr>All rows loaded $rows  from all suppliers ";
-    	echo "<br> Load time = $diff_load seconds  ".(1.0*$rows/$diff_load)." rows pr sec ";
-    	echo "<br> Foreach time = $diff_2 seconds  ".(1.0*$rows/$diff_2)." rows pr sec ";    	
+    	bdp::log("FA: All rows loaded $rows  from all suppliers ");
+    	bdp::log("Load time = $diff_load seconds  ".(1.0*$rows/$diff_load)." rows pr sec ");
+    	bdp::log("Foreach time = $diff_2 seconds  ".(1.0*$rows/$diff_2)." rows pr sec ");    	
     }
+    
+
 }
 

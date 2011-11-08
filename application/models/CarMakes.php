@@ -15,8 +15,8 @@ class Default_Model_CarMakes extends Default_Model_BaseWithTraceability
 	private $_car_make_id=null;
 	private $_car_make_name=null;
 	private $_car_make_main_id=null;
-	private $_state=null;
-
+	private $_state_enum=null;
+	
 
     public function __construct(array $options = null)
     {
@@ -160,7 +160,7 @@ class Default_Model_CarMakes extends Default_Model_BaseWithTraceability
      * @return Zend_Db_Table_Row
      */
     public static function getMakeByIdAsZendRow($car_make_id){
-    	$mapper = Default_Model_CarMakesMapper::getInstance('Default_Model_CarMakesMapper');
+    	$mapper = MapperFactory::getCmaMapper();
     	$row = $mapper->fetchRow(array('car_make_id'=>$car_make_id));  
     	return $row;  	
     }
@@ -175,6 +175,7 @@ class Default_Model_CarMakes extends Default_Model_BaseWithTraceability
     }
     
     public function addAsSimpleXmlChildNode(SimpleXMLElement &$elem){
+    	throw new Exception('dont use this addAsSimpleXmlChildNode ', 1, false);
     	$child = $elem->addChild('car_makes');
     	$child->addChild('car_make_id',$this->getCar_make_id());
     	$child->addChild('car_make_name',$this->getCar_make_name());

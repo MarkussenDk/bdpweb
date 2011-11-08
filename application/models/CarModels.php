@@ -14,14 +14,11 @@ class Default_Model_CarModels extends Default_Model_BaseWithTraceability
 	public $_car_model_id = null;
 	public $_car_model_name = null;
 	public $_car_make_id = null;	
-	public $_car_model_main_id;
-//	private $_created=null;
-//	private $_created_by=null;
+	public $_car_model_main_id = null;
+	public $_model_cleansed_name = null;	
 	private $_state;
 	public $state_enum;
-//	private $_updated=null;
-//	private $_updated_by=null;
-	//private $_mapper;
+	private $_car_make_obj = null;
 
     public function __construct(array $options = null)
     {
@@ -101,7 +98,18 @@ class Default_Model_CarModels extends Default_Model_BaseWithTraceability
     	return $this->_car_model_name;
     }
     
+    public function getMakeAndModelName(){
+    	return $this->getCar_make_name().' '.$this->_car_model_name; 
+    }
+    
     public function getCar_make_name(){
+    	if($this->_car_make_obj==null){
+    		$this->_car_make_obj= new Default_Model_CarMakes();    		
+    	}    	 
+    	$this_make = '';
+    	$this_make = $this->_car_make_obj->getCachedById($this->_car_make_id);
+    	return $this_make->car_make_name;
+    	return;
     	static  $make;
     	if($make==""){
     		$make = Default_Model_CarMakes::getMakeByIdAsObject($this->_car_make_id)->getCar_make_name();     		
@@ -172,7 +180,7 @@ class Default_Model_CarModels extends Default_Model_BaseWithTraceability
     
     
     public function setAllFromGenClass($car_model){
-		throw new exeception("setAllFromGenClass this should not be used");
+		throw new Exception("setAllFromGenClass this should not be used");
     	/*private $_car_model_id=null;
 	private $_car_model_name=null;
 	private $_car_model_main_id=null;
@@ -250,24 +258,13 @@ class Default_Model_CarModels extends Default_Model_BaseWithTraceability
     	$child->addChild('car_model_name',$this->getCar_Model_name());
     	$main_id = $this->getCar_Model_main_id() or $this->getCar_Model_id();
     	$child->addChild('car_model_main_id',$m_id);
-    	$child->addChild('state',$this->getState());    	
+    	$child->addChild('state_enum',$this->state_enum);    	
     	$child->addChild('created',$this->getCreated());  
     	$child->addChild('updated',$this->getUpdated());
     	return $child;
     }
 
-    /*public function fetchAll($select)
-    {
-        $mapper=$this->getMapper();
-        if(!isset($mapper)){
-        	return "Mapper not set";
-        	die("mapper");
-        } 
-        else
-        	//die("Mapper was set");
-    	return $this->getMapper()->fetchAll($select);
-    }*/   
-   
+
 }
 
 ?>

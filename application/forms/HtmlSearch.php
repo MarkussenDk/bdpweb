@@ -21,11 +21,11 @@ class Default_Form_HtmlSearch extends Zend_Form
 		$zfes = new Zend_Form_Element_Select('sel');
 		$this->addElement($zfes);
 		$zfes->setName('make_select');
-		$zfes->setLabel(utf8_encode('Mærke'));
+		$zfes->setLabel(utf8_encode('MÃ¦rke'));
 		$zfes->setAttrib('style',"width: 170px");
 		$zfes->setAttrib('id','make_select');
 		$zfes->setAttrib('onchange','handleBrandChange(this);');
-		$makes = Default_Model_CarMakesMapper::getMakes(array(0=>utf8_encode("Vælg mærke")));
+		$makes = Default_Model_CarMakesMapper::getMakes(array(0=>utf8_encode("VÃ¦lg mÃ¦rke")));
 		//die(nl2br(print_r($makes)));
 		$zfes->setMultiOptions((array)$makes);		
         $a = array();
@@ -35,7 +35,10 @@ class Default_Form_HtmlSearch extends Zend_Form
 		$zfes->setAttrib('style',"width: 170px");
 		$zfes->setLabel(utf8_encode('Model'));
 		$zfes->setMultiOptions($a);
-		$zfes->setAttrib('disabled','true');
+		//$zfes->setAttrib('disabled','true');
+		$zfes->setMultiOptions(array(utf8_encode('VÃ¦lg mÃ¦rke fÃ¸rst')));
+		$zfet = new Zend_Form_Element_Hidden('model_select_hidden');
+		$this->addElement($zfet);
 		
 		
 	/*
@@ -46,7 +49,7 @@ class Default_Form_HtmlSearch extends Zend_Form
      'style'     =>"width: 300px",
   //width="300" style="width: 300px">
   
-    'text'		=> "test" /  *'Vælg mærke først'* /,    
+    'text'		=> "test" /  *'VÃ¦lg mÃ¦rke fÃ¸rst'* /,    
     //    	$this->view->form = " ".str_replace('MÃ¦rke','Mrke',$form);
         
 	'disabled' => 'true',

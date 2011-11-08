@@ -1,0 +1,71 @@
+<?php
+/*Prcedures array(9) {
+  [0] => array(1) {
+    ["SPECIFIC_NAME"] => string(17) "add_if_not_exists"
+  }
+  [1] => array(1) {
+    ["SPECIFIC_NAME"] => string(24) "clean_make_in_model_name"
+  }*/
+
+$table = $this->HtmlTable ();
+$table->setCaption ( 'Procedures and functions' );
+
+function callBack_procedureLink(){
+	$args = func_get_args ();
+    $row = $args [0];
+    return '<a href="/index/proc-runner/proc_name/' . $row ['SPECIFIC_NAME'] 
+    			.'/rout_type/'.$row['ROUTINE_TYPE']. '" >RUN: ' . $row ['SPECIFIC_NAME'] . '</a>';
+    return 'getId called' . Zend_Debug::dump ( func_get_args (), 'arg', false );
+	return "<a href='' >Run</a>";	
+}
+
+//$table->
+// set table tag attributes
+$table->setAttribs ( array ('summary' => '', 'class' => 'bdp_std_table' ) );
+$table->setNotFoundText ( 'No mySql functions or procedures found.');
+$table->setColumns ( array (
+						'ROUTINE_TYPE' => array('text'=>'RoutineType'),
+						'SPECIFIC_NAME' => array ('text' => 'RoutineName')  //  'class' => 'idClass',
+/*,
+                							    'name' => array(
+                							        'text' => 'car_model_id',
+                							    	'callback'=> 'getSaveButton'
+                							    )*/,
+                		'cmds' => array(
+                							        'text' => 'Commands','callback'=>'callBack_procedureLink'
+                							    )                							    
+                							    ));
+
+$table->setAttrib ( 'style', 'width: 80%' );
+$table->setData ( $this->proc_names );
+
+echo $table;
+echo "<h3>Proc Result</h3>";
+$i=0;
+if ($this->proc_result) {
+	/** @var $this->proc_result Zend_Db_Statement_Mysqli */
+	/** @var this->proc_result Zend_Db_Statement_Mysqli */
+	/*$p = new Zend_Db_Statement_Mysqli();
+	$p->nextRowset();*/
+	echo "Rows - ".$this->proc_result->rowCount();
+	echo "<table>";
+	//$all_rows = $this->proc_result->fetchAll();
+	//kint::dump($all_rows);
+	$mysqli = $this->proc_result->getAdapter()->getConnection();
+	kint::dump($mysqli,'object type'.get_class($mysqli));
+	/** @var $mysqli typemysqli */
+	while($mysqli->next_result()){
+		echo "<br>Looping".$i++;
+		$all_rows = $mysqli->store_result();
+		while($r = $all_rows->fetch_row()){ 
+			echo "InnerLoop";
+			kint::dump($r);
+		}
+	}
+	while ( $row = $this->proc_result->fetch() ) {
+		echo "<tr><td>" . implode('</td><td>',$row).'</td></tr>';
+		;
+	}
+	echo "</table>";
+}
+?>

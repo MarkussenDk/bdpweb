@@ -25,7 +25,7 @@ class Default_Model_CarMakesMapper extends MapperBase
 		// first lookup the car makes
 		assertEx($car_make_name,"Sorry but I need a car_make_name. Nothing was given");
 		$db = $this->getDbAdapter();
-		$qoute_car_make_name = $db->quote($car_make_name);
+		$qoute_car_make_name = ($db->quote($car_make_name));
 		//$car_obj = $this->fetchAll_Array(' `car_make_name`= $qoute_car_make_name ');
 		$car_make_row_zend = $this->getDbTable()->fetchRow(" `car_make_name`= $qoute_car_make_name ");
 		//print "<hr>before if";
@@ -73,29 +73,28 @@ class Default_Model_CarMakesMapper extends MapperBase
 			private $_updated=null;
 			private $_updated_by=null;*/
     	$data = array(
-            'car_make_name'   => $carmake->getCar_make_name(),// + $carmake->getCreated_by(),
-    		'created_by'	  => $carmake->getCreated_by(),//.'a = '.trim(htmlentities($_SERVER["PHP_AUTH_USER"])),
-    		'updated_by'	  => $carmake->getCreated_by(),//.'a'.$_SERVER["PHP_AUTH_USER"],
-    		'state'			  => $carmake->getState(),	
-            //'created_by' => , - ADD USERNAME
+            'car_make_name'   => $carmake->Car_make_name,// + $carmake->getCreated_by(),
+    		'created_by'	  => $carmake->Created_by,//.'a = '.trim(htmlentities($_SERVER["PHP_AUTH_USER"])),
+    		'updated_by'	  => $carmake->Created_by,//.'a'.$_SERVER["PHP_AUTH_USER"],
+    	//	'state_enum'      => $carmake->State_enum,	
             'created' 		  => date('Y-m-d H:i:s'),
             'updated' 		  => date('Y-m-d H:i:s')    	
         );
     	//assertEx("","In save part ".var_export($data,true));        
-        if (null === ($id = $carmake->getCar_make_id())) {
+        if (null === ($id = $carmake->Car_make_id)) {
             unset($data['car_make_id']);
             //$car_make_id = $carmake->InsertIntoDb(xmlModelHandler::get_DB_SCHEMA());
             if($data['car_make_name']== ""){
             	//var_dump($data);
             	throw new Exception('No car make name defined in class!');
             }
-            $data['state']= "Foreslag";
+            $data['state_enum']= state_enum::_public;
            // $data['state_enum']= "Foreslag";
             //echo "<H3>Saving - ".$data['car_make_name']." <H3/>";
             //die(ArrayToXML::toXml($data,'Test'));
-            Bildelspriser_XmlImport_PriceParser::getInstance()->log("Before save of ".$data['car_make_name']);           
+            //Bildelspriser_XmlImport_PriceParser::getInstance()->log("Before save of Car Make: ".$data['car_make_name'].' ');           
             $car_make_id = $this->getDbTable()->insert($data);
-            Bildelspriser_XmlImport_PriceParser::getInstance()->log("After save of ".$data['car_make_name']." id ".$car_make_id);           
+            Bildelspriser_XmlImport_PriceParser::getInstance()->log("Car Make Saved: '".$data['car_make_name']." id ".$car_make_id.' ');           
             //assertEx("","In insert part - after insert $car_make_id ".var_export($data,true));            
             assertEx($car_make_id,"The car_make = ".$data['car_make_name']." was saved and but the car_make_id was not returned ");
             //assertEx("","In insert part ".var_export($data,true));
@@ -180,7 +179,7 @@ class Default_Model_CarMakesMapper extends MapperBase
     		$array = $p_array;
     	else
     		$array = array();
-		$makes = Default_Model_CarMakesMapper::getInstance('Default_Model_CarMakesMapper');
+		$makes = MapperFactory::getCmaMapper();
 		$m = new Default_Model_Base();
 		//$mb = new MapperBase('car_models');
 		$db = $makes->getDbAdapter();
@@ -192,7 +191,7 @@ class Default_Model_CarMakesMapper extends MapperBase
 			//print "<hr>";
 			//$id = $row['']
 			$id =  (int)$row['car_make_id'];
-			$name = $row['car_make_name']; 
+			$name = utf8_encode($row['car_make_name']); 
 			//echo "</br> $id - $name ";
 			$r[$id] = $name;
 		}

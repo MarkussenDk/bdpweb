@@ -57,7 +57,7 @@ class Default_Model_Base //extends car_makes
     {//$name holds the name of the undefined attributes getting called.
         $method = 'get' . $name;
         if (('mapper' == $name) || !method_exists($this, $method)) {
-            throw new Exception('Invalid Base property - "'.$name.'"'.var_export($this,true));
+            throw new Exception('Base:Invalid Base property - "'.$name.'"'.var_export($this,true));
         }
         return $this->$method();
     }
@@ -102,7 +102,7 @@ class Default_Model_Base //extends car_makes
         return $this;
     }
     
-     public function fetchAll($select)
+     public function fetchAll($select=null)
     {
         $mapper=$this->getMapper();
         if(!isset($mapper)){

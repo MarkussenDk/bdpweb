@@ -39,7 +39,7 @@ class Default_Model_SparePartPriceSearcer  {
 
 	function getDB(){
 		if(!isset(self::$_db)){
-			$mapper = Default_Model_SparePartPricesMapper::getInstance('Default_Model_SparePartPricesMapper');
+			$mapper = MapperFactory::getSppMapper();
 			self::$_db = $mapper->getDbAdapter();
 		}
 		return self::$_db;		
@@ -73,7 +73,7 @@ class Default_Model_SparePartPriceSearcer  {
 //		$id = " concat(IF(v.car_model_id IS NULL,' ',v.car_model_id),'-', v.spare_part_price_id) "; 
 		$trace = "";		
 		if($this->_car_model_id)
-			$where_and .= " and `v`.`car_model_id` = '$this->_car_model_id'  ";
+			$where_and .= " and `v`.`car_model_clean_id` = '$this->_car_model_id'  ";
 		$group_by = ' group by 1 ';
 		$sql = "SELECT `v`.`name`, count(`spare_part_price_id`) as antal " 
 		    . " FROM $view_name v "
@@ -124,7 +124,7 @@ class Default_Model_SparePartPriceSearcer  {
 			else
 				$where_and .= " and `name` LIKE '%$q%' ";
 		}
-		$limit = 100;
+		$limit = 30;
 		if(isset($this->_limit)){
 			if(!is_integer($this->_limit)){
 				//$trace .= "Limit was not an integer '$limit' ";
@@ -141,11 +141,13 @@ class Default_Model_SparePartPriceSearcer  {
 			$car_model_id = $this->_car_model_id;			
 			if(!is_integer($car_model_id)){
 				$trace .= "'Car_model_id must be an integer, it was '$car_model_id' ";	
-				die("Car_make_id was not an integer $car_model_id ");
-				//$where_and .= " and `car_model_name` = '$car_model_id' \n ";
+				$echo = true;
+				$info = Zend_Debug::dump($car_model_id
+						,'$this->_car_make_id was not an integer',$echo);
+				error('$this->_car_make_id was '.$car_model_id.' must be an integer');
 			}
 			else { // hack but works --  car_model_id is an integer
-				$where_and .= " and `car_model_id` = $car_model_id \n ";
+				$where_and .= " and `car_model_clean_id` = $car_model_id \n ";
 			}
 		}
 		
@@ -158,7 +160,7 @@ class Default_Model_SparePartPriceSearcer  {
 		    . $limit  		    
 		    ;
 		    $this->_sql = $sql;
-		//echo "SQL</br>".nl2br($sql).'<hr>';
+		echo  "<!-- Search SQL\n$sql\n-->";
 		return $sql;
 	}
 
@@ -182,7 +184,7 @@ class Default_Model_SparePartPriceSearcer  {
 			}			
 		}
 		$try_with_soundex=1;
-		$this->_user_message = "\n<br>Søger med soundex efter '$q' ";
+		$this->_user_message = "\n<br>SÃ¸ger med soundex efter '$q' ";
 		if($this->tryRunSearch($q,$try_with_soundex)){
 			$this->_found_spare_part_prices_results = $this->_results;
 			return $this->_results;
@@ -301,7 +303,7 @@ class Default_Model_SparePartPriceSearcer  {
 		//$this->_q = substr()
 		$this->_suggested_names = $this->suggestSoundexNames();
 		//$this->_found_spare_part_categories .= "Lad os finde nogle andre vare til dig";
-		//$this->_user_message = "Vi kunne ikke finde vare der passede til søgningen '$q', men her er der nogle andre ting til din bil.";
+		//$this->_user_message = "Vi kunne ikke finde vare der passede til sï¿½gningen '$q', men her er der nogle andre ting til din bil.";
 		
 		die($this->layoutSuggestedNames($this->_suggested_names));
 		//$this->runSearch('');

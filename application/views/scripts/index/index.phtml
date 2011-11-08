@@ -106,9 +106,17 @@ function get_selected_model(){
 function update_results(xmlreply, modelSelect) {
 	div_bdp_results = getResultsDiv();
 	myInfo("in_update_results");
+	var q=getQ();
+	var headline = "Søgeresultater med '"+q+"' ";
+	if(q == ''){
+		headline = "Søgning uden filter. \n(indtast evt. søge filter i boksen 'Varenavn')";		
+	}
+	if(getQ()==""){
+		"Alle reservedele";
+	}
 	if (xmlreply.status == Http.Status.OK) {
 		if(div_bdp_results){
-			setResultsDivText("<h2>S�geresultater med '"+getQ()+"'</h2>" + xmlreply.responseText);
+			setResultsDivText("<h2>"+headline+"</h2>" + xmlreply.responseText);
 		}
 		else
 			error("div_bdp_results was not set?");
@@ -126,7 +134,7 @@ function update_div(url){
 }
 
 function btn_find_onclick(){
-	setResultsDivText("S�gning efter priser..");
+	setResultsDivText("Søgning efter priser..");
 	//getBtnFind().disabled = true;
 	var targetSelect = document.forms['HtmlSearch'].elements['model_select'];
 	var q = '/q/'+getQ();		
@@ -155,23 +163,59 @@ function body_on_load(){
 		return; // already run.
 	}
    init_state=1;	
-   targetSelect = document.forms['HtmlSearch'].elements['model_select'];
+   makeSelect = document.forms['HtmlSearch'].elements['make_select'];
+   handleBrandChange(makeSelect);
+   modelSelect = document.forms['HtmlSearch'].elements['model_select'];
+   modelSelectHidden = document.getElementById('model_select_hidden');
+   if(modelSelectHidden.value!='')
+   		modelSelect.selectedIndex =	modelSelectHidden.value;
    btn_find = document.forms['HtmlSearch'].elements['btn_find'];
    div_bdp_results = getResultsDiv();
    init_state++;
    btn_find.onclick = function(){
 		btn_find_onclick();
 	}; 
-
-		   
-	targetSelect.onfocus=function(){
-		//	alert("huhej - focus");	
+	var fnc_change_handler = function(){
+		   modelSelect = document.forms['HtmlSearch'].elements['model_select'];
+		   modelSelectHidden = document.getElementById('model_select_hidden');
+		   if(modelSelect.selectedIndex != 0)
+		   	 modelSelectHidden.value = modelSelect.selectedIndex;
+		   var car_model_name = modelSelect.options[modelSelect.selectedIndex].text;
+		   var car_model_id = modelSelect.options[modelSelect.selectedIndex].value;
+		   even_model_select_changed(car_model_id,car_model_name);
 	};
+		   
+	modelSelect.onchange = fnc_change_handler;
+	modelSelect.onblur = fnc_change_handler;
 	init_state++;
 }
 
 document.body.onload = body_on_load;
 document.body.onkeypress=checkKeyDown;
+
+function even_model_select_changed(car_model_id,car_model_name){
+	//alert('changed to '+car_model_id+' : '+car_model_name);
+	// save model id on user via cookie
+	var w_url = '/index/selected-prices-pr-model/car_model_id/'+car_model_id
+	var elem = document.getElementById('selected-prices-for-model');
+	Http.get({
+		url: w_url ,
+		callback: update_element,
+		cache: Http.Cache.Get
+	}, [elem]);
+}
+
+function update_element(xmlreply, element) {
+	if (xmlreply.status == Http.Status.OK) {
+		if(element){
+			element.innerHTML = xmlreply.responseText;
+		}
+		else
+			error("element can not be set");
+	} else {
+		alert('Cannot handle the AJAX call. - update_element');
+	}
+}
 
 function checkKeyDown(evt){
 	if(!evt)
@@ -195,7 +239,9 @@ function checkKeyDown(evt){
 	
 }
 
-function handleBrandChange(dropdown) {
+function handleBrandChange(dropdown,mode) {
+	var async_flag = true;
+	if(mode == 'sync'){ async_flag = false;	}
 	var targetSelect = document.forms['HtmlSearch'].elements['model_select'];
 	if(targetSelect == null){
 		alert("Target select was null");
@@ -211,23 +257,19 @@ function handleBrandChange(dropdown) {
 		error("Init state was 0 after second try");
 	}
 	myInfo("Selected val was "+selectedVal);
-	if (selectedVal != '') {
+	if (selectedVal != 0) {
 		targetSelect.disabled = true;
 		// for submodels  // document.forms['HtmlSearch'].elements['submodel'].style.display = 'none';
 		Http.get({
 //			url: '/ajax.php?op=brandChange&bid=' + selectedVal,
 			url: '/index/autocompletecarmodels/car_make_id/' + selectedVal,
 			callback: fillModelSelect,
-			cache: Http.Cache.Get
+			cache: Http.Cache.Get,
+			async: async_flag
 		}, [targetSelect]);
 	} else {
 		targetSelect.disabled = true;
-		alert("Ajax error - handleBrandChange");
-
 	}
-	/*alert('a');*/	
-	//targetSelect.focus();
-	/*alert('b');*/
 }
 
 function fillModelSelect(xmlreply, modelSelect) {
@@ -252,14 +294,18 @@ function fillModelSelect(xmlreply, modelSelect) {
 				modelSelect[i+1].value = item.id;
 				modelSelect[i+1].text = item.name;
 			}
+			modelSelect = document.getElementById('model_select');
+			modelSelectHidden = document.getElementById('model_select_hidden');
+			if(modelSelectHidden.value!='')
+			   		modelSelect.selectedIndex =	modelSelectHidden.value;
 		} else {
 			document.body.innerHTML +="<br/>Child Nodes was null " + JSON_text;
 			modelSelect.disabled = true;
 			modelSelect.length = 1;
-			modelSelect[0].text = '-V�lg f�rst m�rke';
+			modelSelect[0].text = '-Vælg først mærke';
 		}
 	} else {
-		alert('Cannot handle the AJAX call.');
+		//alert('Cannot handle the AJAX call.'+xmlreply.responseText);
 	}
 }
 
@@ -325,6 +371,40 @@ function fs1_car_model_changed(){
          console.log("car_model_id changed from " + selected_car_model_id + " to " + new_car_model_id);
          selected_car_model_id = new_car_model_id;
     }
+}
+
+function setMakeAndModel(car_make_id,car_model_id){
+	var make_select = document.getElementById('make_select');
+	HtmlSelect_SetByValue(make_select,car_make_id);
+	//make_select.selectedIndex = make_select_new_index;
+	handleBrandChange(make_select,'sync');
+	var model_select = document.getElementById('model_select');
+	HtmlSelect_SetByValue(model_select,car_model_id);
+	model_select.onblur();
+}
+
+function HtmlSelect_SetByText(selectToSearch,searchText){
+	var opt = selectToSearch.options;
+	var o;
+	for(var i=0;i<opt.length;i++){
+		o = opt[i];
+		if(o.text==searchText){
+			selectToSearch.selectedIndex = i;
+			return;
+		}
+	}	
+}
+
+function HtmlSelect_SetByValue(selectToSearch,searchValue){
+	var opt = selectToSearch.options;
+	var o;
+	for(var i=0;i<opt.length;i++){
+		o = opt[i];
+		if(o.value==searchValue){
+			selectToSearch.selectedIndex = i;
+			return;
+		}
+	}	
 }
 
 function set_car_model_id(car_make_id){
@@ -443,12 +523,21 @@ function update_iframe(name, car_model_id){
 */
 </script>
 <div  class="tundra">
-<?php echo $this->form ?>
+<table class='layout' >
+	<tr><td style='width: 300px;' >
+
+	<table class='bdp_std_table'  cellspacing="0" cellpadding="0" border="0" style="width: 100%;" summary=""  ><caption>Søg via Mærke og Model</caption>
+		<tr><th>Vælg mærke og model</th></tr>
+		<tr><td><?php echo $this->form ?></td></tr></table>
+		
+		</td><td style='width: 300px;' ><?= $this->list_of_cars?></td>
+	<td style='width: 300px;' ><div id='selected-prices-for-model'></div></td>
+</tr></table>
 <!-- <div id="div-debug-info" style="width: 100%; height: 100px;"></>info</div>  -->
 <!--span dojoType="dojox.data.QueryReadStore" id="myStore"
    jsId="myStore" url="/index/datasearchresults/"  query="{id: '*'}"  requestMethod="get">
 </span-->
-<div id="divbdpresults" name="divbdpresults" ></div>
+<center><div id="divbdpresults" name="divbdpresults" ></div></center>
 
 
 

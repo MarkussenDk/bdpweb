@@ -90,6 +90,7 @@ class Default_Model_XmlHttpRequestMapper extends MapperBase
 	   		'sql_used' => $xmlHttpRequest->getSqlUsed(),
 	   		'car_model_id' => $xmlHttpRequest->getCarModelId(),
     		'user_agent' => $user_agent,
+    	    'client_ip' =>$xmlHttpRequest->getClientIp(),
     	    'user_agent_id' => $xmlHttpRequest->getUserAgentId(),
     		'trace' => $xmlHttpRequest->getTrace(),
                 'data_rows_returned' => $xmlHttpRequest->getDataRowsReturned(),
@@ -99,7 +100,7 @@ class Default_Model_XmlHttpRequestMapper extends MapperBase
          if (null === ($id = $xmlHttpRequest->getXmlHttpRequestId())) {
            $data['created'] = date('Y-m-d H:i:s');
            if($data['server_request_uri']== ""){
-            	throw new Exception('No server_request_uri make name defined in class!');
+            	error('No server_request_uri make name defined in class!');
             }
             $this->getDbTable()->insert($data);
             $xmlHttpRequest->setXmlHttpRequestId($this->getLastInsertId());
@@ -135,8 +136,13 @@ class Default_Model_XmlHttpRequestMapper extends MapperBase
          return $data;        
     }
 
-    public function fetchAll($select)
-    {
+    /**
+     * 
+     * @param $select
+     * @return Zend_Db_Table_Rowset_Abstract
+     */
+    public function fetchAll($select=null){
+  
     	try{
         	$resultSet = $this->getDbTable()->fetchAll($select);
     	}

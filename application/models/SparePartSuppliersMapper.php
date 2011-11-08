@@ -50,7 +50,7 @@ class Default_Model_SparePartSuppliersMapper extends MapperBase
             'car_make_name'   => $carmake->getCar_make_name(),// + $carmake->getCreated_by(),
     		'created_by'	  => $carmake->getCreated_by(),//.'a = '.$_SERVER["PHP_AUTH_USER"]. 'as_html_en='.trim(htmlentities($_SERVER["PHP_AUTH_USER"])),
     		'updated_by'	  => $carmake->getCreated_by(),//.'a'.$_SERVER["PHP_AUTH_USER"],
-    		'state'			  => $carmake->getState(),	
+    		'state_enum'			  => $carmake->getState(),	
             //'created_by' => , - ADD USERNAME
             'created' 		  => date('Y-m-d H:i:s'),
             'updated' 		  => date('Y-m-d H:i:s')    	
@@ -83,10 +83,11 @@ class Default_Model_SparePartSuppliersMapper extends MapperBase
 
     static function setIdentity(Default_Model_SparePartSuppliers  $sps){
     	//die("In set identity ".var_Export($sps,true));
-    	$obj = Default_Model_SparePartSuppliersMapper::getInstance('Default_Model_SparePartSuppliersMapper');
+    	$obj = MapperFactory::getSpsMapper();
     	isset($obj)
     		or error('Object was not defined - ' || var_export($object,true) );
     	$obj->_active_user = $sps;
+    	info("<hr>Username and password - ".$sps->getSupplier_admin_user_name());
     	isset($obj->_active_user)
     		or error('Active user was not defined in setIdentity');
     }
@@ -95,7 +96,7 @@ class Default_Model_SparePartSuppliersMapper extends MapperBase
      * @return Default_Model_SparePartSuppliers
      */
     static function getIdentity(){
-    	$obj = Default_Model_SparePartSuppliersMapper::getInstance('Default_Model_SparePartSuppliersMapper');
+    	$obj = MapperFactory::getSpsMapper();
     	assertEx($obj,"Object was not defined");    	
     	assertEx($obj->_active_user,'Active user was not defined in getIdentity.'.get_class($obj).'<br/>Active user should be set with setIdentity()');
     	return $obj->_active_user;
@@ -185,7 +186,12 @@ class Default_Model_SparePartSuppliersMapper extends MapperBase
                  
     }*/
 
-    public function fetchAll($select)
+    /**
+     * 
+     * Enter description here ...
+     * @param unknown_type $select
+     */
+    public function fetchAllObjects($select)
     {
     	try{
         	$resultSet = $this->getDbTable()->fetchAll($select);
@@ -196,15 +202,15 @@ class Default_Model_SparePartSuppliersMapper extends MapperBase
     	}
     	$entries  = array();
     	$c= 0;
-        foreach ($resultSet as $row) {
+        foreach ($entries as $row) {
             $entry = new Default_Model_SparePartSuppliers($row);
             /*$entry->setId($row->id)
                   ->setEmail($row->email)
                   ->setComment($row->comment)
                   ->setCreated($row->created)
                   ->setMapper($this);*/
-            //$entry->setAllFromGenClass($row);      
-            $entries[] = $entry;
+            //$entry->setAllFromGenClass($row);                 
+            $entries[$entry->getPrimaryKeyValue() ] = $entry;
 //            echo " c="+$c++;
         }
         return $entries;

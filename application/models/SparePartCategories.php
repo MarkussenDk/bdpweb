@@ -226,20 +226,8 @@ class Default_Model_SparePartCategories extends Default_Model_BaseWithTraceabili
         return $this;
     }
     
-   
- /*   public function addAsSimpleXmlChildNode(SimpleXMLElement &$elem){
-    	$child = $elem->addChild('car_makes');
-    	$child->addChild('car_make_id',$this->getCar_make_id());
-    	$child->addChild('car_make_name',$this->getCar_make_name());
-    	$main_id = $this->getCar_make_main_id() or $this->getCar_make_id();
-    	$child->addChild('car_make_main_id',$m_id);
-    	$child->addChild('state',$this->getState());    	
-    	$child->addChild('created',$this->getCreated());  
-    	$child->addChild('updated',$this->getUpdated());
-    	return $child;
-    }*/
 
-    public function fetchAll($select)
+    /*public function fetchAll($select=null)
     {
         $mapper=$this->getMapper();
         if(!isset($mapper)){
@@ -249,7 +237,7 @@ class Default_Model_SparePartCategories extends Default_Model_BaseWithTraceabili
         else
         	//die("Mapper was set");
     	return $this->getMapper()->fetchAll($select);
-    }
+    }*/
     
    
 }

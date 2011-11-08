@@ -16,7 +16,7 @@ class UserController extends Zend_Controller_Action {
  * The default action - show the home page
  */
 	var $auth_res = "";
-    public function init()
+	public function init()
     {
     	$xh = new Default_Model_XmlHttpRequest();
     	$params = $this->getRequest()->getParams();
@@ -37,12 +37,15 @@ class UserController extends Zend_Controller_Action {
     	
     	    	
     	//$xh->setCreatedBy($user_name);
-    	$xhrid = $xh->getMapper()->save($xh);
+    	try{$xhrid = $xh->getMapper()->save($xh);}
+    	catch(exception $e){
+    		echo "exception while saving XmlHttpRequest ".$e;
+    	}
     	assertEx($xhrid, "in User->Init() - xhrid was null '$xhrid' ");
 		Bildelspriser_XmlImport_PriceParser::$_xml_http_request_id = $xhrid;
-    	$view = $this->view;
+    	//$view = $this->view;
     	//die(var_dump($view));
-    	Zend_Dojo::enableView($view);
+    	//Zend_Dojo::enableView($view);
         //Zend_Dojo::disableView($view);
         //http://www.zfforums.com/zend-framework-general-discussions-1/general-q-zend-framework-2/plugin-name-dojo-not-found-registry-1879.html 
    // 	$view->dojo()->setDjConfigOption('usePlainJson',true)
@@ -60,7 +63,10 @@ class UserController extends Zend_Controller_Action {
     	Default_Model_XmlHttpRequest::readOrCreateUserCookie();
 		$xh = new Default_Model_XmlHttpRequest();
     	//$xh->setCreatedBy($user_name);
-    	$xh->getMapper()->save($xh);
+		try{$xhrid = $xh->getMapper()->save($xh);}
+    	catch(exception $e){
+    		echo " exception while saving XmlHttpRequest ".$e;
+    	}
     	
     	
 		$view = $this->view;
@@ -127,6 +133,8 @@ class UserController extends Zend_Controller_Action {
 			//die('class was ' .get_class($auth).get_parent_class(get_class($auth)).$msg);
 			if($auth==null){
 				echo "HasIdentity was null in  ".__FILE__.' on line '.__LINE__;
+				global $_SERVER;
+				$this->_redirect('/user/index/reason/HasIdentityWasNull/?from='.$_SERVER['REDIRECT_URL']);
 			}
 			if ($auth->hasIdentity()) {				
 				// Identity exists; get it
@@ -145,8 +153,8 @@ class UserController extends Zend_Controller_Action {
 			//assertEx($u<>"","User was not found in getUserName");
 			$this->_authenticated_user_name = $u;
 		}
-
-        $this->_view->username = $this->_authenticated_user_name;
+		//if(isset($this->_authenticated_user_name))
+        $this->view->username = $this->_authenticated_user_name;
 		return $this->_authenticated_user_name;
 	}
 	
@@ -323,11 +331,13 @@ class UserController extends Zend_Controller_Action {
 	
 	public function filelistAction(){
 		$dest = $this->getDestinationFolder();
+		$this->view->db = $this->getDbAdapter();
 		// move the file to the location		
 		//$di = new DirectoryIterator($dest.PATH_SEPARATOR.'*.xml');
 		//$this->_user_file_directory_iterator = new DirectoryIterator($dest.'*.xml');		
 		$this->view->user_file_directory_iterator = new DirectoryIterator($dest);		
 		//$this->view->form = "hello";
+		$this->view->user_name = $this->_authenticated_user_name; 
 		assertEx(isset($this->view->user_file_directory_iterator),"No Directory indicator in filelistAction()");
 		$this->render('filelist-json');
 		
@@ -372,72 +382,55 @@ class UserController extends Zend_Controller_Action {
 		
 	}
 	
+	public function analysefileAction(){
+		$xpath_spp_count = "//spare_part_price[@name]";
+	}
 	
 	
 	public function procesfileAction(){
+		bdp::set_logger(new table_logger());
 		$path = $this->getDestinationFolder();
 		$request = $this->getRequest();
 		$form = new Zend_Form();
 		// disable layouts for this action:
-        $this->_helper->layout->disableLayout();
+		if(Bootstrap::ZFDebug_Enabled()){
+			//echo "<hr>ZFDebug enabled";	
+			
+		}	
+		else{ 
+			//echo "<hr>ZFDebug disabled - therefore we are allowed to disable the layout</br>";
+        	$this->_helper->layout->disableLayout();
+		}
 		//$this->view()->layout->disable();
 		$this->view->message="initial";
-		//if($request->isPost())
+		Zend_Loader_Autoloader::autoload('Bildelspriser_XmlImport_PriceParser');
+		$obj = BildelspriserAuthAdapter::getInstance('BildelspriserAuthAdapter');		
+		assertEx(isset($obj),"BildelspriserAuth was not set");
+		$spp = BildelspriserAuthAdapter::getInstance('BildelspriserAuthAdapter')->getSparePartSupplier();
+		assertEx($spp instanceof Default_Model_SparePartSuppliers,"SPP Must be a Default_Model_SparePartSuppliers".gettype($spp));
+		
 		$values = $request->getParams();
-		if(array_key_exists('filename',$values))
+		$price_parser_run_id=null;
+		if(array_key_exists('price_parser_run_id',$values)){
+			$price_parser_run_id=$values['price_parser_run_id'];
+			$pp = new Bildelspriser_XmlImport_PriceParser($spp,$price_parser_run_id);
+			$this->view->pp = $pp;
+			$this->view->price_parser_run_id = $price_parser_run_id;
+			$this->view->path = $path;
+			//$this->view->filename = $filename;				
+			//$this->render('procesfile');				
+		}
+		elseif(array_key_exists('filename',$values))
 		{			
 			assertEx(is_array($values),"Values was not an array");
 			if(array_key_exists('filename',$values)){
-				$filename = $path.$values['filename'];
-				assertEx(file_exists($filename),"File does not exist? - $filename");
-				
-				//$xml_source = file_get_contents($filename);
-				//$this->view->file_size = strlen($xml_source);
-				Zend_Loader_Autoloader::autoload('Bildelspriser_XmlImport_PriceParser');
-				$obj = BildelspriserAuthAdapter::getInstance('BildelspriserAuthAdapter');
-				assertEx(isset($obj),"BildelspriserAuth was not set");
-				$spp = BildelspriserAuthAdapter::getInstance('BildelspriserAuthAdapter')->getSparePartSupplier();				
-				assertEx($spp instanceof Default_Model_SparePartSuppliers,"SPP Must be a Default_Model_SparePartSuppliers".gettype($spp));
+				$filename = utf8_decode($path.$values['filename']);
+				assertEx(file_exists($filename),utf8_encode("File does not exist? - $filename"));
 				$pp = new Bildelspriser_XmlImport_PriceParser($spp);
 				assertEx($pp,"No price parser");
 				$result = "";
-				try{
-					//$pp->setPath($filename);
-					//$result = $pp->parseString($xml_source);
-					$result = $pp->parseFileName($filename);
-				}
-				catch(XmlParserException $xpe){
-					$result.="ExPE"; 
-					$this->view->xml_parser_exception = $xpe;					
-				}
-				catch(Exception $e){
-					$this->view->result = $e->getMessage();
-				}
-				$log = $pp->get_log_as_html();
-				//$this->view->file_size;
-				$this->view->parseResult = $result;
-				$this->view->message = "Parsed xml file.<br/>".$log;
-				if($result){//SUCCESS
-					// if no errors rename the file to 'Parsed_yymmdd_'.filename.xml
-					$date = date('Y-m-d');
-					$ext_start = strrpos($filename,'.');
-					$raw_file_name = substr($filename,0,$ext_start+1);
-					$file_ext = substr($filename,$ext_start);
-					if($file_ext=='parsed'){
-						$date_start = $ext_start-len($date);
-						$raw_file_name = substr($filename,0,$date_start+1);
-						$new_file_name = $raw_file_name.$date.'.parsed';						
-					}
-					else
-					{
-						$new_file_name = $raw_file_name.$date.'.parsed';
-					}
-					echo "New filename = ".$new_file_name;
-					//rename($filename,$new_file_name);
-					$this->render('procesfile');
-					//$this->dispatch('filelist');
-					return;
-				}	
+				$this->view->pp = $pp;
+				$this->view->filename = $filename;				
 				$this->render('procesfile');				
 			}
 			else
@@ -467,15 +460,16 @@ public function processmallestfileAction(){
 			if(array_key_exists('filename',$values)){
 				$filename = $path.$values['filename'];
 				assertEx(file_exists($filename),"File does not exist? - $filename");
-				$xml_source = file_get_contents($filename);
-				$this->view->file_size = strlen($xml_source);
+				//$xml_source = file_get_contents($filename);
+				//$this->view->file_size = strlen($xml_source);
 				Zend_Loader_Autoloader::autoload('Bildelspriser_XmlImport_PriceParser');
-				$spp = BildelspriserAuthAdapter::getInstance()->getSparePartSupplier();				
-				assertEx(is_a($spp,'Default_Model_SparePartSuppliers'),"SPP Must be a Default_Model_SparePartSuppliers".gettype($spp));
-				$pp = new Bildelspriser_XmlImport_PriceParser($spp);
+				$sps = BildelspriserAuthAdapter::getInstance()->getSparePartSupplier();				
+				assertEx($sps instanceof Default_Model_SparePartSuppliers,"SPP Must be a Default_Model_SparePartSuppliers".gettype($sps));
+				$pp = new Bildelspriser_XmlImport_PriceParser($sps);
 				assertEx($pp,"No price parser");
 				try{
-					$result = $pp->parseString($xml_source);
+					//$result = $pp->parseString($xml_source);
+					$result = $pp->parseFileName($fileName);
 				}
 				catch(XmlParserException $xpe){
 					$result.="ExPE"; 
@@ -525,7 +519,17 @@ public function processmallestfileAction(){
 		BildelspriserAuthAdapter::logout();
 		$this->dispatch('indexAction');
 	}
-	
-	
+	/**
+	 * 
+	 * Enter description here ...
+	 * @return Zend_Db_Adapter_Mysqli
+	 */
+	public static function getDbAdapter(){
+		$dbAdapter = Zend_Registry::get ( "db" );
+		if($dbAdapter instanceof Zend_Db_Adapter_Mysqli)
+			return $dbAdapter;
+		error('The registry did not contain an adapter - '.Zend_Debug::dump($dbAdapter,'Adapter',true));
+		return null;
+	} 
 	
 }                                             

@@ -1,16 +1,51 @@
-<H2>Bildelspriser.dk - den eneste seri�se prisdatabase til reservedele</H2>
-Vores site indeholder nu rigtige priser, fra flere forskellige butikker.<br/>
-Vi arbejder l�bende p� at f� flere priser ind fra de forskellige butikker. <br/>
-<br/>
-Har du data du �nsker at f� lagt p� sitet skal du kontakte os pr. telefon 40 86 81 18.
-<br/>
-<a href="/index/index/">Tryk her for at komme tilbage til vores s�gemaskine!</a><br/>
-<br/>
-Tak fordi du kiggede forbi.
-<br/>
-mvh<br/>
-<br/>
-<a href="http://bildelspriser.dk/" >bildelspriser.dk</a>
-Holmekrogen 26<br/>
-2830 Virum<br/>
-Tel: 40 86 81 18<br/>
+<H2>Nyheder</H2>
+<?php 
+
+			$news = array();
+
+			$news[] = array('headline'=>'Fejlrettelser og Alfa Romeo modeller ryttet op',
+							'text'=>"Vi har nu gennemgået alle Alfa Romeo modellerne på sitet og der er ryttet op i dobbeltoprettelser. <br/>
+									 Dette skal ske for alle bilmærker. Sitet kan dog bruges alligevel, dog med nogle mindre uhensigtsmæssigheder.<br/>
+									 Der har også været nogle mindre fejlrettelser i forhold til Bilmodel søgning. Disse er løst.<br/>
+									 Hvis du opdager andre fejl, er du meget velkommen til at skrive til feedback(a)bildelspriser.dk						
+							",
+							'date'=>"10. aug 2011"
+							);
+			
+			$news[] = array('headline'=>'Mindre rettelser',
+							'text'=>"På siden 'detaljevisning' er 'passer til' listen nu sorteret efter bilmærke.</br>
+									 Bilmodeller fx '155' indeholder nu ikke fejlagtigt et bilmærke fx. 'Alfa Romeo 155'.						
+							",
+							'date'=>"8. aug 2011"
+							);
+			
+			$news[] = array('headline'=>'Fejl rettet på <a href="/index/brands">Alle Bilmærker</a> siden',
+							'text'=>"Der er rettet et par fejl, og lavet en flottere side på opslag af bildele.",
+							'date'=>"3. aug 2011"
+							);
+			$news[] = array('headline'=>'Nu er der 4 butikker på <a href="http://bildelspriser.dk">bildelspriser.dk</a>',
+							'text'=>"Vi har nu fået priser fra følgende butikker<br>
+								<li>biltema 
+								<li>thansen 
+								<li>cm-carparts  
+								<li>og nv-autodele</li><br/>Flere er på vej!",
+							'date'=>"27. juli 2011"
+							);							
+
+			$table = $this->HtmlTable();
+			/* @var $table Zend_View_Helper_HtmlTable */
+			$table->setCaption ( 'Nyheder/opdateringer på bildelspriser.dk' );
+			//$table->
+			// set table tag attributes
+			$table->setAttribs ( array ('summary' => '', 'class' => 'bdp_std_table', 'style'=>'padding: .5 em;' ) );
+			$table->setData($news);
+			$table->setColumns ( array (
+									'date' =>array ('text' => 'Dato', 'td_class' => 'news'),
+									'headline' =>array ('text' => 'Overskrift' , 'td_class' => 'news' ),
+									'text' => array ('text' => 'Nyhedstekst', 'td_class' => 'news' )
+			 ) );
+			$table->setNotFoundText ( 'Ingen nyheder' );
+
+echo $table;
+
+echo "<a href='mailto:tilmeld-nyhedsbrev@bildelspriser.dk?subject=tilmeld-nyhedsbrev' >Skriv til os, hvis du vil have en mail når der kommer flere butikker på eller der sker store opdateringer.</a>";

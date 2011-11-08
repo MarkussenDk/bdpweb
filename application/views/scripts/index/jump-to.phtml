@@ -1,9 +1,14 @@
 <?php
 //echo nl2br(var_export($this,true));
 $spp = $this->spare_part_price;
+if($this->no_show_message){
+	echo "<div class='forward_message' >$this->no_show_message</div>";
+}
+//exit();
 if(!isset($spp)){
 	Echo "spp var ikke sat";
-}
+	exit();
+}	
 /*echo "<br/>Url".$spp->getSpare_part_url();
 echo "<br/>Name is ".$spp->getName();
 echo "<br/>Spare_part_url".$spp->Spare_part_url;*/
@@ -19,19 +24,43 @@ echo "</UL>";
 echo "<hr>";*/
 $url = $spp->Spare_part_url;
 //$url = 'http://jp.dk';
-$return_url = "/index/details/spare_part_price_id/".$spp->Spare_part_price_id;
+$return_url = "/index/details/spare_part_price_id/".$spp->Spare_part_price_id.'/format/html';
 $return_name = $spp->Name;
+$form = new Zend_Form();
+$jt = $this->jump_to_record;
+$jt_id = $this->jump_to_id;
+/**
+ * @var $jt Default_Model_DynJumpTo
+ */
+$options = $jt->getPartPurchasedEnumValues();
+$dk_options = $jt->dk_parts_purchased_names;
+$links='';
+$href='javascript:sendPurchased(this);return false;';
+foreach ($dk_options as $key=>$value) {
+	$links.="<br/><a class='link_button' target='iframe' href='/index/ajax-html/cmd/setPurchasedState/jt_id/$jt_id/state/$key/format/html-no-layout'>$value</a>";
+	;
+}
+//$form_input_radio_box = new Zend_Form_Element_Radio($options);
+//$form_input_radio_box->setLabel('KÃ¸bte du varen?')->setName('part_purchased');
+//$form->addElement($form_input_radio_box,'radio_part_purchased');
+//$form->setName('myJumpToForm');
 echo "<a href='$return_url'>Return til $return_name </a><br>";
+$div_answer_box="<h1>Vi har behov for dit input!</h1><div id='jump_to_large_box' >KÃ¸bte du varen?<br>$links</div>";
 echo "<h3>Varen hos butikken</H3>";
 if(strpos($url,'autostumper')>0){
-	echo "<div class='bdp-user-warning' ><em>Webbutikken www.autostumper.dk er desværre ikke tilgængelig. <br/>Kontakt Autostumper direkte,"
-			." eller find vare hos en leverandør, "
+	echo "<div class='bdp-user-warning' ><em>Webbutikken www.autostumper.dk er desvï¿½rre ikke tilgï¿½ngelig. <br/>Kontakt Autostumper direkte,"
+			." eller find vare hos en leverandï¿½r, "
 			."hvor webbutikken er aktiv.<br/><br/>mvh<br/>bildelspriser.dk</em></div>";	
 }
 else{
-	echo "<br><a href = '".$url."' >Gå direkte til varen hos butikken</a>";
-	echo "<br><iframe style='border:0px' width='100%' height='800px'  src='$url' >";
+	echo "<table style='vertical-align: top; width:100%;' width='100%' ><tr>"
+		."<td style='vertical-align: top;text-align:center' ><center>$div_answer_box</center></td>"
+		."<td style='width:85%;border:' >"
+		."<h1><a href = '".$url."' >GÃ¥ direkte til varen hos butikken<br/>"
+		."Varen hos butikken</a></h1><iframe target='iframe' name='iframe' style='border:2px green' width='100%' height='500px'  src='$url' ></iframe>"
+		."</td></tr></table>";
 }
+
 
 /*
  *    '_spare_part_price_id' => 290195,

@@ -17,7 +17,7 @@ class Default_Model_SparePartSuppliers extends Default_Model_BaseWithTraceabilit
 	private $_supplier_name = null;
 	private $_xml_http_request_id = null;
 	private $_supplier_url   = null;
-	private $_supplier_product_catalog_url   = null;
+	public $_supplier_product_catalog_url   = "/";
 	private $_supplier_admin_user_name  = null;
 	private $_supplier_admin_password   = null;
 	private $_supplier_admin_email   = null;
@@ -280,20 +280,8 @@ class Default_Model_SparePartSuppliers extends Default_Model_BaseWithTraceabilit
     	$this->getMapper()->authenticate($user_name,$password, $sps);
     	
     }
-    
- /*   public function addAsSimpleXmlChildNode(SimpleXMLElement &$elem){
-    	$child = $elem->addChild('car_makes');
-    	$child->addChild('car_make_id',$this->getCar_make_id());
-    	$child->addChild('car_make_name',$this->getCar_make_name());
-    	$main_id = $this->getCar_make_main_id() or $this->getCar_make_id();
-    	$child->addChild('car_make_main_id',$m_id);
-    	$child->addChild('state',$this->getState());    	
-    	$child->addChild('created',$this->getCreated());  
-    	$child->addChild('updated',$this->getUpdated());
-    	return $child;
-    }*/
 
-    public function fetchAll($select)
+   /* public function fetchAll($select)
     {
         $mapper=$this->getMapper();
         if(!isset($mapper)){
@@ -303,7 +291,7 @@ class Default_Model_SparePartSuppliers extends Default_Model_BaseWithTraceabilit
         else
         	//die("Mapper was set");
     	return $this->getMapper()->fetchAll($select);
-    }
+    }*/
     
    
 }

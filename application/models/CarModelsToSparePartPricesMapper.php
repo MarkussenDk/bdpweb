@@ -9,42 +9,43 @@ class Default_Model_CarModelsToSparePartPricesMapper extends MapperBase
 {
 	public function __construct(){
 		$this->setDbTable('Default_Model_DbTable_CarModelsToSparePartPrices');
+		$this->setUnique_vars(array('CAR_MODEL_ID'
+					,'SPARE_PART_PRICE_ID'
+					//,'price_inc_vat' // removed until the stuff works with the vat matching.
+					,'SPARE_PART_SUPPLIER_ID'));		
 		parent::__construct();
 	}
 
+	
 	public function save(Default_Model_CarModelsToSparePartPrices  $cmo2spp)
     {
     	global $_SERVER;
     	$cmo2spp->validateForSave();
-    	$data = array(
-            'car_model_id'   		 => $cmo2spp->getCar_model_id(), 
-            'spare_part_price_id'    => $id =  $cmo2spp->getSpare_part_price_id(), 
-    	    'year_from'    => $cmo2spp->getYear_from(), 
-            'month_from'    => $cmo2spp->getMonth_from(), 
-    	    'year_to'    => $cmo2spp->getYear_to(), 
-            'month_to'	  => $cmo2spp->getMonth_to(),
-    	    'year_to'    => $cmo2spp->getYear_to(), 
-            'chassis_no_from'	  => $cmo2spp->getChassis_no_from(),
-    		'chassis_no_to'	  => $cmo2spp->getChassis_no_to(),
-            'created' 		  => date('Y-m-d H:i:s') ,
-            'created_by' 		  => $cmo2spp->getCreated_by(),
-    		'price_parser_run_id' => Bildelspriser_XmlImport_PriceParser::$_price_parser_run_id)
-    	;
-    	if(!isset($id)){
-    		
-    		/*Bildelspriser_XmlImport_PriceParser::getInstance()->log("<br/>Postpoing save");
+    	$data = $cmo2spp->toArray();
+    	$id =  $cmo2spp->getSpare_part_price_id();
+    	if(!isset($id)){    		
+    		Bildelspriser_XmlImport_PriceParser::getInstance()->log("<br/>Postpoing save");
+    		echo "postponing save";
     		$this->PostponeSave($data);
-    		return;*/
-    	}	
+    		return;
+    	}			
     	//die("It there . ".$data['created_by']);
         //die("cmmtospp = ".var_export($data,true));
-        /**
-         * If it exists, delete it to ensure that there only exists one relationship between one model and one spare_part_price_id
-         * It seems unlikely that there is "holes" in the periods where a spare part match a car.
-         */
-    	$sql = "";
-    	//echo "<br>Before the delete";
-        try{
+    	//echo "<br>After the delete";
+        //var_dump_array($data,"<br>Data Default_Model_CarModelsToSparePartPrices");
+        //$dbt =  $this->getDbTable();
+        //echo "<hr>Type of ".get_class($dbt); returns "Default_Model_DbTable_CarModelsToSparePartPrices"
+        //echo "<br>Type of ".print_r($dbt,true);
+        //$is = $dbt->insert($data);
+       // echo "<br>After ins ".print_r($db,true);
+        //echo "<br>Ins = ".$is;
+        
+    	
+    	
+    	$where =  ' `car_model_id` =' .$cmo2spp->getCar_model_id().
+        							 ' and `spare_part_price_id`='.$cmo2spp->getSpare_part_price_id();
+		
+    	try{
     	$this->getDbTable()->delete($sql= " `car_model_id` =" .$cmo2spp->getCar_model_id().
         							 " and `spare_part_price_id`=".$cmo2spp->getSpare_part_price_id());
 		
@@ -59,10 +60,19 @@ class Default_Model_CarModelsToSparePartPricesMapper extends MapperBase
         //echo "<hr>Type of ".get_class($dbt); returns "Default_Model_DbTable_CarModelsToSparePartPrices"
         //echo "<br>Type of ".print_r($dbt,true);
         //$is = $dbt->insert($data);
-       // echo "<br>After ins ".print_r($db,true);
-        //echo "<br>Ins = ".$is;
-        echo "<br>ins = ".print_r($data,true);
+        //echo "<br>After ins ".print_r($db,true);
+        //echo "<br>ins = ".print_r($data,true);
         return $this->getDbTable()->insert($data);
+    	
+    	
+        if(logger::$log_level < 20 )
+        	logger::log('inserting Carmodel'.print_r($data,true));
+        $num_rows_updated = $this->getDbTable()->update($data,$where);
+        if($num_rows_updated != 1)
+        	echo 
+        	//--throw new exception
+        	("Unknown number of rows updated '$num_rows_updated' with where '$where'");
+        return $cmo2spp->getSpare_part_price_id();
     }
 
    
@@ -81,7 +91,7 @@ class Default_Model_CarModelsToSparePartPricesMapper extends MapperBase
                  
     }*/
 
-    public function fetchAll($select)
+    public function fetchAll($select=null)
     {
        	$resultSet = $this->getDbTable()->fetchAll($select);
     	$entries   = array();

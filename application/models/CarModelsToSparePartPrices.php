@@ -20,10 +20,25 @@ class Default_Model_CarModelsToSparePartPrices extends Default_Model_BaseWithTra
 	private $_month_to=null;
 	private $_chassis_no_from=null;
 	private $_chassis_no_to=null;
-	private $_created=null;
-	private $_created_by;
 	private $_spare_part_price_guid;
 	public $price_parser_run_id;
+	
+	public function toArray(){
+	    return array(
+            'car_model_id'   		 => $this->_car_model_id, 
+            'spare_part_price_id'    => $this->_spare_part_price_id, 
+    	    'year_from'    => $this->_year_from, 
+            'month_from'    => $this->_month_from, 
+    	    'year_to'    => $this->_year_to, 
+            'month_to'	  => $this->_month_to,
+    	    'year_to'    => $this->_year_to, 
+            'chassis_no_from'	  => $this->_chassis_no_from,
+    		'chassis_no_to'	  => $this->_chassis_no_to,
+            'created' 		  => date('Y-m-d H:i:s') ,
+            'created_by' 		  => $this->getCreated_by(),
+    		'price_parser_run_id' => Bildelspriser_XmlImport_PriceParser::$_price_parser_run_id)
+    	;
+	}
 
     public function __construct(array $options = null)
     {

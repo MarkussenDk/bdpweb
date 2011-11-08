@@ -89,7 +89,7 @@ class Default_Model_CarModelsMapper extends MapperBase
     		'car_make_id'	  => $carmake->getCar_make_id(),
     		'created_by'	  => $carmake->getCreated_by(),//.'a = '.trim(htmlentities($_SERVER["PHP_AUTH_USER"])),
     		'updated_by'	  => $carmake->getCurrent_user_name(),//.'a'.$_SERVER["PHP_AUTH_USER"],
-    		'state'			  => $carmake->getState(),	
+    		'state_enum'			  => $carmake->state_enum,	
             //'created_by' => , - ADD USERNAME
             'updated' 		  => date('Y-m-d H:i:s')    	
         );
@@ -106,8 +106,7 @@ class Default_Model_CarModelsMapper extends MapperBase
             }
             $data['created_by'] = $carmake->getCurrent_user_name();
             assertEx($data['updated_by'],"Username was empty");
-            $data['state']= "Foreslag";
-            //$data['state_enum']= "Foreslag";
+            $data['state_enum']= state_enum::_public;
             //echo "<H3>Saving - ".$data['car_make_name']." <H3/>";
             //die(ArrayToXML::toXml($data,'Test'));
             $insertId = $this->getDbTable()->insert($data);
@@ -146,7 +145,7 @@ class Default_Model_CarModelsMapper extends MapperBase
                  
     }*/
 
-    public function fetchAll($select)
+    /*public function fetchAll($select)
     {
     	try{
         	$resultSet = $this->getDbTable()->fetchAll($select);
@@ -163,13 +162,13 @@ class Default_Model_CarModelsMapper extends MapperBase
                   ->setEmail($row->email)
                   ->setComment($row->comment)
                   ->setCreated($row->created)
-                  ->setMapper($this);*/
+                  ->setMapper($this);* /
             $entry->setAllFromGenClass($row);      
             $entries[] = $entry;
 //            echo " c="+$c++;
         }
         return $entries;
-    }
+    }*/
 	
     
 }

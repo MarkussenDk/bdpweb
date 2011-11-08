@@ -10,7 +10,7 @@
 var g_slt;
 var g_ifr_parse;
 var g_path = "/user/procesfile";
-var g_user = "/username/autostumper/password/pwautostumper";
+var g_user = "/username/usr_a/password/1234";
 g_user="";
 var itemSelectedIndex=0;
 var is_allowed_to_run = true;
@@ -92,17 +92,24 @@ function iframeLoaded(){
 	//appendTa("iframe loaded");
 	var slt = document.getElementById("slt");
 	var len = slt.options.length;
-	var html = getIfr().innerHTML; 
+	var html = getIfr().contentDocument.documentElement.innerHTML; 
 	//appendTa(html);
 	var html_len = html.length ;
 	var succes_pos = html.indexOf("ended without errors");
 	if(succes_pos!=-1){
-		appendTa("It was a success - "+succes_pos);
+		appendTa("File Processing was a success");
 		last_run_time = stopAndGet();
 		last_processing_speed = last_file_size/last_run_time;	
 	}
+	else{
+		if(html_len>100) {
+			appendTa("FileProcessing did not report success - please inspect - contact support if need be");
+			return;
+		}
+	}
 	appendTa("The HTML was "+html_len + ' bytes and it was processed in ' 
-			+ last_processing_speed + ' ms.');
+			+ last_run_time/1000 + ' seconds '
+			+ last_processing_speed*1000 + ' kB/s.');
 	last_file_size = html_len;
 	takeNextAndParse();	
 }
@@ -116,9 +123,13 @@ function takeNextAndParse(){
 	var len = slt.options.length;
 	if(len>=itemSelectedIndex){
 		var filename = slt.options[itemSelectedIndex].value;
-		appendTa(" "+len+"/"+itemSelectedIndex + ": Ready to load file " + filename);
+		appendTa("File nr. "+len+" of "+1.0+itemSelectedIndex + ": Ready to load file " + filename);
+		start();
 		parseFile(filename); 
 		itemSelectedIndex++;
+	}
+	else{
+		appendTa(" ######### ALL PARSING DONE ########## ");
 	}
 }
 
@@ -163,35 +174,82 @@ function toggleIsAllowedToRun(){
 </script>
 <body>
 	<div id="header">
+	
+	<?php echo "You are loged in as <b>".$this->user_name.'</b>&nbsp; &nbsp; '; ?>
+	
 		<a href='/user/logout'>Logout</a> |  <a href='about:blank'>List Files</a> | <a href='/user/fileupload'>Upload File</a>
+	<br/>
 	</div>
 <h2>Proces Files</h2>
-<form ><table><tr><td>
-<select id="slt" name="slt"  multiple="multiple" size="10"> 
+<form name='stpw'><input name='time' /></form>
+	
+	
 <?php
-
+$skipped_files = array();
 //echo $this->form;
 $date_format= 'h:i:s d-m-Y';
 if(isset($this->user_file_directory_iterator)){
 //	$c = ' class="user_process_file" ';
-//	echo "<b>Uploaded Files</b>";
+	echo "<b>Uploaded Files</b>";
+//	Kint::dump($this->user_file_directory_iterator);
+	$option = null;
 	foreach ($this->user_file_directory_iterator as $file){
-		$fn = $file->getFilename();
+		//Kint::dump($fn);
 		if($file->isDir()){
 			continue; // to ignore . and ..			
 		}
+		$fn = $file->getFilename();
 		$bn = basename($fn);
+		$name = "<br>base name $bn size = ".$file->getSize().'kB';
+		$q = $this->db->select()
+			  ->from('price_parser_runs')
+			  ->where('file_base_name = ?',$bn)
+			  ->where('file_size = ?',$file->getSize())
+//			  ->where('status in (?)',"'parsing file', 'success'")
+			  //->order('file_size DESC')
+			  //->order('price_parser_run_id DESC')
+			  ;
+		$row = $this->db->fetchRow($q);
+		if($row){ 
+			if(strlen($row['status'])>1)
+				$skipped_files[] = $row;
+			if($row['status'] == 'success') // only skip if success
+				continue;
+		}
+		$rows[] = $row;
 		$unix_timestamp = $file->getCTime();
 		$fs = round($file->getSize()/1024,1);
 		$date = date($date_format, $unix_timestamp);
-		if(strpos($bn,'.xml') < 1 ){
+		if(!str_contains($bn,'.xml')){
+			echo "<br>File name was not containing .xml";
 			continue;
 		}
 		$value=$bn;
 		$name="$bn - $fs - $date ";
-		echo "\n\t<option value='$value' >$name</option >";
+		$option .= "\n\t<option value='$value' >$name</option >";
 	//	echo "<tr><td $c ><input type='radio' name='filename' value='$fn'></td><td $c >$bn</td><td $c >$date</td><td $c>&nbsp;$fs kb</td> </tr>";
 	}	
+	if(is_null($option)){
+		echo "There are no new files";
+		Kint::dump($this->user_file_directory_iterator);
+	}
+	else{
+		?>
+		<form ><table><tr><td>
+		<select id="slt" name="slt"  multiple="multiple" size="10"> 
+		<?php 
+		echo utf8_encode($option);
+		?>
+		</select>
+</td>
+<td>
+	<textarea rows="10" cols="80" id="ta" ></textarea>
+</td>
+</tr></table>
+<button onclick="parseSelected();return false;" type="button" >Process File</button>
+<button id="btn_batch_toggle"  onclick="toggleIsAllowedToRun();"  type="button"  >Disable batch</button>
+</form> <?
+	}
 }
 else
 {
@@ -200,15 +258,102 @@ else
 }
 
 ?>
-</select>
-</td>
-<td>
-	<textarea rows="10" cols="80" id="ta" ></textarea>
-</td>
-</tr></table>
-<button onclick="parseSelected();return false;" onsubmit="alert('sub');return false;" type="button" >Process File</button>
-<button id="btn_batch_toggle"  onclick="toggleIsAllowedToRun();"  type="button"  >Disable batch</button>
-</form>
-<iframe onload='iframeLoaded();' id='ifr_parse' name='ifr_parse' src ="/index/index/" width="100%" height="300">
+
+<?php 
+						$table = $this->HtmlTable();
+                		/* @var $table Zend_View_Helper_HtmlTable */
+                		$table->setCaption('Allerede indlæste filer');
+                		//$table->
+						// set table tag attributes
+						$table->setAttribs(array(
+						    'summary' => '', 'class' => 'bdp_std_table'
+						));
+						
+						function getId(){
+							return 'AgetId called' .Zend_Debug::dump(func_get_args(),'arg',false) ;
+						}
+						
+						function getLinks(){	
+							global $make_and_models;						
+							$args = func_get_args();
+							$pp_row = $args[0];
+							$pp_id = $pp_row['price_parser_run_id'];
+							$pp_status = $pp_row['status'];
+							$name = $pp_row['file_base_name'];
+							//Kint::dump($args) ;							
+							//$row = array_search( array("car_model_id"=>$car_model_id),$make_and_models);
+							$url='/user/procesfile/price_parser_run_id/'.$pp_id;
+							$a = " <a href='$url' target='_top' >Re-Process</a>";
+							$row = null;
+							$car_make_id = $row['car_make_id'];
+							$car_model_name = $row['car_model_name'];
+							$car_make_name = $row['car_make_name'];
+							return $name.$a;
+							//return 'getId called' .Zend_Debug::dump(func_get_args(),'arg',false) ;
+							//return Zend_Debug::dump(func_get_args(),'arg',false) ;
+						}
+						
+						function getAJavaScript(){	
+							global $make_and_models;						
+							$args = func_get_args();
+							$car_model_id = $args[0];
+							//Zend_Debug::dump($make_and_models,'$make_and_models '.$car_model_id,true) ;							
+							//$row = array_search( array("car_model_id"=>$car_model_id),$make_and_models);
+							$row = null;
+							foreach($make_and_models as $make_and_model ){
+								if($make_and_model['car_model_id']==$car_model_id){
+									$row = $make_and_model;
+									//echo "Row found";
+								}
+								//	Zend_Debug::dump($make_and_model,'$make_and_model id',true);
+								//echo "<br> $model_id =>$model_name ";
+							}	
+							$car_make_id = $row['car_make_id'];
+							$car_model_name = $row['car_model_name'];
+							$car_make_name = $row['car_make_name'];
+							//return 'getId called' .Zend_Debug::dump(func_get_args(),'arg',false) ;
+							return "<a href='javascript:setMakeAndModel($car_make_id,$car_model_id)' "
+								  .' title="Vælg '.$car_make_name." ".$car_model_name.'" '
+								 // .' targer="_AnotherWindow" '
+								  .' >'.$car_make_name." ".$car_model_name.'</a>';
+							return 'getId called' .Zend_Debug::dump(func_get_args(),'arg',false) ;
+						}
+						
+						function getSaveButton(){
+							return '[Save]';
+						}
+						
+						$table->setNotFoundText('No records found.');
+/*						 ["price_parser_run_id"] => int(421)
+  ["file_base_name"] => string(25) "nvautodele-Alfa Romeo.xml"
+  ["file_create_time"] => string(19) "2011-07-06 22:46:26"
+  ["file_size"] => int(189858)
+  ["processing_start"] => NULL
+  ["processing_end"] => NULL
+  ["status"] => string(7) "success"
+  ["last_elem_type"] => NULL
+  ["last_elem_id"] => NULL
+  ["created_by"] => NULL
+  ["xml_http_request_id"] => int(52527)
+  ["created"] => string(19) "2011-07-06 23:46:18"*/
+						$table->setColumns(array(
+						    'price_parser_run_id' => array(
+						        'text' => 'Id',
+						      //  'callback' => 'getId',
+						      //  'class' => 'idClass',
+						    ),
+						    'file_base_name' => array('text' => 'file_base_name','callback'=>'getLinks'),
+						    'file_size' => array('text' => 'file_size'),
+						    'status' => array('text' => 'status'),
+						    'created' => array('text' => 'created',						    )
+						));
+						
+						$table->setAttrib('style','width: 100%;');
+                		$table->setData($skipped_files);
+                		
+//echo "<h1>Priting rows</h1>";
+?>
+<iframe onload='iframeLoaded();' id='ifr_parse' name='ifr_parse' src ="about:blank" width="100%" height="300">
   <p>Your browser does not support iframes.</p>
 </iframe>
+<?php echo $table; ?>

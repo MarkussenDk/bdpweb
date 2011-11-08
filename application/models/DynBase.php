@@ -19,8 +19,17 @@ class Default_Model_DynBase extends Bildelspriser_DB_DBObject
 	private $_mapper_name;
 	private $_table_name;
 	private $_db;
-	
-    public function __construct(array $options = null,$mapper_name=null,$table_name=null,$fields=null)
+	static $db;
+	/**
+	 * 
+	 * Enter description here ...
+	 * @param array $options
+	 * @param unknown_type $mapper_name
+	 * @param unknown_type $table_name
+	 * @param unknown_type $fields array contaning the keys
+	 * @param unknown_type $id_name Primary key
+	 */
+    public function __construct(array $options = null,$mapper_name=null,$table_name=null,$fields=null,$id_name=null)
     {
         if (is_array($options)) {
             $this->setOptions($options);
@@ -37,9 +46,19 @@ class Default_Model_DynBase extends Bildelspriser_DB_DBObject
 	        $this->_db = $z->getAdapter();
 	        self::$db = $this->_db;
         }
+        if($fields != null && !is_array($fields)){
+        	$type=gettype($fields);
+        	if(is_object($fields)){
+        		$type.=' of type '.get_class($fields);
+        	}
+        	error("The \$fields array must be an array. It was of type '$type' ");
+        	return null;
+        }
         //$stmt = $this->_db->prepare();
         //$stmt->execute()
-        parent::__construct($table_name,$fields);
+        //Kint::dump($id_name);
+        //Kint::dump($fields);
+        parent::__construct($table_name,$fields,$id_name);
     }
 	
     public function setOptions(array $options)
@@ -70,14 +89,14 @@ class Default_Model_DynBase extends Bildelspriser_DB_DBObject
         $this->$method($value);
     }*/
 
-    public function __get($name)
+   /* public function __get($name)
     {//$name holds the name of the undefined attributes getting called.
         $method = 'get' . $name;
         if (('mapper' == $name) || !method_exists($this, $method)) {
-            throw new Exception('Invalid Base property - "'.$name.'"'.var_export($this,true));
+            throw new Exception('DynBase:Invalid Base property - "'.$name.'"'.var_export($this,true));
         }
         return $this->$method();
-    }
+    }*/
 
 
     public function setMapper($mapper)

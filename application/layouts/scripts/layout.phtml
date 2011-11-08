@@ -1,16 +1,20 @@
 <?
-header("Content-Type: text/html; charset=ISO-8859-1"); 
+//header("Content-Type: text/html; charset=ISO-8859-1"); 
+if(!headers_sent())
+	header("Content-Type: text/html; charset=UTF-8"); 
 $php_self = $_SERVER['PHP_SELF'];
 $php_host = $_SERVER['HTTP_HOST'];
 $php_dir = dirname($php_self);
-echo "<!-- php_dir $php_dir and $php_self -->";
+info("<!-- php_dir $php_dir and $php_self -->");
 $php_app_root = str_replace('/public','',$php_dir);
 if($php_app_root==''){
 	$php_app_root = $php_dir;
 }
 $css = $php_app_root.'/media/css/basis.css';
 $request_js = $php_app_root.'/media/request.js';
+$bdp_js = $php_app_root.'/media/bdp.js';
 $request_js = str_replace('//','/',$request_js);
+$bdp_js = str_replace('//','/',$bdp_js);
 $css = str_replace('//','/',$css);
 if(isset($_GET['css'])){
 	$css = urldecode($_GET['css']);
@@ -50,16 +54,167 @@ if($mobile){// android, S60, you name it
 <?php 
 $google_key='ABQIAAAA9KzjVQeNwg9PxP5W9KU97RQq67XTNzbzZjqno17fliVJumdGxxTFxepvDBc9pv6X7MuYsNwoo9OyWg';
 echo $this->doctype();
-$meta_desc = 'bildelspriser.dk - danmarks eneste prisguide til reservedele, tilbeh�r og styling til din bil';
-$meta_keywords = 'billigste reservedele bildele tilbeh�r styling billige';
+$words=<<<WORDS
+12 Volt
+Alfa
+Alfa Romeo
+Anhængertræk
+Anhængertræk, tilbehør
+Aprilia
+Atala
+Audi
+Austin Rover
+Autostol
+Bagageremme
+Belysning
+Benelli
+Bilalarm og sikkerhed
+Bilmåtter
+Bilsædeovertræk
+Bimota
+BMW
+Bombard
+Buell
+Buick
+Cadillac
+Cagiva
+Checker
+CHEVROLET
+CHRYSLER
+CITROEN
+Citröen
+CPI
+Dacia
+Daelim
+DAEWOO
+DAIHATSU
+Derbi
+Dodge
+Ducati
+Eagle
+Eksteriør
+Ekstra lys
+El og Belysning
+Elektrisk spil
+Fantic
+FIAT
+Filter 
+FORD
+Ford Tyskland
+Ford USA
+Garelli
+GAS GAS
+Gilera
+GMC
+Harley-Davidson
+Highland
+Holdere og lastremme
+Honda
+Hummer
+Husaberg
+Husqvarna
+Hyosung
+Hyundai
+Håndbøger
+Interiør
+Isskraber og snebørste
+Isuzu
+Isvarsel
+Italjet
+Jaguar
+Jeep
+Kabelklemmer og spændebånd
+Kabelkoblinger
+Kabinevarmer
+Kawasaki
+Kia
+KTM
+Kymco
+Lada
+Lada/Vaz
+Lancia
+Land Rover
+Laverda
+Lexus
+Mahindra
+Malaguti
+Mazda
+MBK
+Mercedes
+Mercury
+Mini
+Mitsubishi
+Mondial
+Moto Guzzi
+Motor Hispana
+Motorstyling
+Motorvarmer
+Motron
+MV Agusta
+MZ
+Navkapsler
+Nissan
+Norton
+Oldsmobile
+Opel
+Peugeot
+PGO
+Piaggio
+Plymouth
+Polaris
+Pontiac
+Porsche
+Range Rover
+Reflekser
+Relæ
+Renault
+Rieju
+Rover
+Sachs
+Seat
+Sherco
+Signalhorn
+Sikring
+Simca
+Skoda
+Smart
+Snekæde
+Specialhåndbøger
+Ssang Yong
+Subaru
+Suzuki
+Saab
+Tagbagagebærer
+Tagboks
+Talbot
+Tankdæksel
+Tilbehør
+Tilbehør Universal
+Toyota
+Triumph
+Trækkobling
+TSV
+Udstødningsrør
+Universal
+Volkswagen
+Volvo
+VW
+Yamaha
+Yanmar
+Ydelse
+Øvrigt
+WORDS;
+
+$meta_desc = 'bildelspriser.dk - danmarks eneste prisguide til reservedele, autodele, tilbehør og styling til din bil. Viser Priser på autodele, reservedele, tilbehør og styling.'.$words;
+$meta_keywords = 'billigste reservedele bildele autodele tilbehør styling billige, pris på reservedele, priser på reservedele '.$words;
 $this->headMeta()->appendName('description',$meta_desc);
 $this->headMeta()->appendName('keywords',$meta_keywords);
-//��� se http://e-tidsskrift.dk/dev/tegntabel.html
+//��� se http://e-tidsskrift.dk/dev/tegntabel.html
 ///* http://hjemmesideskolen.dk/html/float.php */
 ?>
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<?php echo $this->headTitle() ?>
 	<?php echo $this->headLink() ?>
 	<?php echo $this->headMeta() ?>
@@ -134,6 +289,7 @@ if ( $dojo_enabled==true && $dojo->isEnabled()){
 ?>	
  <?php echo $this->headScript() ?>
  <script src="<?php echo $request_js; ?>" type="text/javascript"></script>
+ <script src="<?php echo $bdp_js; ?>" type="text/javascript"></script>
  	<!-- <script src="http://ajax.googleapis.com/ajax/libs/dojo/1.5/dojo/dojo.xd.js" type="text/javascript">
 		dojo.require("dijit.dijit");
 		dojo.require("dojox.grid.DataGrid");
@@ -156,9 +312,13 @@ if ( $dojo_enabled==true && $dojo->isEnabled()){
 </head>
 
 <body class="tundra">
-<?php include_once("googleanalyticstracking.php") ?>
+<?php 
+if( strpos($_SERVER["HTTP_HOST"], 'bildelspriser'))
+	include_once("googleanalyticstracking.php")
+?>
 <div id='bdp-div-page'>
 <!-- Header header start -->
+<table><tr><td>
 <div id='bdp-div-header' >
 	<h1>
 		<a style='text-decoration: none; color: navy; font-weight:bold;' href='http://bildelspriser.dk'
@@ -166,10 +326,26 @@ if ( $dojo_enabled==true && $dojo->isEnabled()){
 		bildelspriser.dk </a> 
 	</h1>
 	<h2><a style='text-decoration: none; color: navy' href='http://bildelspriser.dk'
-			title="bildelspriser - prisguide til reservedele og tilbeh�r til din bil " >
-	 - prisguide til reservedele og tilbeh�r til din bil
+			title="bildelspriser - prisguide til reservedele og tilbehør til din bil " >
+	 - prisguide til reservedele og tilbehør til din bil
 	 </a></h2>
-</div >
+</div ></td><td>
+
+<!-- Anbring dette tag i <head> eller lige før <close body tag>  -->
+<script type="text/javascript" src="https://apis.google.com/js/plusone.js">
+  {lang: 'da'}
+</script>
+
+<!-- Anbring dette tag der, hvor +1 knappen skal vises -->
+<g:plusone href="http://bildelspriser.dk"></g:plusone>
+</td><td>
+<div id="fb-root"></div>
+<script src="http://connect.facebook.net/en_US/all.js#appId=240196696012523&amp;xfbml=1"></script>
+<fb:like href="http://bildelspriser.dk" send="true" 
+	width="450" show_faces="true" action="like" font="">
+</fb:like>
+</td></tr></table>
+
 <div id='bdp-div-navigation' >
 	<?php 
 	$this->navigation()->menu()->setPartial(array('nav1.phtml','default'));

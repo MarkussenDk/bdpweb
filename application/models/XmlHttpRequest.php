@@ -40,6 +40,7 @@ class Default_Model_XmlHttpRequest extends Default_Model_BaseWithTraceability
     public static $new_cookie_guid = null;
     public static $cookie_guid = null;	
 	public static $cookie_name = "bdp_cookie_uniqid";
+	public static $user_agent_id = null;
 
     public function __construct(array $options = null)
     {
@@ -77,6 +78,7 @@ class Default_Model_XmlHttpRequest extends Default_Model_BaseWithTraceability
     }
     
     public static function getClientIp(){
+    	global $_SERVER;
     	$ip=null;
 		if ( isset($_SERVER["REMOTE_ADDR"]) )    { 
 		    $ip=$_SERVER["REMOTE_ADDR"] . ' '; 
@@ -85,6 +87,8 @@ class Default_Model_XmlHttpRequest extends Default_Model_BaseWithTraceability
 		} else if ( isset($_SERVER["HTTP_CLIENT_IP"]) )    { 
 		    $ip=$_SERVER["HTTP_CLIENT_IP"] . ' '; 
 		} 
+		if($ip==null)
+			error("Client ip $ip could not be found".Zend_Debug::dump($_SERVER));
     	return $ip;
     	
     }
@@ -100,18 +104,34 @@ class Default_Model_XmlHttpRequest extends Default_Model_BaseWithTraceability
     	}
     	$dbt_ua = new Default_Model_DbTable_UserAgents();
     	$dbr_ua = null;    
-    	$user_agent_id = null;	
+    	if(isset(self::$user_agent_id)){
+    		$this->_user_agent_id = self::$user_agent_id;
+    		if(isset($this->_user_agent_id))
+    			warning('setting the useragent and it was already '.$this->_user_agent_id);
+    		warning("setting this->_user_agent_id to ".self::$user_agent_id);
+    		return $this->_user_agent_id;
+    	}
     	if(isset(self::$new_cookie_guid)){
-    		if(!is_integer($user_agent_id)){
+    		if(!is_integer(self::$user_agent_id)){
 	    		$data = array(
 	    			'user_agent_info' => $ua_info,
 	    			'cookie_guid'	  => self::$new_cookie_guid,
 	    			'ip_addr_first_visit' => self::getClientIp()    			
 	    		);    		
 	    		$dbr_ua = $dbt_ua->createRow($data);
-	    		$user_agent_id = $dbr_ua->save();
+	    		//Zend_Debug::dump($this,'self',true);
+	    		try{
+	    			self::$user_agent_id = $dbr_ua->save();
+	    		}
+	    		catch(exception $e){
+	    			error(" - ".self::$user_agent_id." - Error while saving the user_agent?<br>".$e);
+	    		}
     		}
-    		//echo "\n-- first time visitor".self::$new_cookie_guid.' & user agent id = $user_agent_id --';
+    		else {
+    			//echo "<br> self::\$user_agent_id ".self::$user_agent_id;
+    			
+    		}
+    		//echo "\n-- first time visitor".self::$new_cookie_guid." & user agent id = self::$user_agent_id -";
     		    		
     	}
     	if(isset(self::$cookie_guid)){
@@ -125,7 +145,7 @@ class Default_Model_XmlHttpRequest extends Default_Model_BaseWithTraceability
 		    		$dirty=true;
 		    	}
 		    	else {
-		    		$user_agent_id = $data['user_agent_id'];
+		    		self::$user_agent_id = $data['user_agent_id'];
 		    	}
 		    	$info = $data['user_agent_info'];
 		    	if(empty($info)){
@@ -137,7 +157,7 @@ class Default_Model_XmlHttpRequest extends Default_Model_BaseWithTraceability
     			$dirty = true; 			
     		}	
     		if($dirty){
-    			if(is_int($user_agent_id)){// just update
+    			if(is_int(self::$user_agent_id)){// just update
     				echo "would like to update ". $this->getUserAgent();
     				$data['user_agent_info'] = $this->getUserAgent();
     				$dbr_ua->user_agent_info = $this->getUserAgent();
@@ -150,14 +170,19 @@ class Default_Model_XmlHttpRequest extends Default_Model_BaseWithTraceability
 		    			'ip_addr_first_visit' => self::getClientIp()    			
 		    		);    		
     				$dbr_ua = $dbt_ua->createRow($data);
-    				$user_agent_id = $dbr_ua->save();
-    				echo "<br>data saved".$user_agent_id ;
+    				try{
+    					self::$user_agent_id = $dbr_ua->save();
+    				}
+    				catch(exception $e){
+    					error("error while saving second time".$e);    					
+    				}
+    				echo "<br>data saved".self::$user_agent_id ;
     			}
     			    			
     		}
     		//echo "\n-- welcome back " .self::$cookie_guid.' $user_agent_id --';      		  		
     	}
-    	$this->_user_agent_id = $user_agent_id;
+    	$this->_user_agent_id = self::$user_agent_id;
     }
     
     public function getUserAgentId(){
@@ -241,6 +266,7 @@ class Default_Model_XmlHttpRequest extends Default_Model_BaseWithTraceability
     	if(!isset($this->_http_referer)){
     		$this->_http_referer = getenv('HTTP_REFERER');
     	}
+    	return $this->_http_referer;
     }
     
     public function getStaticUserAgent(){

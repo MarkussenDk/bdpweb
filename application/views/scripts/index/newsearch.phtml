@@ -9,15 +9,18 @@ function dk_amount($num){
 
 if(isset($this->car_make_name)){	
 	$this->headTitle()->append($this->car_make_name);
-	ECHO utf8_encode('Mærke: '.$this->car_make_name);	
+	//ECHO ('MÃ¦rke: '.$this->car_make_name);	
 	if(isset($this->car_model_name)){
 		$this->headTitle()->append($this->car_model_name);
-		ECHO utf8_encode('Model: '.$this->car_make_name);			
+		//ECHO ('Model: '.$this->car_make_name);			
 	}
 }
 else {
-	echo "Intet bilmærke.Søger i alle mærker";
+	echo "Intet bilmÃ¦rke.SÃ¸ger i alle mÃ¦ker";
 	var_export($this);	
+}
+if(isset($this->car_model_id)){
+	Zend_View_Helper_SparePartPricePrinter::$car_model_id = $this->car_model_id;	
 }
 //$this->headMeta()->appendHttpEquiv('Content-Type','text/html; charset=utf-8');
 /*'supplier_name'
@@ -62,11 +65,14 @@ function printChassis($ar){
 //	return $r.' alle '
 }
 
-function printImage($ar){
-	if(!array_key_exists('spare_part_image_url',$ar))
+function printImage($ar,Default_Model_SparePartPrices $spp){
+	if(!array_key_exists('spare_part_image_url',$ar)){
+		Zend_Debug::dump($ar,'array',true);
 		return;
+	}
 	$img_src = $ar['spare_part_image_url'];
-	return "<img src='$img_src' height=100px width=100px >";
+	$img_src = FixUrl($img_src, 'image', $spp);
+	return "<img onerror='report_img_broken(this);' class='remote_spp_image' src='$img_src' height=100px width=100px >";
 }
 
 function printMonthYear($year,$month){
@@ -99,29 +105,52 @@ $t_body = "\n<!-- t_body initialised -->";
 if(isset($this->user_message)){
 	$t_body .= '\n<tr><td class="bdp_td_user_message" >'.$this->_user_message.'</td><td>';	
 }
+$td_style = 'even';
+$spsm = MapperFactory::getSpsMapper();
 if(isset($this->spare_part_prices_results)){
 	foreach($this->spare_part_prices_results as $price ){
-		//$img = printImage($price);
+		$spp_ar = $price;
+		$td_style = ($td_style=='even') ? 'odd' : 'even';
+		unset($spp_ar['supplier_name']);
+		unset($spp_ar['car_make_name']);
+		unset($spp_ar['car_model_name']);
+		unset($spp_ar['car_model_id']);
+		unset($spp_ar['year_from']);
+		unset($spp_ar['year_to']);
+		unset($spp_ar['month_from']);
+		unset($spp_ar['month_to']);
+		unset($spp_ar['chassis_no_from']);
+		unset($spp_ar['chassis_no_to']);
+		unset($spp_ar['car_model_clean_id']);
+		$img = printImage($price,new Default_Model_SparePartPrices($spp_ar));
 		$colspan;
 		if(!$img){
-		//	$colspan = ' colspan=2 '
+			$colspan = ' colspan=2 ';
 		}
-		$details_url = '/index/details/spare_part_price_id/'.$price['spare_part_price_id'];
-		$jump_to_url = '/index/jump_to/spare_part_price_id/'.$price['spare_part_price_id'];
-		$cell  = "\n\t<h3>".$price['name'].'</h3>';
+		$mod=null;
+    	//Zend_Debug::dump($this,'ThePriter',true);
+		if(isset($this->car_model_id)){
+			$mod = '/car_model_id/'.$this->car_model_id;
+		}		
+		$details_url = '/index/details/spare_part_price_id/'.$price['spare_part_price_id'].$mod;
+		$jump_to_url = '/index/jump_to/spare_part_price_id/'.$price['spare_part_price_id'].$mod;$cell  = "\n\t<b>".$price['name'].'</b><br>';
 		$cell .= "\n\t<!--  spare_part_price_id ".$price['spare_part_price_id'].'-->';
-		$cell .= "\n\t<a href='/index/jump_to/spare_part_price_id/".$price['spare_part_price_id']."'>".$price['name'].'</a>';
-		$cell .= "\n\t ".$price['description'];
+		$cell .= "\n\t<a href='$details_url'>".$price['name'].'</a>';
+		//$cell .= "\n\t<br> ".str_replace('<br> <br>', '<br>',$price['description']); 
 		$cell .= "\n\t <br/>(Butikens varenr :  ".$price['supplier_part_number'].') - ';
 		$cell .= "\n\t (Orginalt Varenr :  ".$price['original_part_number'].') - ';
 		$cell .= "\n\t (Producent Varenr: ".$price['producer_part_number'].')';
-		$cell .= "\n\t <br/><b>Pris inkl. moms : ".$price['price_inc_vat'].'</b>';
-		$cell .= utf8_encode('<br/>Årgang: ').printYearRange($price).'<br/>';
-		//$cell .= "\n\t </td><td>".
-		$cell .= "\n\t </td><td class='bdp_td_spare_part_price' ><br/><b>Pris inkl. moms : ".dk_amount($price['price_inc_vat']).'</b>';
+		//$cell .= "\n\t <br/><b>Pris inkl. moms :".$price['price_inc_vat'].'</b>';
+		//$cell .= "\n\t <br/>Ã…rgang: ".printYearRange($price).'<br/>';
+		$cell .= "\n\t </td><td>$img ";
+		$cell .= "\n\t </td><td class='bdp_td_spare_part_price' ><br/><b>Pris inkl. moms<br>".dk_amount($price['price_inc_vat']).'</b>';
 		$cell .= '<br/><a href="'.$details_url.'">Se detaljer</a>';
-//		$cell .= var_export($price,true); 
-		$t_body .= "\n<tr class='bdp_tr_spare_part_price' ><td class='bdp_td_spare_part_price' >".$cell.'</td><td>';
+		//$cell .= var_export($price,true); 
+		//$sps = $spsm->findObject($price['spare_part_supplier_id']);
+//		Default_Model_SparePartSuppliers::
+		/** @var $sps Default_Model_SparePartSuppliers */ 
+		$cell .= '</td><td>'.$price['supplier_name'];
+		$t_body .= "\n<tr class='$td_style' ><td class='bdp_td_spare_part_price' >".$cell.'</td></tr>';
 	}
 	$this->results = $this->_spare_part_prices_results;
 }
@@ -211,8 +240,8 @@ if($this->suggested_names){
 	echo $html.'<br>';
 }
 
-
-echo "\n<table class='bdp_table_spare_part_prices_results' >$t_body</table>\n";
-die();
+$thead = "<tr><th>Varenavn</th><th>Billede</th><th>Pris</th><th>Forhandler</th></tr>";
+//echo "\n<table class='bdp_table_spare_part_prices_results' >$t_body</table>\n";
+echo "\n<table class='bdp_std_table' >$thead$t_body</table>\n";
 if($html_debug)
 	echo make_html_table_from_results($this->results,true);
