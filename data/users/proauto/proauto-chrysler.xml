@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="chrysler">
+    <car_model car_model_name="&#xD;&#xA;									Anh�ngertr�k chrysler 300C&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="3188" supplier_part_number="031-903" name="&#xD;&#xA;						031-903 &amp;nbsp; Anh�ngertr�k til CHRYSLER  300C Sedan 04 -&#xD;&#xA;					" description="&#xD;&#xA;						Tr�kanordning: Vertikalt aftageligt kuglesystem (AK6)D-v�rdi: 11.00Udsk�ring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. tr�kv�gt / lodret belastning: 1900 / 85Monteringstid anh.tr�k A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1883" supplier_part_number="029-608" name="&#xD;&#xA;						029-608 &amp;nbsp; Kabels�t til CHRYSLER  300C Sedan 04 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Monteringstid kabels�t V - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3188" supplier_part_number="031-903" reference="true" />
+        <Spare_Part_Price price_inc_vat="1694" supplier_part_number="029-618" name="&#xD;&#xA;						029-618 &amp;nbsp; Kabels�t til CHRYSLER  300C Stationcar 04 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Monteringstid kabels�t V - op til 1 time" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anh�ngertr�k chrysler Grand-Voyager&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="025-161" name="&#xD;&#xA;						025-161 &amp;nbsp; Anh�ngertr�k til CHRYSLER  Grand-Voyager MPV  3/96 - 4/01&#xD;&#xA;					" description="&#xD;&#xA;						Tr�kanordning: Standard fast kuglesystemD-v�rdi: 10.70Udsk�ring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. tr�kv�gt / lodret belastning: 1800 / 80Monteringstid anh.tr�k A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="025-163" name="&#xD;&#xA;						025-163 &amp;nbsp; Anh�ngertr�k til CHRYSLER  Grand-Voyager MPV  3/96 - 4/01&#xD;&#xA;					" description="&#xD;&#xA;						Tr�kanordning: Horisontalt aftageligt kuglesystem (AK4)D-v�rdi: 10.70Udsk�ring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. tr�kv�gt / lodret belastning: 1800 / 80Monteringstid anh.tr�k A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="431" supplier_part_number="004-138" name="&#xD;&#xA;						004-138 &amp;nbsp; Kabels�t til CHRYSLER  Grand-Voyager MPV  3/96 - 4/01&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-polet&#xD;&#xA;						Monteringstid kabels�t T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="020-382" name="&#xD;&#xA;						020-382 &amp;nbsp; Anh�ngertr�k til CHRYSLER  Grand-Voyager MPV 88 - 2/96&#xD;&#xA;					" description="&#xD;&#xA;						Tr�kanordning: Standard fast kuglesystemD-v�rdi: 10.35Udsk�ring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. tr�kv�gt / lodret belastning: 1800 / 75Monteringstid anh.tr�k B - op til 1� time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="020-383" name="&#xD;&#xA;						020-383 &amp;nbsp; Anh�ngertr�k til CHRYSLER  Grand-Voyager MPV 88 - 2/96&#xD;&#xA;					" description="&#xD;&#xA;						Tr�kanordning: Horisontalt aftageligt kuglesystem (AK4)D-v�rdi: 9.27Udsk�ring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. tr�kv�gt / lodret belastning: 1500 / 75Monteringstid anh.tr�k B - op til 1� time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="027-671" name="&#xD;&#xA;						027-671 &amp;nbsp; Anh�ngertr�k til CHRYSLER  Grand-Voyager MPV  5/01 - 1/08&#xD;&#xA;					" description="&#xD;&#xA;						Tr�kanordning: Standard fast kuglesystemD-v�rdi: 9.90Udsk�ring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. tr�kv�gt / lodret belastning: 1600 / 80Monteringstid anh.tr�k A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="027-673" name="&#xD;&#xA;						027-673 &amp;nbsp; Anh�ngertr�k til CHRYSLER  Grand-Voyager MPV  5/01 - 1/08&#xD;&#xA;					" description="&#xD;&#xA;						Tr�kanordning: Horisontalt aftageligt kuglesystem (AK4)D-v�rdi: 9.90Udsk�ring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. tr�kv�gt / lodret belastning: 1600 / 80Monteringstid anh.tr�k A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2004" supplier_part_number="043-708" name="&#xD;&#xA;						043-708 &amp;nbsp; Kabels�t til CHRYSLER  Grand-Voyager MPV  5/01 - 1/08&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-polet DIN m. samlet stikBiler med checkkontrolStik&#xD;&#xA;						Monteringstid kabels�t V - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2464" supplier_part_number="043-241" name="&#xD;&#xA;						043-241 &amp;nbsp; Anh�ngertr�k til CHRYSLER  Grand-Voyager MPV 05 - 08&#xD;&#xA;					" description="&#xD;&#xA;						Tr�kanordning: Standard fast kuglesystemD-v�rdi: 10.70Udsk�ring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. tr�kv�gt / lodret belastning: 1800 / 80Monteringstid anh.tr�k C - op til 2 timer" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3456" supplier_part_number="043-243" name="&#xD;&#xA;						043-243 &amp;nbsp; Anh�ngertr�k til CHRYSLER  Grand-Voyager MPV 05 - 08&#xD;&#xA;					" description="&#xD;&#xA;						Tr�kanordning: Vertikalt aftageligt kuglesystem (AK6)D-v�rdi: 10.70Udsk�ring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. tr�kv�gt / lodret belastning: 1800 / 80Monteringstid anh.tr�k C - op til 2 timer" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2004" supplier_part_number="043-708" reference="true" />
+        <Spare_Part_Price price_inc_vat="2066" supplier_part_number="036-231" name="&#xD;&#xA;						036-231 &amp;nbsp; Anh�ngertr�k til CHRYSLER  Grand-Voyager MPV  2/08 -&#xD;&#xA;					" description="&#xD;&#xA;						Tr�kanordning: Standard fast kuglesystemD-v�rdi: 11.53&#xD;&#xA;					&#xD;&#xA;						Maks. tr�kv�gt / lodret belastning: 2025 / 140Monteringstid anh.tr�k A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3748" supplier_part_number="036-233" name="&#xD;&#xA;						036-233 &amp;nbsp; Anh�ngertr�k til CHRYSLER  Grand-Voyager MPV  2/08 -&#xD;&#xA;					" description="&#xD;&#xA;						Tr�kanordning: Vertikalt aftageligt kuglesystem (AK6)D-v�rdi: 11.53&#xD;&#xA;					&#xD;&#xA;						Maks. tr�kv�gt / lodret belastning: 2025 / 140Monteringstid anh.tr�k A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1784" supplier_part_number="036-268" name="&#xD;&#xA;						036-268 &amp;nbsp; Kabels�t til CHRYSLER  Grand-Voyager MPV  2/08 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-poletBiler med og uden checkkontrol&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabels�t V - op til 1 time" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anh�ngertr�k chrysler PT-Cruiser&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="034-133" name="&#xD;&#xA;						034-133 &amp;nbsp; Anh�ngertr�k til CHRYSLER  PT-Cruiser MPV 00 -&#xD;&#xA;					" description="&#xD;&#xA;						Tr�kanordning: Horisontalt aftageligt kuglesystem (AK4)D-v�rdi: 6.60Udsk�ring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. tr�kv�gt / lodret belastning: 1000 / 50Monteringstid anh.tr�k B - op til 1� time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1984" supplier_part_number="018-548" name="&#xD;&#xA;						018-548 &amp;nbsp; Kabels�t til CHRYSLER  PT-Cruiser MPV 00 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-poletBiler med og uden checkkontrol&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabels�t V - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="034-133" reference="true" />
+        <Spare_Part_Price price_inc_vat="1984" supplier_part_number="018-548" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="034-133" reference="true" />
+        <Spare_Part_Price price_inc_vat="1984" supplier_part_number="018-548" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anh�ngertr�k chrysler Stratus&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="023-011" name="&#xD;&#xA;						023-011 &amp;nbsp; Anh�ngertr�k til CHRYSLER  Stratus Sedan 95 - 6/01&#xD;&#xA;					" description="&#xD;&#xA;						Tr�kanordning: Standard fast kuglesystemD-v�rdi: 7.26Udsk�ring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. tr�kv�gt / lodret belastning: 1200 / 75Tr�kkugle d�kker for nummerpladeMonteringstid anh.tr�k A  - op til 1 time" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anh�ngertr�k chrysler Voyager&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="025-161" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="025-163" reference="true" />
+        <Spare_Part_Price price_inc_vat="431" supplier_part_number="004-138" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="020-382" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="020-383" reference="true" />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="027-671" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="027-673" reference="true" />
+        <Spare_Part_Price price_inc_vat="2004" supplier_part_number="043-708" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

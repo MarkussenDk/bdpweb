@@ -1,0 +1,1126 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="renault">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Clio-I&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="022-491" name="022-491 &amp;nbsp; Anhængertræk til RENAULT  Clio-I Hatchback 90 - 2/98" description="Trækanordning: Standard fast kuglesystemD-værdi: 6.04Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1100 / 75Trækkugle dækker for nummerpladeMonteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="022-493" name="022-493 &amp;nbsp; Anhængertræk til RENAULT  Clio-I Hatchback 90 - 2/98" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 6.04Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1100 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="283" supplier_part_number="004-548" name="004-548 &amp;nbsp; Kabelsæt til RENAULT  Clio-I Hatchback 90 - 2/98" description="Polaritet = 7-polet&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min.Bemærk: I-&gt; 05/96" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Clio-II&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1369" supplier_part_number="027-891" name="027-891 &amp;nbsp; Anhængertræk til RENAULT  Clio-I Hatchback  3/98 - 6/01" description="Trækanordning: Standard fast kuglesystemD-værdi: 6.67&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1200 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="024-203" name="024-203 &amp;nbsp; Anhængertræk til RENAULT  Clio-I Hatchback  3/98 - 6/01" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 6.21&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1200 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="441" supplier_part_number="009-918" name="009-918 &amp;nbsp; Kabelsæt til RENAULT  Clio-I Hatchback  3/98 - 6/01" description="Polaritet = 7-polet&#xD;&#xA;						Monteringstid kabelsæt R - op til 20 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1369" supplier_part_number="027-891" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="024-203" reference="true" />
+        <Spare_Part_Price price_inc_vat="441" supplier_part_number="009-918" reference="true" />
+        <Spare_Part_Price price_inc_vat="1369" supplier_part_number="027-891" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="024-203" reference="true" />
+        <Spare_Part_Price price_inc_vat="441" supplier_part_number="009-918" reference="true" />
+        <Spare_Part_Price price_inc_vat="1369" supplier_part_number="027-891" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="024-203" reference="true" />
+        <Spare_Part_Price price_inc_vat="441" supplier_part_number="009-918" reference="true" />
+        <Spare_Part_Price price_inc_vat="1369" supplier_part_number="027-891" reference="true" />
+        <Spare_Part_Price price_inc_vat="365" supplier_part_number="015-368" name="015-368 &amp;nbsp; Kabelsæt til RENAULT  Clio-I Hatchback  7/01 - 05" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt R - op til 20 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1369" supplier_part_number="027-891" reference="true" />
+        <Spare_Part_Price price_inc_vat="365" supplier_part_number="015-368" reference="true" />
+        <Spare_Part_Price price_inc_vat="1369" supplier_part_number="027-891" reference="true" />
+        <Spare_Part_Price price_inc_vat="365" supplier_part_number="015-368" reference="true" />
+        <Spare_Part_Price price_inc_vat="1369" supplier_part_number="027-891" reference="true" />
+        <Spare_Part_Price price_inc_vat="365" supplier_part_number="015-368" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Clio-II-Campus&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1369" supplier_part_number="027-891" reference="true" />
+        <Spare_Part_Price price_inc_vat="365" supplier_part_number="015-368" reference="true" />
+        <Spare_Part_Price price_inc_vat="1369" supplier_part_number="027-891" reference="true" />
+        <Spare_Part_Price price_inc_vat="365" supplier_part_number="015-368" reference="true" />
+        <Spare_Part_Price price_inc_vat="1369" supplier_part_number="027-891" reference="true" />
+        <Spare_Part_Price price_inc_vat="365" supplier_part_number="015-368" reference="true" />
+        <Spare_Part_Price price_inc_vat="1369" supplier_part_number="027-891" reference="true" />
+        <Spare_Part_Price price_inc_vat="365" supplier_part_number="015-368" reference="true" />
+        <Spare_Part_Price price_inc_vat="1369" supplier_part_number="027-891" reference="true" />
+        <Spare_Part_Price price_inc_vat="365" supplier_part_number="015-368" reference="true" />
+        <Spare_Part_Price price_inc_vat="1369" supplier_part_number="027-891" reference="true" />
+        <Spare_Part_Price price_inc_vat="365" supplier_part_number="015-368" reference="true" />
+        <Spare_Part_Price price_inc_vat="1369" supplier_part_number="027-891" reference="true" />
+        <Spare_Part_Price price_inc_vat="365" supplier_part_number="015-368" reference="true" />
+        <Spare_Part_Price price_inc_vat="1369" supplier_part_number="027-891" reference="true" />
+        <Spare_Part_Price price_inc_vat="365" supplier_part_number="015-368" reference="true" />
+        <Spare_Part_Price price_inc_vat="1369" supplier_part_number="027-891" reference="true" />
+        <Spare_Part_Price price_inc_vat="365" supplier_part_number="015-368" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Clio-III&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1369" supplier_part_number="027-891" reference="true" />
+        <Spare_Part_Price price_inc_vat="365" supplier_part_number="015-368" reference="true" />
+        <Spare_Part_Price price_inc_vat="1369" supplier_part_number="027-891" reference="true" />
+        <Spare_Part_Price price_inc_vat="365" supplier_part_number="015-368" reference="true" />
+        <Spare_Part_Price price_inc_vat="1369" supplier_part_number="027-891" reference="true" />
+        <Spare_Part_Price price_inc_vat="365" supplier_part_number="015-368" reference="true" />
+        <Spare_Part_Price price_inc_vat="1369" supplier_part_number="027-891" reference="true" />
+        <Spare_Part_Price price_inc_vat="365" supplier_part_number="015-368" reference="true" />
+        <Spare_Part_Price price_inc_vat="1369" supplier_part_number="027-891" reference="true" />
+        <Spare_Part_Price price_inc_vat="365" supplier_part_number="015-368" reference="true" />
+        <Spare_Part_Price price_inc_vat="1369" supplier_part_number="027-891" reference="true" />
+        <Spare_Part_Price price_inc_vat="365" supplier_part_number="015-368" reference="true" />
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="034-611" name="034-611 &amp;nbsp; Anhængertræk til RENAULT  Clio-I Hatchback 05 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 7.00&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1200 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="034-614" name="034-614 &amp;nbsp; Anhængertræk til RENAULT  Clio-I Hatchback 05 -" description="Trækanordning:  aftageligt anhægertræk D-værdi: 7.00&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1200 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="389" supplier_part_number="018-898" name="018-898 &amp;nbsp; Kabelsæt til RENAULT  Clio-I Hatchback 05 -" description="Polaritet = 7-poletBiler med checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="034-611" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="034-614" reference="true" />
+        <Spare_Part_Price price_inc_vat="389" supplier_part_number="018-898" reference="true" />
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="034-611" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="034-614" reference="true" />
+        <Spare_Part_Price price_inc_vat="389" supplier_part_number="018-898" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="036-511" name="036-511 &amp;nbsp; Anhængertræk til RENAULT  Clio-I Stationcar (Grandtour)  2/08 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 6.97&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1200 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="036-514" name="036-514 &amp;nbsp; Anhængertræk til RENAULT  Clio-I Stationcar (Grandtour)  2/08 -" description="Trækanordning:  aftageligt anhægertræk D-værdi: 6.97&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1200 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="463" supplier_part_number="034-868" name="034-868 &amp;nbsp; Kabelsæt til RENAULT  Clio-I Stationcar (Grandtour)  2/08 -" description="Polaritet = 7-poletBiler med checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="036-511" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="036-514" reference="true" />
+        <Spare_Part_Price price_inc_vat="463" supplier_part_number="034-868" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="036-511" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="036-514" reference="true" />
+        <Spare_Part_Price price_inc_vat="463" supplier_part_number="034-868" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="036-511" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="036-514" reference="true" />
+        <Spare_Part_Price price_inc_vat="463" supplier_part_number="034-868" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="036-511" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="036-514" reference="true" />
+        <Spare_Part_Price price_inc_vat="463" supplier_part_number="034-868" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="036-511" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="036-514" reference="true" />
+        <Spare_Part_Price price_inc_vat="463" supplier_part_number="034-868" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="036-511" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="036-514" reference="true" />
+        <Spare_Part_Price price_inc_vat="463" supplier_part_number="034-868" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="036-511" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="036-514" reference="true" />
+        <Spare_Part_Price price_inc_vat="463" supplier_part_number="034-868" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="036-511" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="036-514" reference="true" />
+        <Spare_Part_Price price_inc_vat="463" supplier_part_number="034-868" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Clio-III-Thalia&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="046-474" name="046-474 &amp;nbsp; Anhængertræk til RENAULT  Clio-I Sedan  11/08 -" description="Trækanordning:  aftageligt anhægertræk D-værdi: 6.70&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1150 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="046-474" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="046-474" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="046-474" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="046-474" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="046-474" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="046-474" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="046-474" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="046-474" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="046-474" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="046-474" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="046-474" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="046-474" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="046-474" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="046-474" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="046-474" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Clio-II-Thalia&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="046-474" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="046-474" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="046-474" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="046-474" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="046-474" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="046-474" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="046-474" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="046-474" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="046-474" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Duster&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1406" supplier_part_number="029-381" name="029-381 &amp;nbsp; Anhængertræk til RENAULT  Duster APV  4/10 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 9.00Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1500 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-388" name="029-388 &amp;nbsp; Kabelsæt til RENAULT  Duster APV  4/10 -" description="Polaritet = 7-poletStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-398" name="029-398 &amp;nbsp; Kabelsæt til RENAULT  Duster APV  4/10 -" description="Polaritet = 13-poletStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt S - op til 30 min.Bemærk: Udvidelsessæt for strømforsyning, bestil 017-579 (+30) eller 020-229 (+15)." spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Espace-II&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="023-751" name="023-751 &amp;nbsp; Anhængertræk til RENAULT  Espace-II MPV  7/90 - 10/96" description="Trækanordning: Standard fast kuglesystemD-værdi: 10.00&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1900 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="017-723" name="017-723 &amp;nbsp; Anhængertræk til RENAULT  Espace-II MPV  7/90 - 10/96" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 9.65&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1800 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="263" supplier_part_number="006-178" name="006-178 &amp;nbsp; Kabelsæt til RENAULT  Espace-II MPV  7/90 - 10/96" description="Polaritet = 7-polet&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min.Bemærk: I-&gt; 01/92" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Espace-III&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="023-241" name="023-241 &amp;nbsp; Anhængertræk til RENAULT  Espace-II MPV  11/96 - 7/98" description="Trækanordning: FlangekugleD-værdi: 10.61Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1900 / 85Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="694" supplier_part_number="009-628" name="009-628 &amp;nbsp; Kabelsæt til RENAULT  Espace-II MPV  11/96 - 7/98" description="Polaritet = 7-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="023-241" reference="true" />
+        <Spare_Part_Price price_inc_vat="694" supplier_part_number="009-628" reference="true" />
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="023-241" reference="true" />
+        <Spare_Part_Price price_inc_vat="694" supplier_part_number="009-628" reference="true" />
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="023-241" reference="true" />
+        <Spare_Part_Price price_inc_vat="694" supplier_part_number="009-628" reference="true" />
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="023-241" reference="true" />
+        <Spare_Part_Price price_inc_vat="539" supplier_part_number="005-298" name="005-298 &amp;nbsp; Kabelsæt til RENAULT  Espace-II MPV  8/98 - 10/02" description="Polaritet = 7-polet DIN m. samlet stikStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1010" supplier_part_number="013-968" name="013-968 &amp;nbsp; Kabelsæt til RENAULT  Espace-II MPV  8/98 - 10/02" description="Polaritet = 13-polet DIN m. samlet stikStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="023-241" reference="true" />
+        <Spare_Part_Price price_inc_vat="539" supplier_part_number="005-298" reference="true" />
+        <Spare_Part_Price price_inc_vat="1010" supplier_part_number="013-968" reference="true" />
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="023-241" reference="true" />
+        <Spare_Part_Price price_inc_vat="539" supplier_part_number="005-298" reference="true" />
+        <Spare_Part_Price price_inc_vat="1010" supplier_part_number="013-968" reference="true" />
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="023-241" reference="true" />
+        <Spare_Part_Price price_inc_vat="539" supplier_part_number="005-298" reference="true" />
+        <Spare_Part_Price price_inc_vat="1010" supplier_part_number="013-968" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Espace-IV&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="032-061" name="032-061 &amp;nbsp; Anhængertræk til RENAULT  Espace-IV MPV  11/02 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 11.29&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2000 / 80Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="032-063" name="032-063 &amp;nbsp; Anhængertræk til RENAULT  Espace-IV MPV  11/02 -" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 11.29&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2000 / 80Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="570" supplier_part_number="016-328" name="016-328 &amp;nbsp; Kabelsæt til RENAULT  Espace-IV MPV  11/02 -" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1041" supplier_part_number="016-308" name="016-308 &amp;nbsp; Kabelsæt til RENAULT  Espace-IV MPV  11/02 -" description="Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Express&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="020-552" name="020-552 &amp;nbsp; Anhængertræk til RENAULT  Express Lille varevogn, Multispace 85 - 01" description="Trækanordning: FlangekugleD-værdi: 4.86&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 700 / 59Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="046-421" name="046-421 &amp;nbsp; Anhængertræk til RENAULT  Express Lille varevogn, Multispace 85 - 01" description="Trækanordning: Standard fast kuglesystemD-værdi: 7.10&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1106 / 50Monteringstid anh.træk C - op til 2 timer" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Grand-Espace-III&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="023-241" reference="true" />
+        <Spare_Part_Price price_inc_vat="694" supplier_part_number="009-628" reference="true" />
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="023-241" reference="true" />
+        <Spare_Part_Price price_inc_vat="539" supplier_part_number="005-298" reference="true" />
+        <Spare_Part_Price price_inc_vat="1010" supplier_part_number="013-968" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Grand-Espace-IV&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="033-131" name="033-131 &amp;nbsp; Anhængertræk til RENAULT  Grand-Espace-IV MPV  11/02 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 11.29&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2000 / 80Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="033-133" name="033-133 &amp;nbsp; Anhængertræk til RENAULT  Grand-Espace-IV MPV  11/02 -" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 11.29&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2000 / 80Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="570" supplier_part_number="016-328" reference="true" />
+        <Spare_Part_Price price_inc_vat="1041" supplier_part_number="016-308" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Grand-Modus&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="036-521" name="036-521 &amp;nbsp; Anhængertræk til RENAULT  Grand-Modus MPV  3/08 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 6.98&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1200 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="036-523" name="036-523 &amp;nbsp; Anhængertræk til RENAULT  Grand-Modus MPV  3/08 -" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 6.98&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1200 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="361" supplier_part_number="034-888" name="034-888 &amp;nbsp; Kabelsæt til RENAULT  Grand-Modus MPV  3/08 -" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min.Bemærk: Ingen kontakt til tågebaglygte" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="771" supplier_part_number="034-898" name="034-898 &amp;nbsp; Kabelsæt til RENAULT  Grand-Modus MPV  3/08 -" description="Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Kangoo-I&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="022-701" reference="true" />
+        <Spare_Part_Price price_inc_vat="431" supplier_part_number="009-928" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Kangoo-II&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="044-492" name="044-492 &amp;nbsp; Anhængertræk til RENAULT  Kangoo-I Lille varevogn, Multispace 08 -" description="Trækanordning: FlangekugleD-værdi: 7.62&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1350 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="044-491" name="044-491 &amp;nbsp; Anhængertræk til RENAULT  Kangoo-I Lille varevogn, Multispace 08 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 7.62&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1350 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="306" supplier_part_number="041-968" name="041-968 &amp;nbsp; Kabelsæt til RENAULT  Kangoo-I Lille varevogn, Multispace 08 -" description="Polaritet = 7-poletBiler med checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="621" supplier_part_number="042-308" name="042-308 &amp;nbsp; Kabelsæt til RENAULT  Kangoo-I Lille varevogn, Multispace 08 -" description="Polaritet = 13-poletBiler med checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="044-492" reference="true" />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="044-491" reference="true" />
+        <Spare_Part_Price price_inc_vat="306" supplier_part_number="041-968" reference="true" />
+        <Spare_Part_Price price_inc_vat="621" supplier_part_number="042-308" reference="true" />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="044-492" reference="true" />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="044-491" reference="true" />
+        <Spare_Part_Price price_inc_vat="306" supplier_part_number="041-968" reference="true" />
+        <Spare_Part_Price price_inc_vat="621" supplier_part_number="042-308" reference="true" />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="044-492" reference="true" />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="044-491" reference="true" />
+        <Spare_Part_Price price_inc_vat="306" supplier_part_number="041-968" reference="true" />
+        <Spare_Part_Price price_inc_vat="621" supplier_part_number="042-308" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Kangoo-II-Be-Bop-/-Express-Compact&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1266" supplier_part_number="044-722" name="044-722 &amp;nbsp; Anhængertræk til RENAULT  Kangoo-I Lille varevogn, Multispace  3/09 -" description="Trækanordning: FlangekugleD-værdi: 6.92&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1050 / 75Monteringstid anh.træk C - op til 2 timer" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1191" supplier_part_number="044-721" name="044-721 &amp;nbsp; Anhængertræk til RENAULT  Kangoo-I Lille varevogn, Multispace  3/09 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 6.92&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1050 / 75Monteringstid anh.træk C - op til 2 timer" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="306" supplier_part_number="041-968" reference="true" />
+        <Spare_Part_Price price_inc_vat="621" supplier_part_number="042-308" reference="true" />
+        <Spare_Part_Price price_inc_vat="1266" supplier_part_number="044-722" reference="true" />
+        <Spare_Part_Price price_inc_vat="1191" supplier_part_number="044-721" reference="true" />
+        <Spare_Part_Price price_inc_vat="306" supplier_part_number="041-968" reference="true" />
+        <Spare_Part_Price price_inc_vat="621" supplier_part_number="042-308" reference="true" />
+        <Spare_Part_Price price_inc_vat="1266" supplier_part_number="044-722" reference="true" />
+        <Spare_Part_Price price_inc_vat="1191" supplier_part_number="044-721" reference="true" />
+        <Spare_Part_Price price_inc_vat="306" supplier_part_number="041-968" reference="true" />
+        <Spare_Part_Price price_inc_vat="621" supplier_part_number="042-308" reference="true" />
+        <Spare_Part_Price price_inc_vat="1266" supplier_part_number="044-722" reference="true" />
+        <Spare_Part_Price price_inc_vat="1191" supplier_part_number="044-721" reference="true" />
+        <Spare_Part_Price price_inc_vat="306" supplier_part_number="041-968" reference="true" />
+        <Spare_Part_Price price_inc_vat="621" supplier_part_number="042-308" reference="true" />
+        <Spare_Part_Price price_inc_vat="1266" supplier_part_number="044-722" reference="true" />
+        <Spare_Part_Price price_inc_vat="1191" supplier_part_number="044-721" reference="true" />
+        <Spare_Part_Price price_inc_vat="306" supplier_part_number="041-968" reference="true" />
+        <Spare_Part_Price price_inc_vat="621" supplier_part_number="042-308" reference="true" />
+        <Spare_Part_Price price_inc_vat="1266" supplier_part_number="044-722" reference="true" />
+        <Spare_Part_Price price_inc_vat="1191" supplier_part_number="044-721" reference="true" />
+        <Spare_Part_Price price_inc_vat="306" supplier_part_number="041-968" reference="true" />
+        <Spare_Part_Price price_inc_vat="621" supplier_part_number="042-308" reference="true" />
+        <Spare_Part_Price price_inc_vat="1266" supplier_part_number="044-722" reference="true" />
+        <Spare_Part_Price price_inc_vat="1191" supplier_part_number="044-721" reference="true" />
+        <Spare_Part_Price price_inc_vat="306" supplier_part_number="041-968" reference="true" />
+        <Spare_Part_Price price_inc_vat="621" supplier_part_number="042-308" reference="true" />
+        <Spare_Part_Price price_inc_vat="1266" supplier_part_number="044-722" reference="true" />
+        <Spare_Part_Price price_inc_vat="1191" supplier_part_number="044-721" reference="true" />
+        <Spare_Part_Price price_inc_vat="306" supplier_part_number="041-968" reference="true" />
+        <Spare_Part_Price price_inc_vat="621" supplier_part_number="042-308" reference="true" />
+        <Spare_Part_Price price_inc_vat="1266" supplier_part_number="044-722" reference="true" />
+        <Spare_Part_Price price_inc_vat="1191" supplier_part_number="044-721" reference="true" />
+        <Spare_Part_Price price_inc_vat="306" supplier_part_number="041-968" reference="true" />
+        <Spare_Part_Price price_inc_vat="621" supplier_part_number="042-308" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Kangoo-I--RX4&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="027-081" name="027-081 &amp;nbsp; Anhængertræk til RENAULT  Kangoo-I Lille varevogn, Multispace 01 -" description="Trækanordning: FlangekugleD-værdi: 7.72&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1350 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="431" supplier_part_number="009-928" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="027-081" reference="true" />
+        <Spare_Part_Price price_inc_vat="431" supplier_part_number="009-928" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="027-081" reference="true" />
+        <Spare_Part_Price price_inc_vat="431" supplier_part_number="009-928" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="027-081" reference="true" />
+        <Spare_Part_Price price_inc_vat="431" supplier_part_number="009-928" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Koleos&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1466" supplier_part_number="036-531" name="036-531 &amp;nbsp; Anhængertræk til RENAULT  Koleos APV 08 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 10.50&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2000 / 100Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2730" supplier_part_number="036-533" name="036-533 &amp;nbsp; Anhængertræk til RENAULT  Koleos APV 08 -" description="Trækanordning: Vertikalt aftageligt kuglesystem (AK6)D-værdi: 10.50&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2000 / 100Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="476" supplier_part_number="035-318" name="035-318 &amp;nbsp; Kabelsæt til RENAULT  Koleos APV 08 -" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="035-328" name="035-328 &amp;nbsp; Kabelsæt til RENAULT  Koleos APV 08 -" description="Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Laguna-I&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="023-461" name="023-461 &amp;nbsp; Anhængertræk til RENAULT  Laguna-I Hatchback 93 - 00" description="Trækanordning: Standard fast kuglesystemD-værdi: 8.84&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1650 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="251" supplier_part_number="006-188" name="006-188 &amp;nbsp; Kabelsæt til RENAULT  Laguna-I Hatchback 93 - 00" description="Polaritet = 7-poletBiler med checkkontrol&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="630" supplier_part_number="008-438" name="008-438 &amp;nbsp; Kabelsæt til RENAULT  Laguna-I Hatchback 93 - 00" description="Polaritet = 13-poletBiler med checkkontrol&#xD;&#xA;						Monteringstid kabelsæt V - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="024-961" name="024-961 &amp;nbsp; Anhængertræk til RENAULT  Laguna-I Stationcar (Grandtour) 95 - 8/00" description="Trækanordning: Standard fast kuglesystemD-værdi: 9.30&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1850 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="359" supplier_part_number="004-108" name="004-108 &amp;nbsp; Kabelsæt til RENAULT  Laguna-I Stationcar (Grandtour) 95 - 8/00" description="Polaritet = 7-polet&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min.Bemærk: Ikke forberedt til kabelsæt" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="694" supplier_part_number="007-388" name="007-388 &amp;nbsp; Kabelsæt til RENAULT  Laguna-I Stationcar (Grandtour) 95 - 8/00" description="Polaritet = 13-polet&#xD;&#xA;						Monteringstid kabelsæt V - op til 1 timeBemærk: Ikke forberedt til kabelsæt" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="024-971" name="024-971 &amp;nbsp; Anhængertræk til RENAULT  Laguna-I Stationcar (Grandtour)  4/98 - 00" description="Trækanordning: Standard fast kuglesystemD-værdi: 9.30&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1850 / 50Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="024-973" name="024-973 &amp;nbsp; Anhængertræk til RENAULT  Laguna-I Stationcar (Grandtour)  4/98 - 00" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 9.30&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1850 / 50Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="359" supplier_part_number="004-108" reference="true" />
+        <Spare_Part_Price price_inc_vat="694" supplier_part_number="007-388" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Laguna-II&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="027-092" name="027-092 &amp;nbsp; Anhængertræk til RENAULT  Laguna-I Hatchback 01 - 07" description="Trækanordning: FlangekugleD-værdi: 8.46&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1500 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="032-221" name="032-221 &amp;nbsp; Anhængertræk til RENAULT  Laguna-I Hatchback 01 - 07" description="Trækanordning: Standard fast kuglesystemD-værdi: 8.46&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1500 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="032-223" name="032-223 &amp;nbsp; Anhængertræk til RENAULT  Laguna-I Hatchback 01 - 07" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 8.46&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1500 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="669" supplier_part_number="015-518" name="015-518 &amp;nbsp; Kabelsæt til RENAULT  Laguna-I Hatchback 01 - 07" description="Polaritet = 7-poletBiler med checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="915" supplier_part_number="015-528" name="015-528 &amp;nbsp; Kabelsæt til RENAULT  Laguna-I Hatchback 01 - 07" description="Polaritet = 13-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="027-092" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="032-221" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="032-223" reference="true" />
+        <Spare_Part_Price price_inc_vat="669" supplier_part_number="015-518" reference="true" />
+        <Spare_Part_Price price_inc_vat="915" supplier_part_number="015-528" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="027-092" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="032-221" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="032-223" reference="true" />
+        <Spare_Part_Price price_inc_vat="669" supplier_part_number="015-518" reference="true" />
+        <Spare_Part_Price price_inc_vat="915" supplier_part_number="015-528" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="027-092" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="032-221" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="032-223" reference="true" />
+        <Spare_Part_Price price_inc_vat="669" supplier_part_number="015-518" reference="true" />
+        <Spare_Part_Price price_inc_vat="915" supplier_part_number="015-528" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="032-231" name="032-231 &amp;nbsp; Anhængertræk til RENAULT  Laguna-I Stationcar (Grandtour) 01 - 07" description="Trækanordning: Standard fast kuglesystemD-værdi: 8.51&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1500 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="032-233" name="032-233 &amp;nbsp; Anhængertræk til RENAULT  Laguna-I Stationcar (Grandtour) 01 - 07" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 8.51&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1500 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="404" supplier_part_number="015-138" name="015-138 &amp;nbsp; Kabelsæt til RENAULT  Laguna-I Stationcar (Grandtour) 01 - 07" description="Polaritet = 7-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="540" supplier_part_number="014-668" name="014-668 &amp;nbsp; Kabelsæt til RENAULT  Laguna-I Stationcar (Grandtour) 01 - 07" description="Polaritet = 13-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="032-231" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="032-233" reference="true" />
+        <Spare_Part_Price price_inc_vat="404" supplier_part_number="015-138" reference="true" />
+        <Spare_Part_Price price_inc_vat="540" supplier_part_number="014-668" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="032-231" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="032-233" reference="true" />
+        <Spare_Part_Price price_inc_vat="404" supplier_part_number="015-138" reference="true" />
+        <Spare_Part_Price price_inc_vat="540" supplier_part_number="014-668" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="032-231" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="032-233" reference="true" />
+        <Spare_Part_Price price_inc_vat="404" supplier_part_number="015-138" reference="true" />
+        <Spare_Part_Price price_inc_vat="540" supplier_part_number="014-668" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Laguna-III&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-391" name="044-391 &amp;nbsp; Anhængertræk til RENAULT  Laguna-I Hatchback  10/07 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 9.76Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1700 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="044-393" name="044-393 &amp;nbsp; Anhængertræk til RENAULT  Laguna-I Hatchback  10/07 -" description="Trækanordning:  lodret aftageligt anhængertræk D-værdi: 9.76Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1700 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="746" supplier_part_number="041-748" name="041-748 &amp;nbsp; Kabelsæt til RENAULT  Laguna-I Hatchback  10/07 -" description="Polaritet = 7-poletBiler med checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="923" supplier_part_number="041-758" name="041-758 &amp;nbsp; Kabelsæt til RENAULT  Laguna-I Hatchback  10/07 -" description="Polaritet = 13-poletBiler med checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-391" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="044-393" reference="true" />
+        <Spare_Part_Price price_inc_vat="746" supplier_part_number="041-748" reference="true" />
+        <Spare_Part_Price price_inc_vat="923" supplier_part_number="041-758" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-391" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="044-393" reference="true" />
+        <Spare_Part_Price price_inc_vat="746" supplier_part_number="041-748" reference="true" />
+        <Spare_Part_Price price_inc_vat="923" supplier_part_number="041-758" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-391" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="044-393" reference="true" />
+        <Spare_Part_Price price_inc_vat="746" supplier_part_number="041-748" reference="true" />
+        <Spare_Part_Price price_inc_vat="923" supplier_part_number="041-758" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-391" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="044-393" reference="true" />
+        <Spare_Part_Price price_inc_vat="746" supplier_part_number="041-748" reference="true" />
+        <Spare_Part_Price price_inc_vat="923" supplier_part_number="041-758" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-391" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="044-393" reference="true" />
+        <Spare_Part_Price price_inc_vat="746" supplier_part_number="041-748" reference="true" />
+        <Spare_Part_Price price_inc_vat="923" supplier_part_number="041-758" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-391" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="044-393" reference="true" />
+        <Spare_Part_Price price_inc_vat="746" supplier_part_number="041-748" reference="true" />
+        <Spare_Part_Price price_inc_vat="923" supplier_part_number="041-758" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-391" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="044-393" reference="true" />
+        <Spare_Part_Price price_inc_vat="746" supplier_part_number="041-748" reference="true" />
+        <Spare_Part_Price price_inc_vat="923" supplier_part_number="041-758" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-391" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="044-393" reference="true" />
+        <Spare_Part_Price price_inc_vat="746" supplier_part_number="041-748" reference="true" />
+        <Spare_Part_Price price_inc_vat="923" supplier_part_number="041-758" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-391" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="044-393" reference="true" />
+        <Spare_Part_Price price_inc_vat="746" supplier_part_number="041-748" reference="true" />
+        <Spare_Part_Price price_inc_vat="923" supplier_part_number="041-758" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-391" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="044-393" reference="true" />
+        <Spare_Part_Price price_inc_vat="746" supplier_part_number="041-748" reference="true" />
+        <Spare_Part_Price price_inc_vat="923" supplier_part_number="041-758" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-391" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="044-393" reference="true" />
+        <Spare_Part_Price price_inc_vat="746" supplier_part_number="041-748" reference="true" />
+        <Spare_Part_Price price_inc_vat="923" supplier_part_number="041-758" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-391" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="044-393" reference="true" />
+        <Spare_Part_Price price_inc_vat="746" supplier_part_number="041-748" reference="true" />
+        <Spare_Part_Price price_inc_vat="923" supplier_part_number="041-758" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-391" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="044-393" reference="true" />
+        <Spare_Part_Price price_inc_vat="746" supplier_part_number="041-748" reference="true" />
+        <Spare_Part_Price price_inc_vat="923" supplier_part_number="041-758" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-391" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="044-393" reference="true" />
+        <Spare_Part_Price price_inc_vat="746" supplier_part_number="041-748" reference="true" />
+        <Spare_Part_Price price_inc_vat="923" supplier_part_number="041-758" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-391" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="044-393" reference="true" />
+        <Spare_Part_Price price_inc_vat="746" supplier_part_number="041-748" reference="true" />
+        <Spare_Part_Price price_inc_vat="923" supplier_part_number="041-758" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-391" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="044-393" reference="true" />
+        <Spare_Part_Price price_inc_vat="746" supplier_part_number="041-748" reference="true" />
+        <Spare_Part_Price price_inc_vat="923" supplier_part_number="041-758" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-391" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="044-393" reference="true" />
+        <Spare_Part_Price price_inc_vat="746" supplier_part_number="041-748" reference="true" />
+        <Spare_Part_Price price_inc_vat="923" supplier_part_number="041-758" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-621" name="044-621 &amp;nbsp; Anhængertræk til RENAULT  Laguna-I Stationcar (Grandtour)  10/07 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 9.76&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1700 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="044-623" name="044-623 &amp;nbsp; Anhængertræk til RENAULT  Laguna-I Stationcar (Grandtour)  10/07 -" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 9.76&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1700 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="881" supplier_part_number="042-348" name="042-348 &amp;nbsp; Kabelsæt til RENAULT  Laguna-I Stationcar (Grandtour)  10/07 -" description="Polaritet = 7-poletBiler med checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="945" supplier_part_number="042-358" name="042-358 &amp;nbsp; Kabelsæt til RENAULT  Laguna-I Stationcar (Grandtour)  10/07 -" description="Polaritet = 13-poletBiler med checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-621" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="044-623" reference="true" />
+        <Spare_Part_Price price_inc_vat="881" supplier_part_number="042-348" reference="true" />
+        <Spare_Part_Price price_inc_vat="945" supplier_part_number="042-358" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-621" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="044-623" reference="true" />
+        <Spare_Part_Price price_inc_vat="881" supplier_part_number="042-348" reference="true" />
+        <Spare_Part_Price price_inc_vat="945" supplier_part_number="042-358" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-621" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="044-623" reference="true" />
+        <Spare_Part_Price price_inc_vat="881" supplier_part_number="042-348" reference="true" />
+        <Spare_Part_Price price_inc_vat="945" supplier_part_number="042-358" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-621" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="044-623" reference="true" />
+        <Spare_Part_Price price_inc_vat="881" supplier_part_number="042-348" reference="true" />
+        <Spare_Part_Price price_inc_vat="945" supplier_part_number="042-358" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-621" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="044-623" reference="true" />
+        <Spare_Part_Price price_inc_vat="881" supplier_part_number="042-348" reference="true" />
+        <Spare_Part_Price price_inc_vat="945" supplier_part_number="042-358" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-621" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="044-623" reference="true" />
+        <Spare_Part_Price price_inc_vat="881" supplier_part_number="042-348" reference="true" />
+        <Spare_Part_Price price_inc_vat="945" supplier_part_number="042-358" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-621" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="044-623" reference="true" />
+        <Spare_Part_Price price_inc_vat="881" supplier_part_number="042-348" reference="true" />
+        <Spare_Part_Price price_inc_vat="945" supplier_part_number="042-358" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-621" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="044-623" reference="true" />
+        <Spare_Part_Price price_inc_vat="881" supplier_part_number="042-348" reference="true" />
+        <Spare_Part_Price price_inc_vat="945" supplier_part_number="042-358" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-621" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="044-623" reference="true" />
+        <Spare_Part_Price price_inc_vat="881" supplier_part_number="042-348" reference="true" />
+        <Spare_Part_Price price_inc_vat="945" supplier_part_number="042-358" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-621" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="044-623" reference="true" />
+        <Spare_Part_Price price_inc_vat="881" supplier_part_number="042-348" reference="true" />
+        <Spare_Part_Price price_inc_vat="945" supplier_part_number="042-358" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-621" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="044-623" reference="true" />
+        <Spare_Part_Price price_inc_vat="881" supplier_part_number="042-348" reference="true" />
+        <Spare_Part_Price price_inc_vat="945" supplier_part_number="042-358" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-621" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="044-623" reference="true" />
+        <Spare_Part_Price price_inc_vat="881" supplier_part_number="042-348" reference="true" />
+        <Spare_Part_Price price_inc_vat="945" supplier_part_number="042-358" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-621" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="044-623" reference="true" />
+        <Spare_Part_Price price_inc_vat="881" supplier_part_number="042-348" reference="true" />
+        <Spare_Part_Price price_inc_vat="945" supplier_part_number="042-358" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-621" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="044-623" reference="true" />
+        <Spare_Part_Price price_inc_vat="881" supplier_part_number="042-348" reference="true" />
+        <Spare_Part_Price price_inc_vat="945" supplier_part_number="042-358" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-621" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="044-623" reference="true" />
+        <Spare_Part_Price price_inc_vat="881" supplier_part_number="042-348" reference="true" />
+        <Spare_Part_Price price_inc_vat="945" supplier_part_number="042-358" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-621" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="044-623" reference="true" />
+        <Spare_Part_Price price_inc_vat="881" supplier_part_number="042-348" reference="true" />
+        <Spare_Part_Price price_inc_vat="945" supplier_part_number="042-358" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-621" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="044-623" reference="true" />
+        <Spare_Part_Price price_inc_vat="881" supplier_part_number="042-348" reference="true" />
+        <Spare_Part_Price price_inc_vat="945" supplier_part_number="042-358" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Logan&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="034-501" name="034-501 &amp;nbsp; Anhængertræk til RENAULT  Logan Sedan 05 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 6.40&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1100 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="034-504" name="034-504 &amp;nbsp; Anhængertræk til RENAULT  Logan Sedan 05 -" description="Trækanordning:  aftageligt anhægertræk D-værdi: 6.40&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1100 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="354" supplier_part_number="020-218" name="020-218 &amp;nbsp; Kabelsæt til RENAULT  Logan Sedan 05 -" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min.Bemærk: -&gt;I 9/08" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="034-501" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="034-504" reference="true" />
+        <Spare_Part_Price price_inc_vat="354" supplier_part_number="020-218" reference="true" />
+        <Spare_Part_Price price_inc_vat="1499" supplier_part_number="044-811" name="044-811 &amp;nbsp; Anhængertræk til RENAULT  Logan Pick-up 08 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 7.80&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1300 / 75Trækkugle dækker for nummerpladeMonteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="044-814" name="044-814 &amp;nbsp; Anhængertræk til RENAULT  Logan Pick-up 08 -" description="Trækanordning:  aftageligt anhægertræk D-værdi: 7.80&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1300 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="309" supplier_part_number="030-878" name="030-878 &amp;nbsp; Kabelsæt til RENAULT  Logan Pick-up 08 -" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Logan-MCV&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1499" supplier_part_number="044-811" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="044-814" reference="true" />
+        <Spare_Part_Price price_inc_vat="353" supplier_part_number="020-208" name="020-208 &amp;nbsp; Kabelsæt til RENAULT  Logan Stationcar  3/07 - 12/07" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1499" supplier_part_number="044-811" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="044-814" reference="true" />
+        <Spare_Part_Price price_inc_vat="353" supplier_part_number="020-208" reference="true" />
+        <Spare_Part_Price price_inc_vat="1499" supplier_part_number="044-811" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="044-814" reference="true" />
+        <Spare_Part_Price price_inc_vat="353" supplier_part_number="020-208" reference="true" />
+        <Spare_Part_Price price_inc_vat="1499" supplier_part_number="044-811" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="044-814" reference="true" />
+        <Spare_Part_Price price_inc_vat="353" supplier_part_number="020-208" reference="true" />
+        <Spare_Part_Price price_inc_vat="1499" supplier_part_number="044-811" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="044-814" reference="true" />
+        <Spare_Part_Price price_inc_vat="353" supplier_part_number="020-208" reference="true" />
+        <Spare_Part_Price price_inc_vat="1499" supplier_part_number="044-811" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="044-814" reference="true" />
+        <Spare_Part_Price price_inc_vat="353" supplier_part_number="020-208" reference="true" />
+        <Spare_Part_Price price_inc_vat="1499" supplier_part_number="044-811" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="044-814" reference="true" />
+        <Spare_Part_Price price_inc_vat="353" supplier_part_number="020-208" reference="true" />
+        <Spare_Part_Price price_inc_vat="1499" supplier_part_number="044-811" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="044-814" reference="true" />
+        <Spare_Part_Price price_inc_vat="353" supplier_part_number="020-208" reference="true" />
+        <Spare_Part_Price price_inc_vat="1499" supplier_part_number="044-811" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="044-814" reference="true" />
+        <Spare_Part_Price price_inc_vat="353" supplier_part_number="020-568" name="020-568 &amp;nbsp; Kabelsæt til RENAULT  Logan Stationcar 08 -" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1109" supplier_part_number="020-578" name="020-578 &amp;nbsp; Kabelsæt til RENAULT  Logan Stationcar 08 -" description="Polaritet = 13-poletBiler med checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min.Bemærk: Udvidelsessæt til strømforsyning, bestil 014-169 (+30) eller 015-069 (+15/+30)." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1499" supplier_part_number="044-811" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="044-814" reference="true" />
+        <Spare_Part_Price price_inc_vat="353" supplier_part_number="020-568" reference="true" />
+        <Spare_Part_Price price_inc_vat="1109" supplier_part_number="020-578" reference="true" />
+        <Spare_Part_Price price_inc_vat="1499" supplier_part_number="044-811" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="044-814" reference="true" />
+        <Spare_Part_Price price_inc_vat="353" supplier_part_number="020-568" reference="true" />
+        <Spare_Part_Price price_inc_vat="1109" supplier_part_number="020-578" reference="true" />
+        <Spare_Part_Price price_inc_vat="1499" supplier_part_number="044-811" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="044-814" reference="true" />
+        <Spare_Part_Price price_inc_vat="353" supplier_part_number="020-568" reference="true" />
+        <Spare_Part_Price price_inc_vat="1109" supplier_part_number="020-578" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Logan-Van-/-Express&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1499" supplier_part_number="044-811" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="044-814" reference="true" />
+        <Spare_Part_Price price_inc_vat="353" supplier_part_number="020-568" reference="true" />
+        <Spare_Part_Price price_inc_vat="1109" supplier_part_number="020-578" reference="true" />
+        <Spare_Part_Price price_inc_vat="1499" supplier_part_number="044-811" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="044-814" reference="true" />
+        <Spare_Part_Price price_inc_vat="353" supplier_part_number="020-568" reference="true" />
+        <Spare_Part_Price price_inc_vat="1109" supplier_part_number="020-578" reference="true" />
+        <Spare_Part_Price price_inc_vat="1499" supplier_part_number="044-811" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="044-814" reference="true" />
+        <Spare_Part_Price price_inc_vat="353" supplier_part_number="020-568" reference="true" />
+        <Spare_Part_Price price_inc_vat="1109" supplier_part_number="020-578" reference="true" />
+        <Spare_Part_Price price_inc_vat="1499" supplier_part_number="044-811" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="044-814" reference="true" />
+        <Spare_Part_Price price_inc_vat="353" supplier_part_number="020-568" reference="true" />
+        <Spare_Part_Price price_inc_vat="1109" supplier_part_number="020-578" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Master&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="041-011" reference="true" />
+        <Spare_Part_Price price_inc_vat="450" supplier_part_number="010-958" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="041-011" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="041-011" reference="true" />
+        <Spare_Part_Price price_inc_vat="514" supplier_part_number="028-168" reference="true" />
+        <Spare_Part_Price price_inc_vat="2190" supplier_part_number="029-792" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="034-178" reference="true" />
+        <Spare_Part_Price price_inc_vat="2190" supplier_part_number="029-792" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="034-178" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Maxity&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="031-642" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Megane-CC-II&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="032-004" name="032-004 &amp;nbsp; Anhængertræk til RENAULT  Megane-CC-II Cabriolet 03 - 3/10" description="Trækanordning:  aftageligt anhægertræk D-værdi: 8.02Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1200 / 75Monteringstid anh.træk B - op til 1½ timeBemærk: Ekskl. biler med parkeringssensor." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="415" supplier_part_number="017-248" name="017-248 &amp;nbsp; Kabelsæt til RENAULT  Megane-CC-II Cabriolet 03 - 3/10" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Megane-Classic-I&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="026-051" name="026-051 &amp;nbsp; Anhængertræk til RENAULT  Megane-Classic-I Sedan 96 - 03" description="Trækanordning: Standard fast kuglesystemD-værdi: 6.79&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1350 / 75Trækkugle dækker for nummerpladeMonteringstid anh.træk A  - op til 1 timeBemærk: OBS: Vær opmærksom på anvisningerne i monteringsvejledningen vedr. brug af anhængertrækket" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="450" supplier_part_number="010-108" name="010-108 &amp;nbsp; Kabelsæt til RENAULT  Megane-Classic-I Sedan 96 - 03" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Megane-Classic-II&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="032-031" name="032-031 &amp;nbsp; Anhængertræk til RENAULT  Megane-Classic-I Sedan 03 - 5/10" description="Trækanordning: Standard fast kuglesystemD-værdi: 7.73&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1350 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="032-034" name="032-034 &amp;nbsp; Anhængertræk til RENAULT  Megane-Classic-I Sedan 03 - 5/10" description="Trækanordning:  aftageligt anhægertræk D-værdi: 7.73&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1350 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="032-033" name="032-033 &amp;nbsp; Anhængertræk til RENAULT  Megane-Classic-I Sedan 03 - 5/10" description="Trækanordning: Vertikalt aftageligt kuglesystem (AK6)D-værdi: 7.73&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1350 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="493" supplier_part_number="017-328" name="017-328 &amp;nbsp; Kabelsæt til RENAULT  Megane-Classic-I Sedan 03 - 5/10" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="032-031" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="032-034" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="032-033" reference="true" />
+        <Spare_Part_Price price_inc_vat="493" supplier_part_number="017-328" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="032-031" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="032-034" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="032-033" reference="true" />
+        <Spare_Part_Price price_inc_vat="493" supplier_part_number="017-328" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="032-031" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="032-034" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="032-033" reference="true" />
+        <Spare_Part_Price price_inc_vat="493" supplier_part_number="017-328" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Megane-Grand-Scenic-II&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="033-111" name="033-111 &amp;nbsp; Anhængertræk til RENAULT  Megane-Grand-Scenic-II MPV  4/04 - 3/09" description="Trækanordning: Standard fast kuglesystemD-værdi: 8.02Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1350 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="033-114" name="033-114 &amp;nbsp; Anhængertræk til RENAULT  Megane-Grand-Scenic-II MPV  4/04 - 3/09" description="Trækanordning:  aftageligt anhægertræk D-værdi: 8.02Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1350 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="048-063" name="048-063 &amp;nbsp; Anhængertræk til RENAULT  Megane-Grand-Scenic-II MPV  4/04 - 3/09" description="Trækanordning:  lodret aftageligt anhængertræk D-værdi: 8.02Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1350 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="374" supplier_part_number="017-338" name="017-338 &amp;nbsp; Kabelsæt til RENAULT  Megane-Grand-Scenic-II MPV  4/04 - 3/09" description="Polaritet = 7-poletBiler med checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="479" supplier_part_number="017-348" name="017-348 &amp;nbsp; Kabelsæt til RENAULT  Megane-Grand-Scenic-II MPV  4/04 - 3/09" description="Polaritet = 13-polet DIN m. samlet stikStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt V - op til 1 timeBemærk: Udvidelsessæt til strømforsyning, bestil 014-169 (+30) eller 015-069 (+15/+30)." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="033-111" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="033-114" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="048-063" reference="true" />
+        <Spare_Part_Price price_inc_vat="374" supplier_part_number="017-338" reference="true" />
+        <Spare_Part_Price price_inc_vat="479" supplier_part_number="017-348" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Megane-Grand-Scenic-III&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1466" supplier_part_number="035-921" name="035-921 &amp;nbsp; Anhængertræk til RENAULT  Megane-Grand-Scenic-II MPV  4/09 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 8.24&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1400 / 75Monteringstid anh.træk C - op til 2 timer" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="049-723" name="049-723 &amp;nbsp; Anhængertræk til RENAULT  Megane-Grand-Scenic-II MPV  4/09 -" description="Trækanordning:  lodret aftagelig anhængertræk &#xD;&#xA;					&#xD;&#xA;						Monteringstid anh.træk" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="958" supplier_part_number="030-948" name="030-948 &amp;nbsp; Kabelsæt til RENAULT  Megane-Grand-Scenic-II MPV  4/09 -" description="Polaritet = 7-poletStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1206" supplier_part_number="030-958" name="030-958 &amp;nbsp; Kabelsæt til RENAULT  Megane-Grand-Scenic-II MPV  4/09 -" description="Polaritet = 13-poletStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1466" supplier_part_number="035-921" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="049-723" reference="true" />
+        <Spare_Part_Price price_inc_vat="958" supplier_part_number="030-948" reference="true" />
+        <Spare_Part_Price price_inc_vat="1206" supplier_part_number="030-958" reference="true" />
+        <Spare_Part_Price price_inc_vat="1466" supplier_part_number="035-921" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="049-723" reference="true" />
+        <Spare_Part_Price price_inc_vat="958" supplier_part_number="030-948" reference="true" />
+        <Spare_Part_Price price_inc_vat="1206" supplier_part_number="030-958" reference="true" />
+        <Spare_Part_Price price_inc_vat="1466" supplier_part_number="035-921" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="049-723" reference="true" />
+        <Spare_Part_Price price_inc_vat="958" supplier_part_number="030-948" reference="true" />
+        <Spare_Part_Price price_inc_vat="1206" supplier_part_number="030-958" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Megane-I&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="026-041" name="026-041 &amp;nbsp; Anhængertræk til RENAULT  Megane-I Hatchback 95 - 3/99" description="Trækanordning: Standard fast kuglesystemD-værdi: 6.74&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1350 / 75Monteringstid anh.træk A  - op til 1 timeBemærk: OBS: Vær opmærksom på anvisningerne i monteringsvejledningen vedr. brug af anhængertrækket" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="021-533" name="021-533 &amp;nbsp; Anhængertræk til RENAULT  Megane-I Hatchback 95 - 3/99" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 6.18&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1000 / 65Monteringstid anh.træk A  - op til 1 timeBemærk: OBS: Vær opmærksom på anvisningerne i monteringsvejledningen vedr. brug af anhængertrækket" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="468" supplier_part_number="006-868" name="006-868 &amp;nbsp; Kabelsæt til RENAULT  Megane-I Hatchback 95 - 3/99" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt R - op til 20 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="008-448" name="008-448 &amp;nbsp; Kabelsæt til RENAULT  Megane-I Hatchback 95 - 3/99" description="Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt V - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1330" supplier_part_number="023-281" name="023-281 &amp;nbsp; Anhængertræk til RENAULT  Megane-I Coupé 95 - 3/99" description="Trækanordning: Standard fast kuglesystemD-værdi: 6.00&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1000 / 75Monteringstid anh.træk A  - op til 1 timeBemærk: OBS: Vær opmærksom på anvisningerne i monteringsvejledningen vedr. brug af anhængertrækket" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="025-002" name="025-002 &amp;nbsp; Anhængertræk til RENAULT  Megane-I Stationcar (Grandtour) 99 - 03" description="Trækanordning: FlangekugleD-værdi: 7.49&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1350 / 55Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="025-001" name="025-001 &amp;nbsp; Anhængertræk til RENAULT  Megane-I Stationcar (Grandtour) 99 - 03" description="Trækanordning: Standard fast kuglesystemD-værdi: 7.49&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1350 / 55Monteringstid anh.træk A  - op til 1 timeBemærk: OBS: Vær opmærksom på anvisningerne i monteringsvejledningen vedr. brug af anhængertrækket" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2860" supplier_part_number="025-003" name="025-003 &amp;nbsp; Anhængertræk til RENAULT  Megane-I Stationcar (Grandtour) 99 - 03" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 7.49&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1350 / 55Monteringstid anh.træk A  - op til 1 timeBemærk: OBS: Vær opmærksom på anvisningerne i monteringsvejledningen vedr. brug af anhængertrækket" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="551" supplier_part_number="011-408" name="011-408 &amp;nbsp; Kabelsæt til RENAULT  Megane-I Stationcar (Grandtour) 99 - 03" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="026-041" reference="true" />
+        <Spare_Part_Price price_inc_vat="2860" supplier_part_number="026-043" name="026-043 &amp;nbsp; Anhængertræk til RENAULT  Megane-I Hatchback  4/99 - 10/02" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 6.74&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1350 / 75Monteringstid anh.træk A  - op til 1 timeBemærk: OBS: Vær opmærksom på anvisningerne i monteringsvejledningen vedr. brug af anhængertrækket" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="514" supplier_part_number="011-578" name="011-578 &amp;nbsp; Kabelsæt til RENAULT  Megane-I Hatchback  4/99 - 10/02" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1076" supplier_part_number="014-218" name="014-218 &amp;nbsp; Kabelsæt til RENAULT  Megane-I Hatchback  4/99 - 10/02" description="Polaritet = 13-polet DIN m. samlet stikStik&#xD;&#xA;						Monteringstid kabelsæt V - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="026-081" name="026-081 &amp;nbsp; Anhængertræk til RENAULT  Megane-I Coupé  4/99 - 03" description="Trækanordning: Standard fast kuglesystemD-værdi: 6.20Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1067 / 75Monteringstid anh.træk B - op til 1½ timeBemærk: OBS: Vær opmærksom på anvisningerne i monteringsvejledningen vedr. brug af anhængertrækket" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="623" supplier_part_number="011-588" name="011-588 &amp;nbsp; Kabelsæt til RENAULT  Megane-I Coupé  4/99 - 03" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Megane-II&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="033-011" name="033-011 &amp;nbsp; Anhængertræk til RENAULT  Megane-I Hatchback  11/02 - 05" description="Trækanordning: Standard fast kuglesystemD-værdi: 7.56&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1350 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="033-014" name="033-014 &amp;nbsp; Anhængertræk til RENAULT  Megane-I Hatchback  11/02 - 05" description="Trækanordning:  aftageligt anhægertræk D-værdi: 7.56&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1350 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="624" supplier_part_number="016-258" name="016-258 &amp;nbsp; Kabelsæt til RENAULT  Megane-I Hatchback  11/02 - 05" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="033-011" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="033-014" reference="true" />
+        <Spare_Part_Price price_inc_vat="624" supplier_part_number="016-258" reference="true" />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="033-011" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="033-014" reference="true" />
+        <Spare_Part_Price price_inc_vat="624" supplier_part_number="016-258" reference="true" />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="033-011" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="033-014" reference="true" />
+        <Spare_Part_Price price_inc_vat="624" supplier_part_number="016-258" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="032-031" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="032-034" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="032-033" reference="true" />
+        <Spare_Part_Price price_inc_vat="458" supplier_part_number="017-318" name="017-318 &amp;nbsp; Kabelsæt til RENAULT  Megane-I Stationcar (Grandtour)  9/03 - 09" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="620" supplier_part_number="017-508" name="017-508 &amp;nbsp; Kabelsæt til RENAULT  Megane-I Stationcar (Grandtour)  9/03 - 09" description="Polaritet = 13-poletStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="032-031" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="032-034" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="032-033" reference="true" />
+        <Spare_Part_Price price_inc_vat="458" supplier_part_number="017-318" reference="true" />
+        <Spare_Part_Price price_inc_vat="620" supplier_part_number="017-508" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="032-031" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="032-034" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="032-033" reference="true" />
+        <Spare_Part_Price price_inc_vat="458" supplier_part_number="017-318" reference="true" />
+        <Spare_Part_Price price_inc_vat="620" supplier_part_number="017-508" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="032-031" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="032-034" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="032-033" reference="true" />
+        <Spare_Part_Price price_inc_vat="458" supplier_part_number="017-318" reference="true" />
+        <Spare_Part_Price price_inc_vat="620" supplier_part_number="017-508" reference="true" />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="033-011" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="033-014" reference="true" />
+        <Spare_Part_Price price_inc_vat="433" supplier_part_number="043-018" name="043-018 &amp;nbsp; Kabelsæt til RENAULT  Megane-I Hatchback 06 - 08" description="Polaritet = 7-poletBiler med checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="878" supplier_part_number="043-028" name="043-028 &amp;nbsp; Kabelsæt til RENAULT  Megane-I Hatchback 06 - 08" description="Polaritet = 13-poletBiler med checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="033-011" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="033-014" reference="true" />
+        <Spare_Part_Price price_inc_vat="433" supplier_part_number="043-018" reference="true" />
+        <Spare_Part_Price price_inc_vat="878" supplier_part_number="043-028" reference="true" />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="033-011" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="033-014" reference="true" />
+        <Spare_Part_Price price_inc_vat="433" supplier_part_number="043-018" reference="true" />
+        <Spare_Part_Price price_inc_vat="878" supplier_part_number="043-028" reference="true" />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="033-011" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="033-014" reference="true" />
+        <Spare_Part_Price price_inc_vat="433" supplier_part_number="043-018" reference="true" />
+        <Spare_Part_Price price_inc_vat="878" supplier_part_number="043-028" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Megane-III&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1416" supplier_part_number="036-541" name="036-541 &amp;nbsp; Anhængertræk til RENAULT  Megane-I Hatchback  11/08 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 7.56&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1350 / 75Monteringstid anh.træk C - op til 2 timer" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2496" supplier_part_number="036-544" name="036-544 &amp;nbsp; Anhængertræk til RENAULT  Megane-I Hatchback  11/08 -" description="Trækanordning:  aftageligt anhægertræk D-værdi: 7.56&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1350 / 75Monteringstid anh.træk C - op til 2 timer" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3198" supplier_part_number="048-993" name="048-993 &amp;nbsp; Anhængertræk til RENAULT  Megane-I Hatchback  11/08 -" description="Trækanordning:  lodret aftagelig anhængertræk D-værdi: 7.56&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1350 / 75Monteringstid anh.træk C - op til 2 timer" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1173" supplier_part_number="035-358" name="035-358 &amp;nbsp; Kabelsæt til RENAULT  Megane-I Hatchback  11/08 -" description="Polaritet = 7-poletStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1363" supplier_part_number="035-368" name="035-368 &amp;nbsp; Kabelsæt til RENAULT  Megane-I Hatchback  11/08 -" description="Polaritet = 13-poletStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1416" supplier_part_number="036-541" reference="true" />
+        <Spare_Part_Price price_inc_vat="2496" supplier_part_number="036-544" reference="true" />
+        <Spare_Part_Price price_inc_vat="3198" supplier_part_number="048-993" reference="true" />
+        <Spare_Part_Price price_inc_vat="1173" supplier_part_number="035-358" reference="true" />
+        <Spare_Part_Price price_inc_vat="1363" supplier_part_number="035-368" reference="true" />
+        <Spare_Part_Price price_inc_vat="1416" supplier_part_number="036-541" reference="true" />
+        <Spare_Part_Price price_inc_vat="2496" supplier_part_number="036-544" reference="true" />
+        <Spare_Part_Price price_inc_vat="3198" supplier_part_number="048-993" reference="true" />
+        <Spare_Part_Price price_inc_vat="1173" supplier_part_number="035-358" reference="true" />
+        <Spare_Part_Price price_inc_vat="1363" supplier_part_number="035-368" reference="true" />
+        <Spare_Part_Price price_inc_vat="1416" supplier_part_number="036-541" reference="true" />
+        <Spare_Part_Price price_inc_vat="2496" supplier_part_number="036-544" reference="true" />
+        <Spare_Part_Price price_inc_vat="3198" supplier_part_number="048-993" reference="true" />
+        <Spare_Part_Price price_inc_vat="1173" supplier_part_number="035-358" reference="true" />
+        <Spare_Part_Price price_inc_vat="1363" supplier_part_number="035-368" reference="true" />
+        <Spare_Part_Price price_inc_vat="1416" supplier_part_number="036-541" reference="true" />
+        <Spare_Part_Price price_inc_vat="2496" supplier_part_number="036-544" reference="true" />
+        <Spare_Part_Price price_inc_vat="3198" supplier_part_number="048-993" reference="true" />
+        <Spare_Part_Price price_inc_vat="1173" supplier_part_number="035-358" reference="true" />
+        <Spare_Part_Price price_inc_vat="1363" supplier_part_number="035-368" reference="true" />
+        <Spare_Part_Price price_inc_vat="1416" supplier_part_number="036-541" reference="true" />
+        <Spare_Part_Price price_inc_vat="2496" supplier_part_number="036-544" reference="true" />
+        <Spare_Part_Price price_inc_vat="3198" supplier_part_number="048-993" reference="true" />
+        <Spare_Part_Price price_inc_vat="1173" supplier_part_number="035-358" reference="true" />
+        <Spare_Part_Price price_inc_vat="1363" supplier_part_number="035-368" reference="true" />
+        <Spare_Part_Price price_inc_vat="1416" supplier_part_number="036-541" reference="true" />
+        <Spare_Part_Price price_inc_vat="2496" supplier_part_number="036-544" reference="true" />
+        <Spare_Part_Price price_inc_vat="3198" supplier_part_number="048-993" reference="true" />
+        <Spare_Part_Price price_inc_vat="1173" supplier_part_number="035-358" reference="true" />
+        <Spare_Part_Price price_inc_vat="1363" supplier_part_number="035-368" reference="true" />
+        <Spare_Part_Price price_inc_vat="1416" supplier_part_number="036-541" reference="true" />
+        <Spare_Part_Price price_inc_vat="2496" supplier_part_number="036-544" reference="true" />
+        <Spare_Part_Price price_inc_vat="3198" supplier_part_number="048-993" reference="true" />
+        <Spare_Part_Price price_inc_vat="1173" supplier_part_number="035-358" reference="true" />
+        <Spare_Part_Price price_inc_vat="1363" supplier_part_number="035-368" reference="true" />
+        <Spare_Part_Price price_inc_vat="1416" supplier_part_number="036-541" reference="true" />
+        <Spare_Part_Price price_inc_vat="2496" supplier_part_number="036-544" reference="true" />
+        <Spare_Part_Price price_inc_vat="3198" supplier_part_number="048-993" reference="true" />
+        <Spare_Part_Price price_inc_vat="1173" supplier_part_number="035-358" reference="true" />
+        <Spare_Part_Price price_inc_vat="1363" supplier_part_number="035-368" reference="true" />
+        <Spare_Part_Price price_inc_vat="1416" supplier_part_number="036-551" name="036-551 &amp;nbsp; Anhængertræk til RENAULT  Megane-I Stationcar (Grandtour)  11/08 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 7.73&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1350 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="036-554" name="036-554 &amp;nbsp; Anhængertræk til RENAULT  Megane-I Stationcar (Grandtour)  11/08 -" description="Trækanordning:  aftageligt anhægertræk D-værdi: 7.73&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1350 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2605" supplier_part_number="048-953" name="048-953 &amp;nbsp; Anhængertræk til RENAULT  Megane-I Stationcar (Grandtour)  11/08 -" description="Trækanordning:  lodret aftagelig anhængertræk D-værdi: 7.73&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1350 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1039" supplier_part_number="035-378" name="035-378 &amp;nbsp; Kabelsæt til RENAULT  Megane-I Stationcar (Grandtour)  11/08 -" description="Polaritet = 7-poletStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt V - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="035-388" name="035-388 &amp;nbsp; Kabelsæt til RENAULT  Megane-I Stationcar (Grandtour)  11/08 -" description="Polaritet = 13-poletStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt V - op til 1 timeBemærk: Udvidelsessæt til strømforsyning, bestil venligst 015-069 (+15/+30)." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1416" supplier_part_number="036-551" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="036-554" reference="true" />
+        <Spare_Part_Price price_inc_vat="2605" supplier_part_number="048-953" reference="true" />
+        <Spare_Part_Price price_inc_vat="1039" supplier_part_number="035-378" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="035-388" reference="true" />
+        <Spare_Part_Price price_inc_vat="1416" supplier_part_number="036-551" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="036-554" reference="true" />
+        <Spare_Part_Price price_inc_vat="2605" supplier_part_number="048-953" reference="true" />
+        <Spare_Part_Price price_inc_vat="1039" supplier_part_number="035-378" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="035-388" reference="true" />
+        <Spare_Part_Price price_inc_vat="1416" supplier_part_number="036-551" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="036-554" reference="true" />
+        <Spare_Part_Price price_inc_vat="2605" supplier_part_number="048-953" reference="true" />
+        <Spare_Part_Price price_inc_vat="1039" supplier_part_number="035-378" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="035-388" reference="true" />
+        <Spare_Part_Price price_inc_vat="1416" supplier_part_number="036-551" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="036-554" reference="true" />
+        <Spare_Part_Price price_inc_vat="2605" supplier_part_number="048-953" reference="true" />
+        <Spare_Part_Price price_inc_vat="1039" supplier_part_number="035-378" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="035-388" reference="true" />
+        <Spare_Part_Price price_inc_vat="1416" supplier_part_number="036-551" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="036-554" reference="true" />
+        <Spare_Part_Price price_inc_vat="2605" supplier_part_number="048-953" reference="true" />
+        <Spare_Part_Price price_inc_vat="1039" supplier_part_number="035-378" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="035-388" reference="true" />
+        <Spare_Part_Price price_inc_vat="1416" supplier_part_number="036-551" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="036-554" reference="true" />
+        <Spare_Part_Price price_inc_vat="2605" supplier_part_number="048-953" reference="true" />
+        <Spare_Part_Price price_inc_vat="1039" supplier_part_number="035-378" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="035-388" reference="true" />
+        <Spare_Part_Price price_inc_vat="1416" supplier_part_number="036-551" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="036-554" reference="true" />
+        <Spare_Part_Price price_inc_vat="2605" supplier_part_number="048-953" reference="true" />
+        <Spare_Part_Price price_inc_vat="1039" supplier_part_number="035-378" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="035-388" reference="true" />
+        <Spare_Part_Price price_inc_vat="1416" supplier_part_number="036-551" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="036-554" reference="true" />
+        <Spare_Part_Price price_inc_vat="2605" supplier_part_number="048-953" reference="true" />
+        <Spare_Part_Price price_inc_vat="1039" supplier_part_number="035-378" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="035-388" reference="true" />
+        <Spare_Part_Price price_inc_vat="1416" supplier_part_number="036-541" reference="true" />
+        <Spare_Part_Price price_inc_vat="2496" supplier_part_number="036-544" reference="true" />
+        <Spare_Part_Price price_inc_vat="3006" supplier_part_number="049-153" name="049-153 &amp;nbsp; Anhængertræk til RENAULT  Megane-I Coupé 09 -" description="Trækanordning:  lodret aftagelig anhængertræk D-værdi: 7.56&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1350 / 75Monteringstid anh.træk C - op til 2 timer" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1199" supplier_part_number="030-558" name="030-558 &amp;nbsp; Kabelsæt til RENAULT  Megane-I Coupé 09 -" description="Polaritet = 7-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1416" supplier_part_number="036-541" reference="true" />
+        <Spare_Part_Price price_inc_vat="2496" supplier_part_number="036-544" reference="true" />
+        <Spare_Part_Price price_inc_vat="3006" supplier_part_number="049-153" reference="true" />
+        <Spare_Part_Price price_inc_vat="1199" supplier_part_number="030-558" reference="true" />
+        <Spare_Part_Price price_inc_vat="1416" supplier_part_number="036-541" reference="true" />
+        <Spare_Part_Price price_inc_vat="2496" supplier_part_number="036-544" reference="true" />
+        <Spare_Part_Price price_inc_vat="3006" supplier_part_number="049-153" reference="true" />
+        <Spare_Part_Price price_inc_vat="1199" supplier_part_number="030-558" reference="true" />
+        <Spare_Part_Price price_inc_vat="1416" supplier_part_number="036-541" reference="true" />
+        <Spare_Part_Price price_inc_vat="2496" supplier_part_number="036-544" reference="true" />
+        <Spare_Part_Price price_inc_vat="3006" supplier_part_number="049-153" reference="true" />
+        <Spare_Part_Price price_inc_vat="1199" supplier_part_number="030-558" reference="true" />
+        <Spare_Part_Price price_inc_vat="1416" supplier_part_number="036-541" reference="true" />
+        <Spare_Part_Price price_inc_vat="2496" supplier_part_number="036-544" reference="true" />
+        <Spare_Part_Price price_inc_vat="3006" supplier_part_number="049-153" reference="true" />
+        <Spare_Part_Price price_inc_vat="1199" supplier_part_number="030-558" reference="true" />
+        <Spare_Part_Price price_inc_vat="1416" supplier_part_number="036-541" reference="true" />
+        <Spare_Part_Price price_inc_vat="2496" supplier_part_number="036-544" reference="true" />
+        <Spare_Part_Price price_inc_vat="3006" supplier_part_number="049-153" reference="true" />
+        <Spare_Part_Price price_inc_vat="1199" supplier_part_number="030-558" reference="true" />
+        <Spare_Part_Price price_inc_vat="1416" supplier_part_number="036-541" reference="true" />
+        <Spare_Part_Price price_inc_vat="2496" supplier_part_number="036-544" reference="true" />
+        <Spare_Part_Price price_inc_vat="3006" supplier_part_number="049-153" reference="true" />
+        <Spare_Part_Price price_inc_vat="1199" supplier_part_number="030-558" reference="true" />
+        <Spare_Part_Price price_inc_vat="1416" supplier_part_number="036-541" reference="true" />
+        <Spare_Part_Price price_inc_vat="2496" supplier_part_number="036-544" reference="true" />
+        <Spare_Part_Price price_inc_vat="3006" supplier_part_number="049-153" reference="true" />
+        <Spare_Part_Price price_inc_vat="1199" supplier_part_number="030-558" reference="true" />
+        <Spare_Part_Price price_inc_vat="1416" supplier_part_number="036-541" reference="true" />
+        <Spare_Part_Price price_inc_vat="2496" supplier_part_number="036-544" reference="true" />
+        <Spare_Part_Price price_inc_vat="3006" supplier_part_number="049-153" reference="true" />
+        <Spare_Part_Price price_inc_vat="1199" supplier_part_number="030-558" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Megane-III-Fluence&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-531" name="029-531 &amp;nbsp; Anhængertræk til RENAULT  Megane-I Sedan  6/10 -" description="Trækanordning: Standard fast kuglesystem&#xD;&#xA;					&#xD;&#xA;						Monteringstid anh.træk" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="031-438" name="031-438 &amp;nbsp; Kabelsæt til RENAULT  Megane-I Sedan  6/10 -" description="Polaritet = 7-polet&#xD;&#xA;						Monteringstid kabelsæt" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="031-448" name="031-448 &amp;nbsp; Kabelsæt til RENAULT  Megane-I Sedan  6/10 -" description="Polaritet = 13-polet&#xD;&#xA;						Monteringstid kabelsæt" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-531" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="031-438" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="031-448" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-531" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="031-438" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="031-448" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-531" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="031-438" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="031-448" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-531" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="031-438" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="031-448" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-531" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="031-438" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="031-448" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-531" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="031-438" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="031-448" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-531" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="031-438" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="031-448" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-531" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="031-438" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="031-448" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-531" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="031-438" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="031-448" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-531" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="031-438" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="031-448" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-531" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="031-438" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="031-448" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-531" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="031-438" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="031-448" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-531" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="031-438" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="031-448" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-531" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="031-438" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="031-448" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-531" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="031-438" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="031-448" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Megane-Scenic-I&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="022-981" name="022-981 &amp;nbsp; Anhængertræk til RENAULT  Megane-Scenic-I MPV 96 - 7/99" description="Trækanordning: Standard fast kuglesystemD-værdi: 7.69&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1400 / 65Monteringstid anh.træk A  - op til 1 timeBemærk: OBS: Vær opmærksom på anvisningerne i monteringsvejledningen vedr. brug af anhængertrækket" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2860" supplier_part_number="022-983" name="022-983 &amp;nbsp; Anhængertræk til RENAULT  Megane-Scenic-I MPV 96 - 7/99" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 7.69&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1400 / 65Monteringstid anh.træk A  - op til 1 timeBemærk: OBS: Vær opmærksom på anvisningerne i monteringsvejledningen vedr. brug af anhængertrækket" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="529" supplier_part_number="010-098" name="010-098 &amp;nbsp; Kabelsæt til RENAULT  Megane-Scenic-I MPV 96 - 7/99" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1019" supplier_part_number="013-088" name="013-088 &amp;nbsp; Kabelsæt til RENAULT  Megane-Scenic-I MPV 96 - 7/99" description="Polaritet = 13-polet DIN m. samlet stikStik&#xD;&#xA;						Monteringstid kabelsæt V - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="022-981" reference="true" />
+        <Spare_Part_Price price_inc_vat="2860" supplier_part_number="022-983" reference="true" />
+        <Spare_Part_Price price_inc_vat="339" supplier_part_number="011-708" name="011-708 &amp;nbsp; Kabelsæt til RENAULT  Megane-Scenic-I MPV  8/99 - 9/00" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="714" supplier_part_number="014-348" name="014-348 &amp;nbsp; Kabelsæt til RENAULT  Megane-Scenic-I MPV  8/99 - 9/00" description="Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt V - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="028-221" name="028-221 &amp;nbsp; Anhængertræk til RENAULT  Megane-Scenic-I MPV  10/00 - 03" description="Trækanordning: Standard fast kuglesystemD-værdi: 7.69&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1350 / 75Monteringstid anh.træk A  - op til 1 timeBemærk: OBS: Vær opmærksom på anvisningerne i monteringsvejledningen vedr. brug af anhængertrækket" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="028-223" name="028-223 &amp;nbsp; Anhængertræk til RENAULT  Megane-Scenic-I MPV  10/00 - 03" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 7.69&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1350 / 75Monteringstid anh.træk A  - op til 1 timeBemærk: OBS: Vær opmærksom på anvisningerne i monteringsvejledningen vedr. brug af anhængertrækket" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="339" supplier_part_number="011-708" reference="true" />
+        <Spare_Part_Price price_inc_vat="714" supplier_part_number="014-348" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Megane-Scenic-II&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="033-111" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="033-114" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="048-063" reference="true" />
+        <Spare_Part_Price price_inc_vat="374" supplier_part_number="017-338" reference="true" />
+        <Spare_Part_Price price_inc_vat="479" supplier_part_number="017-348" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="033-111" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="033-114" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="048-063" reference="true" />
+        <Spare_Part_Price price_inc_vat="374" supplier_part_number="017-338" reference="true" />
+        <Spare_Part_Price price_inc_vat="479" supplier_part_number="017-348" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="033-111" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="033-114" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="048-063" reference="true" />
+        <Spare_Part_Price price_inc_vat="374" supplier_part_number="017-338" reference="true" />
+        <Spare_Part_Price price_inc_vat="479" supplier_part_number="017-348" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="033-111" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="033-114" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="048-063" reference="true" />
+        <Spare_Part_Price price_inc_vat="374" supplier_part_number="017-338" reference="true" />
+        <Spare_Part_Price price_inc_vat="479" supplier_part_number="017-348" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Megane-Scenic-III&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1493" supplier_part_number="037-101" name="037-101 &amp;nbsp; Anhængertræk til RENAULT  Megane-Scenic-I MPV  6/09 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 8.24Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1400 / 75Monteringstid anh.træk C - op til 2 timer" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2496" supplier_part_number="037-104" name="037-104 &amp;nbsp; Anhængertræk til RENAULT  Megane-Scenic-I MPV  6/09 -" description="Trækanordning:  aftageligt anhægertræk D-værdi: 8.24Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1400 / 75Monteringstid anh.træk C - op til 2 timer" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="049-163" name="049-163 &amp;nbsp; Anhængertræk til RENAULT  Megane-Scenic-I MPV  6/09 -" description="Trækanordning:  lodret aftagelig anhængertræk &#xD;&#xA;					&#xD;&#xA;						Monteringstid anh.træk" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="918" supplier_part_number="030-568" name="030-568 &amp;nbsp; Kabelsæt til RENAULT  Megane-Scenic-I MPV  6/09 -" description="Polaritet = 7-poletStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1163" supplier_part_number="030-578" name="030-578 &amp;nbsp; Kabelsæt til RENAULT  Megane-Scenic-I MPV  6/09 -" description="Polaritet = 13-poletStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1493" supplier_part_number="037-101" reference="true" />
+        <Spare_Part_Price price_inc_vat="2496" supplier_part_number="037-104" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="049-163" reference="true" />
+        <Spare_Part_Price price_inc_vat="918" supplier_part_number="030-568" reference="true" />
+        <Spare_Part_Price price_inc_vat="1163" supplier_part_number="030-578" reference="true" />
+        <Spare_Part_Price price_inc_vat="1493" supplier_part_number="037-101" reference="true" />
+        <Spare_Part_Price price_inc_vat="2496" supplier_part_number="037-104" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="049-163" reference="true" />
+        <Spare_Part_Price price_inc_vat="918" supplier_part_number="030-568" reference="true" />
+        <Spare_Part_Price price_inc_vat="1163" supplier_part_number="030-578" reference="true" />
+        <Spare_Part_Price price_inc_vat="1493" supplier_part_number="037-101" reference="true" />
+        <Spare_Part_Price price_inc_vat="2496" supplier_part_number="037-104" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="049-163" reference="true" />
+        <Spare_Part_Price price_inc_vat="918" supplier_part_number="030-568" reference="true" />
+        <Spare_Part_Price price_inc_vat="1163" supplier_part_number="030-578" reference="true" />
+        <Spare_Part_Price price_inc_vat="1493" supplier_part_number="037-101" reference="true" />
+        <Spare_Part_Price price_inc_vat="2496" supplier_part_number="037-104" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="049-163" reference="true" />
+        <Spare_Part_Price price_inc_vat="918" supplier_part_number="030-568" reference="true" />
+        <Spare_Part_Price price_inc_vat="1163" supplier_part_number="030-578" reference="true" />
+        <Spare_Part_Price price_inc_vat="1493" supplier_part_number="037-101" reference="true" />
+        <Spare_Part_Price price_inc_vat="2496" supplier_part_number="037-104" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="049-163" reference="true" />
+        <Spare_Part_Price price_inc_vat="918" supplier_part_number="030-568" reference="true" />
+        <Spare_Part_Price price_inc_vat="1163" supplier_part_number="030-578" reference="true" />
+        <Spare_Part_Price price_inc_vat="1493" supplier_part_number="037-101" reference="true" />
+        <Spare_Part_Price price_inc_vat="2496" supplier_part_number="037-104" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="049-163" reference="true" />
+        <Spare_Part_Price price_inc_vat="918" supplier_part_number="030-568" reference="true" />
+        <Spare_Part_Price price_inc_vat="1163" supplier_part_number="030-578" reference="true" />
+        <Spare_Part_Price price_inc_vat="1493" supplier_part_number="037-101" reference="true" />
+        <Spare_Part_Price price_inc_vat="2496" supplier_part_number="037-104" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="049-163" reference="true" />
+        <Spare_Part_Price price_inc_vat="918" supplier_part_number="030-568" reference="true" />
+        <Spare_Part_Price price_inc_vat="1163" supplier_part_number="030-578" reference="true" />
+        <Spare_Part_Price price_inc_vat="1493" supplier_part_number="037-101" reference="true" />
+        <Spare_Part_Price price_inc_vat="2496" supplier_part_number="037-104" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="049-163" reference="true" />
+        <Spare_Part_Price price_inc_vat="918" supplier_part_number="030-568" reference="true" />
+        <Spare_Part_Price price_inc_vat="1163" supplier_part_number="030-578" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Megane-Scenic-RX4-I&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="027-123" name="027-123 &amp;nbsp; Anhængertræk til RENAULT  Megane-Scenic-RX4-I MPV 00 - 03" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 7.74&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1400 / 65Monteringstid anh.træk D - op til 2½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="339" supplier_part_number="011-708" reference="true" />
+        <Spare_Part_Price price_inc_vat="714" supplier_part_number="014-348" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Modus&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="031-491" name="031-491 &amp;nbsp; Anhængertræk til RENAULT  Modus MPV  10/04 - 07" description="Trækanordning: Standard fast kuglesystemD-værdi: 5.89&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 930 / 75Monteringstid anh.træk A  - op til 1 timeBemærk: Anhængertræk ikke muligt på biler med fabriksmonteret cykelstativ." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="031-493" name="031-493 &amp;nbsp; Anhængertræk til RENAULT  Modus MPV  10/04 - 07" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 5.89&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 930 / 75Monteringstid anh.træk A  - op til 1 timeBemærk: Anhængertræk ikke muligt på biler med fabriksmonteret cykelstativ." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="521" supplier_part_number="017-238" name="017-238 &amp;nbsp; Kabelsæt til RENAULT  Modus MPV  10/04 - 07" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="031-491" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="031-493" reference="true" />
+        <Spare_Part_Price price_inc_vat="521" supplier_part_number="017-238" reference="true" />
+        <Spare_Part_Price price_inc_vat="1499" supplier_part_number="031-921" name="031-921 &amp;nbsp; Anhængertræk til RENAULT  Modus MPV 08 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 5.89&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 930 / 72Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="361" supplier_part_number="034-888" reference="true" />
+        <Spare_Part_Price price_inc_vat="771" supplier_part_number="034-898" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault R19&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="018-631" name="018-631 &amp;nbsp; Anhængertræk til RENAULT  R19 Hatchback, Sedan (Chamade)  5/92 - 96" description="Trækanordning: Standard fast kuglesystemD-værdi: 7.10Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1200 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="294" supplier_part_number="006-958" name="006-958 &amp;nbsp; Kabelsæt til RENAULT  R19 Hatchback, Sedan (Chamade)  5/92 - 96" description="Polaritet = 7-polet&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="017-152" name="017-152 &amp;nbsp; Anhængertræk til RENAULT  R19 Hatchback, Sedan (Chamade) 88 - 4/92" description="Trækanordning: Standard fast kuglesystemD-værdi: 6.31&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1100 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="294" supplier_part_number="006-958" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault R21&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="016-622" name="016-622 &amp;nbsp; Anhængertræk til RENAULT  R21 Nevada (Stationcar) 86 - 95" description="Trækanordning: Standard fast kuglesystemD-værdi: 8.52&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1600 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="008-081" name="008-081 &amp;nbsp; Anhængertræk til RENAULT  R21 Hatchback  9/89 - 94" description="Trækanordning: Flangekugle&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1100 / 50Monteringstid anh.træk A  - op til 1 timeBemærk: OBS: Ikke ISO- eller EC-godkendt" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault R5-Super&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="013-432" name="013-432 &amp;nbsp; Anhængertræk til RENAULT  R5-Super Hatchback 84 - 96" description="Trækanordning: Svejst kuglesystemD-værdi: 5.54&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1000 / 50Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="000-651" name="000-651 &amp;nbsp; Anhængertræk til RENAULT  R5-Super Hatchback 84 - 96" description="Trækanordning: Flangekugle&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 850 / 50Monteringstid anh.træk A  - op til 1 timeBemærk: OBS: Ikke ISO- eller EC-godkendt" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Safrane&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="025-611" name="025-611 &amp;nbsp; Anhængertræk til RENAULT  Safrane Hatchback 92 - 9/96" description="Trækanordning: Standard fast kuglesystemD-værdi: 8.91&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1600 / 84Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="018-503" name="018-503 &amp;nbsp; Anhængertræk til RENAULT  Safrane Hatchback 92 - 9/96" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 8.89Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1600 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="284" supplier_part_number="009-498" name="009-498 &amp;nbsp; Kabelsæt til RENAULT  Safrane Hatchback 92 - 9/96" description="Polaritet = 7-polet&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="025-611" reference="true" />
+        <Spare_Part_Price price_inc_vat="284" supplier_part_number="009-498" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Sandero&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="036-241" name="036-241 &amp;nbsp; Anhængertræk til RENAULT  Sandero Hatchback 08 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 7.30Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1355 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="386" supplier_part_number="036-328" name="036-328 &amp;nbsp; Kabelsæt til RENAULT  Sandero Hatchback 08 -" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="036-241" reference="true" />
+        <Spare_Part_Price price_inc_vat="386" supplier_part_number="036-328" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Trafic&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="024-641" name="024-641 &amp;nbsp; Anhængertræk til RENAULT  Trafic Varevogn, Minibus  7/89 - 97" description="Trækanordning: FlangekugleD-værdi: 9.59&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1450 / 75Monteringstid anh.træk A  - op til 1 timeBemærk: ADVARSEL: Af sikkerhedsmæssige grunde må trækkroge kun monteres på køretøjer, der har hjulophæng med to tværgående bladfjedersamlinger." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="024-111" reference="true" />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="045-192" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="027-143" reference="true" />
+        <Spare_Part_Price price_inc_vat="650" supplier_part_number="015-338" reference="true" />
+        <Spare_Part_Price price_inc_vat="665" supplier_part_number="015-598" reference="true" />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="045-192" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="027-143" reference="true" />
+        <Spare_Part_Price price_inc_vat="401" supplier_part_number="042-138" reference="true" />
+        <Spare_Part_Price price_inc_vat="626" supplier_part_number="042-148" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Twingo-I&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="024-981" name="024-981 &amp;nbsp; Anhængertræk til RENAULT  Twingo-I Hatchback 93 - 07" description="Trækanordning: Standard fast kuglesystemD-værdi: 4.71Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 800 / 50Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="259" supplier_part_number="006-198" name="006-198 &amp;nbsp; Kabelsæt til RENAULT  Twingo-I Hatchback 93 - 07" description="Polaritet = 7-polet&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Twingo-II&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-401" name="044-401 &amp;nbsp; Anhængertræk til RENAULT  Twingo-I Hatchback  3/07 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 3.10&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 400 / 65Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="035-774" name="035-774 &amp;nbsp; Anhængertræk til RENAULT  Twingo-I Hatchback  3/07 -" description="Trækanordning: Cykelstativ-beslagUdskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 0 / 60Monteringstid anh.træk A  - op til 1 timeBemærk: Kabelsæt inkluderet. Eksisterende cykelholdere er ikke anvendelige. Bestilling af specifik cykelholder 029-154, 029-664 eller 029-974 er nødvendig. Anhænger ikke tilladt!" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-154" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-664" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-974" reference="true" />
+        <Spare_Part_Price price_inc_vat="331" supplier_part_number="041-768" name="041-768 &amp;nbsp; Kabelsæt til RENAULT  Twingo-I Hatchback  3/07 -" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1014" supplier_part_number="043-239" name="043-239 &amp;nbsp; Kabelsæt til RENAULT  Twingo-I Hatchback  3/07 -" description="Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min.Bemærk: Udvidelsessæt for strømforsyning, bestil 017-579 (+30) eller 020-229 (+15)." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-401" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="035-774" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-154" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-664" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-974" reference="true" />
+        <Spare_Part_Price price_inc_vat="331" supplier_part_number="041-768" reference="true" />
+        <Spare_Part_Price price_inc_vat="1014" supplier_part_number="043-239" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-401" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="035-774" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-154" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-664" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-974" reference="true" />
+        <Spare_Part_Price price_inc_vat="331" supplier_part_number="041-768" reference="true" />
+        <Spare_Part_Price price_inc_vat="1014" supplier_part_number="043-239" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-401" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="035-774" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-154" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-664" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-974" reference="true" />
+        <Spare_Part_Price price_inc_vat="331" supplier_part_number="041-768" reference="true" />
+        <Spare_Part_Price price_inc_vat="1014" supplier_part_number="043-239" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Vel-Satis&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="027-131" name="027-131 &amp;nbsp; Anhængertræk til RENAULT  Vel-Satis Hatchback 02 - 10" description="Trækanordning: Standard fast kuglesystemD-værdi: 9.58Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1600 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="027-133" name="027-133 &amp;nbsp; Anhængertræk til RENAULT  Vel-Satis Hatchback 02 - 10" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 9.58Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1600 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="subaru">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk subaru Forester&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="027-621" name="027-621 &amp;nbsp; Anhængertræk til SUBARU  Forester APV 01 - 10/02" description="Trækanordning: Standard fast kuglesystemD-værdi: 9.81&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2000 / 75Monteringstid anh.træk C - op til 2 timer" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="027-623" name="027-623 &amp;nbsp; Anhængertræk til SUBARU  Forester APV 01 - 10/02" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 9.81&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2000 / 75Monteringstid anh.træk C - op til 2 timer" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="388" supplier_part_number="011-778" name="011-778 &amp;nbsp; Kabelsæt til SUBARU  Forester APV 01 - 10/02" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="027-621" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="027-623" reference="true" />
+        <Spare_Part_Price price_inc_vat="388" supplier_part_number="011-778" reference="true" />
+        <Spare_Part_Price price_inc_vat="1735" supplier_part_number="035-781" name="035-781 &amp;nbsp; Anhængertræk til SUBARU  Forester APV 08 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 10.00Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2000 / 80Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="423" supplier_part_number="026-238" name="026-238 &amp;nbsp; Kabelsæt til SUBARU  Forester APV 08 -" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt R - op til 20 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1493" supplier_part_number="031-051" name="031-051 &amp;nbsp; Anhængertræk til SUBARU  Forester APV  11/02 - 08" description="Trækanordning: Standard fast kuglesystemD-værdi: 10.10&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2123 / 85Monteringstid anh.træk D - op til 2½ time" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk subaru Impreza&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="019-571" name="019-571 &amp;nbsp; Anhængertræk til SUBARU  Impreza Sedan 93 - 8/00" description="Trækanordning: FlangekugleUdskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1200 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="025-443" name="025-443 &amp;nbsp; Anhængertræk til SUBARU  Impreza Sedan 93 - 8/00" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 8.31Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1600 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="388" supplier_part_number="011-778" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="014-408" name="014-408 &amp;nbsp; Kabelsæt til SUBARU  Impreza Sedan 93 - 8/00" description="Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="019-571" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="025-443" reference="true" />
+        <Spare_Part_Price price_inc_vat="388" supplier_part_number="011-778" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="014-408" reference="true" />
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="019-571" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="025-443" reference="true" />
+        <Spare_Part_Price price_inc_vat="388" supplier_part_number="011-778" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="014-408" reference="true" />
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="019-571" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="025-443" reference="true" />
+        <Spare_Part_Price price_inc_vat="388" supplier_part_number="011-778" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="014-408" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="027-363" name="027-363 &amp;nbsp; Anhængertræk til SUBARU  Impreza Sedan  9/00 -" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 9.07&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1800 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="015-398" name="015-398 &amp;nbsp; Kabelsæt til SUBARU  Impreza Sedan  9/00 -" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="027-363" reference="true" />
+        <Spare_Part_Price price_inc_vat="645" supplier_part_number="043-588" name="043-588 &amp;nbsp; Kabelsæt til SUBARU  Impreza Stationcar (Plus)  9/00 -" description="Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min.Bemærk: -&gt;I 09/05" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk subaru Justy&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="043-311" name="043-311 &amp;nbsp; Anhængertræk til SUBARU  Justy Hatchback 03 - 9/07" description="Trækanordning: Standard fast kuglesystemD-værdi: 5.50&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 900 / 50Monteringstid anh.træk C - op til 2 timer" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="043-314" name="043-314 &amp;nbsp; Anhængertræk til SUBARU  Justy Hatchback 03 - 9/07" description="Trækanordning:  aftageligt anhægertræk D-værdi: 5.50&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 900 / 50Monteringstid anh.træk C - op til 2 timer" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="465" supplier_part_number="017-358" name="017-358 &amp;nbsp; Kabelsæt til SUBARU  Justy Hatchback 03 - 9/07" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt V - op til 1 time" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk subaru Legacy&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="018-692" name="018-692 &amp;nbsp; Anhængertræk til SUBARU  Legacy Stationcar 89 - 8/94" description="Trækanordning: Standard fast kuglesystemD-værdi: 9.44Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1900 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="243" supplier_part_number="006-278" name="006-278 &amp;nbsp; Kabelsæt til SUBARU  Legacy Stationcar 89 - 8/94" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min.Bemærk: Tidligere/erstattet model: Specialpris" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="388" supplier_part_number="011-778" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="014-408" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="020-071" name="020-071 &amp;nbsp; Anhængertræk til SUBARU  Legacy Stationcar  9/94 - 10/98" description="Trækanordning: Standard fast kuglesystemD-værdi: 9.44Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1950 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="388" supplier_part_number="011-778" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="014-408" reference="true" />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="024-581" name="024-581 &amp;nbsp; Anhængertræk til SUBARU  Legacy Stationcar  11/98 - 03" description="Trækanordning: Standard fast kuglesystemD-værdi: 10.05Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2000 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="388" supplier_part_number="011-778" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="014-408" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

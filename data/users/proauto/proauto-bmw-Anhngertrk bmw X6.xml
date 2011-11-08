@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="bmw">
+    <car_model car_model_name="&#xD;&#xA;									Anh�ngertr�k bmw X6&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="048-043" name="&#xD;&#xA;						048-043 &amp;nbsp; Anh�ngertr�k til BMW  X6 APV 08 -&#xD;&#xA;					" description="&#xD;&#xA;						Tr�kanordning:  lodret aftagelig anh�ngertr�k &#xD;&#xA;					&#xD;&#xA;						Monteringstid anh.tr�k" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1245" supplier_part_number="041-308" reference="true" />
+        <Spare_Part_Price price_inc_vat="1426" supplier_part_number="041-318" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

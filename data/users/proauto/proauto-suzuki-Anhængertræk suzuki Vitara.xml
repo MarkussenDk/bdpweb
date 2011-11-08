@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="suzuki">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk suzuki Vitara&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="016-172" name="016-172 &amp;nbsp; Anhængertræk til SUZUKI  Vitara APV 88 - 05" description="Trækanordning: Svejst kuglesystemD-værdi: 7.23&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1500 / 50Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="555" supplier_part_number="006-378" name="006-378 &amp;nbsp; Kabelsæt til SUZUKI  Vitara APV 88 - 05" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="017-881" name="017-881 &amp;nbsp; Anhængertræk til SUZUKI  Vitara APV 91 - 05" description="Trækanordning: Standard fast kuglesystemD-værdi: 7.71&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1500 / 60Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="555" supplier_part_number="006-378" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="023-271" name="023-271 &amp;nbsp; Anhængertræk til SUZUKI  Vitara APV 95 - 05" description="Trækanordning: FlangekugleD-værdi: 9.20&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1875 / 75Trækkugle dækker for nummerpladeMonteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="022-211" name="022-211 &amp;nbsp; Anhængertræk til SUZUKI  Vitara APV 97 - 05" description="Trækanordning: Standard fast kuglesystemD-værdi: 7.90&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1500 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="555" supplier_part_number="006-378" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

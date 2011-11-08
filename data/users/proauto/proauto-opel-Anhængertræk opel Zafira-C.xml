@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="opel">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk opel Zafira-C&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="037-551" name="037-551 &amp;nbsp; Anhængertræk til OPEL  Zafira-C MPV  5/11 -" description="Trækanordning: Standard fast kuglesystem&#xD;&#xA;					&#xD;&#xA;						Monteringstid anh.træk" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="037-550" name="037-550 &amp;nbsp; Anhængertræk til OPEL  Zafira-C MPV  5/11 -" description="Trækanordning: AK10&#xD;&#xA;					&#xD;&#xA;						Monteringstid anh.træk" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="048-753" name="048-753 &amp;nbsp; Anhængertræk til OPEL  Zafira-C MPV  5/11 -" description="Trækanordning:  lodret aftagelig anhængertræk &#xD;&#xA;					&#xD;&#xA;						Monteringstid anh.træk" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="037-268" name="037-268 &amp;nbsp; Kabelsæt til OPEL  Zafira-C MPV  5/11 -" description="Polaritet = 7-polet&#xD;&#xA;						Monteringstid kabelsæt" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="037-278" name="037-278 &amp;nbsp; Kabelsæt til OPEL  Zafira-C MPV  5/11 -" description="Polaritet = 13-polet&#xD;&#xA;						Monteringstid kabelsæt" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

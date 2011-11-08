@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="seat">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk seat Exeo&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1668" supplier_part_number="037-131" name="037-131 &amp;nbsp; Anhængertræk til SEAT  Exeo Sedan, Stationcar 09 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 10.71Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2000 / 80Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3265" supplier_part_number="049-193" name="049-193 &amp;nbsp; Anhængertræk til SEAT  Exeo Sedan, Stationcar 09 -" description="Trækanordning:  lodret aftagelig anhængertræk D-værdi: 10.71Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2000 / 80Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1069" supplier_part_number="030-628" reference="true" />
+        <Spare_Part_Price price_inc_vat="1289" supplier_part_number="030-638" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="nissan">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk nissan Almera&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="021-331" name="&#xD;&#xA;						021-331 &amp;nbsp; Anhængertræk til NISSAN  Almera Sedan 95 - 2/00&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 8.00Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1600 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="021-333" name="&#xD;&#xA;						021-333 &amp;nbsp; Anhængertræk til NISSAN  Almera Sedan 95 - 2/00&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 8.00Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1600 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="388" supplier_part_number="004-018" name="&#xD;&#xA;						004-018 &amp;nbsp; Kabelsæt til NISSAN  Almera Sedan 95 - 2/00&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="656" supplier_part_number="007-328" name="&#xD;&#xA;						007-328 &amp;nbsp; Kabelsæt til NISSAN  Almera Sedan 95 - 2/00&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="021-891" name="&#xD;&#xA;						021-891 &amp;nbsp; Anhængertræk til NISSAN  Almera Hatchback 95 - 2/00&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 8.09Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1600 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="329" supplier_part_number="003-948" name="&#xD;&#xA;						003-948 &amp;nbsp; Kabelsæt til NISSAN  Almera Hatchback 95 - 2/00&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="007-318" name="&#xD;&#xA;						007-318 &amp;nbsp; Kabelsæt til NISSAN  Almera Hatchback 95 - 2/00&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="031-661" name="&#xD;&#xA;						031-661 &amp;nbsp; Anhængertræk til NISSAN  Almera Hatchback  3/00 - 07&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 8.00Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1560 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="453" supplier_part_number="011-888" name="&#xD;&#xA;						011-888 &amp;nbsp; Kabelsæt til NISSAN  Almera Hatchback  3/00 - 07&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="031-671" name="&#xD;&#xA;						031-671 &amp;nbsp; Anhængertræk til NISSAN  Almera Sedan  3/00 - 07&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 8.00Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1560 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="930" supplier_part_number="015-188" name="&#xD;&#xA;						015-188 &amp;nbsp; Kabelsæt til NISSAN  Almera Sedan  3/00 - 07&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1179" supplier_part_number="014-718" name="&#xD;&#xA;						014-718 &amp;nbsp; Kabelsæt til NISSAN  Almera Sedan  3/00 - 07&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk nissan Almera-Tino&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="031-681" name="&#xD;&#xA;						031-681 &amp;nbsp; Anhængertræk til NISSAN  Almera MPV 00 - 07&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 8.40Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1650 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="601" supplier_part_number="015-078" name="&#xD;&#xA;						015-078 &amp;nbsp; Kabelsæt til NISSAN  Almera MPV 00 - 07&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1048" supplier_part_number="014-628" name="&#xD;&#xA;						014-628 &amp;nbsp; Kabelsæt til NISSAN  Almera MPV 00 - 07&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="031-681" reference="true" />
+        <Spare_Part_Price price_inc_vat="601" supplier_part_number="015-078" reference="true" />
+        <Spare_Part_Price price_inc_vat="1048" supplier_part_number="014-628" reference="true" />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="031-681" reference="true" />
+        <Spare_Part_Price price_inc_vat="601" supplier_part_number="015-078" reference="true" />
+        <Spare_Part_Price price_inc_vat="1048" supplier_part_number="014-628" reference="true" />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="031-681" reference="true" />
+        <Spare_Part_Price price_inc_vat="601" supplier_part_number="015-078" reference="true" />
+        <Spare_Part_Price price_inc_vat="1048" supplier_part_number="014-628" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk nissan Cabstar&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="031-642" name="&#xD;&#xA;						031-642 &amp;nbsp; Anhængertræk til NISSAN  Cabstar Pick-up 99 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Flangekugle BAFD-værdi: 17.70&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 3500 / 120Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="031-642" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk nissan Cube&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="2846" supplier_part_number="029-484" name="&#xD;&#xA;						029-484 &amp;nbsp; Anhængertræk til NISSAN  Cube MPV 10 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning:  aftageligt anhægertræk D-værdi: 6.34Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1200 / 50Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-568" name="&#xD;&#xA;						029-568 &amp;nbsp; Kabelsæt til NISSAN  Cube MPV 10 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-578" name="&#xD;&#xA;						029-578 &amp;nbsp; Kabelsæt til NISSAN  Cube MPV 10 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min.Bemærk: Udvidelsessæt for strømforsyning, bestil 017-579 (+30) eller 020-229 (+15).&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk nissan Interstar&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="041-011" name="&#xD;&#xA;						041-011 &amp;nbsp; Anhængertræk til NISSAN  Interstar Varevogn, Minibus  8/02 - 11/03&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: FlangekugleD-værdi: 13.62&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2300 / 100Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="450" supplier_part_number="010-958" name="&#xD;&#xA;						010-958 &amp;nbsp; Kabelsæt til NISSAN  Interstar Varevogn, Minibus  8/02 - 11/03&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="041-011" reference="true" />
+        <Spare_Part_Price price_inc_vat="514" supplier_part_number="028-168" name="&#xD;&#xA;						028-168 &amp;nbsp; Kabelsæt til NISSAN  Interstar Varevogn, Minibus  12/03 - 3/10&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt R - op til 20 min." spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk nissan Juke&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="048-493" name="&#xD;&#xA;						048-493 &amp;nbsp; Anhængertræk til NISSAN  Juke APV  10/10 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning:  lodret aftageligt anhængertræk &#xD;&#xA;					&#xD;&#xA;						Monteringstid anh.træk" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="036-968" name="&#xD;&#xA;						036-968 &amp;nbsp; Kabelsæt til NISSAN  Juke APV  10/10 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-polet&#xD;&#xA;						Monteringstid kabelsæt" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk nissan Kubistar-I&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="022-701" name="&#xD;&#xA;						022-701 &amp;nbsp; Anhængertræk til NISSAN  Kubistar-I Lille varevogn, Multispace 03 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: FlangekugleD-værdi: 7.60&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1320 / 75Monteringstid anh.træk A  - op til 1 timeBemærk: Bemærk: Manualen fra Nissan, som angiver maks. total vægt for (bil + anhænger) til 2500kg, skal overholdes.&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="431" supplier_part_number="009-928" name="&#xD;&#xA;						009-928 &amp;nbsp; Kabelsæt til NISSAN  Kubistar-I Lille varevogn, Multispace 03 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt R - op til 20 min." spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk nissan Micra&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="018-742" name="&#xD;&#xA;						018-742 &amp;nbsp; Anhængertræk til NISSAN  Micra Hatchback  8/92 - 97&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Svejst kuglesystemD-værdi: 6.23&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1200 / 50Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="463" supplier_part_number="005-678" name="&#xD;&#xA;						005-678 &amp;nbsp; Kabelsæt til NISSAN  Micra Hatchback  8/92 - 97&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="018-742" reference="true" />
+        <Spare_Part_Price price_inc_vat="371" supplier_part_number="009-898" name="&#xD;&#xA;						009-898 &amp;nbsp; Kabelsæt til NISSAN  Micra Hatchback 98 - 03&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt R - op til 20 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="028-281" name="&#xD;&#xA;						028-281 &amp;nbsp; Anhængertræk til NISSAN  Micra Hatchback  2/03 - 10&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 6.78Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1300 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="933" supplier_part_number="016-059" name="&#xD;&#xA;						016-059 &amp;nbsp; Kabelsæt til NISSAN  Micra Hatchback  2/03 - 10&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-polet DIN m. samlet stikBiler med checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt V - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-944" name="&#xD;&#xA;						029-944 &amp;nbsp; Anhængertræk til NISSAN  Micra Hatchback  11/10 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Cykelstativ-beslag&#xD;&#xA;					&#xD;&#xA;						Monteringstid anh.trækBemærk: Not for Spain. E-set included. Existing bicycle carriers are not compatible. Ordering of dedicated bicycle carrier 029-154, 029-664 or 029-974 is elementary. Towing not allowed!&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-154" name="&#xD;&#xA;						029-154 &amp;nbsp; Anhængertræk til NISSAN  Micra Hatchback  11/10 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Cykelstativ&#xD;&#xA;					&#xD;&#xA;						Monteringstid anh.trækBemærk: Speciel cykelholder 029-154, &quot;Twinny Load Swing CK&quot;.&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-664" name="&#xD;&#xA;						029-664 &amp;nbsp; Anhængertræk til NISSAN  Micra Hatchback  11/10 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Cykelstativ&#xD;&#xA;					&#xD;&#xA;						Monteringstid anh.trækBemærk: Speciel cykelholder 029-664, &quot;Bosal Bike Carrier&quot;.&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-974" name="&#xD;&#xA;						029-974 &amp;nbsp; Anhængertræk til NISSAN  Micra Hatchback  11/10 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Cykelstativ&#xD;&#xA;					&#xD;&#xA;						Monteringstid anh.trækBemærk: Speciel cykelholder 029-974, &quot;Bosal Bike Carrier Compact&quot;.&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk nissan Murano&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="034-273" name="&#xD;&#xA;						034-273 &amp;nbsp; Anhængertræk til NISSAN  Murano APV 05 - 7/08&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 9.18&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1535 / 80Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="939" supplier_part_number="041-909" name="&#xD;&#xA;						041-909 &amp;nbsp; Kabelsæt til NISSAN  Murano APV 05 - 7/08&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1064" supplier_part_number="041-919" name="&#xD;&#xA;						041-919 &amp;nbsp; Kabelsæt til NISSAN  Murano APV 05 - 7/08&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min.Bemærk: Udvidelsessæt til strømforsyning, bestil 020-229 (+15)&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2813" supplier_part_number="035-743" name="&#xD;&#xA;						035-743 &amp;nbsp; Anhængertræk til NISSAN  Murano APV  8/08 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 10.90Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1585 / 100Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="568" supplier_part_number="030-898" name="&#xD;&#xA;						030-898 &amp;nbsp; Kabelsæt til NISSAN  Murano APV  8/08 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt W - over 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="670" supplier_part_number="030-908" name="&#xD;&#xA;						030-908 &amp;nbsp; Kabelsæt til NISSAN  Murano APV  8/08 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-poletStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt W - over 1 time" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk nissan Note&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="043-151" name="&#xD;&#xA;						043-151 &amp;nbsp; Anhængertræk til NISSAN  Note MPV 06 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 6.90Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1200 / 50Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="690" supplier_part_number="043-428" name="&#xD;&#xA;						043-428 &amp;nbsp; Kabelsæt til NISSAN  Note MPV 06 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt V - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="719" supplier_part_number="043-038" name="&#xD;&#xA;						043-038 &amp;nbsp; Kabelsæt til NISSAN  Note MPV 06 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt V - op til 1 timeBemærk: Udvidelsessæt for strømforsyning, bestil 017-579 (+30) eller 020-229 (+15).&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk nissan NP300-Pick-up&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="2418" supplier_part_number="034-952" name="&#xD;&#xA;						034-952 &amp;nbsp; Anhængertræk til NISSAN  NP300-Pick-up Pick-up  6/08 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 15.00&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 3000 / 120Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="610" supplier_part_number="036-798" name="&#xD;&#xA;						036-798 &amp;nbsp; Kabelsæt til NISSAN  NP300-Pick-up Pick-up  6/08 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt R - op til 20 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="748" supplier_part_number="036-808" name="&#xD;&#xA;						036-808 &amp;nbsp; Kabelsæt til NISSAN  NP300-Pick-up Pick-up  6/08 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt R - op til 20 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2418" supplier_part_number="034-952" reference="true" />
+        <Spare_Part_Price price_inc_vat="610" supplier_part_number="036-798" reference="true" />
+        <Spare_Part_Price price_inc_vat="748" supplier_part_number="036-808" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk nissan NV200&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-492" name="&#xD;&#xA;						029-492 &amp;nbsp; Anhængertræk til NISSAN  NV200 Varevogn, Minibus  11/09 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: FlangekugleD-værdi: 7.82Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1250 / 75Monteringstid anh.træk D - op til 2½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="581" supplier_part_number="029-588" name="&#xD;&#xA;						029-588 &amp;nbsp; Kabelsæt til NISSAN  NV200 Varevogn, Minibus  11/09 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-598" name="&#xD;&#xA;						029-598 &amp;nbsp; Kabelsæt til NISSAN  NV200 Varevogn, Minibus  11/09 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-poletStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt T - op til 45 min.Bemærk: Udvidelsessæt til strømforsyning, bestil 020-229 (+15)&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk nissan Pathfinder&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="015-672" name="&#xD;&#xA;						015-672 &amp;nbsp; Anhængertræk til NISSAN  Pathfinder APV 87 - 90&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Svejst kuglesystemD-værdi: 11.75&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2466 / 100Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="473" supplier_part_number="005-798" name="&#xD;&#xA;						005-798 &amp;nbsp; Kabelsæt til NISSAN  Pathfinder APV 87 - 90&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="017-072" name="&#xD;&#xA;						017-072 &amp;nbsp; Anhængertræk til NISSAN  Pathfinder APV  4/05 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 14.50Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 3000 / 120Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="414" supplier_part_number="043-658" name="&#xD;&#xA;						043-658 &amp;nbsp; Kabelsæt til NISSAN  Pathfinder APV  4/05 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="695" supplier_part_number="043-668" name="&#xD;&#xA;						043-668 &amp;nbsp; Kabelsæt til NISSAN  Pathfinder APV  4/05 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk nissan Patrol-GR&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="016-162" name="&#xD;&#xA;						016-162 &amp;nbsp; Anhængertræk til NISSAN  Patrol-GR APV 89 - 97&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 16.63&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 3900 / 100Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="024-261" name="&#xD;&#xA;						024-261 &amp;nbsp; Anhængertræk til NISSAN  Patrol-GR APV 98 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 16.30&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 3500 / 140Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="649" supplier_part_number="017-648" name="&#xD;&#xA;						017-648 &amp;nbsp; Kabelsæt til NISSAN  Patrol-GR APV 98 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt R - op til 20 min." spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk nissan Pick-up/Navarra&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="028-342" name="&#xD;&#xA;						028-342 &amp;nbsp; Anhængertræk til NISSAN  Pick-up/Navarra Pick-up 05 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Højdejusterbart kuglesystemD-værdi: 15.00&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 3000 / 120Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="524" supplier_part_number="043-598" name="&#xD;&#xA;						043-598 &amp;nbsp; Kabelsæt til NISSAN  Pick-up/Navarra Pick-up 05 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt R - op til 20 min.Bemærk: -&gt;I 12/09&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1093" supplier_part_number="043-608" name="&#xD;&#xA;						043-608 &amp;nbsp; Kabelsæt til NISSAN  Pick-up/Navarra Pick-up 05 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min.Bemærk: -&gt;I 12/09&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="028-342" reference="true" />
+        <Spare_Part_Price price_inc_vat="524" supplier_part_number="043-598" reference="true" />
+        <Spare_Part_Price price_inc_vat="1093" supplier_part_number="043-608" reference="true" />
+        <Spare_Part_Price price_inc_vat="2418" supplier_part_number="034-952" reference="true" />
+        <Spare_Part_Price price_inc_vat="610" supplier_part_number="036-798" reference="true" />
+        <Spare_Part_Price price_inc_vat="748" supplier_part_number="036-808" reference="true" />
+        <Spare_Part_Price price_inc_vat="2418" supplier_part_number="034-952" reference="true" />
+        <Spare_Part_Price price_inc_vat="610" supplier_part_number="036-798" reference="true" />
+        <Spare_Part_Price price_inc_vat="748" supplier_part_number="036-808" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk nissan Pixo&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="037-151" name="&#xD;&#xA;						037-151 &amp;nbsp; Anhængertræk til NISSAN  Pixo Hatchback 09 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 4.21Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 600 / 50Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="456" supplier_part_number="034-728" name="&#xD;&#xA;						034-728 &amp;nbsp; Kabelsæt til NISSAN  Pixo Hatchback 09 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk nissan Primastar&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="045-192" name="&#xD;&#xA;						045-192 &amp;nbsp; Anhængertræk til NISSAN  Primastar Varevogn, Minibus  9/02 - 9/06&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Højdejusterbart kuglesystemD-værdi: 12.00&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2000 / 80Monteringstid anh.træk A  - op til 1 timeBemærk: 4-huls flangekugle (022-834) mulig med udvidelsessæt 019-554&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="027-143" name="&#xD;&#xA;						027-143 &amp;nbsp; Anhængertræk til NISSAN  Primastar Varevogn, Minibus  9/02 - 9/06&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 11.70Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2000 / 80Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="650" supplier_part_number="015-338" name="&#xD;&#xA;						015-338 &amp;nbsp; Kabelsæt til NISSAN  Primastar Varevogn, Minibus  9/02 - 9/06&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="665" supplier_part_number="015-598" name="&#xD;&#xA;						015-598 &amp;nbsp; Kabelsæt til NISSAN  Primastar Varevogn, Minibus  9/02 - 9/06&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-polet&#xD;&#xA;						Monteringstid kabelsæt W - over 1 timeBemærk: Udvidelsessæt til strømforsyning, bestil 017-579 (+30)&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="045-192" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="027-143" reference="true" />
+        <Spare_Part_Price price_inc_vat="401" supplier_part_number="042-138" name="&#xD;&#xA;						042-138 &amp;nbsp; Kabelsæt til NISSAN  Primastar Varevogn, Minibus  10/06 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="626" supplier_part_number="042-148" name="&#xD;&#xA;						042-148 &amp;nbsp; Kabelsæt til NISSAN  Primastar Varevogn, Minibus  10/06 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-poletStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk nissan Primera&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="023-211" name="&#xD;&#xA;						023-211 &amp;nbsp; Anhængertræk til NISSAN  Primera Sedan  10/96 - 8/99&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 8.40Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1650 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="354" supplier_part_number="006-888" name="&#xD;&#xA;						006-888 &amp;nbsp; Kabelsæt til NISSAN  Primera Sedan  10/96 - 8/99&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletBiler med checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="017-442" name="&#xD;&#xA;						017-442 &amp;nbsp; Anhængertræk til NISSAN  Primera Stationcar 90 - 98&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 8.12&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1500 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="508" supplier_part_number="005-738" name="&#xD;&#xA;						005-738 &amp;nbsp; Kabelsæt til NISSAN  Primera Stationcar 90 - 98&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="017-362" name="&#xD;&#xA;						017-362 &amp;nbsp; Anhængertræk til NISSAN  Primera Sedan 90 - 9/96&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 8.46Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1700 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="375" supplier_part_number="005-748" name="&#xD;&#xA;						005-748 &amp;nbsp; Kabelsæt til NISSAN  Primera Sedan 90 - 9/96&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="735" supplier_part_number="013-438" name="&#xD;&#xA;						013-438 &amp;nbsp; Kabelsæt til NISSAN  Primera Sedan 90 - 9/96&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt V - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="017-362" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="023-211" reference="true" />
+        <Spare_Part_Price price_inc_vat="426" supplier_part_number="004-518" name="&#xD;&#xA;						004-518 &amp;nbsp; Kabelsæt til NISSAN  Primera Hatchback  10/96 - 8/99&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletBiler med checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="628" supplier_part_number="007-878" name="&#xD;&#xA;						007-878 &amp;nbsp; Kabelsæt til NISSAN  Primera Hatchback  10/96 - 8/99&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-poletBiler med checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt V - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="024-231" name="&#xD;&#xA;						024-231 &amp;nbsp; Anhængertræk til NISSAN  Primera Stationcar 98 - 8/99&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 8.80Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1700 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="009-888" name="&#xD;&#xA;						009-888 &amp;nbsp; Kabelsæt til NISSAN  Primera Stationcar 98 - 8/99&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt R - op til 20 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="026-501" name="&#xD;&#xA;						026-501 &amp;nbsp; Anhængertræk til NISSAN  Primera Hatchback  9/99 - 2/02&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 8.60Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1700 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="394" supplier_part_number="011-608" name="&#xD;&#xA;						011-608 &amp;nbsp; Kabelsæt til NISSAN  Primera Hatchback  9/99 - 2/02&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="026-501" reference="true" />
+        <Spare_Part_Price price_inc_vat="475" supplier_part_number="011-648" name="&#xD;&#xA;						011-648 &amp;nbsp; Kabelsæt til NISSAN  Primera Sedan  9/99 - 2/02&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletBiler med checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="024-231" reference="true" />
+        <Spare_Part_Price price_inc_vat="485" supplier_part_number="011-658" name="&#xD;&#xA;						011-658 &amp;nbsp; Kabelsæt til NISSAN  Primera Stationcar  9/99 - 02&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="027-931" name="&#xD;&#xA;						027-931 &amp;nbsp; Anhængertræk til NISSAN  Primera Hatchback  3/02 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 9.40Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1850 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="739" supplier_part_number="016-078" name="&#xD;&#xA;						016-078 &amp;nbsp; Kabelsæt til NISSAN  Primera Hatchback  3/02 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt R - op til 20 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="027-931" reference="true" />
+        <Spare_Part_Price price_inc_vat="851" supplier_part_number="015-848" name="&#xD;&#xA;						015-848 &amp;nbsp; Kabelsæt til NISSAN  Primera Sedan  3/02 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt R - op til 20 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1311" supplier_part_number="015-858" name="&#xD;&#xA;						015-858 &amp;nbsp; Kabelsæt til NISSAN  Primera Sedan  3/02 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="027-941" name="&#xD;&#xA;						027-941 &amp;nbsp; Anhængertræk til NISSAN  Primera Stationcar 02 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 9.60Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1850 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="668" supplier_part_number="015-868" name="&#xD;&#xA;						015-868 &amp;nbsp; Kabelsæt til NISSAN  Primera Stationcar 02 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt R - op til 20 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="986" supplier_part_number="015-878" name="&#xD;&#xA;						015-878 &amp;nbsp; Kabelsæt til NISSAN  Primera Stationcar 02 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk nissan Qashqai&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1828" supplier_part_number="044-801" name="&#xD;&#xA;						044-801 &amp;nbsp; Anhængertræk til NISSAN  Qashqai APV 07 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 8.71Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1425 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="044-363" name="&#xD;&#xA;						044-363 &amp;nbsp; Anhængertræk til NISSAN  Qashqai APV 07 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Vertikalt aftageligt kuglesystem (AK6)D-værdi: 8.58Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1500 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3424" supplier_part_number="048-913" name="&#xD;&#xA;						048-913 &amp;nbsp; Anhængertræk til NISSAN  Qashqai APV 07 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning:  lodret aftagelig anhængertræk D-værdi: 8.71Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1425 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="890" supplier_part_number="035-578" name="&#xD;&#xA;						035-578 &amp;nbsp; Kabelsæt til NISSAN  Qashqai APV 07 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt V - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="035-748" name="&#xD;&#xA;						035-748 &amp;nbsp; Kabelsæt til NISSAN  Qashqai APV 07 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt V - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1400" supplier_part_number="035-588" name="&#xD;&#xA;						035-588 &amp;nbsp; Kabelsæt til NISSAN  Qashqai APV 07 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-poletStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt V - op til 1 timeBemærk: Udvidelsessæt til strømforsyning, bestil venligst 015-069 (+15/+30).&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk nissan Qashqai+2&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1828" supplier_part_number="044-801" reference="true" />
+        <Spare_Part_Price price_inc_vat="3424" supplier_part_number="048-913" reference="true" />
+        <Spare_Part_Price price_inc_vat="890" supplier_part_number="035-578" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="035-748" reference="true" />
+        <Spare_Part_Price price_inc_vat="1400" supplier_part_number="035-588" reference="true" />
+        <Spare_Part_Price price_inc_vat="1828" supplier_part_number="044-801" reference="true" />
+        <Spare_Part_Price price_inc_vat="3424" supplier_part_number="048-913" reference="true" />
+        <Spare_Part_Price price_inc_vat="890" supplier_part_number="035-578" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="035-748" reference="true" />
+        <Spare_Part_Price price_inc_vat="1400" supplier_part_number="035-588" reference="true" />
+        <Spare_Part_Price price_inc_vat="1828" supplier_part_number="044-801" reference="true" />
+        <Spare_Part_Price price_inc_vat="3424" supplier_part_number="048-913" reference="true" />
+        <Spare_Part_Price price_inc_vat="890" supplier_part_number="035-578" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="035-748" reference="true" />
+        <Spare_Part_Price price_inc_vat="1400" supplier_part_number="035-588" reference="true" />
+        <Spare_Part_Price price_inc_vat="1828" supplier_part_number="044-801" reference="true" />
+        <Spare_Part_Price price_inc_vat="3424" supplier_part_number="048-913" reference="true" />
+        <Spare_Part_Price price_inc_vat="890" supplier_part_number="035-578" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="035-748" reference="true" />
+        <Spare_Part_Price price_inc_vat="1400" supplier_part_number="035-588" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk nissan Sunny&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1330" supplier_part_number="017-741" name="&#xD;&#xA;						017-741 &amp;nbsp; Anhængertræk til NISSAN  Sunny Hatchback 91 - 95&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemUdskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1560 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="374" supplier_part_number="005-778" name="&#xD;&#xA;						005-778 &amp;nbsp; Kabelsæt til NISSAN  Sunny Hatchback 91 - 95&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="017-631" name="&#xD;&#xA;						017-631 &amp;nbsp; Anhængertræk til NISSAN  Sunny Sedan  10/90 - 95&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemUdskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1250 / 50Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="374" supplier_part_number="005-778" reference="true" />
+        <Spare_Part_Price price_inc_vat="1330" supplier_part_number="017-741" reference="true" />
+        <Spare_Part_Price price_inc_vat="374" supplier_part_number="005-778" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk nissan Terrano-I&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="015-672" reference="true" />
+        <Spare_Part_Price price_inc_vat="473" supplier_part_number="005-798" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk nissan Terrano-II&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="025-641" name="&#xD;&#xA;						025-641 &amp;nbsp; Anhængertræk til NISSAN  Terrano-I APV 93 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 12.75&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2600 / 100Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="685" supplier_part_number="005-328" name="&#xD;&#xA;						005-328 &amp;nbsp; Kabelsæt til NISSAN  Terrano-I APV 93 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="025-641" reference="true" />
+        <Spare_Part_Price price_inc_vat="685" supplier_part_number="005-328" reference="true" />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="025-641" reference="true" />
+        <Spare_Part_Price price_inc_vat="685" supplier_part_number="005-328" reference="true" />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="025-641" reference="true" />
+        <Spare_Part_Price price_inc_vat="685" supplier_part_number="005-328" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk nissan Tiida&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1409" supplier_part_number="036-431" name="&#xD;&#xA;						036-431 &amp;nbsp; Anhængertræk til NISSAN  Tiida Hatchback 08 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 7.50Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1300 / 55Trækkugle dækker for nummerpladeMonteringstid anh.træk C - op til 2 timer" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2361" supplier_part_number="036-434" name="&#xD;&#xA;						036-434 &amp;nbsp; Anhængertræk til NISSAN  Tiida Hatchback 08 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning:  aftageligt anhægertræk D-værdi: 7.50Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1300 / 55Monteringstid anh.træk C - op til 2 timer" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="036-348" name="&#xD;&#xA;						036-348 &amp;nbsp; Kabelsæt til NISSAN  Tiida Hatchback 08 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-polet&#xD;&#xA;						Monteringstid kabelsæt" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1409" supplier_part_number="036-431" reference="true" />
+        <Spare_Part_Price price_inc_vat="2361" supplier_part_number="036-434" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="036-348" reference="true" />
+        <Spare_Part_Price price_inc_vat="1409" supplier_part_number="036-431" reference="true" />
+        <Spare_Part_Price price_inc_vat="2361" supplier_part_number="036-434" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="034-698" name="&#xD;&#xA;						034-698 &amp;nbsp; Kabelsæt til NISSAN  Tiida Sedan 08 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-polet&#xD;&#xA;						Monteringstid kabelsæt" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk nissan Vanette-Cargo&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="023-161" name="&#xD;&#xA;						023-161 &amp;nbsp; Anhængertræk til NISSAN  Vanette-Cargo Varevogn 95 - 03&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 9.70&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1600 / 80Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="581" supplier_part_number="006-788" name="&#xD;&#xA;						006-788 &amp;nbsp; Kabelsæt til NISSAN  Vanette-Cargo Varevogn 95 - 03&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt R - op til 20 min." spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk nissan X-Trail&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="033-541" name="&#xD;&#xA;						033-541 &amp;nbsp; Anhængertræk til NISSAN  X-Trail APV  9/01 - 6/07&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 11.20Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2250 / 100Monteringstid anh.træk C - op til 2 timer" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="755" supplier_part_number="014-988" name="&#xD;&#xA;						014-988 &amp;nbsp; Kabelsæt til NISSAN  X-Trail APV  9/01 - 6/07&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt R - op til 20 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1675" supplier_part_number="036-471" name="&#xD;&#xA;						036-471 &amp;nbsp; Anhængertræk til NISSAN  X-Trail APV  7/07 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 10.80Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2200 / 100Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="890" supplier_part_number="035-578" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="035-748" reference="true" />
+        <Spare_Part_Price price_inc_vat="1400" supplier_part_number="035-588" reference="true" />
+        <Spare_Part_Price price_inc_vat="1675" supplier_part_number="036-471" reference="true" />
+        <Spare_Part_Price price_inc_vat="890" supplier_part_number="035-578" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="035-748" reference="true" />
+        <Spare_Part_Price price_inc_vat="1400" supplier_part_number="035-588" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="volkswagen">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk volkswagen Transporter&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="010-022" name="010-022 &amp;nbsp; Anhængertræk til VOLKSWAGEN  Transporter Varevogn, Minibus 79 - 8/90" description="Trækanordning: Svejst kuglesystemD-værdi: 11.18Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2000 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="019-652" name="019-652 &amp;nbsp; Anhængertræk til VOLKSWAGEN  Transporter Varevogn, Minibus  9/90 - 95" description="Trækanordning: Standard fast kuglesystemD-værdi: 12.90Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2500 / 100Monteringstid anh.træk B - op til 1½ timeBemærk: Til biler med tandem-aksel, bestil ekstra sænkningssæt 022-574." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="310" supplier_part_number="006-658" name="006-658 &amp;nbsp; Kabelsæt til VOLKSWAGEN  Transporter Varevogn, Minibus  9/90 - 95" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="625" supplier_part_number="008-668" name="008-668 &amp;nbsp; Kabelsæt til VOLKSWAGEN  Transporter Varevogn, Minibus  9/90 - 95" description="Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="033-801" name="033-801 &amp;nbsp; Anhængertræk til VOLKSWAGEN  Transporter Pick-up  9/90 - 02" description="Trækanordning: FlangekugleD-værdi: 13.00&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2500 / 100Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="339" supplier_part_number="006-668" name="006-668 &amp;nbsp; Kabelsæt til VOLKSWAGEN  Transporter Pick-up  9/90 - 02" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="614" supplier_part_number="008-678" name="008-678 &amp;nbsp; Kabelsæt til VOLKSWAGEN  Transporter Pick-up  9/90 - 02" description="Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="025-221" name="025-221 &amp;nbsp; Anhængertræk til VOLKSWAGEN  Transporter Varevogn, Minibus 96 - 03" description="Trækanordning: Standard fast kuglesystemD-værdi: 12.96&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2500 / 100Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="025-223" name="025-223 &amp;nbsp; Anhængertræk til VOLKSWAGEN  Transporter Varevogn, Minibus 96 - 03" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 12.96&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2500 / 100Monteringstid anh.træk C - op til 2 timer" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="310" supplier_part_number="006-658" reference="true" />
+        <Spare_Part_Price price_inc_vat="625" supplier_part_number="008-668" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="027-801" name="027-801 &amp;nbsp; Anhængertræk til VOLKSWAGEN  Transporter Varevogn, Minibus 03 - 8/04" description="Trækanordning: Højdejusterbart kuglesystemD-værdi: 14.18&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2635 / 120Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="027-802" name="027-802 &amp;nbsp; Anhængertræk til VOLKSWAGEN  Transporter Varevogn, Minibus 03 - 8/04" description="Trækanordning: Standard fast kuglesystemD-værdi: 14.18&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2635 / 120Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2471" supplier_part_number="048-853" name="048-853 &amp;nbsp; Anhængertræk til VOLKSWAGEN  Transporter Varevogn, Minibus 03 - 8/04" description="Trækanordning:  lodret aftagelig anhængertræk D-værdi: 14.18&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2635 / 120Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="556" supplier_part_number="017-688" name="017-688 &amp;nbsp; Kabelsæt til VOLKSWAGEN  Transporter Varevogn, Minibus 03 - 8/04" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt R - op til 20 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1100" supplier_part_number="043-978" name="043-978 &amp;nbsp; Kabelsæt til VOLKSWAGEN  Transporter Varevogn, Minibus 03 - 8/04" description="Polaritet = 13-poletStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="010-022" reference="true" />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="033-502" name="033-502 &amp;nbsp; Anhængertræk til VOLKSWAGEN  Transporter Pick-up 03 -" description="Trækanordning: Højdejusterbart kuglesystemD-værdi: 14.40&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2500 / 100Monteringstid anh.træk A  - op til 1 timeBemærk: 4-huls flangekugle (022-834) mulig med udvidelsessæt 019-554" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="299" supplier_part_number="016-868" name="016-868 &amp;nbsp; Kabelsæt til VOLKSWAGEN  Transporter Pick-up 03 -" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min.Bemærk: -&gt;I 10/09" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1534" supplier_part_number="025-308" name="025-308 &amp;nbsp; Kabelsæt til VOLKSWAGEN  Transporter Pick-up 03 -" description="Polaritet = 7-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt W - over 1 timeBemærk: I-&gt; 11/09" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1928" supplier_part_number="025-318" name="025-318 &amp;nbsp; Kabelsæt til VOLKSWAGEN  Transporter Pick-up 03 -" description="Polaritet = 13-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt W - over 1 timeBemærk: I-&gt; 11/09" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="027-801" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="027-802" reference="true" />
+        <Spare_Part_Price price_inc_vat="2471" supplier_part_number="048-853" reference="true" />
+        <Spare_Part_Price price_inc_vat="556" supplier_part_number="017-688" reference="true" />
+        <Spare_Part_Price price_inc_vat="1100" supplier_part_number="043-978" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="027-801" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="027-802" reference="true" />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="033-602" name="033-602 &amp;nbsp; Anhængertræk til VOLKSWAGEN  Transporter Varevogn, Minibus  9/04 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 14.18&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2635 / 120Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2471" supplier_part_number="048-853" reference="true" />
+        <Spare_Part_Price price_inc_vat="556" supplier_part_number="017-688" reference="true" />
+        <Spare_Part_Price price_inc_vat="1534" supplier_part_number="025-308" reference="true" />
+        <Spare_Part_Price price_inc_vat="1100" supplier_part_number="043-978" reference="true" />
+        <Spare_Part_Price price_inc_vat="1928" supplier_part_number="025-318" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="027-801" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="027-802" reference="true" />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="033-602" reference="true" />
+        <Spare_Part_Price price_inc_vat="2471" supplier_part_number="048-853" reference="true" />
+        <Spare_Part_Price price_inc_vat="556" supplier_part_number="017-688" reference="true" />
+        <Spare_Part_Price price_inc_vat="1534" supplier_part_number="025-308" reference="true" />
+        <Spare_Part_Price price_inc_vat="1100" supplier_part_number="043-978" reference="true" />
+        <Spare_Part_Price price_inc_vat="1928" supplier_part_number="025-318" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

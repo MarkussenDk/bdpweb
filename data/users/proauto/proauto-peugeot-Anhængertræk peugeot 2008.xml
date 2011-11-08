@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="peugeot">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk peugeot 2008&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="037-561" name="037-561 &amp;nbsp; Anhængertræk til PEUGEOT  2008 APV  4/11 -" description="Trækanordning: Standard fast kuglesystem&#xD;&#xA;					&#xD;&#xA;						Monteringstid anh.træk" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="037-560" name="037-560 &amp;nbsp; Anhængertræk til PEUGEOT  2008 APV  4/11 -" description="Trækanordning: AK10&#xD;&#xA;					&#xD;&#xA;						Monteringstid anh.træk" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="037-178" name="037-178 &amp;nbsp; Kabelsæt til PEUGEOT  2008 APV  4/11 -" description="Polaritet = 7-polet&#xD;&#xA;						Monteringstid kabelsæt" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="037-448" name="037-448 &amp;nbsp; Kabelsæt til PEUGEOT  2008 APV  4/11 -" description="Polaritet = 13-polet&#xD;&#xA;						Monteringstid kabelsæt" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

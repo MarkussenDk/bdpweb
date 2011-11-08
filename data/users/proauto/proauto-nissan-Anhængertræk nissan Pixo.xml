@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="nissan">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk nissan Pixo&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="037-151" name="&#xD;&#xA;						037-151 &amp;nbsp; Anhængertræk til NISSAN  Pixo Hatchback 09 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 4.21Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 600 / 50Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="456" supplier_part_number="034-728" name="&#xD;&#xA;						034-728 &amp;nbsp; Kabelsæt til NISSAN  Pixo Hatchback 09 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

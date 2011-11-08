@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="peugeot">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk peugeot 508&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="037-581" name="037-581 &amp;nbsp; Anhængertræk til PEUGEOT  508 Sedan 11 -" description="Trækanordning: Standard fast kuglesystem&#xD;&#xA;					&#xD;&#xA;						Monteringstid anh.træk" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="049-493" name="049-493 &amp;nbsp; Anhængertræk til PEUGEOT  508 Sedan 11 -" description="Trækanordning:  lodret aftagelig anhængertræk &#xD;&#xA;					&#xD;&#xA;						Monteringstid anh.træk" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="037-288" name="037-288 &amp;nbsp; Kabelsæt til PEUGEOT  508 Sedan 11 -" description="Polaritet = 7-polet&#xD;&#xA;						Monteringstid kabelsæt" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="037-298" name="037-298 &amp;nbsp; Kabelsæt til PEUGEOT  508 Sedan 11 -" description="Polaritet = 13-polet&#xD;&#xA;						Monteringstid kabelsæt" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="037-591" name="037-591 &amp;nbsp; Anhængertræk til PEUGEOT  508 Stationcar 11 -" description="Trækanordning: Standard fast kuglesystem&#xD;&#xA;					&#xD;&#xA;						Monteringstid anh.træk" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="049-503" name="049-503 &amp;nbsp; Anhængertræk til PEUGEOT  508 Stationcar 11 -" description="Trækanordning:  lodret aftagelig anhængertræk &#xD;&#xA;					&#xD;&#xA;						Monteringstid anh.træk" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="037-458" name="037-458 &amp;nbsp; Kabelsæt til PEUGEOT  508 Stationcar 11 -" description="Polaritet = 7-polet&#xD;&#xA;						Monteringstid kabelsæt" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="037-468" name="037-468 &amp;nbsp; Kabelsæt til PEUGEOT  508 Stationcar 11 -" description="Polaritet = 13-polet&#xD;&#xA;						Monteringstid kabelsæt" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

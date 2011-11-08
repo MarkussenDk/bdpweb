@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="chrysler">
+    <car_model car_model_name="&#xD;&#xA;									Anh�ngertr�k chrysler PT-Cruiser&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="034-133" name="&#xD;&#xA;						034-133 &amp;nbsp; Anh�ngertr�k til CHRYSLER  PT-Cruiser MPV 00 -&#xD;&#xA;					" description="&#xD;&#xA;						Tr�kanordning: Horisontalt aftageligt kuglesystem (AK4)D-v�rdi: 6.60Udsk�ring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. tr�kv�gt / lodret belastning: 1000 / 50Monteringstid anh.tr�k B - op til 1� time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1984" supplier_part_number="018-548" name="&#xD;&#xA;						018-548 &amp;nbsp; Kabels�t til CHRYSLER  PT-Cruiser MPV 00 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-poletBiler med og uden checkkontrol&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabels�t V - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="034-133" reference="true" />
+        <Spare_Part_Price price_inc_vat="1984" supplier_part_number="018-548" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="034-133" reference="true" />
+        <Spare_Part_Price price_inc_vat="1984" supplier_part_number="018-548" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

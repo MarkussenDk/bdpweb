@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="skoda">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk skoda Praktik&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="041-441" name="041-441 &amp;nbsp; Anhængertræk til SKODA  Praktik MPV  4/07 - 5/10" description="Trækanordning: Standard fast kuglesystemD-værdi: 6.73Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1200 / 60Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="041-443" name="041-443 &amp;nbsp; Anhængertræk til SKODA  Praktik MPV  4/07 - 5/10" description="Trækanordning: Vertikalt aftageligt kuglesystem (AK6)D-værdi: 6.73Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1200 / 60Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="441" supplier_part_number="035-058" reference="true" />
+        <Spare_Part_Price price_inc_vat="984" supplier_part_number="035-068" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="041-441" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="041-443" reference="true" />
+        <Spare_Part_Price price_inc_vat="1454" supplier_part_number="031-518" reference="true" />
+        <Spare_Part_Price price_inc_vat="1620" supplier_part_number="031-528" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

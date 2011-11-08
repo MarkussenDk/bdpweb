@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="renault">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Laguna-III&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-391" name="044-391 &amp;nbsp; Anhængertræk til RENAULT  Laguna-I Hatchback  10/07 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 9.76Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1700 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="044-393" name="044-393 &amp;nbsp; Anhængertræk til RENAULT  Laguna-I Hatchback  10/07 -" description="Trækanordning:  lodret aftageligt anhængertræk D-værdi: 9.76Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1700 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="746" supplier_part_number="041-748" name="041-748 &amp;nbsp; Kabelsæt til RENAULT  Laguna-I Hatchback  10/07 -" description="Polaritet = 7-poletBiler med checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="923" supplier_part_number="041-758" name="041-758 &amp;nbsp; Kabelsæt til RENAULT  Laguna-I Hatchback  10/07 -" description="Polaritet = 13-poletBiler med checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-391" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="044-393" reference="true" />
+        <Spare_Part_Price price_inc_vat="746" supplier_part_number="041-748" reference="true" />
+        <Spare_Part_Price price_inc_vat="923" supplier_part_number="041-758" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-391" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="044-393" reference="true" />
+        <Spare_Part_Price price_inc_vat="746" supplier_part_number="041-748" reference="true" />
+        <Spare_Part_Price price_inc_vat="923" supplier_part_number="041-758" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-391" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="044-393" reference="true" />
+        <Spare_Part_Price price_inc_vat="746" supplier_part_number="041-748" reference="true" />
+        <Spare_Part_Price price_inc_vat="923" supplier_part_number="041-758" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-391" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="044-393" reference="true" />
+        <Spare_Part_Price price_inc_vat="746" supplier_part_number="041-748" reference="true" />
+        <Spare_Part_Price price_inc_vat="923" supplier_part_number="041-758" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-391" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="044-393" reference="true" />
+        <Spare_Part_Price price_inc_vat="746" supplier_part_number="041-748" reference="true" />
+        <Spare_Part_Price price_inc_vat="923" supplier_part_number="041-758" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-391" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="044-393" reference="true" />
+        <Spare_Part_Price price_inc_vat="746" supplier_part_number="041-748" reference="true" />
+        <Spare_Part_Price price_inc_vat="923" supplier_part_number="041-758" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-391" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="044-393" reference="true" />
+        <Spare_Part_Price price_inc_vat="746" supplier_part_number="041-748" reference="true" />
+        <Spare_Part_Price price_inc_vat="923" supplier_part_number="041-758" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-391" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="044-393" reference="true" />
+        <Spare_Part_Price price_inc_vat="746" supplier_part_number="041-748" reference="true" />
+        <Spare_Part_Price price_inc_vat="923" supplier_part_number="041-758" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-391" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="044-393" reference="true" />
+        <Spare_Part_Price price_inc_vat="746" supplier_part_number="041-748" reference="true" />
+        <Spare_Part_Price price_inc_vat="923" supplier_part_number="041-758" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-391" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="044-393" reference="true" />
+        <Spare_Part_Price price_inc_vat="746" supplier_part_number="041-748" reference="true" />
+        <Spare_Part_Price price_inc_vat="923" supplier_part_number="041-758" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-391" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="044-393" reference="true" />
+        <Spare_Part_Price price_inc_vat="746" supplier_part_number="041-748" reference="true" />
+        <Spare_Part_Price price_inc_vat="923" supplier_part_number="041-758" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-391" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="044-393" reference="true" />
+        <Spare_Part_Price price_inc_vat="746" supplier_part_number="041-748" reference="true" />
+        <Spare_Part_Price price_inc_vat="923" supplier_part_number="041-758" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-391" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="044-393" reference="true" />
+        <Spare_Part_Price price_inc_vat="746" supplier_part_number="041-748" reference="true" />
+        <Spare_Part_Price price_inc_vat="923" supplier_part_number="041-758" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-391" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="044-393" reference="true" />
+        <Spare_Part_Price price_inc_vat="746" supplier_part_number="041-748" reference="true" />
+        <Spare_Part_Price price_inc_vat="923" supplier_part_number="041-758" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-391" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="044-393" reference="true" />
+        <Spare_Part_Price price_inc_vat="746" supplier_part_number="041-748" reference="true" />
+        <Spare_Part_Price price_inc_vat="923" supplier_part_number="041-758" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-391" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="044-393" reference="true" />
+        <Spare_Part_Price price_inc_vat="746" supplier_part_number="041-748" reference="true" />
+        <Spare_Part_Price price_inc_vat="923" supplier_part_number="041-758" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-391" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="044-393" reference="true" />
+        <Spare_Part_Price price_inc_vat="746" supplier_part_number="041-748" reference="true" />
+        <Spare_Part_Price price_inc_vat="923" supplier_part_number="041-758" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-621" name="044-621 &amp;nbsp; Anhængertræk til RENAULT  Laguna-I Stationcar (Grandtour)  10/07 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 9.76&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1700 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="044-623" name="044-623 &amp;nbsp; Anhængertræk til RENAULT  Laguna-I Stationcar (Grandtour)  10/07 -" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 9.76&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1700 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="881" supplier_part_number="042-348" name="042-348 &amp;nbsp; Kabelsæt til RENAULT  Laguna-I Stationcar (Grandtour)  10/07 -" description="Polaritet = 7-poletBiler med checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="945" supplier_part_number="042-358" name="042-358 &amp;nbsp; Kabelsæt til RENAULT  Laguna-I Stationcar (Grandtour)  10/07 -" description="Polaritet = 13-poletBiler med checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-621" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="044-623" reference="true" />
+        <Spare_Part_Price price_inc_vat="881" supplier_part_number="042-348" reference="true" />
+        <Spare_Part_Price price_inc_vat="945" supplier_part_number="042-358" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-621" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="044-623" reference="true" />
+        <Spare_Part_Price price_inc_vat="881" supplier_part_number="042-348" reference="true" />
+        <Spare_Part_Price price_inc_vat="945" supplier_part_number="042-358" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-621" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="044-623" reference="true" />
+        <Spare_Part_Price price_inc_vat="881" supplier_part_number="042-348" reference="true" />
+        <Spare_Part_Price price_inc_vat="945" supplier_part_number="042-358" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-621" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="044-623" reference="true" />
+        <Spare_Part_Price price_inc_vat="881" supplier_part_number="042-348" reference="true" />
+        <Spare_Part_Price price_inc_vat="945" supplier_part_number="042-358" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-621" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="044-623" reference="true" />
+        <Spare_Part_Price price_inc_vat="881" supplier_part_number="042-348" reference="true" />
+        <Spare_Part_Price price_inc_vat="945" supplier_part_number="042-358" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-621" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="044-623" reference="true" />
+        <Spare_Part_Price price_inc_vat="881" supplier_part_number="042-348" reference="true" />
+        <Spare_Part_Price price_inc_vat="945" supplier_part_number="042-358" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-621" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="044-623" reference="true" />
+        <Spare_Part_Price price_inc_vat="881" supplier_part_number="042-348" reference="true" />
+        <Spare_Part_Price price_inc_vat="945" supplier_part_number="042-358" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-621" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="044-623" reference="true" />
+        <Spare_Part_Price price_inc_vat="881" supplier_part_number="042-348" reference="true" />
+        <Spare_Part_Price price_inc_vat="945" supplier_part_number="042-358" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-621" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="044-623" reference="true" />
+        <Spare_Part_Price price_inc_vat="881" supplier_part_number="042-348" reference="true" />
+        <Spare_Part_Price price_inc_vat="945" supplier_part_number="042-358" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-621" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="044-623" reference="true" />
+        <Spare_Part_Price price_inc_vat="881" supplier_part_number="042-348" reference="true" />
+        <Spare_Part_Price price_inc_vat="945" supplier_part_number="042-358" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-621" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="044-623" reference="true" />
+        <Spare_Part_Price price_inc_vat="881" supplier_part_number="042-348" reference="true" />
+        <Spare_Part_Price price_inc_vat="945" supplier_part_number="042-358" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-621" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="044-623" reference="true" />
+        <Spare_Part_Price price_inc_vat="881" supplier_part_number="042-348" reference="true" />
+        <Spare_Part_Price price_inc_vat="945" supplier_part_number="042-358" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-621" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="044-623" reference="true" />
+        <Spare_Part_Price price_inc_vat="881" supplier_part_number="042-348" reference="true" />
+        <Spare_Part_Price price_inc_vat="945" supplier_part_number="042-358" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-621" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="044-623" reference="true" />
+        <Spare_Part_Price price_inc_vat="881" supplier_part_number="042-348" reference="true" />
+        <Spare_Part_Price price_inc_vat="945" supplier_part_number="042-358" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-621" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="044-623" reference="true" />
+        <Spare_Part_Price price_inc_vat="881" supplier_part_number="042-348" reference="true" />
+        <Spare_Part_Price price_inc_vat="945" supplier_part_number="042-358" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-621" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="044-623" reference="true" />
+        <Spare_Part_Price price_inc_vat="881" supplier_part_number="042-348" reference="true" />
+        <Spare_Part_Price price_inc_vat="945" supplier_part_number="042-358" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-621" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="044-623" reference="true" />
+        <Spare_Part_Price price_inc_vat="881" supplier_part_number="042-348" reference="true" />
+        <Spare_Part_Price price_inc_vat="945" supplier_part_number="042-358" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

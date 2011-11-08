@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="skoda">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk skoda Yeti&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1213" supplier_part_number="037-141" name="037-141 &amp;nbsp; Anhængertræk til SKODA  Yeti APV 09 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 10.00Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2000 / 80Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1274" supplier_part_number="030-648" name="030-648 &amp;nbsp; Kabelsæt til SKODA  Yeti APV 09 -" description="Polaritet = 7-polet DIN m. samlet stikBiler med checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt V - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1418" supplier_part_number="030-658" name="030-658 &amp;nbsp; Kabelsæt til SKODA  Yeti APV 09 -" description="Polaritet = 13-polet DIN m. samlet stikBiler med checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt V - op til 1 time" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

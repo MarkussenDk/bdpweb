@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="peugeot">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk peugeot 1007&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1255" supplier_part_number="042-421" name="042-421 &amp;nbsp; Anhængertræk til PEUGEOT  1007 MPV  3/05 - 9/06" description="Trækanordning: Standard fast kuglesystemD-værdi: 7.00&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1289 / 80Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2228" supplier_part_number="042-424" name="042-424 &amp;nbsp; Anhængertræk til PEUGEOT  1007 MPV  3/05 - 9/06" description="Trækanordning:  aftageligt anhægertræk D-værdi: 7.00&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1289 / 80Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="444" supplier_part_number="018-758" name="018-758 &amp;nbsp; Kabelsæt til PEUGEOT  1007 MPV  3/05 - 9/06" description="Polaritet = 7-poletBiler med checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt V - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1255" supplier_part_number="042-421" reference="true" />
+        <Spare_Part_Price price_inc_vat="2228" supplier_part_number="042-424" reference="true" />
+        <Spare_Part_Price price_inc_vat="796" supplier_part_number="042-208" name="042-208 &amp;nbsp; Kabelsæt til PEUGEOT  1007 MPV  10/06 -" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min.Bemærk: -&gt;I 01/09" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

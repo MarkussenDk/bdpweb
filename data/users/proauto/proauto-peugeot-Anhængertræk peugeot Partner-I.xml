@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="peugeot">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk peugeot Partner-I&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="023-391" name="023-391 &amp;nbsp; Anhængertræk til PEUGEOT  Partner-I Lille varevogn, Multispace 96 -" description="Trækanordning: FlangekugleD-værdi: 6.90Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1100 / 70Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="043-781" name="043-781 &amp;nbsp; Anhængertræk til PEUGEOT  Partner-I Lille varevogn, Multispace 96 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 7.83Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1350 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="023-393" name="023-393 &amp;nbsp; Anhængertræk til PEUGEOT  Partner-I Lille varevogn, Multispace 96 -" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 6.90Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1100 / 70Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="475" supplier_part_number="004-468" name="004-468 &amp;nbsp; Kabelsæt til PEUGEOT  Partner-I Lille varevogn, Multispace 96 -" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="563" supplier_part_number="007-748" name="007-748 &amp;nbsp; Kabelsæt til PEUGEOT  Partner-I Lille varevogn, Multispace 96 -" description="Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

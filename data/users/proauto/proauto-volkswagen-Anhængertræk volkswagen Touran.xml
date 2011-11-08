@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="volkswagen">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk volkswagen Touran&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="033-211" name="033-211 &amp;nbsp; Anhængertræk til VOLKSWAGEN  Touran MPV 03 - 9/10" description="Trækanordning: Standard fast kuglesystemD-værdi: 9.90Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1825 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2860" supplier_part_number="033-213" name="033-213 &amp;nbsp; Anhængertræk til VOLKSWAGEN  Touran MPV 03 - 9/10" description="Trækanordning: Vertikalt aftageligt kuglesystem (AK6)D-værdi: 9.90Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1825 / 75Monteringstid anh.træk B - op til 1½ timeBemærk: Tidligere/erstattet model: Specialpris" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2860" supplier_part_number="048-173" name="048-173 &amp;nbsp; Anhængertræk til VOLKSWAGEN  Touran MPV 03 - 9/10" description="Trækanordning:  lodret aftagelig anhængertræk D-værdi: 10.20Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1800 / 75Monteringstid anh.træk B - op til 1½ timeBemærk: Bestil speciel spoiler hos forhandleren. Intet sikkerhedsøje på anhængertrækket." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1294" supplier_part_number="035-528" reference="true" />
+        <Spare_Part_Price price_inc_vat="1379" supplier_part_number="018-399" name="018-399 &amp;nbsp; Kabelsæt til VOLKSWAGEN  Touran MPV 03 - 9/10" description="Polaritet = 7-polet DIN m. samlet stikBiler med og uden checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt W - over 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1530" supplier_part_number="035-538" reference="true" />
+        <Spare_Part_Price price_inc_vat="1618" supplier_part_number="018-419" name="018-419 &amp;nbsp; Kabelsæt til VOLKSWAGEN  Touran MPV 03 - 9/10" description="Polaritet = 13-polet DIN m. samlet stikBiler med og uden checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt W - over 1 timeBemærk: Udvidelsessæt til strømforsyning, bestil 014-169 (+30) eller 015-069 (+15/+30)." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="033-211" reference="true" />
+        <Spare_Part_Price price_inc_vat="2860" supplier_part_number="048-173" reference="true" />
+        <Spare_Part_Price price_inc_vat="1294" supplier_part_number="035-528" reference="true" />
+        <Spare_Part_Price price_inc_vat="1530" supplier_part_number="035-538" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

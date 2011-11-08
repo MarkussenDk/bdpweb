@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="chevrolet">
+    <car_model car_model_name="&#xD;&#xA;									Anh�ngertr�k chevrolet Nubira&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="031-261" reference="true" />
+        <Spare_Part_Price price_inc_vat="471" supplier_part_number="017-058" name="&#xD;&#xA;						017-058 &amp;nbsp; Kabels�t til CHEVROLET  Nubira Sedan 03 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabels�t S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="031-251" reference="true" />
+        <Spare_Part_Price price_inc_vat="629" supplier_part_number="017-068" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="nissan">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk nissan Tiida&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1409" supplier_part_number="036-431" name="&#xD;&#xA;						036-431 &amp;nbsp; Anhængertræk til NISSAN  Tiida Hatchback 08 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 7.50Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1300 / 55Trækkugle dækker for nummerpladeMonteringstid anh.træk C - op til 2 timer" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2361" supplier_part_number="036-434" name="&#xD;&#xA;						036-434 &amp;nbsp; Anhængertræk til NISSAN  Tiida Hatchback 08 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning:  aftageligt anhægertræk D-værdi: 7.50Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1300 / 55Monteringstid anh.træk C - op til 2 timer" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="036-348" name="&#xD;&#xA;						036-348 &amp;nbsp; Kabelsæt til NISSAN  Tiida Hatchback 08 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-polet&#xD;&#xA;						Monteringstid kabelsæt" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1409" supplier_part_number="036-431" reference="true" />
+        <Spare_Part_Price price_inc_vat="2361" supplier_part_number="036-434" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="036-348" reference="true" />
+        <Spare_Part_Price price_inc_vat="1409" supplier_part_number="036-431" reference="true" />
+        <Spare_Part_Price price_inc_vat="2361" supplier_part_number="036-434" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="034-698" name="&#xD;&#xA;						034-698 &amp;nbsp; Kabelsæt til NISSAN  Tiida Sedan 08 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-polet&#xD;&#xA;						Monteringstid kabelsæt" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

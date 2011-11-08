@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="opel">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk opel Frontera-Sport&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="020-731" name="020-731 &amp;nbsp; Anhængertræk til OPEL  Frontera APV 92 - 96" description="Trækanordning: Standard fast kuglesystemD-værdi: 13.09&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2800 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="725" supplier_part_number="009-688" reference="true" />
+        <Spare_Part_Price price_inc_vat="854" supplier_part_number="008-428" reference="true" />
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="020-731" reference="true" />
+        <Spare_Part_Price price_inc_vat="725" supplier_part_number="009-688" reference="true" />
+        <Spare_Part_Price price_inc_vat="854" supplier_part_number="008-428" reference="true" />
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="020-731" reference="true" />
+        <Spare_Part_Price price_inc_vat="725" supplier_part_number="009-688" reference="true" />
+        <Spare_Part_Price price_inc_vat="854" supplier_part_number="008-428" reference="true" />
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="020-731" reference="true" />
+        <Spare_Part_Price price_inc_vat="725" supplier_part_number="009-688" reference="true" />
+        <Spare_Part_Price price_inc_vat="854" supplier_part_number="008-428" reference="true" />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="018-132" reference="true" />
+        <Spare_Part_Price price_inc_vat="725" supplier_part_number="009-688" reference="true" />
+        <Spare_Part_Price price_inc_vat="1356" supplier_part_number="013-308" reference="true" />
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="020-731" reference="true" />
+        <Spare_Part_Price price_inc_vat="725" supplier_part_number="009-688" reference="true" />
+        <Spare_Part_Price price_inc_vat="1356" supplier_part_number="013-308" reference="true" />
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="020-731" reference="true" />
+        <Spare_Part_Price price_inc_vat="725" supplier_part_number="009-688" reference="true" />
+        <Spare_Part_Price price_inc_vat="1356" supplier_part_number="013-308" reference="true" />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="022-581" reference="true" />
+        <Spare_Part_Price price_inc_vat="1131" supplier_part_number="011-358" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="043-888" reference="true" />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="022-581" reference="true" />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="022-581" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

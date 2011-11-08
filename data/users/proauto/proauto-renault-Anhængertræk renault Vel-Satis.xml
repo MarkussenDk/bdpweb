@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="renault">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Vel-Satis&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="027-131" name="027-131 &amp;nbsp; Anhængertræk til RENAULT  Vel-Satis Hatchback 02 - 10" description="Trækanordning: Standard fast kuglesystemD-værdi: 9.58Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1600 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="027-133" name="027-133 &amp;nbsp; Anhængertræk til RENAULT  Vel-Satis Hatchback 02 - 10" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 9.58Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1600 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

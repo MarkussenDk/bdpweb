@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="nissan">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk nissan Pathfinder&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="015-672" name="&#xD;&#xA;						015-672 &amp;nbsp; Anhængertræk til NISSAN  Pathfinder APV 87 - 90&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Svejst kuglesystemD-værdi: 11.75&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2466 / 100Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="473" supplier_part_number="005-798" name="&#xD;&#xA;						005-798 &amp;nbsp; Kabelsæt til NISSAN  Pathfinder APV 87 - 90&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="017-072" name="&#xD;&#xA;						017-072 &amp;nbsp; Anhængertræk til NISSAN  Pathfinder APV  4/05 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 14.50Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 3000 / 120Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="414" supplier_part_number="043-658" name="&#xD;&#xA;						043-658 &amp;nbsp; Kabelsæt til NISSAN  Pathfinder APV  4/05 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="695" supplier_part_number="043-668" name="&#xD;&#xA;						043-668 &amp;nbsp; Kabelsæt til NISSAN  Pathfinder APV  4/05 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="nissan">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk nissan Vanette-Cargo&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="023-161" name="&#xD;&#xA;						023-161 &amp;nbsp; Anhængertræk til NISSAN  Vanette-Cargo Varevogn 95 - 03&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 9.70&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1600 / 80Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="581" supplier_part_number="006-788" name="&#xD;&#xA;						006-788 &amp;nbsp; Kabelsæt til NISSAN  Vanette-Cargo Varevogn 95 - 03&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt R - op til 20 min." spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

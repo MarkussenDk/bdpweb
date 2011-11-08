@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="alfa romeo">
+    <car_model car_model_name="&#xD;&#xA;									Anh�ngertr�k alfa romeo 166&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="024-381" name="&#xD;&#xA;						024-381 &amp;nbsp; Anh�ngertr�k til ALFA ROMEO  166 Sedan 98 - 9/03&#xD;&#xA;					" description="&#xD;&#xA;						Tr�kanordning: Standard fast kuglesystemD-v�rdi: 8.91Udsk�ring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. tr�kv�gt / lodret belastning: 1625 / 60Monteringstid anh.tr�k B - op til 1� time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="009-718" name="&#xD;&#xA;						009-718 &amp;nbsp; Kabels�t til ALFA ROMEO  166 Sedan 98 - 9/03&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletBiler med checkkontrolStik&#xD;&#xA;						Monteringstid kabels�t S - op til 30 min.Bem�rk: Bestil udvidelsess�t 011-788 til biler udstyret med utilstr�kkelig forberedt forbindelse. (Fra chassisnr. ZAR 936). Ingen kontakt for t�gebaglygte.&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="024-381" reference="true" />
+        <Spare_Part_Price price_inc_vat="1329" supplier_part_number="012-048" name="&#xD;&#xA;						012-048 &amp;nbsp; Kabels�t til ALFA ROMEO  166 Sedan  10/03 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Monteringstid kabels�t T - op til 45 min." spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

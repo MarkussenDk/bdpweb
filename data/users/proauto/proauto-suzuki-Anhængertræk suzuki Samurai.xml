@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="suzuki">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk suzuki Samurai&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="2008" supplier_part_number="015-302" name="015-302 &amp;nbsp; Anhængertræk til SUZUKI  Samurai APV 92 - 96" description="Trækanordning: Svejst kuglesystemD-værdi: 6.50&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1300 / 50Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="skoda">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk skoda Fabia&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="026-691" name="026-691 &amp;nbsp; Anhængertræk til SKODA  Fabia Hatchback 00 - 5/07" description="Trækanordning: Standard fast kuglesystemD-værdi: 6.93Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1200 / 50Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="026-694" name="026-694 &amp;nbsp; Anhængertræk til SKODA  Fabia Hatchback 00 - 5/07" description="Trækanordning:  aftageligt anhægertræk D-værdi: 6.93Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1200 / 50Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="389" supplier_part_number="011-878" name="011-878 &amp;nbsp; Kabelsæt til SKODA  Fabia Hatchback 00 - 5/07" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-641" name="044-641 &amp;nbsp; Anhængertræk til SKODA  Fabia Stationcar 01 - 07" description="Trækanordning: Standard fast kuglesystemD-værdi: 7.10Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1200 / 50Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="044-644" name="044-644 &amp;nbsp; Anhængertræk til SKODA  Fabia Stationcar 01 - 07" description="Trækanordning:  aftageligt anhægertræk D-værdi: 7.10Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1200 / 50Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="389" supplier_part_number="011-878" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-641" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="044-644" reference="true" />
+        <Spare_Part_Price price_inc_vat="389" supplier_part_number="011-878" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-641" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="044-644" reference="true" />
+        <Spare_Part_Price price_inc_vat="389" supplier_part_number="011-878" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-641" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="044-644" reference="true" />
+        <Spare_Part_Price price_inc_vat="389" supplier_part_number="011-878" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="026-691" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="026-694" reference="true" />
+        <Spare_Part_Price price_inc_vat="441" supplier_part_number="035-058" name="035-058 &amp;nbsp; Kabelsæt til SKODA  Fabia Hatchback  6/07 - 5/10" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt R - op til 20 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="984" supplier_part_number="035-068" name="035-068 &amp;nbsp; Kabelsæt til SKODA  Fabia Hatchback  6/07 - 5/10" description="Polaritet = 13-poletStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="905" supplier_part_number="041-818" name="041-818 &amp;nbsp; Kabelsæt til SKODA  Fabia Hatchback  6/07 - 5/10" description="Polaritet = 13-poletStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt T - op til 45 min.Bemærk: Udvidelsessæt til strømforsyning til rådighed, bestil venligst 026-354." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="026-691" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="026-694" reference="true" />
+        <Spare_Part_Price price_inc_vat="441" supplier_part_number="035-058" reference="true" />
+        <Spare_Part_Price price_inc_vat="984" supplier_part_number="035-068" reference="true" />
+        <Spare_Part_Price price_inc_vat="905" supplier_part_number="041-818" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-641" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="044-644" reference="true" />
+        <Spare_Part_Price price_inc_vat="441" supplier_part_number="035-058" reference="true" />
+        <Spare_Part_Price price_inc_vat="984" supplier_part_number="035-068" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-641" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="044-644" reference="true" />
+        <Spare_Part_Price price_inc_vat="441" supplier_part_number="035-058" reference="true" />
+        <Spare_Part_Price price_inc_vat="984" supplier_part_number="035-068" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-641" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="044-644" reference="true" />
+        <Spare_Part_Price price_inc_vat="1688" supplier_part_number="042-448" name="042-448 &amp;nbsp; Kabelsæt til SKODA  Fabia Stationcar  6/10 -" description="Polaritet = 7-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt V - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1620" supplier_part_number="031-528" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="026-691" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="026-694" reference="true" />
+        <Spare_Part_Price price_inc_vat="1454" supplier_part_number="031-518" reference="true" />
+        <Spare_Part_Price price_inc_vat="1620" supplier_part_number="031-528" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

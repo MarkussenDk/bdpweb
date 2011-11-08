@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="volkswagen">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk volkswagen Golf-V&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="031-711" reference="true" />
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="037-261" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="048-193" reference="true" />
+        <Spare_Part_Price price_inc_vat="1294" supplier_part_number="035-528" reference="true" />
+        <Spare_Part_Price price_inc_vat="1530" supplier_part_number="035-538" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="034-581" name="034-581 &amp;nbsp; Anhængertræk til VOLKSWAGEN  Golf-V Stationcar (Variant)  5/07 - 6/09" description="Trækanordning: Standard fast kuglesystemD-værdi: 9.20Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1742 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="034-583" name="034-583 &amp;nbsp; Anhængertræk til VOLKSWAGEN  Golf-V Stationcar (Variant)  5/07 - 6/09" description="Trækanordning: Vertikalt aftageligt kuglesystem (AK6)D-værdi: 9.20Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1742 / 75Monteringstid anh.træk B - op til 1½ timeBemærk: Bestil speciel spoiler hos OE-forhandleren." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1294" supplier_part_number="035-528" reference="true" />
+        <Spare_Part_Price price_inc_vat="1530" supplier_part_number="035-538" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="034-581" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="034-583" reference="true" />
+        <Spare_Part_Price price_inc_vat="1294" supplier_part_number="035-528" reference="true" />
+        <Spare_Part_Price price_inc_vat="1530" supplier_part_number="035-538" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

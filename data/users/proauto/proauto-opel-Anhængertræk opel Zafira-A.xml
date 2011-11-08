@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="opel">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk opel Zafira-A&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="026-911" name="026-911 &amp;nbsp; Anhængertræk til OPEL  Zafira-A MPV 98 - 8/99" description="Trækanordning: Standard fast kuglesystemD-værdi: 8.91&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1500 / 75Monteringstid anh.træk A  - op til 1 timeBemærk: OBS: Se venligst vejledningen fra bilproducenten vedr. brug af anhængertræk" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="026-913" name="026-913 &amp;nbsp; Anhængertræk til OPEL  Zafira-A MPV 98 - 8/99" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 8.91&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1500 / 75Monteringstid anh.træk A  - op til 1 timeBemærk: OBS: Se venligst vejledningen fra bilproducenten vedr. brug af anhængertræk" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="048-203" name="048-203 &amp;nbsp; Anhængertræk til OPEL  Zafira-A MPV 98 - 8/99" description="Trækanordning:  lodret aftageligt anhængertræk D-værdi: 8.91Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1500 / 75Monteringstid anh.træk B - op til 1½ timeBemærk: Bestil OE dækprop 90 599 824 - 14 05 474" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="275" supplier_part_number="015-668" name="015-668 &amp;nbsp; Kabelsæt til OPEL  Zafira-A MPV 98 - 8/99" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min.Bemærk: Kun for biler med checkkontrol." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="339" supplier_part_number="010-978" reference="true" />
+        <Spare_Part_Price price_inc_vat="416" supplier_part_number="011-428" name="011-428 &amp;nbsp; Kabelsæt til OPEL  Zafira-A MPV 98 - 8/99" description="Polaritet = 7-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min.Bemærk: Uden forberedelse til elsæt. Hvis bilen er udstyret med checkkontrol, venligst bestil også ekstra monteringssæt 004-999" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1219" supplier_part_number="014-068" name="014-068 &amp;nbsp; Kabelsæt til OPEL  Zafira-A MPV 98 - 8/99" description="Polaritet = 13-polet DIN m. samlet stikBiler med og uden checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min.Bemærk: Uden forberedelse til elsæt. Hvis bilen er udstyret med checkkontrol, venligst bestil også ekstra monteringssæt 004-999" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="026-911" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="026-913" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="048-203" reference="true" />
+        <Spare_Part_Price price_inc_vat="275" supplier_part_number="015-668" reference="true" />
+        <Spare_Part_Price price_inc_vat="416" supplier_part_number="011-428" reference="true" />
+        <Spare_Part_Price price_inc_vat="358" supplier_part_number="011-678" reference="true" />
+        <Spare_Part_Price price_inc_vat="344" supplier_part_number="014-318" reference="true" />
+        <Spare_Part_Price price_inc_vat="1219" supplier_part_number="014-068" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

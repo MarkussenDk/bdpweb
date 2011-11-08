@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="chevrolet">
+    <car_model car_model_name="&#xD;&#xA;									Anh�ngertr�k chevrolet Blazer&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="023-021" name="&#xD;&#xA;						023-021 &amp;nbsp; Anh�ngertr�k til CHEVROLET  Blazer APV 95 - 01&#xD;&#xA;					" description="&#xD;&#xA;						Tr�kanordning: Flangekugle BAFD-v�rdi: 12.30&#xD;&#xA;					&#xD;&#xA;						Maks. tr�kv�gt / lodret belastning: 2600 / 100Monteringstid anh.tr�k A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="023-021" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

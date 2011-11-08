@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="chevrolet">
+    <car_model car_model_name="&#xD;&#xA;									Anh�ngertr�k chevrolet Lacetti&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="033-321" name="&#xD;&#xA;						033-321 &amp;nbsp; Anh�ngertr�k til CHEVROLET  Lacetti Hatchback  4/04 - 10&#xD;&#xA;					" description="&#xD;&#xA;						Tr�kanordning: Standard fast kuglesystemD-v�rdi: 7.20&#xD;&#xA;					&#xD;&#xA;						Maks. tr�kv�gt / lodret belastning: 1250 / 75Monteringstid anh.tr�k B - op til 1� time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="444" supplier_part_number="016-598" name="&#xD;&#xA;						016-598 &amp;nbsp; Kabels�t til CHEVROLET  Lacetti Hatchback  4/04 - 10&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabels�t S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="031-251" name="&#xD;&#xA;						031-251 &amp;nbsp; Anh�ngertr�k til CHEVROLET  Lacetti Stationcar 04 - 10&#xD;&#xA;					" description="&#xD;&#xA;						Tr�kanordning: Standard fast kuglesystemD-v�rdi: 7.20&#xD;&#xA;					&#xD;&#xA;						Maks. tr�kv�gt / lodret belastning: 1240 / 75Monteringstid anh.tr�k B - op til 1� time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="629" supplier_part_number="017-068" name="&#xD;&#xA;						017-068 &amp;nbsp; Kabels�t til CHEVROLET  Lacetti Stationcar 04 - 10&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabels�t S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="031-261" name="&#xD;&#xA;						031-261 &amp;nbsp; Anh�ngertr�k til CHEVROLET  Lacetti Sedan 03 - 10&#xD;&#xA;					" description="&#xD;&#xA;						Tr�kanordning: Standard fast kuglesystemD-v�rdi: 6.60&#xD;&#xA;					&#xD;&#xA;						Maks. tr�kv�gt / lodret belastning: 1100 / 75Monteringstid anh.tr�k A  - op til 1 time" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

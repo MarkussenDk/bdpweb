@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="audi">
+    <car_model car_model_name="&#xD;&#xA;									Anh�ngertr�k audi A8&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="3456" supplier_part_number="033-253" name="&#xD;&#xA;						033-253 &amp;nbsp; Anh�ngertr�k til AUDI  A8 Sedan  11/02 -&#xD;&#xA;					" description="&#xD;&#xA;						Tr�kanordning: Vertikalt aftageligt kuglesystem (AK6)D-v�rdi: 12.50Udsk�ring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. tr�kv�gt / lodret belastning: 2430 / 95Monteringstid anh.tr�k C - op til 2 timer" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

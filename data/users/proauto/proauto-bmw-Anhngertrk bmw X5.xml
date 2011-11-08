@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="bmw">
+    <car_model car_model_name="&#xD;&#xA;									Anh�ngertr�k bmw X5&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="027-201" name="&#xD;&#xA;						027-201 &amp;nbsp; Anh�ngertr�k til BMW  X5 APV 00 - 07&#xD;&#xA;					" description="&#xD;&#xA;						Tr�kanordning: Standard fast kuglesystemD-v�rdi: 13.48&#xD;&#xA;					&#xD;&#xA;						Maks. tr�kv�gt / lodret belastning: 2700 / 120Monteringstid anh.tr�k B - op til 1� timeBem�rk: Ikke til biler med sportskofanger&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1013" supplier_part_number="014-878" name="&#xD;&#xA;						014-878 &amp;nbsp; Kabels�t til BMW  X5 APV 00 - 07&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-polet DIN m. samlet stikBiler med checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabels�t R - op til 20 min.Bem�rk: Udvidelsess�t for str�mforsyning, bestil 020-229 (+15). For biler uden forberedelse for anh�ngertr�k, bestil udvidelsess�t 031-934.&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="044-191" name="&#xD;&#xA;						044-191 &amp;nbsp; Anh�ngertr�k til BMW  X5 APV  3/07 -&#xD;&#xA;					" description="&#xD;&#xA;						Tr�kanordning: Standard fast kuglesystemD-v�rdi: 16.53Udsk�ring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. tr�kv�gt / lodret belastning: 3500 / 150Monteringstid anh.tr�k B - op til 1� time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3455" supplier_part_number="048-553" name="&#xD;&#xA;						048-553 &amp;nbsp; Anh�ngertr�k til BMW  X5 APV  3/07 -&#xD;&#xA;					" description="&#xD;&#xA;						Tr�kanordning:  lodret aftagelig anh�ngertr�k D-v�rdi: 16.53Udsk�ring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. tr�kv�gt / lodret belastning: 3500 / 150Monteringstid anh.tr�k B - op til 1� time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1245" supplier_part_number="041-308" name="&#xD;&#xA;						041-308 &amp;nbsp; Kabels�t til BMW  X5 APV  3/07 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabels�t T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1426" supplier_part_number="041-318" name="&#xD;&#xA;						041-318 &amp;nbsp; Kabels�t til BMW  X5 APV  3/07 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabels�t T - op til 45 min." spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

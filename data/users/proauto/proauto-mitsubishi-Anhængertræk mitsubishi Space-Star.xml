@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="mitsubishi">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk mitsubishi Space-Star&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="022-161" name="&#xD;&#xA;						022-161 &amp;nbsp; Anhængertræk til MITSUBISHI  Space-Star MPV 98 - 06&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 7.63Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1400 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="479" supplier_part_number="009-868" name="&#xD;&#xA;						009-868 &amp;nbsp; Kabelsæt til MITSUBISHI  Space-Star MPV 98 - 06&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1063" supplier_part_number="013-788" name="&#xD;&#xA;						013-788 &amp;nbsp; Kabelsæt til MITSUBISHI  Space-Star MPV 98 - 06&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-polet DIN m. samlet stikStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

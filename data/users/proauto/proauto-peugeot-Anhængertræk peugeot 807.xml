@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="peugeot">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk peugeot 807&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="027-911" name="027-911 &amp;nbsp; Anhængertræk til PEUGEOT  807 MPV 02 - 10/05" description="Trækanordning: Standard fast kuglesystemD-værdi: 10.80Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1900 / 76Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="027-913" name="027-913 &amp;nbsp; Anhængertræk til PEUGEOT  807 MPV 02 - 10/05" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 10.80Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1900 / 76Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="861" supplier_part_number="015-798" name="015-798 &amp;nbsp; Kabelsæt til PEUGEOT  807 MPV 02 - 10/05" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1484" supplier_part_number="015-808" name="015-808 &amp;nbsp; Kabelsæt til PEUGEOT  807 MPV 02 - 10/05" description="Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="027-911" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="027-913" reference="true" />
+        <Spare_Part_Price price_inc_vat="1013" supplier_part_number="024-878" name="024-878 &amp;nbsp; Kabelsæt til PEUGEOT  807 MPV  11/05 -" description="Polaritet = 7-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1106" supplier_part_number="041-229" reference="true" />
+        <Spare_Part_Price price_inc_vat="1069" supplier_part_number="024-888" name="024-888 &amp;nbsp; Kabelsæt til PEUGEOT  807 MPV  11/05 -" description="Polaritet = 13-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1376" supplier_part_number="041-239" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

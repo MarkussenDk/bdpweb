@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="audi">
+    <car_model car_model_name="&#xD;&#xA;									Anh�ngertr�k audi A7&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="048-383" name="&#xD;&#xA;						048-383 &amp;nbsp; Anh�ngertr�k til AUDI  A7 Sportback (Hatchback) 10 -&#xD;&#xA;					" description="&#xD;&#xA;						Tr�kanordning:  lodret aftagelig anh�ngertr�k &#xD;&#xA;					&#xD;&#xA;						Monteringstid anh.tr�k" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="036-928" name="&#xD;&#xA;						036-928 &amp;nbsp; Kabels�t til AUDI  A7 Sportback (Hatchback) 10 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-polet&#xD;&#xA;						Monteringstid kabels�t" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

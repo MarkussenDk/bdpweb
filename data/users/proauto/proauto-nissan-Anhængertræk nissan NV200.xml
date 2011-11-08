@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="nissan">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk nissan NV200&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-492" name="&#xD;&#xA;						029-492 &amp;nbsp; Anhængertræk til NISSAN  NV200 Varevogn, Minibus  11/09 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: FlangekugleD-værdi: 7.82Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1250 / 75Monteringstid anh.træk D - op til 2½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="581" supplier_part_number="029-588" name="&#xD;&#xA;						029-588 &amp;nbsp; Kabelsæt til NISSAN  NV200 Varevogn, Minibus  11/09 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-598" name="&#xD;&#xA;						029-598 &amp;nbsp; Kabelsæt til NISSAN  NV200 Varevogn, Minibus  11/09 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-poletStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt T - op til 45 min.Bemærk: Udvidelsessæt til strømforsyning, bestil 020-229 (+15)&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

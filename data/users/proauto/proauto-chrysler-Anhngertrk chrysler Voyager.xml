@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="chrysler">
+    <car_model car_model_name="&#xD;&#xA;									Anh�ngertr�k chrysler Voyager&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="025-161" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="025-163" reference="true" />
+        <Spare_Part_Price price_inc_vat="431" supplier_part_number="004-138" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="020-382" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="020-383" reference="true" />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="027-671" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="027-673" reference="true" />
+        <Spare_Part_Price price_inc_vat="2004" supplier_part_number="043-708" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

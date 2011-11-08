@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="mercedes">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk mercedes GLK&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1694" supplier_part_number="036-411" name="&#xD;&#xA;						036-411 &amp;nbsp; Anhængertræk til MERCEDES  GLK APV 09 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 11.20Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2100 / 80Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3114" supplier_part_number="049-683" name="&#xD;&#xA;						049-683 &amp;nbsp; Anhængertræk til MERCEDES  GLK APV 09 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning:  lodret aftagelig anhængertræk D-værdi: 11.20Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2100 / 80Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1264" supplier_part_number="034-658" name="&#xD;&#xA;						034-658 &amp;nbsp; Kabelsæt til MERCEDES  GLK APV 09 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletBiler med checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt V - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1240" supplier_part_number="034-668" name="&#xD;&#xA;						034-668 &amp;nbsp; Kabelsæt til MERCEDES  GLK APV 09 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-poletBiler med checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt V - op til 1 timeBemærk: Udvidelsessæt til strømforsyning, bestil 020-229 (+15)&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

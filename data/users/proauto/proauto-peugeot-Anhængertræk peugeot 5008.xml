@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="peugeot">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk peugeot 5008&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1721" supplier_part_number="042-441" name="042-441 &amp;nbsp; Anhængertræk til PEUGEOT  5008 MPV  10/09 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 9.70&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1700 / 100Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2713" supplier_part_number="042-443" name="042-443 &amp;nbsp; Anhængertræk til PEUGEOT  5008 MPV  10/09 -" description="Trækanordning: Vertikalt aftageligt kuglesystem (AK6)D-værdi: 9.70&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1700 / 100Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="031-418" name="031-418 &amp;nbsp; Kabelsæt til PEUGEOT  5008 MPV  10/09 -" description="Polaritet = 7-poletBiler med checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt W - over 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1528" supplier_part_number="031-428" name="031-428 &amp;nbsp; Kabelsæt til PEUGEOT  5008 MPV  10/09 -" description="Polaritet = 13-poletBiler med checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt W - over 1 timeBemærk: Udvidelsessæt til strømforsyning, bestil 020-229 (+15)" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

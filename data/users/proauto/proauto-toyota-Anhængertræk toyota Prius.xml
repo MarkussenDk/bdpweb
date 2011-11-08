@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="toyota">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk toyota Prius&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="031-944" name="031-944 &amp;nbsp; Anhængertræk til TOYOTA  Prius Sedan 06 - 08" description="Trækanordning: Cykelstativ-beslagUdskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 0 / 60Monteringstid anh.træk A  - op til 1 timeBemærk: Kabelsæt inkluderet. Eksisterende cykelholdere er ikke anvendelige. Bestilling af specifik cykelholder 029-154, 029-664 eller 029-974 er nødvendig. Anhænger ikke tilladt!" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-154" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-664" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-974" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-134" name="029-134 &amp;nbsp; Anhængertræk til TOYOTA  Prius Sedan 09 -" description="Trækanordning: Cykelstativ-beslag&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 0 / 60Monteringstid anh.træk A  - op til 1 timeBemærk: Kabelsæt inkluderet. Eksisterende cykelholdere er ikke anvendelige. Bestilling af specifik cykelholder 029-154, 029-664 eller 029-974 er nødvendig. Anhænger ikke tilladt!" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-154" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-664" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-974" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

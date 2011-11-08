@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="peugeot">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk peugeot 106&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="022-021" name="022-021 &amp;nbsp; Anhængertræk til PEUGEOT  106 Hatchback  5/96 - 04" description="Trækanordning: Standard fast kuglesystemD-værdi: 4.99&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 800 / 50Trækkugle dækker for nummerpladeMonteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="022-024" name="022-024 &amp;nbsp; Anhængertræk til PEUGEOT  106 Hatchback  5/96 - 04" description="Trækanordning:  aftageligt anhægertræk D-værdi: 4.99&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 800 / 50Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="463" supplier_part_number="004-538" name="004-538 &amp;nbsp; Kabelsæt til PEUGEOT  106 Hatchback  5/96 - 04" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="753" supplier_part_number="007-778" name="007-778 &amp;nbsp; Kabelsæt til PEUGEOT  106 Hatchback  5/96 - 04" description="Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="006-371" name="006-371 &amp;nbsp; Anhængertræk til PEUGEOT  106 Hatchback 91 - 4/96" description="Trækanordning: Flangekugle&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 750 / 50Trækkugle dækker for nummerpladeMonteringstid anh.træk A  - op til 1 timeBemærk: OBS: Ikke ISO- eller EC-godkendt. Tidligere/erstattet model: Specialpris" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="018-161" name="018-161 &amp;nbsp; Anhængertræk til PEUGEOT  106 Hatchback 91 - 4/96" description="Trækanordning: Flangekugle&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 900 / 50Trækkugle dækker for nummerpladeMonteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="358" supplier_part_number="001-808" name="001-808 &amp;nbsp; Kabelsæt til PEUGEOT  106 Hatchback 91 - 4/96" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

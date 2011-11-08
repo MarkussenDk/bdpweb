@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="opel">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk opel Corsa-A&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="011-562" name="&#xD;&#xA;						011-562 &amp;nbsp; Anhængertræk til OPEL  Corsa-A Hatchback 82 - 93&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Svejst kuglesystemD-værdi: 5.72Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1000 / 50Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

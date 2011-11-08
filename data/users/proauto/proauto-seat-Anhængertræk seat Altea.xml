@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="seat">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk seat Altea&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="035-981" name="035-981 &amp;nbsp; Anhængertræk til SEAT  Altea MPV  5/04 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 8.60Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1600 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2551" supplier_part_number="048-863" name="048-863 &amp;nbsp; Anhængertræk til SEAT  Altea MPV  5/04 -" description="Trækanordning:  lodret aftagelig anhængertræk D-værdi: 8.60Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1600 / 75Monteringstid anh.træk C - op til 2 timerBemærk: Bestil dækplade hos OE-forhandler." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1300" supplier_part_number="018-809" name="018-809 &amp;nbsp; Kabelsæt til SEAT  Altea MPV  5/04 -" description="Polaritet = 7-polet DIN m. samlet stikBiler med og uden checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt W - over 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1518" supplier_part_number="018-799" name="018-799 &amp;nbsp; Kabelsæt til SEAT  Altea MPV  5/04 -" description="Polaritet = 13-polet DIN m. samlet stikBiler med og uden checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt W - over 1 timeBemærk: Udvidelsessæt til strømforsyning, bestil 014-169 (+30) eller 015-069 (+15/+30)." spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="seat">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk seat Cordoba&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="017-761" name="017-761 &amp;nbsp; Anhængertræk til SEAT  Cordoba Sedan  2/96 - 8/99" description="Trækanordning: Standard fast kuglesystemD-værdi: 6.64Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1182 / 50Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="025-291" name="025-291 &amp;nbsp; Anhængertræk til SEAT  Cordoba Sedan  2/96 - 8/99" description="Trækanordning: Standard fast kuglesystemD-værdi: 6.39Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1100 / 50Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="488" supplier_part_number="003-798" name="003-798 &amp;nbsp; Kabelsæt til SEAT  Cordoba Sedan  2/96 - 8/99" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="017-761" reference="true" />
+        <Spare_Part_Price price_inc_vat="431" supplier_part_number="009-938" name="009-938 &amp;nbsp; Kabelsæt til SEAT  Cordoba Vario (Stationcar) 97 - 8/99" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1543" supplier_part_number="026-421" name="026-421 &amp;nbsp; Anhængertræk til SEAT  Cordoba Sedan  9/99 - 9/02" description="Trækanordning: Standard fast kuglesystemD-værdi: 6.73Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1200 / 50Trækkugle dækker for nummerpladeMonteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2860" supplier_part_number="026-423" name="026-423 &amp;nbsp; Anhængertræk til SEAT  Cordoba Sedan  9/99 - 9/02" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 6.73Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1200 / 50Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="334" supplier_part_number="011-748" name="011-748 &amp;nbsp; Kabelsæt til SEAT  Cordoba Sedan  9/99 - 9/02" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1543" supplier_part_number="026-421" reference="true" />
+        <Spare_Part_Price price_inc_vat="2860" supplier_part_number="026-423" reference="true" />
+        <Spare_Part_Price price_inc_vat="523" supplier_part_number="011-738" name="011-738 &amp;nbsp; Kabelsæt til SEAT  Cordoba Vario (Stationcar)  9/99 - 02" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="031-511" name="031-511 &amp;nbsp; Anhængertræk til SEAT  Cordoba Sedan  9/02 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 6.96Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1200 / 50Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="031-514" name="031-514 &amp;nbsp; Anhængertræk til SEAT  Cordoba Sedan  9/02 -" description="Trækanordning:  aftageligt anhægertræk D-værdi: 6.96Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1200 / 50Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="589" supplier_part_number="016-228" name="016-228 &amp;nbsp; Kabelsæt til SEAT  Cordoba Sedan  9/02 -" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt R - op til 20 min." spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

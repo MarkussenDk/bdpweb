@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="ssangyong">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk ssangyong Actyon-Sports&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="2046" supplier_part_number="034-432" name="034-432 &amp;nbsp; Anhængertræk til SSANGYONG  Actyon Pick-up 06 -" description="Trækanordning: FlangekugleD-værdi: 12.27&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2300 / 92Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="806" supplier_part_number="034-638" name="034-638 &amp;nbsp; Kabelsæt til SSANGYONG  Actyon Pick-up 06 -" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="915" supplier_part_number="034-648" name="034-648 &amp;nbsp; Kabelsæt til SSANGYONG  Actyon Pick-up 06 -" description="Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min.Bemærk: Udvidelsessæt til strømforsyning, bestil venligst 015-069 (+15/+30)." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2046" supplier_part_number="034-432" reference="true" />
+        <Spare_Part_Price price_inc_vat="806" supplier_part_number="034-638" reference="true" />
+        <Spare_Part_Price price_inc_vat="915" supplier_part_number="034-648" reference="true" />
+        <Spare_Part_Price price_inc_vat="2046" supplier_part_number="034-432" reference="true" />
+        <Spare_Part_Price price_inc_vat="806" supplier_part_number="034-638" reference="true" />
+        <Spare_Part_Price price_inc_vat="915" supplier_part_number="034-648" reference="true" />
+        <Spare_Part_Price price_inc_vat="2046" supplier_part_number="034-432" reference="true" />
+        <Spare_Part_Price price_inc_vat="806" supplier_part_number="034-638" reference="true" />
+        <Spare_Part_Price price_inc_vat="915" supplier_part_number="034-648" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

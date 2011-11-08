@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="toyota">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk toyota Auris&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-421" name="044-421 &amp;nbsp; Anhængertræk til TOYOTA  Auris Hatchback 07 - 7/09" description="Trækanordning: Standard fast kuglesystemD-værdi: 8.62Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1600 / 60Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="044-423" name="044-423 &amp;nbsp; Anhængertræk til TOYOTA  Auris Hatchback 07 - 7/09" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 8.62Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1600 / 60Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="424" supplier_part_number="042-318" name="042-318 &amp;nbsp; Kabelsæt til TOYOTA  Auris Hatchback 07 - 7/09" description="Polaritet = 7-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1280" supplier_part_number="041-838" name="041-838 &amp;nbsp; Kabelsæt til TOYOTA  Auris Hatchback 07 - 7/09" description="Polaritet = 13-polet&#xD;&#xA;						Monteringstid kabelsæt V - op til 1 timeBemærk: Udvidelsessæt til strømforsyning, bestil 014-169 (+30) eller 015-069 (+15/+30)." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1426" supplier_part_number="044-871" name="044-871 &amp;nbsp; Anhængertræk til TOYOTA  Auris Hatchback  8/09 - 2/10" description="Trækanordning: Standard fast kuglesystemD-værdi: 8.62&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1600 / 60Monteringstid anh.træk C - op til 2 timer" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="424" supplier_part_number="042-318" reference="true" />
+        <Spare_Part_Price price_inc_vat="1280" supplier_part_number="041-838" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-421" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="044-423" reference="true" />
+        <Spare_Part_Price price_inc_vat="424" supplier_part_number="042-318" reference="true" />
+        <Spare_Part_Price price_inc_vat="1280" supplier_part_number="041-838" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk toyota Avensis&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="017-711" name="017-711 &amp;nbsp; Anhængertræk til TOYOTA  Avensis Liftback 98 - 03" description="Trækanordning: Standard fast kuglesystemD-værdi: 7.70Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1373 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="550" supplier_part_number="010-908" name="010-908 &amp;nbsp; Kabelsæt til TOYOTA  Avensis Liftback 98 - 03" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt V - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="022-821" name="022-821 &amp;nbsp; Anhængertræk til TOYOTA  Avensis Stationcar 98 - 03" description="Trækanordning: Standard fast kuglesystemD-værdi: 8.30Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1575 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="022-823" name="022-823 &amp;nbsp; Anhængertræk til TOYOTA  Avensis Stationcar 98 - 03" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 8.30Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1575 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="536" supplier_part_number="010-918" name="010-918 &amp;nbsp; Kabelsæt til TOYOTA  Avensis Stationcar 98 - 03" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt V - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="017-711" reference="true" />
+        <Spare_Part_Price price_inc_vat="595" supplier_part_number="010-898" name="010-898 &amp;nbsp; Kabelsæt til TOYOTA  Avensis Sedan 98 - 03" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt V - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="031-561" name="031-561 &amp;nbsp; Anhængertræk til TOYOTA  Avensis Liftback 03 - 09" description="Trækanordning: Standard fast kuglesystemD-værdi: 8.61&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1550 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="031-564" name="031-564 &amp;nbsp; Anhængertræk til TOYOTA  Avensis Liftback 03 - 09" description="Trækanordning:  aftageligt anhægertræk D-værdi: 8.61&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1550 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="731" supplier_part_number="017-368" name="017-368 &amp;nbsp; Kabelsæt til TOYOTA  Avensis Liftback 03 - 09" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="031-561" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="031-564" reference="true" />
+        <Spare_Part_Price price_inc_vat="529" supplier_part_number="016-168" name="016-168 &amp;nbsp; Kabelsæt til TOYOTA  Avensis Sedan 03 - 09" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="930" supplier_part_number="043-938" name="043-938 &amp;nbsp; Kabelsæt til TOYOTA  Avensis Sedan 03 - 09" description="Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt V - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="031-571" name="031-571 &amp;nbsp; Anhængertræk til TOYOTA  Avensis Stationcar 03 - 09" description="Trækanordning: Standard fast kuglesystemD-værdi: 8.61&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1550 / 75Monteringstid anh.træk C - op til 2 timer" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="031-574" name="031-574 &amp;nbsp; Anhængertræk til TOYOTA  Avensis Stationcar 03 - 09" description="Trækanordning:  aftageligt anhægertræk D-værdi: 8.61&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1550 / 75Monteringstid anh.træk C - op til 2 timer" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2953" supplier_part_number="048-703" name="048-703 &amp;nbsp; Anhængertræk til TOYOTA  Avensis Stationcar 03 - 09" description="Trækanordning:  lodret aftagelig anhængertræk D-værdi: 8.61&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1550 / 75Monteringstid anh.træk C - op til 2 timer" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="441" supplier_part_number="016-408" name="016-408 &amp;nbsp; Kabelsæt til TOYOTA  Avensis Stationcar 03 - 09" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1028" supplier_part_number="043-948" name="043-948 &amp;nbsp; Kabelsæt til TOYOTA  Avensis Stationcar 03 - 09" description="Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt W - over 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1608" supplier_part_number="037-171" name="037-171 &amp;nbsp; Anhængertræk til TOYOTA  Avensis Stationcar 09 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 10.70&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1800 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2751" supplier_part_number="049-213" name="049-213 &amp;nbsp; Anhængertræk til TOYOTA  Avensis Stationcar 09 -" description="Trækanordning:  lodret aftagelig anhængertræk D-værdi: 10.70&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1800 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="738" supplier_part_number="030-698" name="030-698 &amp;nbsp; Kabelsæt til TOYOTA  Avensis Stationcar 09 -" description="Polaritet = 7-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt V - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1406" supplier_part_number="030-708" name="030-708 &amp;nbsp; Kabelsæt til TOYOTA  Avensis Stationcar 09 -" description="Polaritet = 13-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt V - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1873" supplier_part_number="037-181" name="037-181 &amp;nbsp; Anhængertræk til TOYOTA  Avensis Sedan 09 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 10.70&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1800 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2751" supplier_part_number="049-223" name="049-223 &amp;nbsp; Anhængertræk til TOYOTA  Avensis Sedan 09 -" description="Trækanordning:  lodret aftagelig anhængertræk D-værdi: 10.70&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1800 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="738" supplier_part_number="030-698" reference="true" />
+        <Spare_Part_Price price_inc_vat="1406" supplier_part_number="030-708" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk toyota Aygo&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="2188" supplier_part_number="035-734" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-154" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-664" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-974" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk toyota Camry&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="025-141" name="025-141 &amp;nbsp; Anhængertræk til TOYOTA  Camry Sedan  8/96 - 01" description="Trækanordning: Standard fast kuglesystemD-værdi: 8.60&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1500 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="416" supplier_part_number="009-258" name="009-258 &amp;nbsp; Kabelsæt til TOYOTA  Camry Sedan  8/96 - 01" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min.Bemærk: Ikke til 3.0 - V6 (24 ventiler), chassistype: V20" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk toyota Carina-E&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="018-432" name="018-432 &amp;nbsp; Anhængertræk til TOYOTA  Carina-E Sedan  2/92 - 97" description="Trækanordning: Standard fast kuglesystemD-værdi: 7.63Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1400 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="018-433" name="018-433 &amp;nbsp; Anhængertræk til TOYOTA  Carina-E Sedan  2/92 - 97" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 7.63Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1400 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="429" supplier_part_number="006-048" name="006-048 &amp;nbsp; Kabelsæt til TOYOTA  Carina-E Sedan  2/92 - 97" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="018-432" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="018-433" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="009-238" name="009-238 &amp;nbsp; Kabelsæt til TOYOTA  Carina-E Liftback  2/92 - 97" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="019-121" name="019-121 &amp;nbsp; Anhængertræk til TOYOTA  Carina-E Stationcar  11/92 - 97" description="Trækanordning: Standard fast kuglesystemUdskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1400 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="011-338" name="011-338 &amp;nbsp; Kabelsæt til TOYOTA  Carina-E Stationcar  11/92 - 97" description="Polaritet = 13-polet DIN m. samlet stikStik&#xD;&#xA;						Monteringstid kabelsæt V - op til 1 timeBemærk: I-&gt; 01/96" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk toyota Corolla&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="018-332" name="018-332 &amp;nbsp; Anhængertræk til TOYOTA  Corolla Sedan  5/92 - 6/97" description="Trækanordning: Standard fast kuglesystemD-værdi: 7.04Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1300 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="501" supplier_part_number="006-518" name="006-518 &amp;nbsp; Kabelsæt til TOYOTA  Corolla Sedan  5/92 - 6/97" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="753" supplier_part_number="008-608" name="008-608 &amp;nbsp; Kabelsæt til TOYOTA  Corolla Sedan  5/92 - 6/97" description="Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt V - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="018-332" reference="true" />
+        <Spare_Part_Price price_inc_vat="540" supplier_part_number="006-498" name="006-498 &amp;nbsp; Kabelsæt til TOYOTA  Corolla Liftback  5/92 - 6/97" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="765" supplier_part_number="008-588" name="008-588 &amp;nbsp; Kabelsæt til TOYOTA  Corolla Liftback  5/92 - 6/97" description="Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt V - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="018-661" name="018-661 &amp;nbsp; Anhængertræk til TOYOTA  Corolla Stationcar  5/92 - 6/97" description="Trækanordning: Standard fast kuglesystemUdskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1300 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="025-031" name="025-031 &amp;nbsp; Anhængertræk til TOYOTA  Corolla Hatchback (Compact)  5/92 - 6/97" description="Trækanordning: Standard fast kuglesystemD-værdi: 7.06Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1300 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="501" supplier_part_number="006-518" reference="true" />
+        <Spare_Part_Price price_inc_vat="753" supplier_part_number="008-608" reference="true" />
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="022-281" name="022-281 &amp;nbsp; Anhængertræk til TOYOTA  Corolla Sedan  7/97 - 02" description="Trækanordning: Standard fast kuglesystemD-værdi: 6.82&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1200 / 75Monteringstid anh.træk C - op til 2 timer" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="521" supplier_part_number="010-578" name="010-578 &amp;nbsp; Kabelsæt til TOYOTA  Corolla Sedan  7/97 - 02" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="958" supplier_part_number="011-188" name="011-188 &amp;nbsp; Kabelsæt til TOYOTA  Corolla Sedan  7/97 - 02" description="Polaritet = 13-polet DIN m. samlet stikStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="022-281" reference="true" />
+        <Spare_Part_Price price_inc_vat="441" supplier_part_number="010-568" name="010-568 &amp;nbsp; Kabelsæt til TOYOTA  Corolla Liftback  7/97 - 01" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min.Bemærk: Kun for biler produceret i Japan (chassisnr. med E)" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="596" supplier_part_number="011-468" name="011-468 &amp;nbsp; Kabelsæt til TOYOTA  Corolla Liftback  7/97 - 01" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min.Bemærk: Kun for biler produceret i England (chassisnr. med D)" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="022-291" name="022-291 &amp;nbsp; Anhængertræk til TOYOTA  Corolla Stationcar  7/97 - 02" description="Trækanordning: Standard fast kuglesystemD-værdi: 7.73Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1400 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="556" supplier_part_number="010-588" name="010-588 &amp;nbsp; Kabelsæt til TOYOTA  Corolla Stationcar  7/97 - 02" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="028-031" name="028-031 &amp;nbsp; Anhængertræk til TOYOTA  Corolla Hatchback 02 - 07" description="Trækanordning: Standard fast kuglesystemD-værdi: 7.91Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1350 / 50Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="901" supplier_part_number="015-458" name="015-458 &amp;nbsp; Kabelsæt til TOYOTA  Corolla Hatchback 02 - 07" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="028-051" name="028-051 &amp;nbsp; Anhængertræk til TOYOTA  Corolla Stationcar 02 - 07" description="Trækanordning: Standard fast kuglesystemD-værdi: 7.91Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1350 / 55Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="493" supplier_part_number="015-478" name="015-478 &amp;nbsp; Kabelsæt til TOYOTA  Corolla Stationcar 02 - 07" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt V - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="814" supplier_part_number="044-048" name="044-048 &amp;nbsp; Kabelsæt til TOYOTA  Corolla Stationcar 02 - 07" description="Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt V - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="028-041" name="028-041 &amp;nbsp; Anhængertræk til TOYOTA  Corolla Sedan 03 - 07" description="Trækanordning: Standard fast kuglesystemD-værdi: 7.91Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1350 / 55Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="489" supplier_part_number="015-468" name="015-468 &amp;nbsp; Kabelsæt til TOYOTA  Corolla Sedan 03 - 07" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1453" supplier_part_number="022-301" name="022-301 &amp;nbsp; Anhængertræk til TOYOTA  Corolla Hatchback (Compact)  7/97 - 01" description="Trækanordning: Standard fast kuglesystemD-værdi: 6.82&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1200 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="441" supplier_part_number="010-568" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-481" name="044-481 &amp;nbsp; Anhængertræk til TOYOTA  Corolla Sedan 07 - 10" description="Trækanordning: Standard fast kuglesystemD-værdi: 8.60Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1300 / 60Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="411" supplier_part_number="041-948" name="041-948 &amp;nbsp; Kabelsæt til TOYOTA  Corolla Sedan 07 - 10" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="041-958" name="041-958 &amp;nbsp; Kabelsæt til TOYOTA  Corolla Sedan 07 - 10" description="Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt V - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="044-481" reference="true" />
+        <Spare_Part_Price price_inc_vat="411" supplier_part_number="041-948" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="041-958" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk toyota Corolla-Verso&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="028-151" name="028-151 &amp;nbsp; Anhængertræk til TOYOTA  Corolla MPV 02 - 4/04" description="Trækanordning: Standard fast kuglesystemD-værdi: 8.21Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1350 / 55Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="525" supplier_part_number="015-448" name="015-448 &amp;nbsp; Kabelsæt til TOYOTA  Corolla MPV 02 - 4/04" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="028-151" reference="true" />
+        <Spare_Part_Price price_inc_vat="525" supplier_part_number="015-448" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="028-151" reference="true" />
+        <Spare_Part_Price price_inc_vat="525" supplier_part_number="015-448" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="028-151" reference="true" />
+        <Spare_Part_Price price_inc_vat="525" supplier_part_number="015-448" reference="true" />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="015-521" name="015-521 &amp;nbsp; Anhængertræk til TOYOTA  Corolla MPV  5/04 - 3/09" description="Trækanordning: Standard fast kuglesystemD-værdi: 8.61Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1400 / 60Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="440" supplier_part_number="015-498" name="015-498 &amp;nbsp; Kabelsæt til TOYOTA  Corolla MPV  5/04 - 3/09" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="696" supplier_part_number="044-058" name="044-058 &amp;nbsp; Kabelsæt til TOYOTA  Corolla MPV  5/04 - 3/09" description="Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt V - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="015-521" reference="true" />
+        <Spare_Part_Price price_inc_vat="440" supplier_part_number="015-498" reference="true" />
+        <Spare_Part_Price price_inc_vat="696" supplier_part_number="044-058" reference="true" />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="015-521" reference="true" />
+        <Spare_Part_Price price_inc_vat="440" supplier_part_number="015-498" reference="true" />
+        <Spare_Part_Price price_inc_vat="696" supplier_part_number="044-058" reference="true" />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="015-521" reference="true" />
+        <Spare_Part_Price price_inc_vat="440" supplier_part_number="015-498" reference="true" />
+        <Spare_Part_Price price_inc_vat="696" supplier_part_number="044-058" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk toyota Hi-Ace&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="019-911" name="019-911 &amp;nbsp; Anhængertræk til TOYOTA  Hi-Ace Varevogn 89 - 7/95" description="Trækanordning: Højdejusterbart kuglesystem&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2000 / 100Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="006-528" name="006-528 &amp;nbsp; Kabelsæt til TOYOTA  Hi-Ace Varevogn 89 - 7/95" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="022-631" name="022-631 &amp;nbsp; Anhængertræk til TOYOTA  Hi-Ace Varevogn  8/95 -" description="Trækanordning: Højdejusterbart kuglesystemD-værdi: 11.79&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2105 / 85Monteringstid anh.træk A  - op til 1 timeBemærk: 022631" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="475" supplier_part_number="004-128" name="004-128 &amp;nbsp; Kabelsæt til TOYOTA  Hi-Ace Varevogn  8/95 -" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk toyota Hi-Lux&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="024-191" name="024-191 &amp;nbsp; Anhængertræk til TOYOTA  Hi-Lux Pick-up 98 - 10/05" description="Trækanordning: FlangekugleD-værdi: 12.20&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2450 / 90Monteringstid anh.træk A  - op til 1 timeBemærk: For køretøjer med trinbræt, bestil udvidelsessæt 024-361" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1923" supplier_part_number="043-322" name="043-322 &amp;nbsp; Anhængertræk til TOYOTA  Hi-Lux Pick-up  11/05 -" description="Trækanordning: Højdejusterbart kuglesystemD-værdi: 13.80&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2800 / 120Monteringstid anh.træk B - op til 1½ timeBemærk: Til biler med og uden kofangertrin. 4-huls flangekugle (022-834) mulig med udvidelsessæt 019-554" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1775" supplier_part_number="044-842" name="044-842 &amp;nbsp; Anhængertræk til TOYOTA  Hi-Lux Pick-up  11/05 -" description="Trækanordning: Højdejusterbart kuglesystemD-værdi: 13.80&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2800 / 120Monteringstid anh.træk B - op til 1½ timeBemærk: Kun for biler med kofangertrin" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="546" supplier_part_number="043-698" name="043-698 &amp;nbsp; Kabelsæt til TOYOTA  Hi-Lux Pick-up  11/05 -" description="Polaritet = 7-poletStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt R - op til 20 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1923" supplier_part_number="043-322" reference="true" />
+        <Spare_Part_Price price_inc_vat="1775" supplier_part_number="044-842" reference="true" />
+        <Spare_Part_Price price_inc_vat="546" supplier_part_number="043-698" reference="true" />
+        <Spare_Part_Price price_inc_vat="905" supplier_part_number="044-862" name="044-862 &amp;nbsp; Anhængertræk til TOYOTA  Hi-Lux Pick-up (double cab)  11/05 -" description="Trækanordning: Højdejusterbart kuglesystemD-værdi: 13.80&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2800 / 120Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk toyota Landcruiser&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="025-461" name="025-461 &amp;nbsp; Anhængertræk til TOYOTA  Landcruiser APV (Challenger)  4/96 - 02" description="Trækanordning: Standard fast kuglesystemD-værdi: 13.43&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2800 / 130Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="374" supplier_part_number="006-838" name="006-838 &amp;nbsp; Kabelsæt til TOYOTA  Landcruiser APV (Challenger)  4/96 - 02" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="025-461" reference="true" />
+        <Spare_Part_Price price_inc_vat="374" supplier_part_number="006-838" reference="true" />
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="024-691" name="024-691 &amp;nbsp; Anhængertræk til TOYOTA  Landcruiser APV 98 - 02" description="Trækanordning: Højdejusterbart kuglesystemD-værdi: 16.56&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 3500 / 140Monteringstid anh.træk A  - op til 1 timeBemærk: Tidligere/erstattet model: Specialpris" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1923" supplier_part_number="031-141" name="031-141 &amp;nbsp; Anhængertræk til TOYOTA  Landcruiser APV 98 - 02" description="Trækanordning: Højdejusterbart kuglesystemD-værdi: 16.56&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 3500 / 140Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="010-948" name="010-948 &amp;nbsp; Kabelsæt til TOYOTA  Landcruiser APV 98 - 02" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="033-422" name="033-422 &amp;nbsp; Anhængertræk til TOYOTA  Landcruiser APV 03 -" description="Trækanordning: Højdejusterbart kuglesystemD-værdi: 16.30Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2800 / 115Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="649" supplier_part_number="016-208" name="016-208 &amp;nbsp; Kabelsæt til TOYOTA  Landcruiser APV 03 -" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="033-422" reference="true" />
+        <Spare_Part_Price price_inc_vat="649" supplier_part_number="016-208" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-772" name="029-772 &amp;nbsp; Anhængertræk til TOYOTA  Landcruiser APV  11/09 -" description="Trækanordning: Højdejusterbart kuglesystemD-værdi: 16.30Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2800 / 130Monteringstid anh.træk C - op til 2 timer" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="023-088" name="023-088 &amp;nbsp; Kabelsæt til TOYOTA  Landcruiser APV  11/09 -" description="Polaritet = 7-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt V - op til 1 time" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk toyota Picnic&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="023-291" name="023-291 &amp;nbsp; Anhængertræk til TOYOTA  Picnic MPV 96 - 02" description="Trækanordning: Standard fast kuglesystemD-værdi: 8.43Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1500 / 60Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="554" supplier_part_number="009-268" name="009-268 &amp;nbsp; Kabelsæt til TOYOTA  Picnic MPV 96 - 02" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk toyota Previa&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="017-281" name="017-281 &amp;nbsp; Anhængertræk til TOYOTA  Previa MPV 90 - 5/00" description="Trækanordning: Standard fast kuglesystem&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1600 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="555" supplier_part_number="006-558" name="006-558 &amp;nbsp; Kabelsæt til TOYOTA  Previa MPV 90 - 5/00" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="027-231" name="027-231 &amp;nbsp; Anhængertræk til TOYOTA  Previa MPV  6/00 - 06" description="Trækanordning: Standard fast kuglesystemD-værdi: 10.10&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1600 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="673" supplier_part_number="011-968" name="011-968 &amp;nbsp; Kabelsæt til TOYOTA  Previa MPV  6/00 - 06" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt V - op til 1 time" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk toyota Prius&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="031-944" name="031-944 &amp;nbsp; Anhængertræk til TOYOTA  Prius Sedan 06 - 08" description="Trækanordning: Cykelstativ-beslagUdskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 0 / 60Monteringstid anh.træk A  - op til 1 timeBemærk: Kabelsæt inkluderet. Eksisterende cykelholdere er ikke anvendelige. Bestilling af specifik cykelholder 029-154, 029-664 eller 029-974 er nødvendig. Anhænger ikke tilladt!" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-154" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-664" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-974" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-134" name="029-134 &amp;nbsp; Anhængertræk til TOYOTA  Prius Sedan 09 -" description="Trækanordning: Cykelstativ-beslag&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 0 / 60Monteringstid anh.træk A  - op til 1 timeBemærk: Kabelsæt inkluderet. Eksisterende cykelholdere er ikke anvendelige. Bestilling af specifik cykelholder 029-154, 029-664 eller 029-974 er nødvendig. Anhænger ikke tilladt!" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-154" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-664" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-974" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk toyota RAV-4&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="025-021" name="025-021 &amp;nbsp; Anhængertræk til TOYOTA  RAV-4 APV 94 - 9/97" description="Trækanordning: Standard fast kuglesystemD-værdi: 8.20&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1500 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="521" supplier_part_number="006-568" name="006-568 &amp;nbsp; Kabelsæt til TOYOTA  RAV-4 APV 94 - 9/97" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="954" supplier_part_number="008-618" name="008-618 &amp;nbsp; Kabelsæt til TOYOTA  RAV-4 APV 94 - 9/97" description="Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt V - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="025-021" reference="true" />
+        <Spare_Part_Price price_inc_vat="516" supplier_part_number="010-938" name="010-938 &amp;nbsp; Kabelsæt til TOYOTA  RAV-4 APV  10/97 - 5/00" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt V - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="768" supplier_part_number="011-308" name="011-308 &amp;nbsp; Kabelsæt til TOYOTA  RAV-4 APV  10/97 - 5/00" description="Polaritet = 13-polet DIN m. samlet stikStik&#xD;&#xA;						Monteringstid kabelsæt W - over 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="027-241" name="027-241 &amp;nbsp; Anhængertræk til TOYOTA  RAV-4 APV  6/00 - 06" description="Trækanordning: Højdejusterbart kuglesystemD-værdi: 9.06&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1850 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="561" supplier_part_number="015-028" name="015-028 &amp;nbsp; Kabelsæt til TOYOTA  RAV-4 APV  6/00 - 06" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="529" supplier_part_number="043-968" name="043-968 &amp;nbsp; Kabelsæt til TOYOTA  RAV-4 APV  6/00 - 06" description="Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt W - over 1 timeBemærk: Udvidelsessæt til strømforsyning, bestil 017-579 (+30)" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="043-211" name="043-211 &amp;nbsp; Anhængertræk til TOYOTA  RAV-4 APV 06 - 4/10" description="Trækanordning: Standard fast kuglesystemD-værdi: 10.41&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2050 / 90Monteringstid anh.træk D - op til 2½ timeBemærk: Nummerpladen dækkes på biler med reservehjul på bagdøren." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="043-213" name="043-213 &amp;nbsp; Anhængertræk til TOYOTA  RAV-4 APV 06 - 4/10" description="Trækanordning: Vertikalt aftageligt kuglesystem (AK6)D-værdi: 10.41&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2050 / 90Monteringstid anh.træk D - op til 2½ timeBemærk: Ekskl. XT-R, Cross Sport og T180." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="578" supplier_part_number="043-508" name="043-508 &amp;nbsp; Kabelsæt til TOYOTA  RAV-4 APV 06 - 4/10" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt W - over 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="641" supplier_part_number="043-928" name="043-928 &amp;nbsp; Kabelsæt til TOYOTA  RAV-4 APV 06 - 4/10" description="Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt W - over 1 timeBemærk: Udvidelsessæt for strømforsyning, bestil 017-579 (+30) eller 020-229 (+15)." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="043-211" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="043-213" reference="true" />
+        <Spare_Part_Price price_inc_vat="578" supplier_part_number="043-508" reference="true" />
+        <Spare_Part_Price price_inc_vat="641" supplier_part_number="043-928" reference="true" />
+        <Spare_Part_Price price_inc_vat="2663" supplier_part_number="029-841" name="029-841 &amp;nbsp; Anhængertræk til TOYOTA  RAV-4 APV  5/10 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 10.41&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2050 / 90Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="049-993" name="049-993 &amp;nbsp; Anhængertræk til TOYOTA  RAV-4 APV  5/10 -" description="Trækanordning:  lodret aftagelig anhængertræk &#xD;&#xA;					&#xD;&#xA;						Monteringstid anh.træk" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="578" supplier_part_number="043-508" reference="true" />
+        <Spare_Part_Price price_inc_vat="641" supplier_part_number="043-928" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk toyota Starlet&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="025-251" name="025-251 &amp;nbsp; Anhængertræk til TOYOTA  Starlet Hatchback 96 - 03" description="Trækanordning: Standard fast kuglesystemD-værdi: 5.67&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1000 / 50Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="651" supplier_part_number="007-458" name="007-458 &amp;nbsp; Kabelsæt til TOYOTA  Starlet Hatchback 96 - 03" description="Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk toyota Urban-Cruiser&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1074" supplier_part_number="037-191" name="037-191 &amp;nbsp; Anhængertræk til TOYOTA  Urban-Cruiser APV 09 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 6.10&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 800 / 50Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2538" supplier_part_number="049-233" name="049-233 &amp;nbsp; Anhængertræk til TOYOTA  Urban-Cruiser APV 09 -" description="Trækanordning:  lodret aftagelig anhængertræk D-værdi: 6.10&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 800 / 50Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="476" supplier_part_number="030-738" name="030-738 &amp;nbsp; Kabelsæt til TOYOTA  Urban-Cruiser APV 09 -" description="Polaritet = 7-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt V - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1721" supplier_part_number="030-748" name="030-748 &amp;nbsp; Kabelsæt til TOYOTA  Urban-Cruiser APV 09 -" description="Polaritet = 13-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt V - op til 1 time" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk toyota Verso&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1065" supplier_part_number="037-161" name="037-161 &amp;nbsp; Anhængertræk til TOYOTA  Verso MPV  3/09 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 9.00&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1300 / 55Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="440" supplier_part_number="015-498" reference="true" />
+        <Spare_Part_Price price_inc_vat="696" supplier_part_number="044-058" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk toyota Verso-S&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="037-631" name="037-631 &amp;nbsp; Anhængertræk til TOYOTA  Verso MPV 11 -" description="Trækanordning: Standard fast kuglesystem&#xD;&#xA;					&#xD;&#xA;						Monteringstid anh.træk" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="037-630" name="037-630 &amp;nbsp; Anhængertræk til TOYOTA  Verso MPV 11 -" description="Trækanordning: AK10&#xD;&#xA;					&#xD;&#xA;						Monteringstid anh.træk" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="037-388" name="037-388 &amp;nbsp; Kabelsæt til TOYOTA  Verso MPV 11 -" description="Polaritet = 7-polet&#xD;&#xA;						Monteringstid kabelsæt" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="037-398" name="037-398 &amp;nbsp; Kabelsæt til TOYOTA  Verso MPV 11 -" description="Polaritet = 13-polet&#xD;&#xA;						Monteringstid kabelsæt" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="037-631" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="037-630" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="037-388" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="037-398" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="037-631" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="037-630" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="037-388" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="037-398" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="037-631" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="037-630" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="037-388" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="037-398" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk toyota Yaris&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="033-051" name="033-051 &amp;nbsp; Anhængertræk til TOYOTA  Yaris Hatchback 99 - 05" description="Trækanordning: Standard fast kuglesystemD-værdi: 5.37&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 900 / 50Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="033-054" name="033-054 &amp;nbsp; Anhængertræk til TOYOTA  Yaris Hatchback 99 - 05" description="Trækanordning:  aftageligt anhægertræk D-værdi: 5.37&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 900 / 50Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="436" supplier_part_number="011-548" name="011-548 &amp;nbsp; Kabelsæt til TOYOTA  Yaris Hatchback 99 - 05" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min.Bemærk: Ekskl. T-Sport" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="033-051" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="033-054" reference="true" />
+        <Spare_Part_Price price_inc_vat="458" supplier_part_number="015-198" name="015-198 &amp;nbsp; Kabelsæt til TOYOTA  Yaris Hatchback 01 - 05" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min.Bemærk: Ekskl. T-Sport" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="043-201" name="043-201 &amp;nbsp; Anhængertræk til TOYOTA  Yaris Hatchback 06 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 6.88&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1300 / 50Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="043-204" name="043-204 &amp;nbsp; Anhængertræk til TOYOTA  Yaris Hatchback 06 -" description="Trækanordning:  aftageligt anhægertræk D-værdi: 6.88&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1300 / 50Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="429" supplier_part_number="043-498" name="043-498 &amp;nbsp; Kabelsæt til TOYOTA  Yaris Hatchback 06 -" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

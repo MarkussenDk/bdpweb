@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="opel">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk opel Agila&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1649" supplier_part_number="026-851" name="&#xD;&#xA;						026-851 &amp;nbsp; Anhængertræk til OPEL  Agila MPV 00 - 9/02&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 5.65Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1000 / 30Monteringstid anh.træk C - op til 2 timer" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="026-854" name="&#xD;&#xA;						026-854 &amp;nbsp; Anhængertræk til OPEL  Agila MPV 00 - 9/02&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning:  aftageligt anhægertræk D-værdi: 5.64Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1000 / 30Monteringstid anh.træk C - op til 2 timer" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="360" supplier_part_number="016-158" name="&#xD;&#xA;						016-158 &amp;nbsp; Kabelsæt til OPEL  Agila MPV 00 - 9/02&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt R - op til 20 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="031-041" name="&#xD;&#xA;						031-041 &amp;nbsp; Anhængertræk til OPEL  Agila MPV  10/02 - 3/08&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 5.64Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1000 / 30Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="031-044" name="&#xD;&#xA;						031-044 &amp;nbsp; Anhængertræk til OPEL  Agila MPV  10/02 - 3/08&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning:  aftageligt anhægertræk D-værdi: 5.65Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1000 / 30Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="360" supplier_part_number="016-158" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="031-041" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="031-044" reference="true" />
+        <Spare_Part_Price price_inc_vat="360" supplier_part_number="016-158" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="036-581" name="&#xD;&#xA;						036-581 &amp;nbsp; Anhængertræk til OPEL  Agila MPV  4/08 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 4.50&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 600 / 50Monteringstid anh.træk B - op til 1½ timeBemærk: Kun 1.2&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="036-584" name="&#xD;&#xA;						036-584 &amp;nbsp; Anhængertræk til OPEL  Agila MPV  4/08 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning:  aftageligt anhægertræk D-værdi: 4.50&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 600 / 50Monteringstid anh.træk B - op til 1½ timeBemærk: Kun 1.2&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="031-964" name="&#xD;&#xA;						031-964 &amp;nbsp; Anhængertræk til OPEL  Agila MPV  4/08 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Cykelstativ-beslagUdskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 0 / 50Monteringstid anh.træk E - over 2½ timeBemærk: Kabelsæt inkluderet. Eksisterende cykelholdere er ikke anvendelige. Bestilling af specifik cykelholder 029-154, 029-664 eller 029-974 er nødvendig. Anhænger ikke tilladt!&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-154" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-664" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-974" reference="true" />
+        <Spare_Part_Price price_inc_vat="456" supplier_part_number="034-728" reference="true" />
+        <Spare_Part_Price price_inc_vat="1073" supplier_part_number="034-738" name="&#xD;&#xA;						034-738 &amp;nbsp; Kabelsæt til OPEL  Agila MPV  4/08 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-poletStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt T - op til 45 min.Bemærk: Udvidelsessæt til strømforsyning, bestil 014-169 (+30) eller 015-069 (+15/+30).&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="036-581" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="036-584" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="031-964" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-154" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-664" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-974" reference="true" />
+        <Spare_Part_Price price_inc_vat="456" supplier_part_number="034-728" reference="true" />
+        <Spare_Part_Price price_inc_vat="1073" supplier_part_number="034-738" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

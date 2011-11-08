@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="renault">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Grand-Espace-III&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="023-241" reference="true" />
+        <Spare_Part_Price price_inc_vat="694" supplier_part_number="009-628" reference="true" />
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="023-241" reference="true" />
+        <Spare_Part_Price price_inc_vat="539" supplier_part_number="005-298" reference="true" />
+        <Spare_Part_Price price_inc_vat="1010" supplier_part_number="013-968" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

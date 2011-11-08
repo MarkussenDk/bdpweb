@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="chevrolet">
+    <car_model car_model_name="&#xD;&#xA;									Anh�ngertr�k chevrolet Aveo&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="043-011" name="&#xD;&#xA;						043-011 &amp;nbsp; Anh�ngertr�k til CHEVROLET  Aveo Sedan 06 -&#xD;&#xA;					" description="&#xD;&#xA;						Tr�kanordning: Standard fast kuglesystemD-v�rdi: 6.80&#xD;&#xA;					&#xD;&#xA;						Maks. tr�kv�gt / lodret belastning: 1200 / 50Monteringstid anh.tr�k C - op til 2 timer" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="415" supplier_part_number="043-138" name="&#xD;&#xA;						043-138 &amp;nbsp; Kabels�t til CHEVROLET  Aveo Sedan 06 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabels�t R - op til 20 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1145" supplier_part_number="037-251" name="&#xD;&#xA;						037-251 &amp;nbsp; Anh�ngertr�k til CHEVROLET  Aveo Hatchback  3/08 - 11&#xD;&#xA;					" description="&#xD;&#xA;						Tr�kanordning: Standard fast kuglesystemD-v�rdi: 6.60&#xD;&#xA;					&#xD;&#xA;						Maks. tr�kv�gt / lodret belastning: 1200 / 75Monteringstid anh.tr�k B - op til 1� time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2361" supplier_part_number="044-684" name="&#xD;&#xA;						044-684 &amp;nbsp; Anh�ngertr�k til CHEVROLET  Aveo Hatchback  3/08 - 11&#xD;&#xA;					" description="&#xD;&#xA;						Tr�kanordning:  aftageligt anh�gertr�k D-v�rdi: 6.60&#xD;&#xA;					&#xD;&#xA;						Maks. tr�kv�gt / lodret belastning: 1200 / 50Monteringstid anh.tr�k B - op til 1� time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="391" supplier_part_number="036-248" name="&#xD;&#xA;						036-248 &amp;nbsp; Kabels�t til CHEVROLET  Aveo Hatchback  3/08 - 11&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabels�t S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1145" supplier_part_number="037-251" reference="true" />
+        <Spare_Part_Price price_inc_vat="2361" supplier_part_number="044-684" reference="true" />
+        <Spare_Part_Price price_inc_vat="391" supplier_part_number="036-248" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="037-381" name="&#xD;&#xA;						037-381 &amp;nbsp; Anh�ngertr�k til CHEVROLET  Aveo Hatchback  9/11 -&#xD;&#xA;					" description="&#xD;&#xA;						Tr�kanordning: Standard fast kuglesystem&#xD;&#xA;					&#xD;&#xA;						Monteringstid anh.tr�k" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="036-978" name="&#xD;&#xA;						036-978 &amp;nbsp; Kabels�t til CHEVROLET  Aveo Hatchback  9/11 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-polet&#xD;&#xA;						Monteringstid kabels�t" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

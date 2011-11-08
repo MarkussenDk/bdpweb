@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="volkswagen">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk volkswagen Bora&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="027-491" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="027-494" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="024-553" name="024-553 &amp;nbsp; Anhængertræk til VOLKSWAGEN  Bora Sedan 98 - 05" description="Trækanordning: Vertikalt aftageligt kuglesystem (AK6)D-værdi: 8.62Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1600 / 60Monteringstid anh.træk A  - op til 1 timeBemærk: Tidligere/erstattet model: Specialpris" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2860" supplier_part_number="048-133" reference="true" />
+        <Spare_Part_Price price_inc_vat="305" supplier_part_number="010-868" name="010-868 &amp;nbsp; Kabelsæt til VOLKSWAGEN  Bora Sedan 98 - 05" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt R - op til 20 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="788" supplier_part_number="011-208" name="011-208 &amp;nbsp; Kabelsæt til VOLKSWAGEN  Bora Sedan 98 - 05" description="Polaritet = 13-polet DIN m. samlet stikStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="027-491" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="027-494" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="026-153" name="026-153 &amp;nbsp; Anhængertræk til VOLKSWAGEN  Bora Stationcar (Variant) 99 - 05" description="Trækanordning: Vertikalt aftageligt kuglesystem (AK6)D-værdi: 8.62Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1600 / 75Monteringstid anh.træk A  - op til 1 timeBemærk: Tidligere / erstattet model" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2860" supplier_part_number="048-133" reference="true" />
+        <Spare_Part_Price price_inc_vat="388" supplier_part_number="011-558" name="011-558 &amp;nbsp; Kabelsæt til VOLKSWAGEN  Bora Stationcar (Variant) 99 - 05" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt R - op til 20 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1048" supplier_part_number="014-198" name="014-198 &amp;nbsp; Kabelsæt til VOLKSWAGEN  Bora Stationcar (Variant) 99 - 05" description="Polaritet = 13-polet DIN m. samlet stikStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3456" supplier_part_number="026-773" name="026-773 &amp;nbsp; Anhængertræk til VOLKSWAGEN  Bora Sedan 00 - 05" description="Trækanordning: Vertikalt aftageligt kuglesystem (AK6)D-værdi: 8.62Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1600 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2671" supplier_part_number="048-333" name="048-333 &amp;nbsp; Anhængertræk til VOLKSWAGEN  Bora Sedan 00 - 05" description="Trækanordning:  lodret aftageligt anhængertræk D-værdi: 8.91Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1600 / 75Monteringstid anh.træk B - op til 1½ timeBemærk: Intet sikkerhedsøje på anhængertrækket." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="305" supplier_part_number="010-868" reference="true" />
+        <Spare_Part_Price price_inc_vat="788" supplier_part_number="011-208" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="048-323" name="048-323 &amp;nbsp; Anhængertræk til VOLKSWAGEN  Bora Stationcar (Variant) 00 - 05" description="Trækanordning:  lodret aftageligt anhængertræk D-værdi: 8.91Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1600 / 75Monteringstid anh.træk B - op til 1½ timeBemærk: Intet sikkerhedsøje på anhængertrækket." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="388" supplier_part_number="011-558" reference="true" />
+        <Spare_Part_Price price_inc_vat="1048" supplier_part_number="014-198" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

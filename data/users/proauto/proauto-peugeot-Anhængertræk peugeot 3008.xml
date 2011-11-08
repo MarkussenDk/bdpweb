@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="peugeot">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk peugeot 3008&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1833" supplier_part_number="037-091" name="037-091 &amp;nbsp; Anhængertræk til PEUGEOT  3008 MPV  4/09 - 12/09" description="Trækanordning: Standard fast kuglesystemD-værdi: 9.20&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1600 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2344" supplier_part_number="037-094" name="037-094 &amp;nbsp; Anhængertræk til PEUGEOT  3008 MPV  4/09 - 12/09" description="Trækanordning:  aftageligt anhægertræk D-værdi: 9.20&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1600 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="049-133" name="049-133 &amp;nbsp; Anhængertræk til PEUGEOT  3008 MPV  4/09 - 12/09" description="Trækanordning:  lodret aftagelig anhængertræk &#xD;&#xA;					&#xD;&#xA;						Monteringstid anh.træk" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1110" supplier_part_number="030-528" name="030-528 &amp;nbsp; Kabelsæt til PEUGEOT  3008 MPV  4/09 - 12/09" description="Polaritet = 7-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt V - op til 1 timeBemærk: -&gt;I DAM nr. 12076" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="030-538" name="030-538 &amp;nbsp; Kabelsæt til PEUGEOT  3008 MPV  4/09 - 12/09" description="Polaritet = 13-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt W - over 1 timeBemærk: -&gt;I DAM nr. 12076" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1833" supplier_part_number="037-091" reference="true" />
+        <Spare_Part_Price price_inc_vat="2344" supplier_part_number="037-094" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="049-133" reference="true" />
+        <Spare_Part_Price price_inc_vat="1540" supplier_part_number="031-038" name="031-038 &amp;nbsp; Kabelsæt til PEUGEOT  3008 MPV 10 -" description="Polaritet = 7-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt V - op til 1 timeBemærk: I-&gt; DAM nr. 12076" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1749" supplier_part_number="031-048" name="031-048 &amp;nbsp; Kabelsæt til PEUGEOT  3008 MPV 10 -" description="Polaritet = 13-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt V - op til 1 timeBemærk: I-&gt; DAM nr. 12076" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

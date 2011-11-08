@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="nissan">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk nissan Almera-Tino&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="031-681" name="&#xD;&#xA;						031-681 &amp;nbsp; Anhængertræk til NISSAN  Almera MPV 00 - 07&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 8.40Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1650 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="601" supplier_part_number="015-078" name="&#xD;&#xA;						015-078 &amp;nbsp; Kabelsæt til NISSAN  Almera MPV 00 - 07&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1048" supplier_part_number="014-628" name="&#xD;&#xA;						014-628 &amp;nbsp; Kabelsæt til NISSAN  Almera MPV 00 - 07&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="031-681" reference="true" />
+        <Spare_Part_Price price_inc_vat="601" supplier_part_number="015-078" reference="true" />
+        <Spare_Part_Price price_inc_vat="1048" supplier_part_number="014-628" reference="true" />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="031-681" reference="true" />
+        <Spare_Part_Price price_inc_vat="601" supplier_part_number="015-078" reference="true" />
+        <Spare_Part_Price price_inc_vat="1048" supplier_part_number="014-628" reference="true" />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="031-681" reference="true" />
+        <Spare_Part_Price price_inc_vat="601" supplier_part_number="015-078" reference="true" />
+        <Spare_Part_Price price_inc_vat="1048" supplier_part_number="014-628" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

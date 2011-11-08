@@ -1,0 +1,527 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="opel">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk opel Agila&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1649" supplier_part_number="026-851" name="&#xD;&#xA;						026-851 &amp;nbsp; Anhængertræk til OPEL  Agila MPV 00 - 9/02&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 5.65Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1000 / 30Monteringstid anh.træk C - op til 2 timer" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="026-854" name="&#xD;&#xA;						026-854 &amp;nbsp; Anhængertræk til OPEL  Agila MPV 00 - 9/02&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning:  aftageligt anhægertræk D-værdi: 5.64Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1000 / 30Monteringstid anh.træk C - op til 2 timer" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="360" supplier_part_number="016-158" name="&#xD;&#xA;						016-158 &amp;nbsp; Kabelsæt til OPEL  Agila MPV 00 - 9/02&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt R - op til 20 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="031-041" name="&#xD;&#xA;						031-041 &amp;nbsp; Anhængertræk til OPEL  Agila MPV  10/02 - 3/08&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 5.64Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1000 / 30Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="031-044" name="&#xD;&#xA;						031-044 &amp;nbsp; Anhængertræk til OPEL  Agila MPV  10/02 - 3/08&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning:  aftageligt anhægertræk D-værdi: 5.65Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1000 / 30Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="360" supplier_part_number="016-158" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="031-041" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="031-044" reference="true" />
+        <Spare_Part_Price price_inc_vat="360" supplier_part_number="016-158" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="036-581" name="&#xD;&#xA;						036-581 &amp;nbsp; Anhængertræk til OPEL  Agila MPV  4/08 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 4.50&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 600 / 50Monteringstid anh.træk B - op til 1½ timeBemærk: Kun 1.2&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="036-584" name="&#xD;&#xA;						036-584 &amp;nbsp; Anhængertræk til OPEL  Agila MPV  4/08 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning:  aftageligt anhægertræk D-værdi: 4.50&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 600 / 50Monteringstid anh.træk B - op til 1½ timeBemærk: Kun 1.2&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="031-964" name="&#xD;&#xA;						031-964 &amp;nbsp; Anhængertræk til OPEL  Agila MPV  4/08 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Cykelstativ-beslagUdskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 0 / 50Monteringstid anh.træk E - over 2½ timeBemærk: Kabelsæt inkluderet. Eksisterende cykelholdere er ikke anvendelige. Bestilling af specifik cykelholder 029-154, 029-664 eller 029-974 er nødvendig. Anhænger ikke tilladt!&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-154" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-664" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-974" reference="true" />
+        <Spare_Part_Price price_inc_vat="456" supplier_part_number="034-728" reference="true" />
+        <Spare_Part_Price price_inc_vat="1073" supplier_part_number="034-738" name="&#xD;&#xA;						034-738 &amp;nbsp; Kabelsæt til OPEL  Agila MPV  4/08 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-poletStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt T - op til 45 min.Bemærk: Udvidelsessæt til strømforsyning, bestil 014-169 (+30) eller 015-069 (+15/+30).&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="036-581" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="036-584" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="031-964" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-154" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-664" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-974" reference="true" />
+        <Spare_Part_Price price_inc_vat="456" supplier_part_number="034-728" reference="true" />
+        <Spare_Part_Price price_inc_vat="1073" supplier_part_number="034-738" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk opel Antara&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="043-161" name="&#xD;&#xA;						043-161 &amp;nbsp; Anhængertræk til OPEL  Antara APV  7/06 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 11.00&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2000 / 80Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2945" supplier_part_number="048-773" name="&#xD;&#xA;						048-773 &amp;nbsp; Anhængertræk til OPEL  Antara APV  7/06 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning:  lodret aftagelig anhængertræk D-værdi: 11.00&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2000 / 80Monteringstid anh.træk C - op til 2 timer" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1238" supplier_part_number="044-098" reference="true" />
+        <Spare_Part_Price price_inc_vat="1800" supplier_part_number="043-128" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="043-161" reference="true" />
+        <Spare_Part_Price price_inc_vat="2945" supplier_part_number="048-773" reference="true" />
+        <Spare_Part_Price price_inc_vat="1238" supplier_part_number="044-098" reference="true" />
+        <Spare_Part_Price price_inc_vat="1800" supplier_part_number="043-128" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk opel Arena&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="024-111" name="&#xD;&#xA;						024-111 &amp;nbsp; Anhængertræk til OPEL  Arena Varevogn, Minibus 98 - 01&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: FlangekugleD-værdi: 11.80&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2000 / 80Monteringstid anh.træk A  - op til 1 timeBemærk: ADVARSEL: Af sikkerhedsmæssige grunde må trækkroge kun monteres på køretøjer, der har hjulophæng med to tværgående bladfjedersamlinger.&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk opel Astra-F&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="017-852" name="&#xD;&#xA;						017-852 &amp;nbsp; Anhængertræk til OPEL  Astra-F Hatchback 91 - 2/98&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 8.00Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1500 / 75Monteringstid anh.træk A  - op til 1 timeBemærk: Udskæring ikke nødvendig på alle modeller&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="405" supplier_part_number="005-838" name="&#xD;&#xA;						005-838 &amp;nbsp; Kabelsæt til OPEL  Astra-F Hatchback 91 - 2/98&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min.Bemærk: Ikke forberedt til kabelsæt&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="356" supplier_part_number="006-038" name="&#xD;&#xA;						006-038 &amp;nbsp; Kabelsæt til OPEL  Astra-F Hatchback 91 - 2/98&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min.Bemærk: Forberedt til kabelsæt&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="640" supplier_part_number="008-318" name="&#xD;&#xA;						008-318 &amp;nbsp; Kabelsæt til OPEL  Astra-F Hatchback 91 - 2/98&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min.Bemærk: Ikke forberedt til kabelsæt&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="008-328" name="&#xD;&#xA;						008-328 &amp;nbsp; Kabelsæt til OPEL  Astra-F Hatchback 91 - 2/98&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min.Bemærk: Forberedt til kabelsæt&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1330" supplier_part_number="017-902" name="&#xD;&#xA;						017-902 &amp;nbsp; Anhængertræk til OPEL  Astra-F Sedan, Cabriolet 91 - 9/98&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 7.59Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1500 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="356" supplier_part_number="005-828" name="&#xD;&#xA;						005-828 &amp;nbsp; Kabelsæt til OPEL  Astra-F Sedan, Cabriolet 91 - 9/98&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min.Bemærk: Ikke forberedt til kabelsæt&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="356" supplier_part_number="006-038" reference="true" />
+        <Spare_Part_Price price_inc_vat="640" supplier_part_number="008-308" name="&#xD;&#xA;						008-308 &amp;nbsp; Kabelsæt til OPEL  Astra-F Sedan, Cabriolet 91 - 9/98&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min.Bemærk: Ikke forberedt til kabelsæt&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="008-328" reference="true" />
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="017-952" name="&#xD;&#xA;						017-952 &amp;nbsp; Anhængertræk til OPEL  Astra-F Stationcar 91 - 2/98&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 7.59Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1500 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="356" supplier_part_number="005-848" name="&#xD;&#xA;						005-848 &amp;nbsp; Kabelsæt til OPEL  Astra-F Stationcar 91 - 2/98&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min.Bemærk: Ikke forberedt til kabelsæt&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="356" supplier_part_number="006-038" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="008-328" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk opel Astra-G&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="028-531" name="&#xD;&#xA;						028-531 &amp;nbsp; Anhængertræk til OPEL  Astra-G Hatchback  3/98 - 8/99&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 8.50&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1500 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="028-534" name="&#xD;&#xA;						028-534 &amp;nbsp; Anhængertræk til OPEL  Astra-G Hatchback  3/98 - 8/99&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning:  aftageligt anhægertræk D-værdi: 8.50&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1500 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2860" supplier_part_number="028-533" name="&#xD;&#xA;						028-533 &amp;nbsp; Anhængertræk til OPEL  Astra-G Hatchback  3/98 - 8/99&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 8.50&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1500 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="339" supplier_part_number="010-978" name="&#xD;&#xA;						010-978 &amp;nbsp; Kabelsæt til OPEL  Astra-G Hatchback  3/98 - 8/99&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt R - op til 20 min.Bemærk: Forberedt til kabelsæt&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="404" supplier_part_number="011-378" name="&#xD;&#xA;						011-378 &amp;nbsp; Kabelsæt til OPEL  Astra-G Hatchback  3/98 - 8/99&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min.Bemærk: Uden forberedelse til elsæt. Hvis bilen er udstyret med checkkontrol, venligst bestil også ekstra monteringssæt 004-999&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="741" supplier_part_number="014-018" name="&#xD;&#xA;						014-018 &amp;nbsp; Kabelsæt til OPEL  Astra-G Hatchback  3/98 - 8/99&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-polet DIN m. samlet stikBiler med og uden checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min.Bemærk: Uden forberedelse til elsæt. Hvis bilen er udstyret med checkkontrol, venligst bestil også ekstra monteringssæt 004-999&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="026-412" name="&#xD;&#xA;						026-412 &amp;nbsp; Anhængertræk til OPEL  Astra-G Stationcar  3/98 - 8/99&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: FlangekugleD-værdi: 8.50&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1500 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="026-411" name="&#xD;&#xA;						026-411 &amp;nbsp; Anhængertræk til OPEL  Astra-G Stationcar  3/98 - 8/99&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 8.50&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1500 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="026-414" name="&#xD;&#xA;						026-414 &amp;nbsp; Anhængertræk til OPEL  Astra-G Stationcar  3/98 - 8/99&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning:  aftageligt anhægertræk D-værdi: 8.50&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1500 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2860" supplier_part_number="026-413" name="&#xD;&#xA;						026-413 &amp;nbsp; Anhængertræk til OPEL  Astra-G Stationcar  3/98 - 8/99&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 8.50&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1500 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="048-273" name="&#xD;&#xA;						048-273 &amp;nbsp; Anhængertræk til OPEL  Astra-G Stationcar  3/98 - 8/99&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning:  lodret aftageligt anhængertræk D-værdi: 8.50Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1500 / 75Monteringstid anh.træk B - op til 1½ timeBemærk: Inkl. M°1.6 CNG&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="339" supplier_part_number="010-978" reference="true" />
+        <Spare_Part_Price price_inc_vat="443" supplier_part_number="011-388" name="&#xD;&#xA;						011-388 &amp;nbsp; Kabelsæt til OPEL  Astra-G Stationcar  3/98 - 8/99&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min.Bemærk: Uden forberedelse til elsæt. Hvis bilen er udstyret med checkkontrol, venligst bestil også ekstra monteringssæt 004-999&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1005" supplier_part_number="013-609" name="&#xD;&#xA;						013-609 &amp;nbsp; Kabelsæt til OPEL  Astra-G Stationcar  3/98 - 8/99&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-polet DIN m. samlet stikBiler med og uden checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt V - op til 1 timeBemærk: Uden forberedelse til elsæt. Hvis bilen er udstyret med checkkontrol, venligst bestil også ekstra monteringssæt 004-999&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="028-531" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="028-534" reference="true" />
+        <Spare_Part_Price price_inc_vat="2860" supplier_part_number="028-533" reference="true" />
+        <Spare_Part_Price price_inc_vat="339" supplier_part_number="010-978" reference="true" />
+        <Spare_Part_Price price_inc_vat="404" supplier_part_number="011-378" reference="true" />
+        <Spare_Part_Price price_inc_vat="741" supplier_part_number="014-018" reference="true" />
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="028-531" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="028-534" reference="true" />
+        <Spare_Part_Price price_inc_vat="2860" supplier_part_number="028-533" reference="true" />
+        <Spare_Part_Price price_inc_vat="404" supplier_part_number="011-378" reference="true" />
+        <Spare_Part_Price price_inc_vat="358" supplier_part_number="011-678" name="&#xD;&#xA;						011-678 &amp;nbsp; Kabelsæt til OPEL  Astra-G Hatchback  9/99 - 04&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min.Bemærk: Forberedt til kabelsæt&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="344" supplier_part_number="014-318" name="&#xD;&#xA;						014-318 &amp;nbsp; Kabelsæt til OPEL  Astra-G Hatchback  9/99 - 04&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min.Bemærk: Forberedt til kabelsæt&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="741" supplier_part_number="014-018" reference="true" />
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="028-531" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="028-534" reference="true" />
+        <Spare_Part_Price price_inc_vat="2860" supplier_part_number="028-533" reference="true" />
+        <Spare_Part_Price price_inc_vat="404" supplier_part_number="011-378" reference="true" />
+        <Spare_Part_Price price_inc_vat="358" supplier_part_number="011-678" reference="true" />
+        <Spare_Part_Price price_inc_vat="344" supplier_part_number="014-318" reference="true" />
+        <Spare_Part_Price price_inc_vat="741" supplier_part_number="014-018" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="026-412" reference="true" />
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="026-411" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="026-414" reference="true" />
+        <Spare_Part_Price price_inc_vat="2860" supplier_part_number="026-413" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="048-273" reference="true" />
+        <Spare_Part_Price price_inc_vat="443" supplier_part_number="011-388" reference="true" />
+        <Spare_Part_Price price_inc_vat="358" supplier_part_number="011-678" reference="true" />
+        <Spare_Part_Price price_inc_vat="344" supplier_part_number="014-318" reference="true" />
+        <Spare_Part_Price price_inc_vat="1005" supplier_part_number="013-609" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="027-713" name="&#xD;&#xA;						027-713 &amp;nbsp; Anhængertræk til OPEL  Astra-G Cabriolet  6/00 - 2/06&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 8.81&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1500 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="027-713" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk opel Astra-H&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="027-391" name="&#xD;&#xA;						027-391 &amp;nbsp; Anhængertræk til OPEL  Astra-H Hatchback  3/04 - 09&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 8.97&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1650 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="027-394" name="&#xD;&#xA;						027-394 &amp;nbsp; Anhængertræk til OPEL  Astra-H Hatchback  3/04 - 09&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning:  aftageligt anhægertræk D-værdi: 8.97&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1650 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="048-053" name="&#xD;&#xA;						048-053 &amp;nbsp; Anhængertræk til OPEL  Astra-H Hatchback  3/04 - 09&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning:  lodret aftageligt anhængertræk D-værdi: 8.90&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1650 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1300" supplier_part_number="018-589" name="&#xD;&#xA;						018-589 &amp;nbsp; Kabelsæt til OPEL  Astra-H Hatchback  3/04 - 09&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt V - op til 1 timeBemærk: Kun for biler uden REC (Rear Electric Center = elboks bagi). " spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="859" supplier_part_number="016-698" name="&#xD;&#xA;						016-698 &amp;nbsp; Kabelsæt til OPEL  Astra-H Hatchback  3/04 - 09&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-polet DIN m. samlet stikBiler med checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt V - op til 1 timeBemærk: Kun for biler med REC (Rear Electric Center). REC skal aktiveres af forhandleren.&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1379" supplier_part_number="018-599" name="&#xD;&#xA;						018-599 &amp;nbsp; Kabelsæt til OPEL  Astra-H Hatchback  3/04 - 09&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt V - op til 1 timeBemærk: Kun for biler uden REC (Rear Electric Center = elboks bagi). " spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="950" supplier_part_number="017-808" name="&#xD;&#xA;						017-808 &amp;nbsp; Kabelsæt til OPEL  Astra-H Hatchback  3/04 - 09&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-polet DIN m. samlet stikBiler med checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt V - op til 1 timeBemærk: Kun for biler med REC (Rear Electric Center). REC skal aktiveres af forhandleren.&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="027-401" name="&#xD;&#xA;						027-401 &amp;nbsp; Anhængertræk til OPEL  Astra-H Stationcar  10/04 - 10&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 8.97&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1650 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="027-404" name="&#xD;&#xA;						027-404 &amp;nbsp; Anhængertræk til OPEL  Astra-H Stationcar  10/04 - 10&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning:  aftageligt anhægertræk D-værdi: 8.97&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1650 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2785" supplier_part_number="048-113" name="&#xD;&#xA;						048-113 &amp;nbsp; Anhængertræk til OPEL  Astra-H Stationcar  10/04 - 10&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning:  lodret aftageligt anhængertræk D-værdi: 8.97&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1650 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="5975" supplier_part_number="048-370" name="&#xD;&#xA;						048-370 &amp;nbsp; Anhængertræk til OPEL  Astra-H Stationcar  10/04 - 10&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: OrismaticD-værdi: 8.96Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1650 / 75Monteringstid anh.træk B - op til 1½ timeBemærk: 13-polet kabelsæt inkluderet. Det er ikke muligt at montere Twinny Load cykelholder med fastgørelse på kuglehovedet. Kun for biler med REC (Rear electric Center = elboks bagi). Udvidelsessæt til strømforsyning, bestil 020-229 (+15). Intet sikkerhedsø&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1224" supplier_part_number="018-609" name="&#xD;&#xA;						018-609 &amp;nbsp; Kabelsæt til OPEL  Astra-H Stationcar  10/04 - 10&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt T - op til 45 min.Bemærk: Kun for biler uden REC (Rear Electric Center = elboks bagi). " spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="859" supplier_part_number="016-698" reference="true" />
+        <Spare_Part_Price price_inc_vat="1379" supplier_part_number="018-619" name="&#xD;&#xA;						018-619 &amp;nbsp; Kabelsæt til OPEL  Astra-H Stationcar  10/04 - 10&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt T - op til 45 min.Bemærk: Kun for biler uden REC (Rear Electric Center = elboks bagi). " spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="950" supplier_part_number="017-808" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="027-401" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="027-404" reference="true" />
+        <Spare_Part_Price price_inc_vat="2785" supplier_part_number="048-113" reference="true" />
+        <Spare_Part_Price price_inc_vat="5975" supplier_part_number="048-370" reference="true" />
+        <Spare_Part_Price price_inc_vat="1224" supplier_part_number="018-609" reference="true" />
+        <Spare_Part_Price price_inc_vat="859" supplier_part_number="016-698" reference="true" />
+        <Spare_Part_Price price_inc_vat="1379" supplier_part_number="018-619" reference="true" />
+        <Spare_Part_Price price_inc_vat="950" supplier_part_number="017-808" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="027-391" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="027-394" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="048-053" reference="true" />
+        <Spare_Part_Price price_inc_vat="859" supplier_part_number="016-698" reference="true" />
+        <Spare_Part_Price price_inc_vat="950" supplier_part_number="017-808" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk opel Astra-J&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1408" supplier_part_number="037-051" name="&#xD;&#xA;						037-051 &amp;nbsp; Anhængertræk til OPEL  Astra-J Hatchback  9/09 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 9.60Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1500 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2318" supplier_part_number="037-054" name="&#xD;&#xA;						037-054 &amp;nbsp; Anhængertræk til OPEL  Astra-J Hatchback  9/09 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning:  aftageligt anhægertræk D-værdi: 9.60Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1500 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2751" supplier_part_number="037-053" name="&#xD;&#xA;						037-053 &amp;nbsp; Anhængertræk til OPEL  Astra-J Hatchback  9/09 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Vertikalt aftageligt kuglesystem (AK6)D-værdi: 9.60Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1500 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2751" supplier_part_number="049-093" name="&#xD;&#xA;						049-093 &amp;nbsp; Anhængertræk til OPEL  Astra-J Hatchback  9/09 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning:  lodret aftagelig anhængertræk D-værdi: 9.60Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1500 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1528" supplier_part_number="030-448" name="&#xD;&#xA;						030-448 &amp;nbsp; Kabelsæt til OPEL  Astra-J Hatchback  9/09 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-polet DIN m. samlet stikBiler med checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt W - over 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1623" supplier_part_number="030-458" name="&#xD;&#xA;						030-458 &amp;nbsp; Kabelsæt til OPEL  Astra-J Hatchback  9/09 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-polet DIN m. samlet stikBiler med checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt W - over 1 timeBemærk: Udvidelsessæt til strømforsyning, bestil 020-229 (+15)&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1861" supplier_part_number="029-511" name="&#xD;&#xA;						029-511 &amp;nbsp; Anhængertræk til OPEL  Astra-J Stationcar  12/10 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystem&#xD;&#xA;					&#xD;&#xA;						Monteringstid anh.træk" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-510" name="&#xD;&#xA;						029-510 &amp;nbsp; Anhængertræk til OPEL  Astra-J Stationcar  12/10 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: AK10&#xD;&#xA;					&#xD;&#xA;						Monteringstid anh.træk" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="049-903" name="&#xD;&#xA;						049-903 &amp;nbsp; Anhængertræk til OPEL  Astra-J Stationcar  12/10 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning:  lodret aftagelig anhængertræk &#xD;&#xA;					&#xD;&#xA;						Monteringstid anh.træk" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-628" name="&#xD;&#xA;						029-628 &amp;nbsp; Kabelsæt til OPEL  Astra-J Stationcar  12/10 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-polet&#xD;&#xA;						Monteringstid kabelsæt" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-638" name="&#xD;&#xA;						029-638 &amp;nbsp; Kabelsæt til OPEL  Astra-J Stationcar  12/10 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-polet&#xD;&#xA;						Monteringstid kabelsæt" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="037-541" name="&#xD;&#xA;						037-541 &amp;nbsp; Anhængertræk til OPEL  Astra-J Coupé  6/11 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystem&#xD;&#xA;					&#xD;&#xA;						Monteringstid anh.træk" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="048-503" name="&#xD;&#xA;						048-503 &amp;nbsp; Anhængertræk til OPEL  Astra-J Coupé  6/11 -&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning:  lodret aftagelig anhængertræk &#xD;&#xA;					&#xD;&#xA;						Monteringstid anh.træk" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="037-248" name="&#xD;&#xA;						037-248 &amp;nbsp; Kabelsæt til OPEL  Astra-J Coupé  6/11 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-polet&#xD;&#xA;						Monteringstid kabelsæt" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="037-258" name="&#xD;&#xA;						037-258 &amp;nbsp; Kabelsæt til OPEL  Astra-J Coupé  6/11 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-polet&#xD;&#xA;						Monteringstid kabelsæt" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk opel Corsa-A&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="011-562" name="&#xD;&#xA;						011-562 &amp;nbsp; Anhængertræk til OPEL  Corsa-A Hatchback 82 - 93&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Svejst kuglesystemD-værdi: 5.72Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1000 / 50Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk opel Corsa-B&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="018-522" name="&#xD;&#xA;						018-522 &amp;nbsp; Anhængertræk til OPEL  Corsa-B Hatchback  3/93 - 9/00&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 6.39Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1100 / 50Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="356" supplier_part_number="005-898" name="&#xD;&#xA;						005-898 &amp;nbsp; Kabelsæt til OPEL  Corsa-B Hatchback  3/93 - 9/00&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk opel Corsa-B-Combo&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1406" supplier_part_number="023-171" name="&#xD;&#xA;						023-171 &amp;nbsp; Anhængertræk til OPEL  Corsa-B Lille varevogn 94 - 8/01&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 7.06&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1200 / 50Trækkugle dækker for nummerpladeMonteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="023-173" name="&#xD;&#xA;						023-173 &amp;nbsp; Anhængertræk til OPEL  Corsa-B Lille varevogn 94 - 8/01&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 7.06&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1200 / 50Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="009-468" name="&#xD;&#xA;						009-468 &amp;nbsp; Kabelsæt til OPEL  Corsa-B Lille varevogn 94 - 8/01&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min.Bemærk: Ikke forberedt til kabelsæt&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1406" supplier_part_number="023-171" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="023-173" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="009-468" reference="true" />
+        <Spare_Part_Price price_inc_vat="1406" supplier_part_number="023-171" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="023-173" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="009-468" reference="true" />
+        <Spare_Part_Price price_inc_vat="1406" supplier_part_number="023-171" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="023-173" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="009-468" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk opel Corsa-C&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="033-201" name="&#xD;&#xA;						033-201 &amp;nbsp; Anhængertræk til OPEL  Corsa-C Hatchback  10/00 - 8/03&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 7.10Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1200 / 50Trækkugle dækker for nummerpladeMonteringstid anh.træk C - op til 2 timer" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="033-204" name="&#xD;&#xA;						033-204 &amp;nbsp; Anhængertræk til OPEL  Corsa-C Hatchback  10/00 - 8/03&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning:  aftageligt anhægertræk D-værdi: 7.10Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1200 / 50Monteringstid anh.træk C - op til 2 timer" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="675" supplier_part_number="015-118" name="&#xD;&#xA;						015-118 &amp;nbsp; Kabelsæt til OPEL  Corsa-C Hatchback  10/00 - 8/03&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min.Bemærk: Uden forberedelse til elsæt. Hvis bilen er udstyret med checkkontrol, venligst bestil også ekstra monteringssæt 004-999&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="033-201" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="033-204" reference="true" />
+        <Spare_Part_Price price_inc_vat="675" supplier_part_number="015-118" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk opel Corsa-C-Combo&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="023-892" name="023-892 &amp;nbsp; Anhængertræk til OPEL  Corsa-C Lille varevogn  9/01 -" description="Trækanordning: Højdejusterbart kuglesystemD-værdi: 7.49Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1200 / 50Monteringstid anh.træk B - op til 1½ timeBemærk: 4-huls flangekugle (022-834) mulig med udvidelsessæt 019-554" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="023-891" name="023-891 &amp;nbsp; Anhængertræk til OPEL  Corsa-C Lille varevogn  9/01 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 7.49Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1200 / 50Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="508" supplier_part_number="014-998" name="014-998 &amp;nbsp; Kabelsæt til OPEL  Corsa-C Lille varevogn  9/01 -" description="Polaritet = 7-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="023-892" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="023-891" reference="true" />
+        <Spare_Part_Price price_inc_vat="508" supplier_part_number="014-998" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="023-892" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="023-891" reference="true" />
+        <Spare_Part_Price price_inc_vat="508" supplier_part_number="014-998" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="023-892" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="023-891" reference="true" />
+        <Spare_Part_Price price_inc_vat="508" supplier_part_number="014-998" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk opel Corsa-D&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="043-171" name="043-171 &amp;nbsp; Anhængertræk til OPEL  Corsa-D Hatchback  10/06 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 7.66Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1350 / 55Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="043-174" name="043-174 &amp;nbsp; Anhængertræk til OPEL  Corsa-D Hatchback  10/06 -" description="Trækanordning:  aftageligt anhægertræk D-værdi: 7.66Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1350 / 55Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="043-173" name="043-173 &amp;nbsp; Anhængertræk til OPEL  Corsa-D Hatchback  10/06 -" description="Trækanordning: Vertikalt aftageligt kuglesystem (AK6)D-værdi: 7.66Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1350 / 55Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3280" supplier_part_number="048-743" name="048-743 &amp;nbsp; Anhængertræk til OPEL  Corsa-D Hatchback  10/06 -" description="Trækanordning:  lodret aftageligt anhængertræk D-værdi: 7.66Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1350 / 55Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="995" supplier_part_number="043-458" name="043-458 &amp;nbsp; Kabelsæt til OPEL  Corsa-D Hatchback  10/06 -" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt V - op til 1 time" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk opel Frontera&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="018-132" name="018-132 &amp;nbsp; Anhængertræk til OPEL  Frontera APV 91 - 96" description="Trækanordning: Standard fast kuglesystemD-værdi: 12.38&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2500 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="725" supplier_part_number="009-688" name="009-688 &amp;nbsp; Kabelsæt til OPEL  Frontera APV 91 - 96" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min.Bemærk: Forberedt til kabelsæt" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="854" supplier_part_number="008-428" name="008-428 &amp;nbsp; Kabelsæt til OPEL  Frontera APV 91 - 96" description="Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min.Bemærk: Forberedt til kabelsæt" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="018-132" reference="true" />
+        <Spare_Part_Price price_inc_vat="725" supplier_part_number="009-688" reference="true" />
+        <Spare_Part_Price price_inc_vat="1356" supplier_part_number="013-308" name="013-308 &amp;nbsp; Kabelsæt til OPEL  Frontera APV 97 - 9/98" description="Polaritet = 13-polet DIN m. samlet stikStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="022-581" name="022-581 &amp;nbsp; Anhængertræk til OPEL  Frontera APV  10/98 - 06" description="Trækanordning: Standard fast kuglesystemD-værdi: 12.90&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2800 / 112Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1131" supplier_part_number="011-358" name="011-358 &amp;nbsp; Kabelsæt til OPEL  Frontera APV  10/98 - 06" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min.Bemærk: Til biler med chassisnummer (VIN nr.) fra XV6246571." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="043-888" name="043-888 &amp;nbsp; Kabelsæt til OPEL  Frontera APV  10/98 - 06" description="Polaritet = 13-poletBiler med checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt W - over 1 timeBemærk: Forberedt til kabelsæt" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk opel Frontera-Sport&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="020-731" name="020-731 &amp;nbsp; Anhængertræk til OPEL  Frontera APV 92 - 96" description="Trækanordning: Standard fast kuglesystemD-værdi: 13.09&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2800 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="725" supplier_part_number="009-688" reference="true" />
+        <Spare_Part_Price price_inc_vat="854" supplier_part_number="008-428" reference="true" />
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="020-731" reference="true" />
+        <Spare_Part_Price price_inc_vat="725" supplier_part_number="009-688" reference="true" />
+        <Spare_Part_Price price_inc_vat="854" supplier_part_number="008-428" reference="true" />
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="020-731" reference="true" />
+        <Spare_Part_Price price_inc_vat="725" supplier_part_number="009-688" reference="true" />
+        <Spare_Part_Price price_inc_vat="854" supplier_part_number="008-428" reference="true" />
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="020-731" reference="true" />
+        <Spare_Part_Price price_inc_vat="725" supplier_part_number="009-688" reference="true" />
+        <Spare_Part_Price price_inc_vat="854" supplier_part_number="008-428" reference="true" />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="018-132" reference="true" />
+        <Spare_Part_Price price_inc_vat="725" supplier_part_number="009-688" reference="true" />
+        <Spare_Part_Price price_inc_vat="1356" supplier_part_number="013-308" reference="true" />
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="020-731" reference="true" />
+        <Spare_Part_Price price_inc_vat="725" supplier_part_number="009-688" reference="true" />
+        <Spare_Part_Price price_inc_vat="1356" supplier_part_number="013-308" reference="true" />
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="020-731" reference="true" />
+        <Spare_Part_Price price_inc_vat="725" supplier_part_number="009-688" reference="true" />
+        <Spare_Part_Price price_inc_vat="1356" supplier_part_number="013-308" reference="true" />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="022-581" reference="true" />
+        <Spare_Part_Price price_inc_vat="1131" supplier_part_number="011-358" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="043-888" reference="true" />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="022-581" reference="true" />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="022-581" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk opel Insignia&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1746" supplier_part_number="037-061" name="037-061 &amp;nbsp; Anhængertræk til OPEL  Insignia Stationcar  10/08 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 11.30Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2125 / 85Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="4503" supplier_part_number="049-103" name="049-103 &amp;nbsp; Anhængertræk til OPEL  Insignia Stationcar  10/08 -" description="Trækanordning:  lodret aftagelig anhængertræk D-værdi: 11.30Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2125 / 85Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1231" supplier_part_number="030-968" name="030-968 &amp;nbsp; Kabelsæt til OPEL  Insignia Stationcar  10/08 -" description="Polaritet = 7-poletStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt W - over 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="469" supplier_part_number="030-468" name="030-468 &amp;nbsp; Kabelsæt til OPEL  Insignia Stationcar  10/08 -" description="Polaritet = 7-polet DIN m. samlet stikBiler med checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt S - op til 30 min.Bemærk: -&gt;I VIN nr. GM87C891067386" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1313" supplier_part_number="030-978" name="030-978 &amp;nbsp; Kabelsæt til OPEL  Insignia Stationcar  10/08 -" description="Polaritet = 13-poletStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt W - over 1 timeBemærk: Udvidelsessæt til strømforsyning, bestil 014-169 (+30) eller 015-069 (+15/+30)." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="530" supplier_part_number="030-478" name="030-478 &amp;nbsp; Kabelsæt til OPEL  Insignia Stationcar  10/08 -" description="Polaritet = 13-polet DIN m. samlet stikBiler med checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt S - op til 30 min.Bemærk: -&gt;I VIN nr. GM87C891067386. Udvidelsessæt til strømforsyning, bestil 014-169 (+30) eller 015-069 (+15/+30)." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1688" supplier_part_number="036-461" name="036-461 &amp;nbsp; Anhængertræk til OPEL  Insignia Hatchback, Sedan  7/08 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 11.67Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2125 / 85Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3588" supplier_part_number="036-463" name="036-463 &amp;nbsp; Anhængertræk til OPEL  Insignia Hatchback, Sedan  7/08 -" description="Trækanordning: Vertikalt aftageligt kuglesystem (AK6)D-værdi: 11.67Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2125 / 85Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3508" supplier_part_number="048-933" name="048-933 &amp;nbsp; Anhængertræk til OPEL  Insignia Hatchback, Sedan  7/08 -" description="Trækanordning:  lodret aftagelig anhængertræk D-værdi: 11.67Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2125 / 85Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1005" supplier_part_number="034-748" name="034-748 &amp;nbsp; Kabelsæt til OPEL  Insignia Hatchback, Sedan  7/08 -" description="Polaritet = 7-poletBiler med checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt W - over 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1199" supplier_part_number="034-758" name="034-758 &amp;nbsp; Kabelsæt til OPEL  Insignia Hatchback, Sedan  7/08 -" description="Polaritet = 13-poletBiler med checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt W - over 1 timeBemærk: Udvidelsessæt til strømforsyning, bestil 014-169 (+30) eller 015-069 (+15/+30)." spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk opel Kadett-E&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="013-252" name="013-252 &amp;nbsp; Anhængertræk til OPEL  Kadett-E Hatchback, Cabriolet 84 - 91" description="Trækanordning: Svejst kuglesystemD-værdi: 6.82Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1200 / 50Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="405" supplier_part_number="005-918" name="005-918 &amp;nbsp; Kabelsæt til OPEL  Kadett-E Hatchback, Cabriolet 84 - 91" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min.Bemærk: Ikke forberedt til kabelsæt" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="305" supplier_part_number="005-928" name="005-928 &amp;nbsp; Kabelsæt til OPEL  Kadett-E Hatchback, Cabriolet 84 - 91" description="Polaritet = 7-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min.Bemærk: Forberedt til kabelsæt" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="739" supplier_part_number="008-338" name="008-338 &amp;nbsp; Kabelsæt til OPEL  Kadett-E Hatchback, Cabriolet 84 - 91" description="Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min.Bemærk: Ikke forberedt til kabelsæt" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="013-272" name="013-272 &amp;nbsp; Anhængertræk til OPEL  Kadett-E Stationcar 84 - 91" description="Trækanordning: Svejst kuglesystemD-værdi: 6.90&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1200 / 50Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="378" supplier_part_number="005-938" name="005-938 &amp;nbsp; Kabelsæt til OPEL  Kadett-E Stationcar 84 - 91" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="669" supplier_part_number="008-348" name="008-348 &amp;nbsp; Kabelsæt til OPEL  Kadett-E Stationcar 84 - 91" description="Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk opel Meriva-A&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="031-081" name="031-081 &amp;nbsp; Anhængertræk til OPEL  Meriva-A MPV 03 - 4/10" description="Trækanordning: Standard fast kuglesystemD-værdi: 7.73Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1300 / 60Trækkugle dækker for nummerpladeMonteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="031-084" name="031-084 &amp;nbsp; Anhængertræk til OPEL  Meriva-A MPV 03 - 4/10" description="Trækanordning:  aftageligt anhægertræk D-værdi: 7.73Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1300 / 60Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2990" supplier_part_number="048-073" name="048-073 &amp;nbsp; Anhængertræk til OPEL  Meriva-A MPV 03 - 4/10" description="Trækanordning:  lodret aftageligt anhængertræk D-værdi: 8.25Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1450 / 60Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="391" supplier_part_number="018-449" name="018-449 &amp;nbsp; Kabelsæt til OPEL  Meriva-A MPV 03 - 4/10" description="Polaritet = 7-polet DIN m. samlet stikStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="508" supplier_part_number="018-459" name="018-459 &amp;nbsp; Kabelsæt til OPEL  Meriva-A MPV 03 - 4/10" description="Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min.Bemærk: Udvidelsessæt til strømforsyning, bestil venligst 015-069 (+15/+30)." spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk opel Meriva-B&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1700" supplier_part_number="037-081" name="037-081 &amp;nbsp; Anhængertræk til OPEL  Meriva-B MPV  5/10 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 8.96&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1500 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2805" supplier_part_number="037-083" name="037-083 &amp;nbsp; Anhængertræk til OPEL  Meriva-B MPV  5/10 -" description="Trækanordning: Vertikalt aftageligt kuglesystem (AK6)D-værdi: 8.96&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1500 / 75Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="030-508" name="030-508 &amp;nbsp; Kabelsæt til OPEL  Meriva-B MPV  5/10 -" description="Polaritet = 7-poletBiler med checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt W - over 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="030-518" name="030-518 &amp;nbsp; Kabelsæt til OPEL  Meriva-B MPV  5/10 -" description="Polaritet = 13-poletBiler med checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt W - over 1 timeBemærk: Udvidelsessæt til strømforsyning, bestil 020-229 (+15)" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk opel Monterey&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="018-862" name="018-862 &amp;nbsp; Anhængertræk til OPEL  Monterey APV 92 - 96" description="Trækanordning: Standard fast kuglesystemD-værdi: 14.86&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 3300 / 135Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="590" supplier_part_number="010-268" name="010-268 &amp;nbsp; Kabelsæt til OPEL  Monterey APV 92 - 96" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="018-862" reference="true" />
+        <Spare_Part_Price price_inc_vat="590" supplier_part_number="010-268" reference="true" />
+        <Spare_Part_Price price_inc_vat="1204" supplier_part_number="013-298" name="013-298 &amp;nbsp; Kabelsæt til OPEL  Monterey APV 97 - 00" description="Polaritet = 13-polet DIN m. samlet stikStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk opel Movano&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="041-011" reference="true" />
+        <Spare_Part_Price price_inc_vat="450" supplier_part_number="010-958" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="041-011" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="041-011" reference="true" />
+        <Spare_Part_Price price_inc_vat="514" supplier_part_number="028-168" reference="true" />
+        <Spare_Part_Price price_inc_vat="2190" supplier_part_number="029-792" name="029-792 &amp;nbsp; Anhængertræk til OPEL  Movano Varevogn, Minibus  4/10 -" description="Trækanordning: Højdejusterbart kuglesystemD-værdi: 14.31&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2500 / 100Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="034-178" name="034-178 &amp;nbsp; Kabelsæt til OPEL  Movano Varevogn, Minibus  4/10 -" description="Polaritet = 7-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt V - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2190" supplier_part_number="029-792" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="034-178" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk opel Omega-A&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="014-862" name="014-862 &amp;nbsp; Anhængertræk til OPEL  Omega-A Sedan 86 - 3/94" description="Trækanordning: Standard fast kuglesystemD-værdi: 9.65Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1850 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="416" supplier_part_number="005-968" name="005-968 &amp;nbsp; Kabelsæt til OPEL  Omega-A Sedan 86 - 3/94" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min.Bemærk: Ikke forberedt til kabelsæt" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="416" supplier_part_number="005-958" name="005-958 &amp;nbsp; Kabelsæt til OPEL  Omega-A Sedan 86 - 3/94" description="Polaritet = 7-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min.Bemærk: Forberedt til kabelsæt og med 7-polet stik (sort)" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="378" supplier_part_number="005-978" name="005-978 &amp;nbsp; Kabelsæt til OPEL  Omega-A Sedan 86 - 3/94" description="Polaritet = 7-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min.Bemærk: Forberedt til kabelsæt og med 9-polet stik (hvid)" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="640" supplier_part_number="008-368" name="008-368 &amp;nbsp; Kabelsæt til OPEL  Omega-A Sedan 86 - 3/94" description="Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min.Bemærk: Ikke forberedt til kabelsæt" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="725" supplier_part_number="008-358" name="008-358 &amp;nbsp; Kabelsæt til OPEL  Omega-A Sedan 86 - 3/94" description="Polaritet = 13-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min.Bemærk: Forberedt til kabelsæt og med 9-polet stik (hvid)" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="653" supplier_part_number="008-378" name="008-378 &amp;nbsp; Kabelsæt til OPEL  Omega-A Sedan 86 - 3/94" description="Polaritet = 13-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min.Bemærk: Forberedt til kabelsæt og med 7-polet stik (sort)" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="014-902" name="014-902 &amp;nbsp; Anhængertræk til OPEL  Omega-A Stationcar 86 - 3/94" description="Trækanordning: Svejst kuglesystemD-værdi: 10.05Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2000 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="416" supplier_part_number="005-958" reference="true" />
+        <Spare_Part_Price price_inc_vat="378" supplier_part_number="005-978" reference="true" />
+        <Spare_Part_Price price_inc_vat="743" supplier_part_number="013-458" name="013-458 &amp;nbsp; Kabelsæt til OPEL  Omega-A Stationcar 86 - 3/94" description="Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min.Bemærk: Ikke forberedt til kabelsæt" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="725" supplier_part_number="008-358" reference="true" />
+        <Spare_Part_Price price_inc_vat="653" supplier_part_number="008-378" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk opel Omega-B&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="019-892" name="019-892 &amp;nbsp; Anhængertræk til OPEL  Omega-B Stationcar  3/94 - 8/99" description="Trækanordning: Standard fast kuglesystemD-værdi: 10.99Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2100 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="455" supplier_part_number="005-988" name="005-988 &amp;nbsp; Kabelsæt til OPEL  Omega-B Stationcar  3/94 - 8/99" description="Polaritet = 7-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt R - op til 20 min.Bemærk: Uden forberedelse til elsæt. Hvis bilen er udstyret med checkkontrol, venligst bestil også ekstra monteringssæt 006-008" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="431" supplier_part_number="009-168" name="009-168 &amp;nbsp; Kabelsæt til OPEL  Omega-B Stationcar  3/94 - 8/99" description="Polaritet = 7-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min.Bemærk: Forberedt til kabelsæt" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="026-651" name="026-651 &amp;nbsp; Anhængertræk til OPEL  Omega-B Sedan  3/94 - 8/99" description="Trækanordning: Standard fast kuglesystemD-værdi: 10.99Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2100 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="026-653" name="026-653 &amp;nbsp; Anhængertræk til OPEL  Omega-B Sedan  3/94 - 8/99" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 10.99Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2100 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="615" supplier_part_number="006-798" name="006-798 &amp;nbsp; Kabelsæt til OPEL  Omega-B Sedan  3/94 - 8/99" description="Polaritet = 7-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min.Bemærk: Uden forberedelse til elsæt. Hvis bilen er udstyret med checkkontrol, venligst bestil også ekstra monteringssæt 006-008" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="673" supplier_part_number="008-398" name="008-398 &amp;nbsp; Kabelsæt til OPEL  Omega-B Sedan  3/94 - 8/99" description="Polaritet = 13-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min.Bemærk: Forberedt til kabelsæt" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="019-892" reference="true" />
+        <Spare_Part_Price price_inc_vat="455" supplier_part_number="005-988" reference="true" />
+        <Spare_Part_Price price_inc_vat="431" supplier_part_number="009-168" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="026-651" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="026-653" reference="true" />
+        <Spare_Part_Price price_inc_vat="615" supplier_part_number="006-798" reference="true" />
+        <Spare_Part_Price price_inc_vat="358" supplier_part_number="011-678" reference="true" />
+        <Spare_Part_Price price_inc_vat="344" supplier_part_number="014-318" reference="true" />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="019-892" reference="true" />
+        <Spare_Part_Price price_inc_vat="455" supplier_part_number="005-988" reference="true" />
+        <Spare_Part_Price price_inc_vat="358" supplier_part_number="011-678" reference="true" />
+        <Spare_Part_Price price_inc_vat="344" supplier_part_number="014-318" reference="true" />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="019-892" reference="true" />
+        <Spare_Part_Price price_inc_vat="455" supplier_part_number="005-988" reference="true" />
+        <Spare_Part_Price price_inc_vat="358" supplier_part_number="011-678" reference="true" />
+        <Spare_Part_Price price_inc_vat="344" supplier_part_number="014-318" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk opel Senator&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="015-431" name="015-431 &amp;nbsp; Anhængertræk til OPEL  Senator Sedan 87 - 93" description="Trækanordning: Svejst kuglesystem&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2000 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="416" supplier_part_number="005-958" reference="true" />
+        <Spare_Part_Price price_inc_vat="653" supplier_part_number="008-378" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk opel Signum&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="028-401" name="028-401 &amp;nbsp; Anhængertræk til OPEL  Signum Hatchback 03 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 10.45&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1950 / 78Monteringstid anh.træk C - op til 2 timer" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3456" supplier_part_number="028-403" name="028-403 &amp;nbsp; Anhængertræk til OPEL  Signum Hatchback 03 -" description="Trækanordning: Vertikalt aftageligt kuglesystem (AK6)D-værdi: 10.45&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1950 / 78Monteringstid anh.træk C - op til 2 timer" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="048-143" name="048-143 &amp;nbsp; Anhængertræk til OPEL  Signum Hatchback 03 -" description="Trækanordning:  lodret aftageligt anhængertræk D-værdi: 10.45&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1950 / 78Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="719" supplier_part_number="016-318" name="016-318 &amp;nbsp; Kabelsæt til OPEL  Signum Hatchback 03 -" description="Polaritet = 7-poletBiler med checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt R - op til 20 min.Bemærk: Kun for biler med REC (Rear Electric Center). REC skal aktiveres af forhandleren." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="866" supplier_part_number="016-268" name="016-268 &amp;nbsp; Kabelsæt til OPEL  Signum Hatchback 03 -" description="Polaritet = 13-polet DIN m. samlet stikBiler med checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt R - op til 20 min." spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk opel Sintra&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="023-181" name="023-181 &amp;nbsp; Anhængertræk til OPEL  Sintra MPV 96 - 00" description="Trækanordning: Standard fast kuglesystemD-værdi: 10.80&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1820 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="023-183" name="023-183 &amp;nbsp; Anhængertræk til OPEL  Sintra MPV 96 - 00" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 10.80&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1820 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="010-038" name="010-038 &amp;nbsp; Kabelsæt til OPEL  Sintra MPV 96 - 00" description="Polaritet = 7-poletBiler med checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk opel Vectra-A&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1330" supplier_part_number="018-942" name="018-942 &amp;nbsp; Anhængertræk til OPEL  Vectra-A Sedan 88 - 9/95" description="Trækanordning: Standard fast kuglesystemD-værdi: 8.58&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1700 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="006-028" name="006-028 &amp;nbsp; Kabelsæt til OPEL  Vectra-A Sedan 88 - 9/95" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min.Bemærk: Ikke forberedt til kabelsæt" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="356" supplier_part_number="006-038" reference="true" />
+        <Spare_Part_Price price_inc_vat="679" supplier_part_number="008-418" name="008-418 &amp;nbsp; Kabelsæt til OPEL  Vectra-A Sedan 88 - 9/95" description="Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min.Bemærk: Ikke forberedt til kabelsæt" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="008-328" reference="true" />
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="019-032" name="019-032 &amp;nbsp; Anhængertræk til OPEL  Vectra-A Hatchback 88 - 9/95" description="Trækanordning: Standard fast kuglesystemD-værdi: 8.58&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1700 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2860" supplier_part_number="019-033" name="019-033 &amp;nbsp; Anhængertræk til OPEL  Vectra-A Hatchback 88 - 9/95" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 9.25&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2000 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="006-028" reference="true" />
+        <Spare_Part_Price price_inc_vat="356" supplier_part_number="006-038" reference="true" />
+        <Spare_Part_Price price_inc_vat="679" supplier_part_number="008-418" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="008-328" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk opel Vectra-B&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1693" supplier_part_number="024-511" name="024-511 &amp;nbsp; Anhængertræk til OPEL  Vectra-B Hatchback, Sedan  10/95 - 8/98" description="Trækanordning: Standard fast kuglesystemD-værdi: 9.22&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1700 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="020-703" name="020-703 &amp;nbsp; Anhængertræk til OPEL  Vectra-B Hatchback, Sedan  10/95 - 8/98" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 9.22&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1700 / 75Monteringstid anh.træk A  - op til 1 timeBemærk: Tidligere/erstattet model: Specialpris" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="024-513" name="024-513 &amp;nbsp; Anhængertræk til OPEL  Vectra-B Hatchback, Sedan  10/95 - 8/98" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 9.22&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1700 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="384" supplier_part_number="004-458" name="004-458 &amp;nbsp; Kabelsæt til OPEL  Vectra-B Hatchback, Sedan  10/95 - 8/98" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt R - op til 20 min.Bemærk: Ikke forberedt til kabelsæt" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="523" supplier_part_number="004-058" name="004-058 &amp;nbsp; Kabelsæt til OPEL  Vectra-B Hatchback, Sedan  10/95 - 8/98" description="Polaritet = 7-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt R - op til 20 min.Bemærk: Uden forberedelse til elsæt. Hvis bilen er udstyret med checkkontrol, venligst bestil også ekstra monteringssæt 004-999" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="323" supplier_part_number="004-918" name="004-918 &amp;nbsp; Kabelsæt til OPEL  Vectra-B Hatchback, Sedan  10/95 - 8/98" description="Polaritet = 7-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt R - op til 20 min.Bemærk: Forberedt til kabelsæt" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="614" supplier_part_number="007-308" name="007-308 &amp;nbsp; Kabelsæt til OPEL  Vectra-B Hatchback, Sedan  10/95 - 8/98" description="Polaritet = 13-polet DIN m. samlet stikBiler med og uden checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min.Bemærk: Forberedt til kabelsæt" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1683" supplier_part_number="024-491" name="024-491 &amp;nbsp; Anhængertræk til OPEL  Vectra-B Stationcar 96 - 8/98" description="Trækanordning: Standard fast kuglesystemD-værdi: 9.22&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1700 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="024-493" name="024-493 &amp;nbsp; Anhængertræk til OPEL  Vectra-B Stationcar 96 - 8/98" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 9.22&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1700 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="373" supplier_part_number="009-188" name="009-188 &amp;nbsp; Kabelsæt til OPEL  Vectra-B Stationcar 96 - 8/98" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="960" supplier_part_number="009-178" name="009-178 &amp;nbsp; Kabelsæt til OPEL  Vectra-B Stationcar 96 - 8/98" description="Polaritet = 7-poletBiler med checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="323" supplier_part_number="004-918" reference="true" />
+        <Spare_Part_Price price_inc_vat="2001" supplier_part_number="008-848" name="008-848 &amp;nbsp; Kabelsæt til OPEL  Vectra-B Stationcar 96 - 8/98" description="Polaritet = 13-poletBiler med checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="614" supplier_part_number="007-308" reference="true" />
+        <Spare_Part_Price price_inc_vat="1683" supplier_part_number="024-491" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="024-493" reference="true" />
+        <Spare_Part_Price price_inc_vat="373" supplier_part_number="009-188" reference="true" />
+        <Spare_Part_Price price_inc_vat="960" supplier_part_number="009-178" reference="true" />
+        <Spare_Part_Price price_inc_vat="358" supplier_part_number="011-678" reference="true" />
+        <Spare_Part_Price price_inc_vat="2001" supplier_part_number="008-848" reference="true" />
+        <Spare_Part_Price price_inc_vat="344" supplier_part_number="014-318" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="026-472" name="026-472 &amp;nbsp; Anhængertræk til OPEL  Vectra-B Hatchback, Sedan  9/98 - 5/02" description="Trækanordning: FlangekugleD-værdi: 9.30&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1700 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="026-471" name="026-471 &amp;nbsp; Anhængertræk til OPEL  Vectra-B Hatchback, Sedan  9/98 - 5/02" description="Trækanordning: Standard fast kuglesystemD-værdi: 9.30&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1700 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2860" supplier_part_number="026-473" name="026-473 &amp;nbsp; Anhængertræk til OPEL  Vectra-B Hatchback, Sedan  9/98 - 5/02" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 9.30&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1700 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="384" supplier_part_number="004-458" reference="true" />
+        <Spare_Part_Price price_inc_vat="523" supplier_part_number="004-058" reference="true" />
+        <Spare_Part_Price price_inc_vat="358" supplier_part_number="011-678" reference="true" />
+        <Spare_Part_Price price_inc_vat="344" supplier_part_number="014-318" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk opel Vectra-C&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="024-521" name="024-521 &amp;nbsp; Anhængertræk til OPEL  Vectra-C Hatchback, Sedan  6/02 - 08" description="Trækanordning: Standard fast kuglesystemD-værdi: 10.25&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1950 / 78Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="048-003" name="048-003 &amp;nbsp; Anhængertræk til OPEL  Vectra-C Hatchback, Sedan  6/02 - 08" description="Trækanordning:  lodret aftageligt anhængertræk D-værdi: 10.25&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1950 / 78Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1296" supplier_part_number="015-328" name="015-328 &amp;nbsp; Kabelsæt til OPEL  Vectra-C Hatchback, Sedan  6/02 - 08" description="Polaritet = 7-poletBiler med checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt R - op til 20 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="719" supplier_part_number="016-318" reference="true" />
+        <Spare_Part_Price price_inc_vat="866" supplier_part_number="016-268" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="031-791" name="031-791 &amp;nbsp; Anhængertræk til OPEL  Vectra-C Stationcar 03 - 08" description="Trækanordning: Standard fast kuglesystemD-værdi: 10.72&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2125 / 85Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="031-793" name="031-793 &amp;nbsp; Anhængertræk til OPEL  Vectra-C Stationcar 03 - 08" description="Trækanordning: Vertikalt aftageligt kuglesystem (AK6)D-værdi: 10.72&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2125 / 85Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="4658" supplier_part_number="048-153" name="048-153 &amp;nbsp; Anhængertræk til OPEL  Vectra-C Stationcar 03 - 08" description="Trækanordning:  lodret aftageligt anhængertræk D-værdi: 10.72&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2125 / 85Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="719" supplier_part_number="016-318" reference="true" />
+        <Spare_Part_Price price_inc_vat="866" supplier_part_number="016-268" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk opel Vivaro&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="045-192" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="027-143" reference="true" />
+        <Spare_Part_Price price_inc_vat="650" supplier_part_number="015-338" reference="true" />
+        <Spare_Part_Price price_inc_vat="665" supplier_part_number="015-598" reference="true" />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="045-192" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="027-143" reference="true" />
+        <Spare_Part_Price price_inc_vat="650" supplier_part_number="015-338" reference="true" />
+        <Spare_Part_Price price_inc_vat="665" supplier_part_number="015-598" reference="true" />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="045-192" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="027-143" reference="true" />
+        <Spare_Part_Price price_inc_vat="401" supplier_part_number="042-138" reference="true" />
+        <Spare_Part_Price price_inc_vat="626" supplier_part_number="042-148" reference="true" />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="045-192" reference="true" />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="027-143" reference="true" />
+        <Spare_Part_Price price_inc_vat="401" supplier_part_number="042-138" reference="true" />
+        <Spare_Part_Price price_inc_vat="626" supplier_part_number="042-148" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk opel Zafira-A&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="026-911" name="026-911 &amp;nbsp; Anhængertræk til OPEL  Zafira-A MPV 98 - 8/99" description="Trækanordning: Standard fast kuglesystemD-værdi: 8.91&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1500 / 75Monteringstid anh.træk A  - op til 1 timeBemærk: OBS: Se venligst vejledningen fra bilproducenten vedr. brug af anhængertræk" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="026-913" name="026-913 &amp;nbsp; Anhængertræk til OPEL  Zafira-A MPV 98 - 8/99" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 8.91&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1500 / 75Monteringstid anh.træk A  - op til 1 timeBemærk: OBS: Se venligst vejledningen fra bilproducenten vedr. brug af anhængertræk" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="048-203" name="048-203 &amp;nbsp; Anhængertræk til OPEL  Zafira-A MPV 98 - 8/99" description="Trækanordning:  lodret aftageligt anhængertræk D-værdi: 8.91Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1500 / 75Monteringstid anh.træk B - op til 1½ timeBemærk: Bestil OE dækprop 90 599 824 - 14 05 474" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="275" supplier_part_number="015-668" name="015-668 &amp;nbsp; Kabelsæt til OPEL  Zafira-A MPV 98 - 8/99" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min.Bemærk: Kun for biler med checkkontrol." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="339" supplier_part_number="010-978" reference="true" />
+        <Spare_Part_Price price_inc_vat="416" supplier_part_number="011-428" name="011-428 &amp;nbsp; Kabelsæt til OPEL  Zafira-A MPV 98 - 8/99" description="Polaritet = 7-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min.Bemærk: Uden forberedelse til elsæt. Hvis bilen er udstyret med checkkontrol, venligst bestil også ekstra monteringssæt 004-999" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1219" supplier_part_number="014-068" name="014-068 &amp;nbsp; Kabelsæt til OPEL  Zafira-A MPV 98 - 8/99" description="Polaritet = 13-polet DIN m. samlet stikBiler med og uden checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min.Bemærk: Uden forberedelse til elsæt. Hvis bilen er udstyret med checkkontrol, venligst bestil også ekstra monteringssæt 004-999" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="026-911" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="026-913" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="048-203" reference="true" />
+        <Spare_Part_Price price_inc_vat="275" supplier_part_number="015-668" reference="true" />
+        <Spare_Part_Price price_inc_vat="416" supplier_part_number="011-428" reference="true" />
+        <Spare_Part_Price price_inc_vat="358" supplier_part_number="011-678" reference="true" />
+        <Spare_Part_Price price_inc_vat="344" supplier_part_number="014-318" reference="true" />
+        <Spare_Part_Price price_inc_vat="1219" supplier_part_number="014-068" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk opel Zafira-B&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="033-611" name="033-611 &amp;nbsp; Anhængertræk til OPEL  Zafira-B MPV  7/05 - 4/11" description="Trækanordning: Standard fast kuglesystemD-værdi: 9.59Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1650 / 75Monteringstid anh.træk B - op til 1½ timeBemærk: Til biler med motor Z16XEP og Z18XER skal der bestilles et andet varmeskjold (GM 58 52 794) og møtrikker (GM 20 66 916)." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="033-613" name="033-613 &amp;nbsp; Anhængertræk til OPEL  Zafira-B MPV  7/05 - 4/11" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 9.59Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1650 / 75Monteringstid anh.træk B - op til 1½ timeBemærk: Til biler med motor Z16XEP og Z18XER skal der bestilles et andet varmeskjold (GM 58 52 794) og møtrikker (GM 20 66 916)." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="027-413" name="027-413 &amp;nbsp; Anhængertræk til OPEL  Zafira-B MPV  7/05 - 4/11" description="Trækanordning: Vertikalt aftageligt kuglesystem (AK6)D-værdi: 9.59Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1650 / 75Monteringstid anh.træk B - op til 1½ timeBemærk: Til biler med motor Z16XEP og Z18XER skal der bestilles et andet varmeskjold (GM 58 52 794) og møtrikker (GM 20 66 916)." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="048-123" name="048-123 &amp;nbsp; Anhængertræk til OPEL  Zafira-B MPV  7/05 - 4/11" description="Trækanordning:  lodret aftageligt anhængertræk D-værdi: 9.59Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1650 / 75Monteringstid anh.træk B - op til 1½ timeBemærk: Bemærk: 048-123 passer også til CNG. For biler med motor Z16XEP og Z18XER skal bestilles et erstatnings-varmeskjold (GM 58 52 794) og møtrikker (GM 20 66 916)." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="018-708" name="018-708 &amp;nbsp; Kabelsæt til OPEL  Zafira-B MPV  7/05 - 4/11" description="Polaritet = 7-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt V - op til 1 timeBemærk: Kun for biler uden REC (Rear Electric Center = elboks bagi)." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="859" supplier_part_number="016-698" reference="true" />
+        <Spare_Part_Price price_inc_vat="1590" supplier_part_number="018-719" name="018-719 &amp;nbsp; Kabelsæt til OPEL  Zafira-B MPV  7/05 - 4/11" description="Polaritet = 13-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt V - op til 1 timeBemærk: Kun for biler uden REC (Rear Electric Center = elboks bagi)." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="950" supplier_part_number="017-808" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk opel Zafira-C&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="037-551" name="037-551 &amp;nbsp; Anhængertræk til OPEL  Zafira-C MPV  5/11 -" description="Trækanordning: Standard fast kuglesystem&#xD;&#xA;					&#xD;&#xA;						Monteringstid anh.træk" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="037-550" name="037-550 &amp;nbsp; Anhængertræk til OPEL  Zafira-C MPV  5/11 -" description="Trækanordning: AK10&#xD;&#xA;					&#xD;&#xA;						Monteringstid anh.træk" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="048-753" name="048-753 &amp;nbsp; Anhængertræk til OPEL  Zafira-C MPV  5/11 -" description="Trækanordning:  lodret aftagelig anhængertræk &#xD;&#xA;					&#xD;&#xA;						Monteringstid anh.træk" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="037-268" name="037-268 &amp;nbsp; Kabelsæt til OPEL  Zafira-C MPV  5/11 -" description="Polaritet = 7-polet&#xD;&#xA;						Monteringstid kabelsæt" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="037-278" name="037-278 &amp;nbsp; Kabelsæt til OPEL  Zafira-C MPV  5/11 -" description="Polaritet = 13-polet&#xD;&#xA;						Monteringstid kabelsæt" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

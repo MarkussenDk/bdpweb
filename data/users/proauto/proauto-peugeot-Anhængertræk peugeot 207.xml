@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="peugeot">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk peugeot 207&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1405" supplier_part_number="036-951" name="036-951 &amp;nbsp; Anhængertræk til PEUGEOT  207 Hatchback 06 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 7.20Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1200 / 61Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2496" supplier_part_number="036-954" name="036-954 &amp;nbsp; Anhængertræk til PEUGEOT  207 Hatchback 06 -" description="Trækanordning:  aftageligt anhægertræk D-værdi: 7.23Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1200 / 61Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="956" supplier_part_number="044-168" name="044-168 &amp;nbsp; Kabelsæt til PEUGEOT  207 Hatchback 06 -" description="Polaritet = 7-poletStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1400" supplier_part_number="041-169" name="041-169 &amp;nbsp; Kabelsæt til PEUGEOT  207 Hatchback 06 -" description="Polaritet = 7-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt T - op til 45 min.Bemærk: Ingen kontakt til tågebaglygte" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1103" supplier_part_number="044-178" name="044-178 &amp;nbsp; Kabelsæt til PEUGEOT  207 Hatchback 06 -" description="Polaritet = 13-poletBiler med checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1800" supplier_part_number="041-179" name="041-179 &amp;nbsp; Kabelsæt til PEUGEOT  207 Hatchback 06 -" description="Polaritet = 13-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt T - op til 45 min.Bemærk: Ingen kontakt til tågebaglygte" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1499" supplier_part_number="044-381" name="044-381 &amp;nbsp; Anhængertræk til PEUGEOT  207 Stationcar  11/07 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 6.88&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1150 / 50Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2361" supplier_part_number="044-384" name="044-384 &amp;nbsp; Anhængertræk til PEUGEOT  207 Stationcar  11/07 -" description="Trækanordning:  aftageligt anhægertræk D-værdi: 6.88&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1150 / 50Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="956" supplier_part_number="044-168" reference="true" />
+        <Spare_Part_Price price_inc_vat="1400" supplier_part_number="041-169" reference="true" />
+        <Spare_Part_Price price_inc_vat="1103" supplier_part_number="044-178" reference="true" />
+        <Spare_Part_Price price_inc_vat="1800" supplier_part_number="041-179" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

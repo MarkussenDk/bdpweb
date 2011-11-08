@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="peugeot">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk peugeot Expert-II&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="2159" supplier_part_number="035-642" name="035-642 &amp;nbsp; Anhængertræk til PEUGEOT  Expert-I Varevogn, Minibus 07 -" description="Trækanordning: Højdejusterbart kuglesystemD-værdi: 11.93Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2000 / 80Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="035-641" name="035-641 &amp;nbsp; Anhængertræk til PEUGEOT  Expert-I Varevogn, Minibus 07 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 11.93Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2000 / 80Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2953" supplier_part_number="035-643" name="035-643 &amp;nbsp; Anhængertræk til PEUGEOT  Expert-I Varevogn, Minibus 07 -" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 11.93Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2000 / 80Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1106" supplier_part_number="041-229" reference="true" />
+        <Spare_Part_Price price_inc_vat="1376" supplier_part_number="041-239" reference="true" />
+        <Spare_Part_Price price_inc_vat="2159" supplier_part_number="035-642" reference="true" />
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="035-641" reference="true" />
+        <Spare_Part_Price price_inc_vat="2953" supplier_part_number="035-643" reference="true" />
+        <Spare_Part_Price price_inc_vat="1106" supplier_part_number="041-229" reference="true" />
+        <Spare_Part_Price price_inc_vat="1376" supplier_part_number="041-239" reference="true" />
+        <Spare_Part_Price price_inc_vat="2159" supplier_part_number="035-642" reference="true" />
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="035-641" reference="true" />
+        <Spare_Part_Price price_inc_vat="2953" supplier_part_number="035-643" reference="true" />
+        <Spare_Part_Price price_inc_vat="1106" supplier_part_number="041-229" reference="true" />
+        <Spare_Part_Price price_inc_vat="1376" supplier_part_number="041-239" reference="true" />
+        <Spare_Part_Price price_inc_vat="2159" supplier_part_number="035-642" reference="true" />
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="035-641" reference="true" />
+        <Spare_Part_Price price_inc_vat="2953" supplier_part_number="035-643" reference="true" />
+        <Spare_Part_Price price_inc_vat="1106" supplier_part_number="041-229" reference="true" />
+        <Spare_Part_Price price_inc_vat="1376" supplier_part_number="041-239" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

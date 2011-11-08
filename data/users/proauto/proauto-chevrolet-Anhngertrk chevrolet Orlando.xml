@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="chevrolet">
+    <car_model car_model_name="&#xD;&#xA;									Anh�ngertr�k chevrolet Orlando&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="036-931" name="&#xD;&#xA;						036-931 &amp;nbsp; Anh�ngertr�k til CHEVROLET  Orlando MPV 11 -&#xD;&#xA;					" description="&#xD;&#xA;						Tr�kanordning: Standard fast kuglesystem&#xD;&#xA;					&#xD;&#xA;						Monteringstid anh.tr�k" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="036-930" name="&#xD;&#xA;						036-930 &amp;nbsp; Anh�ngertr�k til CHEVROLET  Orlando MPV 11 -&#xD;&#xA;					" description="&#xD;&#xA;						Tr�kanordning: AK10&#xD;&#xA;					&#xD;&#xA;						Monteringstid anh.tr�k" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="030-238" name="&#xD;&#xA;						030-238 &amp;nbsp; Kabels�t til CHEVROLET  Orlando MPV 11 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-polet&#xD;&#xA;						Monteringstid kabels�t" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="030-248" name="&#xD;&#xA;						030-248 &amp;nbsp; Kabels�t til CHEVROLET  Orlando MPV 11 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-polet&#xD;&#xA;						Monteringstid kabels�t" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

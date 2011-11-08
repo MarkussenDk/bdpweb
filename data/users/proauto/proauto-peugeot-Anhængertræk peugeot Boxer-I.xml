@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="peugeot">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk peugeot Boxer-I&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="028-171" name="028-171 &amp;nbsp; Anhængertræk til PEUGEOT  Boxer-I Varevogn, Minibus, Pick-up, F¢rerhus med kabine 94 - 02" description="Trækanordning: Højdejusterbart kuglesystemD-værdi: 12.49&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2000 / 110Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="601" supplier_part_number="005-138" name="005-138 &amp;nbsp; Kabelsæt til PEUGEOT  Boxer-I Varevogn, Minibus, Pick-up, F¢rerhus med kabine 94 - 02" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min.Bemærk: Kun varevogn, minibus" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

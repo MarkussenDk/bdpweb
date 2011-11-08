@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="renault">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Megane-Scenic-RX4-I&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="027-123" name="027-123 &amp;nbsp; Anhængertræk til RENAULT  Megane-Scenic-RX4-I MPV 00 - 03" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 7.74&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1400 / 65Monteringstid anh.træk D - op til 2½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="339" supplier_part_number="011-708" reference="true" />
+        <Spare_Part_Price price_inc_vat="714" supplier_part_number="014-348" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

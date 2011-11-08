@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="toyota">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk toyota Landcruiser&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="025-461" name="025-461 &amp;nbsp; Anhængertræk til TOYOTA  Landcruiser APV (Challenger)  4/96 - 02" description="Trækanordning: Standard fast kuglesystemD-værdi: 13.43&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2800 / 130Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="374" supplier_part_number="006-838" name="006-838 &amp;nbsp; Kabelsæt til TOYOTA  Landcruiser APV (Challenger)  4/96 - 02" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="025-461" reference="true" />
+        <Spare_Part_Price price_inc_vat="374" supplier_part_number="006-838" reference="true" />
+        <Spare_Part_Price price_inc_vat="1759" supplier_part_number="024-691" name="024-691 &amp;nbsp; Anhængertræk til TOYOTA  Landcruiser APV 98 - 02" description="Trækanordning: Højdejusterbart kuglesystemD-værdi: 16.56&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 3500 / 140Monteringstid anh.træk A  - op til 1 timeBemærk: Tidligere/erstattet model: Specialpris" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1923" supplier_part_number="031-141" name="031-141 &amp;nbsp; Anhængertræk til TOYOTA  Landcruiser APV 98 - 02" description="Trækanordning: Højdejusterbart kuglesystemD-værdi: 16.56&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 3500 / 140Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="010-948" name="010-948 &amp;nbsp; Kabelsæt til TOYOTA  Landcruiser APV 98 - 02" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="033-422" name="033-422 &amp;nbsp; Anhængertræk til TOYOTA  Landcruiser APV 03 -" description="Trækanordning: Højdejusterbart kuglesystemD-værdi: 16.30Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2800 / 115Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="649" supplier_part_number="016-208" name="016-208 &amp;nbsp; Kabelsæt til TOYOTA  Landcruiser APV 03 -" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="033-422" reference="true" />
+        <Spare_Part_Price price_inc_vat="649" supplier_part_number="016-208" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="029-772" name="029-772 &amp;nbsp; Anhængertræk til TOYOTA  Landcruiser APV  11/09 -" description="Trækanordning: Højdejusterbart kuglesystemD-værdi: 16.30Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2800 / 130Monteringstid anh.træk C - op til 2 timer" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="023-088" name="023-088 &amp;nbsp; Kabelsæt til TOYOTA  Landcruiser APV  11/09 -" description="Polaritet = 7-poletBiler med og uden checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt V - op til 1 time" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="peugeot">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk peugeot 206+&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="033-061" reference="true" />
+        <Spare_Part_Price price_inc_vat="2860" supplier_part_number="033-063" reference="true" />
+        <Spare_Part_Price price_inc_vat="851" supplier_part_number="015-968" name="015-968 &amp;nbsp; Kabelsæt til PEUGEOT  206 Hatchback  4/09 -" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="998" supplier_part_number="015-978" name="015-978 &amp;nbsp; Kabelsæt til PEUGEOT  206 Hatchback  4/09 -" description="Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="033-061" reference="true" />
+        <Spare_Part_Price price_inc_vat="2860" supplier_part_number="033-063" reference="true" />
+        <Spare_Part_Price price_inc_vat="851" supplier_part_number="015-968" reference="true" />
+        <Spare_Part_Price price_inc_vat="998" supplier_part_number="015-978" reference="true" />
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="033-061" reference="true" />
+        <Spare_Part_Price price_inc_vat="2860" supplier_part_number="033-063" reference="true" />
+        <Spare_Part_Price price_inc_vat="851" supplier_part_number="015-968" reference="true" />
+        <Spare_Part_Price price_inc_vat="998" supplier_part_number="015-978" reference="true" />
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="033-061" reference="true" />
+        <Spare_Part_Price price_inc_vat="2860" supplier_part_number="033-063" reference="true" />
+        <Spare_Part_Price price_inc_vat="851" supplier_part_number="015-968" reference="true" />
+        <Spare_Part_Price price_inc_vat="998" supplier_part_number="015-978" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

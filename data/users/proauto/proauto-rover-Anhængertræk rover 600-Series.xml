@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="rover">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk rover 600-Series&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="020-671" name="020-671 &amp;nbsp; Anhængertræk til ROVER  600-Series Sedan 93 - 98" description="Trækanordning: Standard fast kuglesystemD-værdi: 7.91Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1400 / 70Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3139" supplier_part_number="020-673" name="020-673 &amp;nbsp; Anhængertræk til ROVER  600-Series Sedan 93 - 98" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 8.00Udskæring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1400 / 70Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="438" supplier_part_number="003-038" name="003-038 &amp;nbsp; Kabelsæt til ROVER  600-Series Sedan 93 - 98" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="860" supplier_part_number="007-718" name="007-718 &amp;nbsp; Kabelsæt til ROVER  600-Series Sedan 93 - 98" description="Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

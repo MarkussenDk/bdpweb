@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="renault">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Clio-III&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1369" supplier_part_number="027-891" reference="true" />
+        <Spare_Part_Price price_inc_vat="365" supplier_part_number="015-368" reference="true" />
+        <Spare_Part_Price price_inc_vat="1369" supplier_part_number="027-891" reference="true" />
+        <Spare_Part_Price price_inc_vat="365" supplier_part_number="015-368" reference="true" />
+        <Spare_Part_Price price_inc_vat="1369" supplier_part_number="027-891" reference="true" />
+        <Spare_Part_Price price_inc_vat="365" supplier_part_number="015-368" reference="true" />
+        <Spare_Part_Price price_inc_vat="1369" supplier_part_number="027-891" reference="true" />
+        <Spare_Part_Price price_inc_vat="365" supplier_part_number="015-368" reference="true" />
+        <Spare_Part_Price price_inc_vat="1369" supplier_part_number="027-891" reference="true" />
+        <Spare_Part_Price price_inc_vat="365" supplier_part_number="015-368" reference="true" />
+        <Spare_Part_Price price_inc_vat="1369" supplier_part_number="027-891" reference="true" />
+        <Spare_Part_Price price_inc_vat="365" supplier_part_number="015-368" reference="true" />
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="034-611" name="034-611 &amp;nbsp; Anhængertræk til RENAULT  Clio-I Hatchback 05 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 7.00&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1200 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="034-614" name="034-614 &amp;nbsp; Anhængertræk til RENAULT  Clio-I Hatchback 05 -" description="Trækanordning:  aftageligt anhægertræk D-værdi: 7.00&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1200 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="389" supplier_part_number="018-898" name="018-898 &amp;nbsp; Kabelsæt til RENAULT  Clio-I Hatchback 05 -" description="Polaritet = 7-poletBiler med checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="034-611" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="034-614" reference="true" />
+        <Spare_Part_Price price_inc_vat="389" supplier_part_number="018-898" reference="true" />
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="034-611" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="034-614" reference="true" />
+        <Spare_Part_Price price_inc_vat="389" supplier_part_number="018-898" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="036-511" name="036-511 &amp;nbsp; Anhængertræk til RENAULT  Clio-I Stationcar (Grandtour)  2/08 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 6.97&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1200 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="036-514" name="036-514 &amp;nbsp; Anhængertræk til RENAULT  Clio-I Stationcar (Grandtour)  2/08 -" description="Trækanordning:  aftageligt anhægertræk D-værdi: 6.97&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1200 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="463" supplier_part_number="034-868" name="034-868 &amp;nbsp; Kabelsæt til RENAULT  Clio-I Stationcar (Grandtour)  2/08 -" description="Polaritet = 7-poletBiler med checkkontrolStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="036-511" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="036-514" reference="true" />
+        <Spare_Part_Price price_inc_vat="463" supplier_part_number="034-868" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="036-511" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="036-514" reference="true" />
+        <Spare_Part_Price price_inc_vat="463" supplier_part_number="034-868" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="036-511" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="036-514" reference="true" />
+        <Spare_Part_Price price_inc_vat="463" supplier_part_number="034-868" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="036-511" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="036-514" reference="true" />
+        <Spare_Part_Price price_inc_vat="463" supplier_part_number="034-868" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="036-511" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="036-514" reference="true" />
+        <Spare_Part_Price price_inc_vat="463" supplier_part_number="034-868" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="036-511" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="036-514" reference="true" />
+        <Spare_Part_Price price_inc_vat="463" supplier_part_number="034-868" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="036-511" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="036-514" reference="true" />
+        <Spare_Part_Price price_inc_vat="463" supplier_part_number="034-868" reference="true" />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="036-511" reference="true" />
+        <Spare_Part_Price price_inc_vat="2480" supplier_part_number="036-514" reference="true" />
+        <Spare_Part_Price price_inc_vat="463" supplier_part_number="034-868" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

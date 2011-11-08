@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="bmw">
+    <car_model car_model_name="&#xD;&#xA;									Anh�ngertr�k bmw 1-Series&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="3456" supplier_part_number="048-573" name="&#xD;&#xA;						048-573 &amp;nbsp; Anh�ngertr�k til BMW  1-Series Hatchback  10/04 - 11&#xD;&#xA;					" description="&#xD;&#xA;						Tr�kanordning:  lodret aftagelig anh�ngertr�k D-v�rdi: 8.13Udsk�ring i kofanger usynlig&#xD;&#xA;					&#xD;&#xA;						Maks. tr�kv�gt / lodret belastning: 1500 / 75Monteringstid anh.tr�k B - op til 1� time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1484" supplier_part_number="017-779" name="&#xD;&#xA;						017-779 &amp;nbsp; Kabels�t til BMW  1-Series Hatchback  10/04 - 11&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-polet DIN m. samlet stikBiler med og uden checkkontrol&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabels�t V - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1680" supplier_part_number="017-789" name="&#xD;&#xA;						017-789 &amp;nbsp; Kabels�t til BMW  1-Series Hatchback  10/04 - 11&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-polet DIN m. samlet stikBiler med og uden checkkontrol&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabels�t V - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="037-361" name="&#xD;&#xA;						037-361 &amp;nbsp; Anh�ngertr�k til BMW  1-Series Hatchback  7/11 -&#xD;&#xA;					" description="&#xD;&#xA;						Tr�kanordning: Standard fast kuglesystem&#xD;&#xA;					&#xD;&#xA;						Monteringstid anh.tr�k" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="048-403" name="&#xD;&#xA;						048-403 &amp;nbsp; Anh�ngertr�k til BMW  1-Series Hatchback  7/11 -&#xD;&#xA;					" description="&#xD;&#xA;						Tr�kanordning:  lodret aftagelig anh�ngertr�k &#xD;&#xA;					&#xD;&#xA;						Monteringstid anh.tr�k" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="036-778" name="&#xD;&#xA;						036-778 &amp;nbsp; Kabels�t til BMW  1-Series Hatchback  7/11 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-polet&#xD;&#xA;						Monteringstid kabels�t" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="036-948" name="&#xD;&#xA;						036-948 &amp;nbsp; Kabels�t til BMW  1-Series Hatchback  7/11 -&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 13-polet&#xD;&#xA;						Monteringstid kabels�t" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

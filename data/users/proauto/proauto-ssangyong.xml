@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="ssangyong">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk ssangyong Actyon&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="044-081" name="044-081 &amp;nbsp; Anhængertræk til SSANGYONG  Actyon APV 06 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 11.80&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2300 / 117Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="806" supplier_part_number="042-228" name="042-228 &amp;nbsp; Kabelsæt til SSANGYONG  Actyon APV 06 -" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1259" supplier_part_number="043-699" name="043-699 &amp;nbsp; Kabelsæt til SSANGYONG  Actyon APV 06 -" description="Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk ssangyong Actyon-Sports&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="2046" supplier_part_number="034-432" name="034-432 &amp;nbsp; Anhængertræk til SSANGYONG  Actyon Pick-up 06 -" description="Trækanordning: FlangekugleD-værdi: 12.27&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2300 / 92Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="806" supplier_part_number="034-638" name="034-638 &amp;nbsp; Kabelsæt til SSANGYONG  Actyon Pick-up 06 -" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="915" supplier_part_number="034-648" name="034-648 &amp;nbsp; Kabelsæt til SSANGYONG  Actyon Pick-up 06 -" description="Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min.Bemærk: Udvidelsessæt til strømforsyning, bestil venligst 015-069 (+15/+30)." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="2046" supplier_part_number="034-432" reference="true" />
+        <Spare_Part_Price price_inc_vat="806" supplier_part_number="034-638" reference="true" />
+        <Spare_Part_Price price_inc_vat="915" supplier_part_number="034-648" reference="true" />
+        <Spare_Part_Price price_inc_vat="2046" supplier_part_number="034-432" reference="true" />
+        <Spare_Part_Price price_inc_vat="806" supplier_part_number="034-638" reference="true" />
+        <Spare_Part_Price price_inc_vat="915" supplier_part_number="034-648" reference="true" />
+        <Spare_Part_Price price_inc_vat="2046" supplier_part_number="034-432" reference="true" />
+        <Spare_Part_Price price_inc_vat="806" supplier_part_number="034-638" reference="true" />
+        <Spare_Part_Price price_inc_vat="915" supplier_part_number="034-648" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk ssangyong Korando&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="027-523" name="027-523 &amp;nbsp; Anhængertræk til SSANGYONG  Korando APV 97 - 09" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 14.50&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 3500 / 140Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="578" supplier_part_number="010-708" name="010-708 &amp;nbsp; Kabelsæt til SSANGYONG  Korando APV 97 - 09" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt R - op til 20 min.Bemærk: -&gt;I 12/98" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk ssangyong Kyron&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1888" supplier_part_number="034-991" name="034-991 &amp;nbsp; Anhængertræk til SSANGYONG  Kyron APV 05 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 11.82Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2300 / 92Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="761" supplier_part_number="043-478" name="043-478 &amp;nbsp; Kabelsæt til SSANGYONG  Kyron APV 05 -" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1421" supplier_part_number="043-488" name="043-488 &amp;nbsp; Kabelsæt til SSANGYONG  Kyron APV 05 -" description="Polaritet = 13-poletStik&#xD;&#xA;						Parkeringssensor frakoblesMonteringstid kabelsæt V - op til 1 time" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk ssangyong Musso&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="020-873" name="020-873 &amp;nbsp; Anhængertræk til SSANGYONG  Musso APV 95 - 6/96" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 12.50&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2500 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="560" supplier_part_number="003-808" name="003-808 &amp;nbsp; Kabelsæt til SSANGYONG  Musso APV 95 - 6/96" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="798" supplier_part_number="008-528" name="008-528 &amp;nbsp; Kabelsæt til SSANGYONG  Musso APV 95 - 6/96" description="Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk ssangyong Musso-Sport&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="033-241" name="033-241 &amp;nbsp; Anhængertræk til SSANGYONG  Musso Pick-up 03 -" description="Trækanordning: Højdejusterbart kuglesystemD-værdi: 14.37&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 3500 / 140Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="033-241" reference="true" />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="033-241" reference="true" />
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="033-241" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk ssangyong Rexton&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="2203" supplier_part_number="033-081" name="033-081 &amp;nbsp; Anhængertræk til SSANGYONG  Rexton APV 03 - 6/06" description="Trækanordning: FlangekugleD-værdi: 14.76&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 3500 / 140Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="033-083" name="033-083 &amp;nbsp; Anhængertræk til SSANGYONG  Rexton APV 03 - 6/06" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 14.76&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 3500 / 140Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="838" supplier_part_number="013-868" name="013-868 &amp;nbsp; Kabelsæt til SSANGYONG  Rexton APV 03 - 6/06" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt R - op til 20 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="016-398" name="016-398 &amp;nbsp; Kabelsæt til SSANGYONG  Rexton APV 03 - 6/06" description="Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt R - op til 20 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1613" supplier_part_number="044-071" name="044-071 &amp;nbsp; Anhængertræk til SSANGYONG  Rexton APV  7/06 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 15.14Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 3500 / 140Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3300" supplier_part_number="044-073" name="044-073 &amp;nbsp; Anhængertræk til SSANGYONG  Rexton APV  7/06 -" description="Trækanordning: Vertikalt aftageligt kuglesystem (AK6)D-værdi: 15.14Udskæring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 3500 / 140Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="838" supplier_part_number="013-868" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="016-398" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk ssangyong Rodius&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="034-593" name="034-593 &amp;nbsp; Anhængertræk til SSANGYONG  Rodius MPV 05 -" description="Trækanordning: Vertikalt aftageligt kuglesystem (AK6)D-værdi: 12.54&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2850 / 140Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="950" supplier_part_number="023-428" name="023-428 &amp;nbsp; Kabelsæt til SSANGYONG  Rodius MPV 05 -" description="Polaritet = 7-poletBiler med checkkontrolStik&#xD;&#xA;						Monteringstid kabelsæt V - op til 1 time" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

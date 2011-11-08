@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="opel">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk opel Corsa-B-Combo&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1406" supplier_part_number="023-171" name="&#xD;&#xA;						023-171 &amp;nbsp; Anhængertræk til OPEL  Corsa-B Lille varevogn 94 - 8/01&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Standard fast kuglesystemD-værdi: 7.06&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1200 / 50Trækkugle dækker for nummerpladeMonteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="023-173" name="&#xD;&#xA;						023-173 &amp;nbsp; Anhængertræk til OPEL  Corsa-B Lille varevogn 94 - 8/01&#xD;&#xA;					" description="&#xD;&#xA;						Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 7.06&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1200 / 50Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="009-468" name="&#xD;&#xA;						009-468 &amp;nbsp; Kabelsæt til OPEL  Corsa-B Lille varevogn 94 - 8/01&#xD;&#xA;					" description="&#xD;&#xA;						Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min.Bemærk: Ikke forberedt til kabelsæt&#xD;&#xA;						" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1406" supplier_part_number="023-171" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="023-173" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="009-468" reference="true" />
+        <Spare_Part_Price price_inc_vat="1406" supplier_part_number="023-171" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="023-173" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="009-468" reference="true" />
+        <Spare_Part_Price price_inc_vat="1406" supplier_part_number="023-171" reference="true" />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="023-173" reference="true" />
+        <Spare_Part_Price price_inc_vat="-1" supplier_part_number="009-468" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

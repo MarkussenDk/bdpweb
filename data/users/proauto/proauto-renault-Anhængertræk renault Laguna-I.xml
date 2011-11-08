@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="renault">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk renault Laguna-I&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1210" supplier_part_number="023-461" name="023-461 &amp;nbsp; Anhængertræk til RENAULT  Laguna-I Hatchback 93 - 00" description="Trækanordning: Standard fast kuglesystemD-værdi: 8.84&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1650 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="251" supplier_part_number="006-188" name="006-188 &amp;nbsp; Kabelsæt til RENAULT  Laguna-I Hatchback 93 - 00" description="Polaritet = 7-poletBiler med checkkontrol&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="630" supplier_part_number="008-438" name="008-438 &amp;nbsp; Kabelsæt til RENAULT  Laguna-I Hatchback 93 - 00" description="Polaritet = 13-poletBiler med checkkontrol&#xD;&#xA;						Monteringstid kabelsæt V - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="024-961" name="024-961 &amp;nbsp; Anhængertræk til RENAULT  Laguna-I Stationcar (Grandtour) 95 - 8/00" description="Trækanordning: Standard fast kuglesystemD-værdi: 9.30&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1850 / 75Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="359" supplier_part_number="004-108" name="004-108 &amp;nbsp; Kabelsæt til RENAULT  Laguna-I Stationcar (Grandtour) 95 - 8/00" description="Polaritet = 7-polet&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min.Bemærk: Ikke forberedt til kabelsæt" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="694" supplier_part_number="007-388" name="007-388 &amp;nbsp; Kabelsæt til RENAULT  Laguna-I Stationcar (Grandtour) 95 - 8/00" description="Polaritet = 13-polet&#xD;&#xA;						Monteringstid kabelsæt V - op til 1 timeBemærk: Ikke forberedt til kabelsæt" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="024-971" name="024-971 &amp;nbsp; Anhængertræk til RENAULT  Laguna-I Stationcar (Grandtour)  4/98 - 00" description="Trækanordning: Standard fast kuglesystemD-værdi: 9.30&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1850 / 50Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="3100" supplier_part_number="024-973" name="024-973 &amp;nbsp; Anhængertræk til RENAULT  Laguna-I Stationcar (Grandtour)  4/98 - 00" description="Trækanordning: Horisontalt aftageligt kuglesystem (AK4)D-værdi: 9.30&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 1850 / 50Monteringstid anh.træk A  - op til 1 time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="359" supplier_part_number="004-108" reference="true" />
+        <Spare_Part_Price price_inc_vat="694" supplier_part_number="007-388" reference="true" />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

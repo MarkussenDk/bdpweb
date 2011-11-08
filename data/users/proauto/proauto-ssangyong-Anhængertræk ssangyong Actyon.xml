@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="ssangyong">
+    <car_model car_model_name="&#xD;&#xA;									Anhængertræk ssangyong Actyon&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1574" supplier_part_number="044-081" name="044-081 &amp;nbsp; Anhængertræk til SSANGYONG  Actyon APV 06 -" description="Trækanordning: Standard fast kuglesystemD-værdi: 11.80&#xD;&#xA;					&#xD;&#xA;						Maks. trækvægt / lodret belastning: 2300 / 117Monteringstid anh.træk B - op til 1½ time" spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="806" supplier_part_number="042-228" name="042-228 &amp;nbsp; Kabelsæt til SSANGYONG  Actyon APV 06 -" description="Polaritet = 7-poletStik&#xD;&#xA;						Monteringstid kabelsæt S - op til 30 min." spare_part_category_free_text=" -  - " />
+        <Spare_Part_Price price_inc_vat="1259" supplier_part_number="043-699" name="043-699 &amp;nbsp; Kabelsæt til SSANGYONG  Actyon APV 06 -" description="Polaritet = 13-poletStik&#xD;&#xA;						Monteringstid kabelsæt T - op til 45 min." spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>

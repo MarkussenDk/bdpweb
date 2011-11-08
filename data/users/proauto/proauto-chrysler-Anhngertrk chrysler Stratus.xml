@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Price_List Username="proauto" Password="pwproauto" Created="07-06-2011 00:09:41">
+  <car_make car_make_name="chrysler">
+    <car_model car_model_name="&#xD;&#xA;									Anh�ngertr�k chrysler Stratus&#xD;&#xA;								">
+      <car_models_to_spare_part_prices>
+        <Spare_Part_Price price_inc_vat="1403" supplier_part_number="023-011" name="&#xD;&#xA;						023-011 &amp;nbsp; Anh�ngertr�k til CHRYSLER  Stratus Sedan 95 - 6/01&#xD;&#xA;					" description="&#xD;&#xA;						Tr�kanordning: Standard fast kuglesystemD-v�rdi: 7.26Udsk�ring i kofanger synlig&#xD;&#xA;					&#xD;&#xA;						Maks. tr�kv�gt / lodret belastning: 1200 / 75Tr�kkugle d�kker for nummerpladeMonteringstid anh.tr�k A  - op til 1 time" spare_part_category_free_text=" -  - " />
+      </car_models_to_spare_part_prices>
+    </car_model>
+  </car_make>
+</Price_List>
