@@ -2,7 +2,7 @@
     <project name="bildelspriser.dk" default="help" basedir=".">
 
     <property name="dir.public"    value="public"/>
-    <property name="dir.bin"       value="bin"/>
+    <property name="dir.bin"       value=".."/>
     <property name="dir.sync"      value="sync"/>
 
 	<tstamp/>	
