@@ -11,23 +11,26 @@ require_once 'BaseWithTraceability.php';
 
 class Default_Model_SparePartSuppliers extends Default_Model_BaseWithTraceability
 { 	
-	private $_spare_part_supplier_id = null;
-	private $_spare_part_supplier_name = null;
-	private	$_pare_part_supplier_id = null;
-	private $_supplier_name = null;
-	private $_xml_http_request_id = null;
-	private $_supplier_url   = null;
+	public $_spare_part_supplier_id = null;
+	public $_spare_part_supplier_name = null;
+	public $_pare_part_supplier_id = null;
+	public $_supplier_name = null;
+	public $_xml_http_request_id = null;
+	public $_supplier_url   = null;
 	public $_supplier_product_catalog_url   = "/";
-	private $_supplier_admin_user_name  = null;
-	private $_supplier_admin_password   = null;
-	private $_supplier_admin_email   = null;
-	private $_state   = null;
-	private $_supplier_secret_token   = null;
-	private $_created   = null;
-	private $_created_by   = null;
+	public $_supplier_admin_user_name  = null;
+	public $_supplier_admin_password   = null;
+	public $_supplier_admin_email   = null;
+	public $_state   = null;
+	public $_supplier_secret_token   = null;
+	public $_part_not_found_text   = null;
+	public $_part_not_found_fall_back_url   = null;
+	
+	/*private $_created   = null; // Removed exists in BaseWithTrace
+ 	private $_created_by   = null;
 	private $_updated   = null;
 	private $_updated_by   = null;
-	private $_mapper;
+	private $_mapper;*/
 
     public function __construct(array $options = null)
     {
@@ -39,7 +42,7 @@ class Default_Model_SparePartSuppliers extends Default_Model_BaseWithTraceabilit
         )*/
     }
 	
-    public function setOptions(array $options)
+  /*  public function setOptions(array $options)
     {
         $methods = get_class_methods($this);
         $vars = get_class_vars(get_class($this));
@@ -61,7 +64,7 @@ class Default_Model_SparePartSuppliers extends Default_Model_BaseWithTraceabilit
             }
         }
         return $this;
-    }   
+    }   */
     
 	
     //public function __set($name, $value);
@@ -253,45 +256,14 @@ class Default_Model_SparePartSuppliers extends Default_Model_BaseWithTraceabilit
         return $this;
     }*/
 
-    /**
-     * 
-     * @return Default_Model_SparePartSuppliersMapper
-     */
-    /*public function getMapper()
-    {
-        if (null === $this->_mapper) {
-            $this->setMapper(new Default_Model_SparePartSuppliersMapper());
-        }
-        return $this->_mapper;
-    }*/
-    
-    public function save()
-    {
-        $this->getMapper()->save($this);
-    }
+   
 
-    public function find($id)
-    {
-        $this->getMapper()->find($id, $this);
-        return $this;
-    }
-    
     public function authenticate($user_name,$password, Default_Model_SparePartSuppliers  $sps){
     	$this->getMapper()->authenticate($user_name,$password, $sps);
     	
     }
 
-   /* public function fetchAll($select)
-    {
-        $mapper=$this->getMapper();
-        if(!isset($mapper)){
-        	return "Mapper not set";
-        	die("mapper");
-        } 
-        else
-        	//die("Mapper was set");
-    	return $this->getMapper()->fetchAll($select);
-    }*/
+
     
    
 }

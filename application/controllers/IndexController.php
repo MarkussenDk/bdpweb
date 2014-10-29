@@ -30,69 +30,30 @@ class IndexController extends Zend_Controller_Action
         		try {
         			$xhrid = $xh->getMapper ()->save ( $xh );
         		} catch ( exception $e ) {
-        			echo " exception while saving XmlHttpRequest " . $e;
+        			warning(" exception while saving XmlHttpRequest " . $e);
         		}
         		$view = $this->view;
         		$view->headTitle ()->prepend ( 'Bildelspriser.dk - ' );
         		$view->headTitle ()->setSeparator ( ' ' );
+
+        $search_engine =  $this->getRequest()->getParam('search_engine');
+        $ref = $this->getRequest()->getServer('HTTP_REFERER');
+        if(isset($ref)){
+	        $this->view->referer = $ref;
+	        $this->view->referer_url_parsed = parse_url($ref);
+	        $this->view->referer_host = $this->view->referer_url_parsed['host'];
+	        switch($this->view->referer_host){
+	        	case 'google.com': $search_engine = 'google';
+	        	
+	        }
+        }
+        $this->view->search_engine = $search_engine;	
     }
 
     public function file_get_contents_utf8($fn)
     {
         $content = file_get_contents ( $fn );
         		return mb_convert_encoding ( $content, 'UTF-8', mb_detect_encoding ( $content, 'UTF-8, ISO-8859-1', true ) );
-    }
-
-    public function indexOldAction()
-    {
-        Zend_Dojo::enableView ( $view );
-        		$view->dojo ()->setDjConfigOption ( 'usePlainJson', true )->addLayer ( '/js/bdp/main.js' );
-        		//->addJavascript('bdp.main.init();');*/
-        		
-        
-        		print "<br>In XmlParseUnitTest - #1";
-        		print "<br>APPLICATION_PATH" . APPLICATION_PATH;
-        		$p = dirname ( APPLICATION_PATH ) . '/tests/data/price_list_file.xml';
-        		//print "<br> File path ".$p;    	
-        		//$p = 'C:\wamp\www\z18\soap\tests\data\price_list_file.xml';
-        		print "<br> File path: " . $p;
-        		$xml_source = file_get_contents ( $p );
-        		//$xml_source = mb_convert_encoding($xml_source,'ISO-8859-1');
-        		//$xml_source = mb_convert_encoding($xml_source,'UTF-8','auto');
-        		//$xml_source = utf8_decode($xml_source);
-        		$pos = strpos ( $xml_source, '�' );
-        		if ($pos > 0) {
-        			$str = "<HR>String contained invalid chars : " . substr ( $xml_source, $pos, 2 ) . 'HEx Value ' . dechex ( ord ( substr ( $xml_source, $pos, 1 ) ) ) . ' ' . dechex ( ord ( substr ( $xml_source, $pos + 1, 2 ) ) );
-        		
-        		//die($str);    	
-        		}
-        		print "<br> File Lenght: " . strlen ( $xml_source ) . " Bytes";
-        		//$fp = fopen($p,'r');
-        		//$xml_source = fread($fp,10000000);
-        		
-        
-        		//phpinfo();
-        		print "<br/><hr/>" . htmlentities ( $xml_source, ENT_QUOTES );
-        		//    	die("");
-        		
-        
-        		//print "<pre>".$xml_source."</PRE>";
-        		//assertEx($xml_source,"XML Source must not be empty".$xml_source);
-        		print "<hr/>";
-        		
-        		$spp_m = new Default_Model_SparePartSuppliersMapper ();
-        		$spp_o = new Default_Model_SparePartSuppliers ();
-        		$spp_m->authenticate ( $user_name, $some_password, $spp_o );
-        		//$spp = $spp_m->fetchRow($select = " `supplier_admin_user_name` = 'ExcelAndreas' ");
-        		//$spp_o = $spp_m->fetchObject($select);
-        		//    	die();    	
-        		//$spp_id = $spp['spare_part_supplier_id'];
-        		$spp_id = $spp_o->getSpare_part_supplier_id ();
-        		assertEx ( $spp_id, "No SparePartSupplier_id found" );
-        		$pp = new Bildelspriser_XmlImport_PriceParser ( $spp_o );
-        		echo 'ParseString Result: ' . $pp->parseString ( $xml_source ) . '<hr/>';
-        		
-        		die ( $pp->get_log_as_html () );
     }
 
     public function newsAction()
@@ -104,7 +65,19 @@ class IndexController extends Zend_Controller_Action
     {
         
     }
-
+    
+    public function andreasAction()
+    {
+    
+    }
+    
+    
+    public function joinUsAction()
+    {
+    
+    }
+    
+    
     public function dojoAction()
     {
         Zend_Dojo::enableView ( $this->view );
@@ -524,6 +497,9 @@ class IndexController extends Zend_Controller_Action
 			die ( "SPP Was not set" );
 		}
 		$spp_m = MapperFactory::getSppMapper ();
+		/** 
+		 * @var $spp Default_Model_DbTable_SparePartPrices 
+		 * */
 		$spp = $spp_m->findObject ( $spp_id );
 		if ($spp == null) {
 			//$this->_forward('brands','index','default',array('forward_message'=>'Ukendt Spare Part Price id '.$spp_id));
@@ -537,14 +513,16 @@ class IndexController extends Zend_Controller_Action
 			return;
 		}
 		$this->view->spare_part_price = $spp;
+		$this->setSupplierFromSparePartPrice ($spp);
 		
 		$jt = new Default_Model_DynJumpTo ();
 		$jt->spare_part_price_id = $spp->getSpare_part_price_id ();
 		$jt->spare_part_supplier_id = $spp->getSpare_part_supplier_id ();
 		$jt->price_inc_vat = $spp->getPrice_inc_vat ();
-		$jt_id = $jt->insert ();
+		//$jt_id = @$jt->insert();
 		$this->view->jump_to_record = $jt;
 		$this->view->jump_to_id = $jt_id;
+		$this->setSupplierFromSparePartPrice ($spp);
 	}
 
     public function detailsAction()
@@ -578,11 +556,36 @@ class IndexController extends Zend_Controller_Action
                                 		}
                                 		$this->view->spare_part_price = $spp;
                                 		$this->view->car_model_id = null;
+                                		
+                                		$this->setSupplierFromSparePartPrice ($spp);
+
+                                		//$supp = new Default_Model_SparePartSuppliers($gw->current()->toArray());
                                 		if (array_key_exists ( 'car_model_id', $this->view->params )) 
                                 		{
                                 			$this->view->car_model_id = (int)$this->view->params ['car_model_id'];
                                 		}
     }
+    
+	/**
+	 * 
+	 */private function setSupplierFromSparePartPrice($spp) {
+		$supp_m = MapperFactory::getSpsMapper();
+		$supp_row_set = $supp_m->find($spp->spare_part_supplier_id);
+		//kint::dump('SPS_As_Array',$supp_row_set->current()->toArray());
+		$supp = new Default_Model_SparePartSuppliers($supp_row_set->current()->toArray());
+		/*
+		 * THIS BREAKS THE CODE - FIND OBJECT does shares the object cache **
+		 $fake_sup = $spp_m->findObject($spp->spare_part_supplier_id);
+		$supp = $supp_m->findObject($spp->spare_part_supplier_id);*/
+		//TODO: Fix the above
+		//$supp = $supp->find($supplier_id);
+		//Kint::dump($supp);
+		//Kint::dump($s);
+		$supp or error("Supplier not found with ID $spp->supplier_id ");
+		$supp->supplier_name or error("Supplier name not set on supplier ".$spp->supplier_id);
+		$this->view->supplier = $supp;
+	}
+
 
     public function datasearchresultsAction()
     {
@@ -732,6 +735,7 @@ class IndexController extends Zend_Controller_Action
 
     public function ajaxHtmlAction()
     {
+    	// Usage /index/ajax-html/cmd/get_prices_count/car_model_id/1155 
         /* @var ajaxContext Zend_Controller_Action_Helper_AjaxContext */
                                 		/*$ajaxContext = $this->_helper->getHelper ( 'AjaxContext' );
                                 		$ajaxContext->addActionContext ( 'ajax-html', 'json' )->addActionContext ( 'ajaxHtml', 'json' )->initContext ();
@@ -872,8 +876,9 @@ class IndexController extends Zend_Controller_Action
     public function procRunnerAction()
     {
          $db =  self::getDB();
-         $select_procs = $db->select()->from('routines',array('SPECIFIC_NAME','ROUTINE_TYPE'),'information_schema');
+         $select_procs = $db->select()->from('routines',array('SPECIFIC_NAME','ROUTINE_TYPE','ROUTINE_DEFINITION'),'information_schema');
          $result = $select_procs->query()->fetchAll();
+         
          //Zend_Debug::dump($result,'Prcedures',true);
 		 $this->view->proc_names = $result;
 		 $proc_name = $this->getRequest()->getParam('proc_name');
@@ -895,9 +900,14 @@ class IndexController extends Zend_Controller_Action
 					error('Unknowroutine type '.$rout_type);
 				break;
 			}
-			//die($sql);
-			$stmt = $db->query($sql);
-			$this->view->proc_result = $stmt;
+			try{
+				$stmt = $db->query($sql);
+				$this->view->proc_result = $stmt;
+			}
+			catch(exception $e){
+				die('<h2>SQL used</H2>'.$sql);
+					
+			}
 			//Zend_Debug::dump($stmt,'stmte',true);		 	
     	}    
     }
@@ -969,7 +979,7 @@ class AjaxCommandHandler {
 		$p = $this->param($param_name);
 		$i = intval($p,10);
 		if($p<>strval($i)){
-			throw new exception ("integer conversion error $p <> $i");
+			error("integer conversion error p='$p' <> i='$i' and param = '$param_name' ");
 		}
 		return $i;
 	}
@@ -1030,6 +1040,29 @@ class AjaxCommandHandler {
 		$n = $this->_db->update('car_models',array('car_model_main_id'=>$p_car_model_main_id),'car_model_id='.$p_car_model_id);		
 		return array('msg'=>'OK '.$n.' rows updated ('."($p_car_model_id,$p_car_model_main_id)");
 	}	
+
+	public function cmdGetPriceCountByModel(){
+		$db = $this->_db;
+		$report_error = false;
+		/* @var $db Zend_Db_Adapter_Mysqli */
+		/* @var $this->_db Zend_Db_Adapter_Mysqli */
+		$p_car_model_id = intval($this->int_param('car_model_id'),10); // to ensure no SQL Injection attacks, by ensuring integer value only.
+		//$p_car_model_main_id = $this->param('car_model_main_id');
+		//if(-1 == $p_car_model_main_id)
+		//	$p_car_model_main_id = null;
+		$sql = 'select prices from spp_pr_models_v where car_model_id = '.$p_car_model_id;
+		$count = null;
+		try{$count = $db->fetchOne($sql);}
+		catch(Exception $e){
+			echo '' ; 
+		}
+		if($count<1)
+			die(' - Ingen bildele fundet ');
+		die(' - '.$count.' bildele fundet');
+		//$n = $this->_db->update('car_models',array('car_model_main_id'=>$p_car_model_main_id),'car_model_id='.$p_car_model_id);
+		return array('msg'=>'OK '.$n.' rows updated ('."($p_car_model_id,$p_car_model_main_id)");
+	}
+	
 	public function cmdError(){
 		$p_error_type = $this->param('type');
 		$p_error_text = $this->param('text');

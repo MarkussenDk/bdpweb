@@ -48,7 +48,7 @@ class Default_Model_XmlHttpRequest extends Default_Model_BaseWithTraceability
     	if (is_array($options)) {
             $this->setOptions($options);
         }
-        $this->setUserCookie();
+        @$this->setUserCookie();
         $this->_user_name_required = false;
     }
 
@@ -153,12 +153,12 @@ class Default_Model_XmlHttpRequest extends Default_Model_BaseWithTraceability
 	    		}   			
     		}
     		else{
-    			echo "unable to find data";  
+    			warning("unable to find data");  
     			$dirty = true; 			
     		}	
     		if($dirty){
     			if(is_int(self::$user_agent_id)){// just update
-    				echo "would like to update ". $this->getUserAgent();
+    				warning("would like to update ". $this->getUserAgent());
     				$data['user_agent_info'] = $this->getUserAgent();
     				$dbr_ua->user_agent_info = $this->getUserAgent();
     				$dbr_ua->save();
@@ -176,7 +176,7 @@ class Default_Model_XmlHttpRequest extends Default_Model_BaseWithTraceability
     				catch(exception $e){
     					error("error while saving second time".$e);    					
     				}
-    				echo "<br>data saved".self::$user_agent_id ;
+    				info("<br>data saved".self::$user_agent_id);
     			}
     			    			
     		}

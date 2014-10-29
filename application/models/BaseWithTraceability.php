@@ -27,6 +27,7 @@ class Default_Model_BaseWithTraceability //extends Default_Model_Base
 	public $_user_name_required;
 	private static $_rows;
 	public $class_vars;
+	public $object_vars;
 	/**
 	 * 
 	 * @var Zend_Db_Table_Row
@@ -47,6 +48,7 @@ class Default_Model_BaseWithTraceability //extends Default_Model_Base
 		if (is_array($options)) {
             $this->setOptions($options);
         }
+        $this->object_vars = get_object_vars($this);
         /*$cls =$this->getMapper()->getModelName();
         $this_list = Zend_Debug::dump(get_class_vars($cls),'__CONSTRUCTOR_TIMEClassVars:THIS '.$cls,false);
 		$this_list = Zend_Debug::dump($this->class_vars,'_Constructor time '.$cls.'vars');
@@ -131,12 +133,15 @@ class Default_Model_BaseWithTraceability //extends Default_Model_Base
     
     public function setOptions(array $in_options)
     {
+    	//kint::dump('set',$in_options);
     	$options = $in_options;
     	if($in_options instanceof Zend_Db_Table_Row){
     		$options = $in_options->toArray();
     	}
 		$exists=$this->checkForExistanceAndSetPrimaryKey($options);
     	$this->_options = array();	
+    	if(!is_array($this->object_vars))
+    		$this->object_vars = get_object_vars($this);
     	$class_vars = get_class_vars(get_class($this));
     	$methods = get_class_methods($this);
     	$log = "setOptions $exists ".$this->_mapper_name;
@@ -175,6 +180,10 @@ class Default_Model_BaseWithTraceability //extends Default_Model_Base
         		$this->{'_'.$key} = $value;
         		continue;
         	}
+        	if(array_key_exists('_'.$key,$this->object_vars)){ // search for public sub vars e.g. _key
+        		$this->{'_'.$key} = $value;
+        		continue;
+        	}
         	$method = 'set' . ucfirst(strtolower($key));
             if (in_array($method, $methods)) {
                 $this->$method($value);
@@ -184,7 +193,7 @@ class Default_Model_BaseWithTraceability //extends Default_Model_Base
             	throw new Exception("Method '".$class."::"
             		.$method."' not implemented on  - "
             		."\nValue used was '$value' - '$key' "
-            		.". \n<br>The array was ".nl2br(var_export($options,true)));            	
+            		.". \n<br>The options array is ".nl2br(var_export($options,true)));            	
             }
             $log.="\n end($key=>$value)";
         }
@@ -207,26 +216,34 @@ class Default_Model_BaseWithTraceability //extends Default_Model_Base
     }*/
 	
 	public function __get($name) { //$name holds the name of the undefined attributes getting called.
-		//Zend_Debug::dump(get_class_vars(__CLASS__),__CLASS__.'Class Vars  '.$name,true);
 		//$cls = $this->getMapper()->getModelName();
 		//Zend_Debug::dump(get_class_vars($cls),$cls.'Class Vars  '.$name,true);
-		//echo "Looking for name"
+		
 		if (array_key_exists($name, $this->class_vars )) { // search for public direct vars e.g. key
 			return $this->$name;
 		}
 		if (array_key_exists( '_' . $name, $this->class_vars )) { // search for public sub vars e.g. _key
 			return $this->{'_' . $name};
 		}
+//		kint::dump('__get('.$name.'):OBJ_VARS'.get_class($this),get_object_vars($this));
+//		die();
+		//if(array_key_exists('_' . $name, get_object_vars($this) /*$this->object_vars*/)){
+		//	kint::dump("DUMPING with Fancy approach $name .",$this);
+		//	return $this->${'_'.$name};
+		//}
 		$method = 'get' . ucfirst ( $name );
 		if (('mapper' == $name) || ! method_exists ( $this, $method )) {
 			$class_name = get_class ( $this );
+			//--die('X');
+				
 			$this_list = Zend_Debug::dump('ClassVars: '.__class__,get_class_vars($class_name),false);
 			$this_list = Zend_Debug::dump('ClassVars: '.__class__,get_class_vars(__CLASS__),false);
-			$this_list = Zend_Debug::dump('ClassVars:THIS '.__class__,get_class_vars(this),false);
+			$this_list = Zend_Debug::dump('ObjectVars: THIS '.__class__,get_object_vars($this),false);
 			$this_list .= Zend_Debug::dump($this,'This',false);
 			$method_list = Zend_Debug::dump(get_class_methods($this),'Class Methods in '.__CLASS__,false);
+			
 			//die();
-			throw new Exception ( 'BaseWithTrace:Invalid Base property - "' . $name . '" - Method requested : "' . $class_name . '->' . $method . '()"'.$method_list.$this_list  )//.var_export($this,true)
+			throw new Exception ( 'BaseWithTrace: Invalid Base property - "' . $name . '" - Method requested : "' . $class_name . '->' . $method . '()"'.$method_list.$this_list  )//.var_export($this,true)
 			;
 		}
 		return $this->$method ();

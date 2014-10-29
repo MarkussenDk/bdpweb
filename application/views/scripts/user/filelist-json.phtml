@@ -88,9 +88,56 @@ function getIfr(){
 	appendTa("Ifr_parse was not set");
 }
 
+var g_divForLogging = null;
+
+function getDivForLogging(){
+	//global g_divForLogging;
+	if(!g_divForLogging){
+		g_divForLogging =  document.getElementById('div_file_results');				
+	}
+	if(!g_divForLogging){
+		error('It was not posible to find DivForLogging');
+	}
+	return g_divForLogging;
+}
+
+function render_elem_with_attributes(elem_name,attributes){
+	var s_attributes = "";
+	for(var key  in attributes){
+		s_attributes += '  '+key+'="'+attributes[key]+'"';
+	}	
+	return '<'+elem_name+' '+s_attributes+'/>'; 
+}
+
+/*var test = render_elem_with_attributes('div',{id:'new_id',class:'new_class'});
+alert('testing render_element '+test);*/
+
+var g_current_open_div_obj = "";
+function openDiv(new_div_obj_to_open){
+	if(g_current_open_div_obj){
+		g_current_open_div_obj.class = 'parse_history';
+	}
+	new_div_obj_to_open.class = 'parse_history_open';
+	g_current_open_div_obj = new_div_obj_to_open;		
+}
+
+
+function addText(number,text){
+	var main_div = getDivForLogging();
+	var new_id = 'parse_item_'+number;
+	main_div.innerHTML +=  render_elem_with_attributes('div',{id:new_id,class:'parse_history',onclick:'javascript:openDiv(this);'})
+	var new_div = document.getElementById(new_id);
+	if(!new_div)
+		error("New Div Object not found with name "+new_id);
+	new_div.innerHTML = text;
+}
+
+
 function iframeLoaded(){
 	//appendTa("iframe loaded");
 	var slt = document.getElementById("slt");
+	if(!slt.option)
+		return;
 	var len = slt.options.length;
 	var html = getIfr().contentDocument.documentElement.innerHTML; 
 	//appendTa(html);
@@ -111,10 +158,10 @@ function iframeLoaded(){
 			+ last_run_time/1000 + ' seconds '
 			+ last_processing_speed*1000 + ' kB/s.');
 	last_file_size = html_len;
-	takeNextAndParse();	
+	takeNextAndParse(false);	
 }
 
-function takeNextAndParse(){
+function takeNextAndParse(full){
 	if(!is_allowed_to_run){
 		appendTa("I was cancelled after "+stopAndGet()+' ms.');
 		return;		
@@ -125,7 +172,7 @@ function takeNextAndParse(){
 		var filename = slt.options[itemSelectedIndex].value;
 		appendTa("File nr. "+len+" of "+1.0+itemSelectedIndex + ": Ready to load file " + filename);
 		start();
-		parseFile(filename); 
+		parseFile(filename,full); 
 		itemSelectedIndex++;
 	}
 	else{
@@ -139,11 +186,11 @@ function appendTa(str){
 	ta.scrollTop = ta.scrollHeight; 
 }
 
-function parseFile(finename){
+function parseFile(finename,reset_status){
 	g_ifr_parse = getIfr();
-	var p = g_path + g_user + '/filename/' + finename+'/info.htm';
+	var p = g_path + g_user + '/filename/' + finename+'/reset_status/'+reset_status+'/info.htm';
 	appendTa(p);
-		g_ifr_parse.src =  p;
+	g_ifr_parse.src =  p;
 //	g_ifr_parse.document.onload = iframeLoaded;
 	
 }
@@ -181,7 +228,7 @@ function toggleIsAllowedToRun(){
 	<br/>
 	</div>
 <h2>Proces Files</h2>
-<form name='stpw'><input name='time' /></form>
+<form name='stpw'><label for='time' >Stop Watch Time</label><input name='time' /></form>
 	
 	
 <?php
@@ -205,7 +252,7 @@ if(isset($this->user_file_directory_iterator)){
 			  ->from('price_parser_runs')
 			  ->where('file_base_name = ?',$bn)
 			  ->where('file_size = ?',$file->getSize())
-//			  ->where('status in (?)',"'parsing file', 'success'")
+		//	  ->where('status in (?)',"'parsing file', 'success'")
 			  //->order('file_size DESC')
 			  //->order('price_parser_run_id DESC')
 			  ;
@@ -226,7 +273,7 @@ if(isset($this->user_file_directory_iterator)){
 		}
 		$value=$bn;
 		$name="$bn - $fs - $date ";
-		$option .= "\n\t<option value='$value' >$name</option >";
+		$option .= "\n\t<option value='$value' > $name</option >";
 	//	echo "<tr><td $c ><input type='radio' name='filename' value='$fn'></td><td $c >$bn</td><td $c >$date</td><td $c>&nbsp;$fs kb</td> </tr>";
 	}	
 	if(is_null($option)){
@@ -236,17 +283,25 @@ if(isset($this->user_file_directory_iterator)){
 	else{
 		?>
 		<form ><table><tr><td>
-		<select id="slt" name="slt"  multiple="multiple" size="10"> 
+		<select id="slt" name="slt"  multiple="multiple" size="10" style="width:100%" > 
 		<?php 
 		echo utf8_encode($option);
 		?>
 		</select>
+</td></tr><tr>
+<td>
+	<textarea rows="10" cols="80" id="ta"  width=100% ></textarea>
+</td>
+</tr>
 </td>
 <td>
-	<textarea rows="10" cols="80" id="ta" ></textarea>
+	<div id="div_file_results" ></div>
 </td>
-</tr></table>
+</tr>
+</table>
 <button onclick="parseSelected();return false;" type="button" >Process File</button>
+<button id="btn_start"  onclick="takeNextAndParse(false);"  type="button"  >Start batch</button>
+<button id="btn_start_full"  onclick="takeNextAndParse(true);"  type="button"  >Start batch Reset Status</button>
 <button id="btn_batch_toggle"  onclick="toggleIsAllowedToRun();"  type="button"  >Disable batch</button>
 </form> <?
 	}
@@ -282,8 +337,8 @@ else
 							$name = $pp_row['file_base_name'];
 							//Kint::dump($args) ;							
 							//$row = array_search( array("car_model_id"=>$car_model_id),$make_and_models);
-							$url='/user/procesfile/price_parser_run_id/'.$pp_id;
-							$a = " <a href='$url' target='_top' >Re-Process</a>";
+							$url='/user/procesfile/price_parser_run_id/'.$pp_id.'/reset_status/true';
+							$a = " <a href='$url' target='ifr_parse' >Re-Process</a>";
 							$row = null;
 							$car_make_id = $row['car_make_id'];
 							$car_model_name = $row['car_model_name'];
@@ -353,6 +408,7 @@ else
                 		
 //echo "<h1>Priting rows</h1>";
 ?>
+<style>#pageWrapper_ {width: 95%;} nooption_{width: 95%;} div#bdp-div-page {width: 95%; </style>
 <iframe onload='iframeLoaded();' id='ifr_parse' name='ifr_parse' src ="about:blank" width="100%" height="300">
   <p>Your browser does not support iframes.</p>
 </iframe>

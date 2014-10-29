@@ -65,7 +65,7 @@ class UserController extends Zend_Controller_Action {
     	//$xh->setCreatedBy($user_name);
 		try{$xhrid = $xh->getMapper()->save($xh);}
     	catch(exception $e){
-    		echo " exception while saving XmlHttpRequest ".$e;
+    		warning(echo " exception while saving XmlHttpRequest ".$e);
     	}
     	
     	
@@ -411,12 +411,14 @@ class UserController extends Zend_Controller_Action {
 		
 		$values = $request->getParams();
 		$price_parser_run_id=null;
+		$this->view->reset_status = $values['reset_status'];
 		if(array_key_exists('price_parser_run_id',$values)){
 			$price_parser_run_id=$values['price_parser_run_id'];
 			$pp = new Bildelspriser_XmlImport_PriceParser($spp,$price_parser_run_id);
 			$this->view->pp = $pp;
 			$this->view->price_parser_run_id = $price_parser_run_id;
 			$this->view->path = $path;
+			$this->view->full = $values['full'];
 			//$this->view->filename = $filename;				
 			//$this->render('procesfile');				
 		}
@@ -426,7 +428,7 @@ class UserController extends Zend_Controller_Action {
 			if(array_key_exists('filename',$values)){
 				$filename = utf8_decode($path.$values['filename']);
 				assertEx(file_exists($filename),utf8_encode("File does not exist? - $filename"));
-				$pp = new Bildelspriser_XmlImport_PriceParser($spp);
+				$pp = new Bildelspriser_XmlImport_PriceParser($spp,null,$filename);
 				assertEx($pp,"No price parser");
 				$result = "";
 				$this->view->pp = $pp;
@@ -450,6 +452,8 @@ class UserController extends Zend_Controller_Action {
 	}
 	
 public function processmallestfileAction(){
+		die("Dead code?");
+		/*
 		$path = $this->getDestinationFolder();
 		$request = $this->getRequest();
 		$form = new Zend_Form();
@@ -512,7 +516,7 @@ public function processmallestfileAction(){
 		}
 		else
 			$this->dispatch('procesfile');	
-			$this->render('procesfile');		
+			$this->render('procesfile');	*/	
 	}
 	
 	public function logoutAction(){

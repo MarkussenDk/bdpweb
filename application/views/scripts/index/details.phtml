@@ -1,12 +1,19 @@
 <?php
 
+
+
 include_once '../application/controllers/IndexController.php';
+/** @var $current_model Default_Model_CarModels */
 $current_model=null;
 function removevarenummer($str){
 	$rem = "Varenummer:�";
 	//$rem = "Varenummer:";
 	return trim(str_ireplace($rem,'',$str));
 }
+
+isset($this->supplier) or error("No supplier given to view script");
+isset($this->spare_part_price) or error("No price given to view script");
+
 
 function getPartName($long_name){
 	$short_names = explode(' ',$long_name);
@@ -16,6 +23,13 @@ function getPartName($long_name){
 	return $short_names[0];
 }
 
+function getSupplierNameAndDetails($supplier){
+	isset($supplier) or error ("Supplier not set in getSupplierNameAndDetails");
+	//Kint::dump($gw);
+	$html = "\n<!--supplier-details for id $supplier->spare_part_supplier_id -->";
+	$html .='<b><a target="new_window"href="'.$supplier->supplier_product_catalog_url.'" >'.$supplier->supplier_name."</a></b>";
+	return $html;
+}
 
 
 function extractDetailedTitleTag($view,$spp){
@@ -83,7 +97,8 @@ $table = '<table class="bdp_table_price" >'
 	.mktr('Producent',$spp->Producer_make_name)
 	.mktr('Producentens varenr.',$spp->Producer_part_number)
 	.mktr('Pris (inkl.moms)',price_format($spp->Price_inc_vat))
-	.mktr('Vis hos butik',$link_start.$spp->Name.'</a>')
+	.mktr('<b>Vis hos butik</b>',$link_start.$spp->Name.'</a>')
+	.mktr('Butiksnavn',getSupplierNameAndDetails($this->supplier).'</a>')
 	.'</tr></table>';
 //echo $table;
 $img_src = FixUrl($spp->spare_part_image_url,'img',$spp);
@@ -123,8 +138,8 @@ function is_utf8($str) {
     }
     return true;
 }
-
-echo "<h3>Alle detaljer for</h3><div class='bdp_price_all_details' ><h1>$name</h1><table>$tbody</table></div>";
+$supplier_name = $this->supplier->supplier_name;
+echo "<h3>Alle detaljer for</h3><div class='bdp_price_all_details' ><h1>$name</h1><h3>Butikkens navn er $supplier_name</h3>Husk at sig at prisen er fundet hos Bildelspriser.dk<table>$tbody</table></div>";
 /* '_name' => NULL,
    '_description' => NULL,
    '_spare_part_url' => NULL,
@@ -171,7 +186,8 @@ foreach ($Cmo2Spps as $cmm2spp){
 	}	
 	if($this->car_model_id == $model->_car_model_id){
 		$current_model = $model;		
-	}
+	} 
+	/** @var $current_model Default_Model_CarModels */
 	$full_name = $model->car_make_name.' '.$model->car_model_name;
 	$make_url = '/index/brands/brand/'.$model->car_make_name.'/car_make_id/'.$model->car_make_id;
 	$model_url = $make_url. '/car_model_id/'.$model->car_model_id.'/car_model_name/'.$model->car_model_name; 
@@ -208,11 +224,17 @@ if($this->car_model_id!=null){
 	if($searcher->_car_model_id == null){
 		$searcher->_car_model_id = $current_model->getCar_model_id();
 	}
+	// target url example: /index/brands/brand/Alfa%20Romeo/car_make_id/101/car_model_id/1155/q/21W
+	$all_parts_for_model_url = '/index/brands/brand/'.$current_model->getCar_make_name()
+				.'/car_make_id/'.$current_model->getCar_make_id()
+				.'/car_model_id/'.$current_model->getCar_model_id()
+				.'/q/'.getPartName(utf8_encode($spp->name));
 	$prices = $searcher->runSearch(getPartName(utf8_encode($spp->name)));
 	$table = '<table id="details_all_prices" class="bdp_price_all_details" >'
 			.'<tr><th class="bdp_price_all_details" colspan="3" >'
+				."<h3 class='slim' ><a href='$all_parts_for_model_url' >"
 				.'Alle '.getPartName(utf8_encode($spp->name))
-				.' til '.$current_model->getMakeAndModelName()
+				.' til '.$current_model->getMakeAndModelName() . '</a></H3>'
 			.'</th></tr>';
 	Zend_View_Helper_SparePartPricePrinter::$car_model_id = $this->car_model_id;
 	$spp_printer = new Zend_View_Helper_SparePartPricePrinter();

@@ -274,6 +274,12 @@ function handleBrandChange(dropdown,mode) {
 
 function fillModelSelect(xmlreply, modelSelect) {
 	if (xmlreply.status == Http.Status.OK) {
+		if(xmlreply.responseXML === null){
+			console.log("No valid XML In response ");
+			console.log("Response");
+			console.log(xmlreply);
+			return;
+		}
 		var xmlDoc = xmlreply.responseXML;
 		var JSON_text = xmlreply.responseText;
 		var myObject = eval('(' + JSON_text + ')');

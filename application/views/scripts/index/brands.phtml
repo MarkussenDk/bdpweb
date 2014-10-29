@@ -51,7 +51,7 @@ if(!array_key_exists('brand',$this->params)){
 			$_model_name = $ar_brand['name'];
 			$_model_id = $ar_brand['id'];
 			$car_model_link = $car_make_link."/car_model_id/$_model_id/";
-			echo " <a href='$car_model_link' >$_model_name</a> &nbsp; <br/> ";
+			echo " <a href='$car_model_link' >$_model_name <span class='alt_models'  id='alt_models_$_model_id' ></span> <span class='price_info' id='prices_info_$_model_id'  ></span> </a> &nbsp; <br/>   ";
 		}
 	}
 	else{
@@ -138,3 +138,37 @@ if($this->prices){
 }
 //echo "</table>"
 // Send our output
+
+?>
+<script type="text/javascript"   >
+<!--
+ function iframe_loaded(iframe_obj_list,event_name){
+	var iframe_obj = iframe_obj_list[0];
+	alert('iframe event '+event_name);
+	var content = iframe_obj.innerHTML;
+	alert(content);
+};
+
+function set_span(text,span_id){
+	jQuery('#'+span_id)[0].innerHTML = text;
+}
+
+function erich_price_span_by_model_id(index,span_obj){
+	var span_id = span_obj.id;
+	var car_model_id = span_id.replace('prices_info_','');
+	jQuery('#'+span_id).load('/index/ajax-html/cmd/GetPriceCountByModel/car_model_id/'+car_model_id);
+//	span_obj.innerHTML = ' - '+car_model_id;
+}
+
+function erich_model_span_by_model_id(index,span_obj){
+	var span_id = span_obj.id;
+	var car_model_id = span_id.replace('alt_models_','');
+	span_obj.innerHTML = ' - '+car_model_id;
+}
+
+ 
+jQuery(document).ready(function(){ 
+	jQuery('.price_info').each(erich_price_span_by_model_id);
+});
+//-->
+</script>

@@ -109,7 +109,12 @@ class Default_Model_SparePartSuppliersMapper extends MapperBase
     static function getIdentityAsString($authenticated_user_required = true){
     		//Zend_Loader_Autoloader::autoload('BildelspriserAuthAdapter');
     	//$sps = BildelspriserAuthAdapter::getInstance('BildelspriserAuthAdapter')->getSparePartSupplier();
-    	$user_name = Default_Model_SparePartSuppliersMapper::getIdentity($authenticated_user_required)->getSupplier_admin_user_name();
+		$obj_user = Default_Model_SparePartSuppliersMapper::getIdentity($authenticated_user_required);
+    	if(!is_object($obj_user)){
+			warning("Object not set in getIdentityAsAtring in file ".__file__);
+			return "anonymous";
+		}
+		$user_name = $obj_user->getSupplier_admin_user_name();
     	assertEx(!$authenticated_user_required or $user_name,"UserName not defined?");
     	return $user_name;
     }

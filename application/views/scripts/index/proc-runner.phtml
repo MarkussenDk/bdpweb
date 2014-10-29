@@ -52,15 +52,22 @@ if ($this->proc_result) {
 	//$all_rows = $this->proc_result->fetchAll();
 	//kint::dump($all_rows);
 	$mysqli = $this->proc_result->getAdapter()->getConnection();
-	kint::dump($mysqli,'object type'.get_class($mysqli));
+	kint::dump($mysqli,'object type'.get_class($mysqli),get_class_methods(get_class($mysqli)));
 	/** @var $mysqli typemysqli */
-	while($mysqli->next_result()){
+	$more_rows=1;
+	while($more_rows){
 		echo "<br>Looping".$i++;
 		$all_rows = $mysqli->store_result();
+		if(!is_object($all_rows)){
+			kint::dump('all_rows was not an object - skipping',$all_rows);
+		}
 		while($r = $all_rows->fetch_row()){ 
 			echo "InnerLoop";
-			kint::dump($r);
+			kint::dump($r,get_class($r),get_class_methods(get_class($r)));
+			/** @var $r */ 
+			
 		}
+		$more_rows = $mysqli->next_result();
 	}
 	while ( $row = $this->proc_result->fetch() ) {
 		echo "<tr><td>" . implode('</td><td>',$row).'</td></tr>';

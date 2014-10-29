@@ -1,6 +1,29 @@
+<<<<<<< HEAD
 #data should not be deployed
 data
 #logs should not be committed
 Logs
 #cache
 cache
+=======
+# Composer files
+composer.phar
+vendor/
+
+# Local configs
+config/autoload/*.local.php
+
+# Binary gettext files
+*.mo
+
+# Data
+data/logs/
+data/cache/
+data/sessions/
+data/tmp/
+temp/
+
+# Legacy ZF1
+demos/
+extras/documentation
+>>>>>>> 93b2cecba0b6c7abec6e2955e7f1b959b49e47a9

@@ -1,6 +1,10 @@
 <?php
 
+//namespace library\Bildelspriser\DB;
+
 $db="";
+
+include 'UTF8.php';
 
 class Bildelspriser_DB_DBObject
 {
@@ -16,7 +20,8 @@ class Bildelspriser_DB_DBObject
   public $field_list = null;
   public $insert_field_list = array();
   public $value_list_count = 0;
-
+  public $last_sql = null;
+  
   function __construct( $table, $fields,$id_name=null)
   {
    $this->table = $table;
@@ -132,6 +137,11 @@ class Bildelspriser_DB_DBObject
   }
   
   function selectWhere($where_clause){  
+  	//Bildelspriser_DB_UTF8::dumpStringAsBytes($where_clause);
+  	Bildelspriser_DB_UTF8::removeUTF8Junk($where_clause);
+  	if(Bildelspriser_DB_UTF8::hasUTFchars($where_clause)){
+  		error("Where clause has UTF8 chars '$where_clause' ");
+  	}
   	$sql = 'select * from '.$this->table.' where ';
   	if(is_array($where_clause)){
   		$a = '';
@@ -148,10 +158,23 @@ class Bildelspriser_DB_DBObject
   	//echo " '$sql' ";
     $res = $db->query($sql);
     $row = $res->fetchAll();
+    //kint::dump('AllRow in SelectWhere',$row);
+    if(!is_array($row) || count($row)==0){
+		kint::dump('No data found using SQL',$sql);
+		return;
+	}
     //$res->fetchInto( $row,  );
     //$this->id = $id;
+    reset($row);
+    $row = current($row);
+    //kint::dump('Row in SelectWhere',$row);
     foreach( array_keys( $row ) as $key )
       $this->fields[ $key ] = $row[ $key ];
+    if($this->id==0 ){
+    	if($this->id_name && array_key_exists($this->id_name, $row)){
+    		$this->id = $row[$this->id_name];
+    	}
+    }
   }
 
   function create_insert_statement($ar_fields){
@@ -177,7 +200,7 @@ class Bildelspriser_DB_DBObject
       $values []= $this->fields[ $field ];
 	$lid =null;
 	bdp::info("Insert sql - </br>'$sql' ");
-    $sth = $db->prepare( $sql );
+    $sth = $this->prepare( $sql );
     if($sth){
     	$lid = $sth->execute($values);
     }
@@ -233,6 +256,8 @@ class Bildelspriser_DB_DBObject
 	//bdp::log('Adding: '.$val_str);
   }
   
+  
+  
   public function reset_field_list(){
   	$this->field_list = null;
   }
@@ -255,10 +280,20 @@ class Bildelspriser_DB_DBObject
   	return $c;
   }
   
+  function update_row($row){
+  	if(array_key_exists($this->id_name, $row))
+  		unset($row[$this->id_name]);
+  	foreach($row as $key=>$val){
+  		$this->$key = $val;
+  	}
+  	//kint::dump('Updating row ',$row);
+  	$this->update();	  	
+  }
+  
 
-  function update()
+  function update($where_clause=null)
   {
-  	//echo "In update";
+  	//echo "In update($where_clause) ";
     $db = $this->getDb();
     
     $sets = array();
@@ -266,13 +301,17 @@ class Bildelspriser_DB_DBObject
 //    Kint::dump($this->fields);
     foreach( array_keys( $this->fields ) as $field )
     {
-      //echo "<br> field ".Zend_Debug::dump($field,'Field',false);
+      //echo "<br> field ".Kint::dump($field,'Field',false);
+      if(!is_null($where_clause) && $field == $this->id_name){
+      	echo "Skipping primary key '$field' & $this->id_name since there is another WC '$where_clause' ";
+      	continue;
+      }	
       if('0'==$field ){
       	continue;
       }
       elseif(is_int($field)){
-      	Kint::dump($field);
-      	Kint::dump(array_keys($this->fields));
+      	//Kint::dump($field);
+      	//Kint::dump(array_keys($this->fields));
       	continue;
       }
       elseif (!isset($this->fields[$field]))
@@ -280,39 +319,62 @@ class Bildelspriser_DB_DBObject
       	//echo "<br> Empty field $field ";
       	continue;
       }
+      elseif ($field == 'updated')
+      {
+      	//echo "<br> Empty field $field ";
+      	continue;
+      }      
       else{	
       	$sets []= $field.'=?';
       	$values []= $this->fields[ $field ];
       }
     }
     $set = join( ", ", $sets );
-    $values []= $this->id;
-
-$sql = 'UPDATE '.$this->table.' SET '.$set.
-  ' WHERE '.$this->id_name.'=?';
+    
+    if(is_null($where_clause)){
+    	if($this->id<0)
+    		die(kint::dump('ERROR: this->id was not set on DBObject',$this));
+    	//$values []= $this->id;
+    	$where_clause = $this->id_name.'='.$this->id;    	
+    }
+    if(!str_contains($set, 'updated')){
+    	$set .= ',updated = null ';
+    }
+	$sql = 'UPDATE '.$this->table.' SET '.$set.
+  	' WHERE '.$where_clause;
 	//$this->execute($sql,$values);
 	//die ('SQL in Update<br/>'.$sql.'<br/>'.var_dump($values));
-    try{$sth = $db->prepare( $sql );}
+    //Kint::dump('UpdateSQL',$sql);
+    //die('TEST');
+    $cmd = 'prepare';
+	try{
+		$sth = $db->prepare( $sql );
+		$cmd = 'execute';
+		$this->execute( $sth, $values );
+	}
     catch(exception $e){
-    	$debug=Zend_Debug::dump($sql,'Statement',FALSE);	
-    	die('Exception in DBObject::prepare() while '.$sql
+    	$debug=Zend_Debug::dump('Statement with error',$sql);	
+    	die(__LINE__.'Exception in DBObject::'.$cmd.'() while cmd='.$cmd.' SQL='.$sql
     		.' with values <br>'.$values
-    		.'Exception:<br>'.nl2br($e)
+    		.__LINE__.'Exception:<br>'.nl2br($e)
     		.'<hr/>'.$debug);
-    }
-   	$this->execute( $sth, $values );
+    }   	
   }
 
   function execute($sth,$values){
+  	/** @var $_zend_statement Zend_Db_Statement_Mysqli */
   	$status = "starting";
   	$_zend_statement=null;
+  	$sql = null;
   	$db = $this->getDb();
   	try{
   		if(is_string($sth)){
-  			$status = 'trying to create statement';
-  			$_zend_statement = $db->prepare( $sth );
+  			$this->last_sql = $sth;
+  			$status = 'trying to create statement (sql='.$sth.')';
+  			$_zend_statement = $db->prepare( $sth );  			
   		}elseif($sth instanceof Zend_Db_Statement){
   			$_zend_statement = $sth;
+  			$sql = $this->last_sql;
   	  	}
   	  	else{
   	  		throw new Exception("Unknown type ".get_class($sth));  	  		
@@ -335,10 +397,19 @@ $sql = 'UPDATE '.$this->table.' SET '.$set.
 				}
 			$vals .= "</table>";
 		}
-		$debug=Zend_Debug::dump($sth,'Statement',FALSE);		
+		//$debug=Zend_Debug::dump('SQL Statement',$sql,$sth,'Statement',FALSE);		
 		//$query = $profiler->getLastQueryProfile();
  		//echo $query->getQuery();
-		die('Exception in DBObject::execute() while '.$status.' with values <br>'.$vals.'Exception:<br>'.nl2br($e).'<hr/>'.$debug);
+		$str_sth = "";
+		if(is_string($sth)) $str_sth = $sth;
+		elseif (is_object($sth)) { $str_sth = 'Object of type '.get_class($sth);
+			/** @var $sth Zend_Db_Statement_Mysqli */
+			//$str_sth .= '<br>ERROR_INFO from statement: '. ;
+			$str_sth = $this->last_sql;
+			kint::dump($sth->errorInfo());
+		}
+		echo(__LINE__.'Exception in DBObject::execute(sth='.$str_sth.') while '.$status
+				.' with values <br>'.$vals.'Exception:<br>'.nl2br($e).'<hr/>');
 	}
   }
   
@@ -359,13 +430,15 @@ $sql = 'UPDATE '.$this->table.' SET '.$set.
   
   function prepare($sql){
   	try{
+  		$this->last_sql = $sql;
   		return $this->getDb()->prepare($sql);
   	}
   	catch(exception $e){
-  		die("In Prepare: SQL was<br>".$sql);
-  		throw new exception("SQL Error - <br>$sql<br>" .$e);
-  	}
-  	
+  		error("Exception: In Prepare: SQL was<br>".$sql.'<br>'.nl2br($e));
+		return;
+  		throw $e;
+  		throw new exception("In Prepare - SQL Error - <br>$sql<br>",0,$e);
+  	}  	
   }
   /**
    * @return Zend_Db_Adapter_Mysqli

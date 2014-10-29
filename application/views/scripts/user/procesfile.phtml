@@ -33,7 +33,7 @@ $result = null;
 					//$result = $pp->parseString($xml_source);
 					bdp::set_logger_type();
 					bdp::log('Logger type is now direct');
-					$result = $pp->parseFileName($this->filename);
+					$result = $pp->parseFileName($this->filename,null,$this->reset_status);
 					$result .= '(no exceptions)';
 				}
 				catch(XmlParserException $xpe){

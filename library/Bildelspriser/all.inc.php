@@ -1,4 +1,4 @@
-<?php 
+﻿<?php 
 //set_error_reporting('E_ALL');
 require 'trace.inc.php';
 require 'db.inc.php';
@@ -6,13 +6,20 @@ require_once "Mail.php";
 require_once "Mail/mime.php";
 include 'kint/Kint.class.php';
 $allow_email = true;
-
+$debug_mode = false;
 // See - http://dk2.php.net/error_reporting
 $error = "";
 function error($str){
 	global $error;
-	$error = $str;
-	throw new exception($str);
+	global $debug_mode;
+	$error .= $str;
+	if($debug_mode)
+		throw new exception($str);
+	else{
+		echo "<!-- exception ";
+		echo $str;
+		echo "-->";		
+	}
 }
 /**
  * 
@@ -79,10 +86,12 @@ function getTrace(){
   $var = ob_get_clean();
   return $var;
 }
-
+$report_error = true;
 function mail_error_function($error_level,$error_message,$error_file,$error_line,$error_context){
 	global $allow_email;
 	global $S_SERVER;
+	global $report_error;
+	if(!$report_error) return;
 	$client_ip = $_SERVER["REMOTE_ADDR"];
 	$client_agent=$_SERVER["HTTP_USER_AGENT"];
 	$REQUEST_URI=$_SERVER["REQUEST_URI"];

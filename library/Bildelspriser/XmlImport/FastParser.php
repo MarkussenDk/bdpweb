@@ -6,7 +6,10 @@ class Bildelspriser_XmlImport_FastParser {
 	public $allowed_element_name;
 	public static $spp_saver;
 	public $price_parser_run_id;
-	function __construct($filename) {	
+	/** var $overwrite_all Fast or Full*/
+	public $overwrite_all; 
+	function __construct($filename) {
+		$this->overwrite_all = false;	
 		$steps[] = 'add_to_db';		
 		$this->filename = $filename;
 		/*$table= 'spare_part_prices';
@@ -61,6 +64,7 @@ class Bildelspriser_XmlImport_FastParser {
 		if(array_key_exists('REFERENCE', $attrs) && $attrs['REFERENCE']=='true')
 			return;
 		$spp_saver = self::$spp_saver;
+		//$this->checkArrayForUTF8Errors($attrs);
 		if($spp_saver==null){
 			bdp::log("Creating a SparePartPriceSaver - this should only happen once");
 			$spp_saver = new Bildelspriser_XmlImport_SparePartPriceSaver();
@@ -162,7 +166,11 @@ class Bildelspriser_XmlImport_SparePartPriceSaver extends Default_Model_DynBase{
 		}
 		if(Default_Model_SparePartPricesMapper::existsInCache($lower_attribs, $spare_part_price_id, $natual_key))
 		{
-			bdp::log("Spare_Part_Price $spare_part_price_id exists in cache ". $lower_attribs['supplier_part_number']);
+			//bdp::log("Spare_Part_Price $spare_part_price_id exists in cache ". $lower_attribs['supplier_part_number']);
+			//$row['spare_part_price_id']=$spare_part_price_id;
+			$row=array_change_key_case($row,CASE_LOWER);
+			$this->update_name_from_row($row);
+			//bdp::log("Now updated");
 			return;			
 		}
 		else {
@@ -181,7 +189,35 @@ class Bildelspriser_XmlImport_SparePartPriceSaver extends Default_Model_DynBase{
 	
 	function saveRowsToDb(){
 		return parent::insert_execute_statement();
-	}	
+	}
+
+
+	function update_name_from_row($row){
+		$spare_part_supplier_id = $row['spare_part_supplier_id'];
+		$supplier_part_number = $row['supplier_part_number'];
+		if($spare_part_supplier_id < 1){
+			kint::dump($row);
+			die('In update row - spare_part_supplier_id was missing ');			
+		}
+		if(!isset($supplier_part_number)){
+			kint::dump($row);
+			die('In update row - supplier_part_number was missing ');			
+		}		
+		if(Bildelspriser_DB_UTF8::hasUTFchars($supplier_part_number)){
+			$supplier_part_number = utf8_decode($supplier_part_number);
+		}
+		$where_clause = " spare_part_supplier_id = $spare_part_supplier_id AND supplier_part_number = '$supplier_part_number' ";
+		Bildelspriser_DB_UTF8::removeUTF8Junk($where_clause);
+		$this->selectWhere($where_clause);
+		//kint::dump('Update_Name_From_Row - AfterSelect',$this,$where_clause,$row['name'],$row);
+		bdp::log('Just set name to '.$row['name'].' it was '.$this->name);
+		$this->name = $row['name'];
+		//kint::dump('ROW in UPD2',$this->fields);
+		$this->spare_part_price_id = $this->fields['spare_part_price_id'];
+		if($this->spare_part_price_id>0)
+			$where_clause = " spare_part_price_id='$this->spare_part_price_id' ";
+		$this->update($where_clause);
+	}
 }
 
 ?>

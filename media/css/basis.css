@@ -72,7 +72,8 @@ background-color-none: white; }
 	background: #fff;
 	/*visibility: hidden;*/
 }
-
+		.slim{	padding: 0pt;	margin: 0pt;  }
+	
 		table.layout{  	}
 		table.layout td{ padding: .3em 1em .3em 1em ; vertical-align: top;}
 		
@@ -188,11 +189,13 @@ table.bdp_price_all_details{
        
 		span.active{color:silver;}
 		
-a.link_button	{
-width:155px;
-display:block; /* change to inline for horizontal menu */
-margin-left:10px; /*indents left margin; change for horiz. menu */
-margin-top:0px; /* change to 1 or 2px for top space between
+.link_button	{
+/*width:155px;*/
+height:60px;
+display:block;	
+/*display:inline; / * change to inline for horizontal menu */
+margin-left:5px; /*indents left margin; change for horiz. menu */
+margin-top:5px; /* change to 1 or 2px for top space between
 buttons*/
 padding: 2px 5px 2px 5px;
 /* padding numbers = top : right : bottom :
@@ -204,7 +207,7 @@ text-align:center;
 background-color:  #FD9421;
 color: white;
 font-size:9pt;
-border: 3px navy ridge;
+border: 2px navy ridge;
 }
 a.link_button:hover {
 	text-decoration:underline;
@@ -212,6 +215,9 @@ a.link_button:hover {
 color:navy;
 font-style:italic;
 }
-		
-		
+
+span.price_info{font-style:italic;color:silver}
+
+parse_history{height:30px;color:gray;}
+parse_history_open{color:red;}		
 		</style>

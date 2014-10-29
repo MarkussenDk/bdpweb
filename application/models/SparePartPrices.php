@@ -33,9 +33,7 @@ class Default_Model_SparePartPrices extends Default_Model_BaseWithTraceability
 	private $_spare_part_supplier_id;
 	private $_price_parser_run_id;
 	private $_xml_http_request_id;
-	
-	public $Price_parser_run_id;
-	public $price_parser_run_id;
+	public  $price_parser_run_id;
 /* Moved to Default_Model_BaseWithTraceability
  	private $_created;
 	private $_created_by;
@@ -365,8 +363,46 @@ class Default_Model_SparePartPrices extends Default_Model_BaseWithTraceability
     	$this->_xml_http_request_id = $text;
     	return $this;
     }
+    /**
+     * @return null if all ok, else returns errors as concatenated string.
+     */
+	public function validate_supplier_page_behind_supplier_url(){
+		$result = null;
+		$errors = null;
+		$content = null;
+		$error_level = null;
+		$headers = get_headers($this->_spare_part_url);
+		if(str_contains($headers[0]," 40")){
+			$errors[] = ' ERROR: '.$headers[0];
+			$errors[] = 'Page on server moved';
+			$content = '';
+		//	kint::dump('Errors',$errors);
+		}
+		else{
+			$error_level =error_reporting();
+			$content = @file_get_contents($this->_spare_part_url);	
+		//	kint::dump('Cont',$content);
+		}
+		//$content = @file_get_contents($this->_spare_part_url);
+		$this->check_value_in_content_return_error('supplier_part_number', $content, $errors);
+		$this->check_value_in_content_return_error('original_part_number', $content, $errors);
+		$this->check_value_in_content_return_error('supplier_part_name', $content, $errors);
+		if(is_array($errors)){
+			$result = "\n==PageValidation gave an error \n - supplier part page could have moved?\n".
+					implode("\n - ", $errors);
+		}
+		return $result;
+	}
     
-
+	private function check_value_in_content_return_error($val_name,$content,&$errors){
+		$val = trim($this->{'_'.$val_name}, "\x0A\x20\x09\x0A\x0D\x0A\xA0..\xC9");
+		if(!isset($val) || $val == '')
+			return;
+		if(!str_contains($content, $val)){
+			$errors[] = "Validation error: $val_name '$val' not found on page";
+		}				
+	}
+	
     
   /*  public function setPrice_url($text){
     	$this->_price_url = $text;
@@ -478,7 +514,7 @@ class Default_Model_SparePartPrices extends Default_Model_BaseWithTraceability
    			
    		}
 //   		$cm2spp_mapper = Default_Model_CarModelsToSparePartPricesMapper::getInstance('Default_Model_CarModelsToSparePartPricesMapper');
-   		assertEx( is_int($spp_id), "Spare Part Price id was not set in getModels() ".var_export(get_object_vars($this),true));
+   		is_int($spp_id) or error( "Spare Part Price id was not set in getModels() ".get_object_vars($this));
    		//$cmm2spp_rowset = $cm2spp_mapper->fetchAll(' spare_part_price_id = '.$spp_id);
    		is_array($cmm2spp_rowset) or error('$cmm2spp_rowset must be a rowset');
    		return $cmm2spp_rowset;

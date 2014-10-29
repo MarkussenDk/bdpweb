@@ -120,6 +120,7 @@ class Bildelspriser_XmlImport_PriceParser extends XML_Parser{
 	var $_cmo_count;
 	var $_c2s_count;
 	var $_log_level;
+	public $full = false;
 	public $file_size;
 	
 	
@@ -133,9 +134,16 @@ class Bildelspriser_XmlImport_PriceParser extends XML_Parser{
 		bdp::set_logger(new table_logger());
 		$this->load_success_count = array();
 		$this->_dbo = new Default_Model_DynPriceParserRun();
-		if($price_parser_id){
+		
+		if(is_null($price_parser_id) && $file_base_name!='none-in__con' ){
+			$this->_dbo->selectWhere(array('file_base_name'=>basename(($file_base_name))
+					,'file_create_time'=>phpDateToDbDate(filectime($file_base_name))
+					,'file_size' => filesize($file_base_name) ));
+			kint::dump('Selecting in PP Constructor',$this->_dbo);
+			self::$_price_parser_run_id = $this->_dbo->fields['price_parser_run_id'];
+		}elseif($price_parser_id){
 			$this->_dbo->load($price_parser_id);
-			self::$_price_parser_run_id=$price_parser_id;
+			self::$_price_parser_run_id = $price_parser_id;
 		}else{
 			$this->_dbo->xml_http_request_id = self::$_xml_http_request_id;
 			$this->_dbo->file_base_name = $file_base_name;
@@ -791,23 +799,31 @@ class Bildelspriser_XmlImport_PriceParser extends XML_Parser{
 		
 	}// end parseString	
 	
-	function parseFileName($fileName,$eof = false){
+	function parseFileName($fileName,$eof = false,$reset_status = false){
 		if($fileName==''){
 			error(' $fileName was empty ');
 		} // Filename was C:\Program Files\Zend\Apache2\htdocs\bdp.google/data/users/nvautodele/nvautodele-PriceList_2011-06-29_08-18.xml
 		//else(die("Filename was $fileName"));
-		$ret = "Parsing $fileName ";
-		  $timeparts = explode(' ',microtime());
+		$this->log("Parsing $fileName with reset status='$reset_status'  ");
+		
+		$timeparts = explode(' ',microtime());
 		  $dbo = $this->_dbo;
 		  $dbo->selectWhere(array('file_base_name'=>basename(($fileName))
 		  						 ,'file_create_time'=>phpDateToDbDate(filectime($fileName))
 		  						 ,'file_size' => filesize($fileName) ));
+		  if($reset_status){
+			$this->log("Reseting status to parsing_file '$reset_status' ");
+		  	$dbo->status = 'parsing_file';
+		  }else{
+		  	$this->log("Using status from DB '$dbo->status' to parsing_file '$reset_status' ");
+		  }
+		  
 		  //Kint::dump($dbo);				
 		  $dbo->processing_start = phpDateToDbDate(time());
 		  switch($dbo->status){
 		  	case 'constructed':
 		  		break; // Try normally first
-		  	case 'parsing file':	
+		  	case 'Parsing file':	
 		  	case 'parsing_file': // already parsing file - so it failed?
 		  		$this->log('Parsing using FastParser - for SparePartPrices only');
 		  		Zend_Loader_Autoloader::autoload('Bildelspriser_XmlImport_FastParser');
@@ -818,6 +834,7 @@ class Bildelspriser_XmlImport_PriceParser extends XML_Parser{
 		  		$fastPaser->parseSparePartPrices();
 		  		$dbo->status = 'spp parsed';
 		  		$dbo->processing_end = phpDateToDbDate(time());
+		  		$dbo->price_parser_run_id = $fastPaser->price_parser_run_id;
 				$dbo->update();
 		  		return;
 		  		break;
@@ -835,11 +852,10 @@ class Bildelspriser_XmlImport_PriceParser extends XML_Parser{
 		  $this->file_size = $dbo->file_size;
 		  $dbo->status = 'parsing file';
 		  $this->log("before update of Database object in PriceParser");
-		  try{$dbo->update();$this->log('After update');}
+		  try{$dbo->update();$this->log('Update of Price_parse_run_complete ');}
 		  catch(exception $e){
-		  	$this->log("Update throw an exception $e ");
+		  	$this->log("Update of Price_Parse_Run throw an exception $e ");
 		  }
-		   $this->log("after update"); 	
 		   $this->_spp_count=0;
 		   $this->_cmo_count=0;
 		   $this->_c2s_count=0;

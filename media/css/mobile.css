@@ -7,7 +7,7 @@
        /*div{border:1px solid gray;}*/
 		 div#bdp-div-page/*{width:820px;margin:auto; } 
 #pageWrapper*/ {
-	width: 25em /* was 25 em*/ ;
+	width: 95% /* was 25 em*/ ;
 	margin: .1em auto;
 	padding: .1em 0;
 	-moz-border-radius: 3px;

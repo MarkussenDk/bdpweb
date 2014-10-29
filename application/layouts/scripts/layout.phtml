@@ -314,11 +314,20 @@ if ( $dojo_enabled==true && $dojo->isEnabled()){
 <body class="tundra">
 <?php 
 if( strpos($_SERVER["HTTP_HOST"], 'bildelspriser'))
-	include_once("googleanalyticstracking.php")
-?>
+	include_once("googleanalyticstracking.php");
+
+$jquery_url='/js/jquery-1.7.2.js';
+if(str_contains($_SERVER['HTTP_HOST'],'bildelspriser.dk')){
+	$jquery_url ='http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js';
+}
+?>	
+<script type="text/javascript" src='http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js' ></script>
+<script type="text/javascript" src='<?php echo $jquery_url ?>' ></script>
+
 <div id='bdp-div-page'>
 <!-- Header header start -->
 <table><tr><td>
+<H1 style='color:red' >INFO: Vi har fået indlæst nogle forkerte data, så nogle af produktnavnene er erstattet af deres beskrivelse. Vi arbejder på at løse problemet og forventer det løst inden Tirsdag morgen.</H1>
 <div id='bdp-div-header' >
 	<h1>
 		<a style='text-decoration: none; color: navy; font-weight:bold;' href='http://bildelspriser.dk'
@@ -337,7 +346,8 @@ if( strpos($_SERVER["HTTP_HOST"], 'bildelspriser'))
 </script>
 
 <!-- Anbring dette tag der, hvor +1 knappen skal vises -->
-<g:plusone href="http://bildelspriser.dk"></g:plusone>
+<!--  PlusOne removed
+<g:plusone href="http://bildelspriser.dk"></g:plusone> -->
 </td><td>
 <div id="fb-root"></div>
 <script src="http://connect.facebook.net/en_US/all.js#appId=240196696012523&amp;xfbml=1"></script>
