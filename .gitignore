@@ -1,0 +1,6 @@
+#data should not be deployed
+data
+#logs should not be committed
+Logs
+#cache
+cache
