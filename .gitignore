@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-#data should not be deployed
-data
-#logs should not be committed
-Logs
-#cache
-cache
-=======
 # Composer files
 composer.phar
 vendor/
@@ -17,13 +9,19 @@ config/autoload/*.local.php
 *.mo
 
 # Data
+data/
 data/logs/
 data/cache/
 data/sessions/
 data/tmp/
 temp/
 
+#logs should not be committed
+Logs
+
+#cache
+cache
+
 # Legacy ZF1
 demos/
 extras/documentation
->>>>>>> 93b2cecba0b6c7abec6e2955e7f1b959b49e47a9
