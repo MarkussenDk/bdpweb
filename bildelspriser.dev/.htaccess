@@ -1,0 +1,23 @@
+SetEnv APPLICATION_ENV development
+<IfModule mod_php5.c>
+#  php_error_reporting 8191
+</IfModule>
+  RewriteEngine On
+#  RewriteBase /
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+   RewriteRule (.*) /bdp/public/index.php [NC,L]
+   RewriteRule !.* /bdp/public/index.php [NC,L]
+#   RewriteRule (.*) /bdp/public/index.php [NC,L]
+   RewriteRule ^$ /bdp/public/index.php [NC,L]
+
+php_value memory_limit 128M
+
+
+<IfModule mod_php5.c>
+	php_value post_max_size 5M
+	php_value upload_max_filesize 5M
+	php_value memory_limit 300M
+	php_value max_input_time 259200
+	php_value session.gc_maxlifetime 1200
+</IfModule>

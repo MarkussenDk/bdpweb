@@ -1,0 +1,835 @@
+Memory Table Dump File - v1
+#StartRow#;1
+File
+/test.bildelspriser.dk/bdpgui/
+.buildpath
+.buildpath	263	14.08.2010 02:49	A.....
+/test.bildelspriser.dk/bdpgui/.buildpath
+#StartRow#;2
+File
+/test.bildelspriser.dk/bdpgui/
+.project
+.project	900	13.08.2010 22:47	A.....
+/test.bildelspriser.dk/bdpgui/.project
+#StartRow#;3
+File
+/test.bildelspriser.dk/bdpgui/application\
+Bootstrap.php
+Bootstrap.php	2322	14.08.2010 01:11	A.....
+/test.bildelspriser.dk/bdpgui/application\Bootstrap.php
+#StartRow#;4
+File
+/test.bildelspriser.dk/bdpgui/application\configs\
+application.ini
+application.ini	2966	12.08.2010 21:39	A.....
+/test.bildelspriser.dk/bdpgui/application\configs\application.ini
+#StartRow#;5
+File
+/test.bildelspriser.dk/bdpgui/application\controllers\
+DojoController.php
+DojoController.php	347	13.08.2010 22:50	A.....
+/test.bildelspriser.dk/bdpgui/application\controllers\DojoController.php
+#StartRow#;6
+File
+/test.bildelspriser.dk/bdpgui/application\controllers\
+ErrorController.php
+ErrorController.php	1918	10.08.2010 21:36	A.....
+/test.bildelspriser.dk/bdpgui/application\controllers\ErrorController.php
+#StartRow#;7
+File
+/test.bildelspriser.dk/bdpgui/application\controllers\
+IndexController.php
+IndexController.php	19155	05.11.2010 00:12	A.....
+/test.bildelspriser.dk/bdpgui/application\controllers\IndexController.php
+#StartRow#;8
+File
+/test.bildelspriser.dk/bdpgui/application\controllers\
+IndexController_old.php
+IndexController_old.php	12485	01.09.2010 20:41	A.....
+/test.bildelspriser.dk/bdpgui/application\controllers\IndexController_old.php
+#StartRow#;9
+File
+/test.bildelspriser.dk/bdpgui/application\controllers\
+SoapController.php
+SoapController.php	3574	15.07.2009 06:03	A.....
+/test.bildelspriser.dk/bdpgui/application\controllers\SoapController.php
+#StartRow#;10
+File
+/test.bildelspriser.dk/bdpgui/application\controllers\
+UserController.php
+UserController.php	16664	04.09.2010 23:14	A.....
+/test.bildelspriser.dk/bdpgui/application\controllers\UserController.php
+#StartRow#;11
+File
+/test.bildelspriser.dk/bdpgui/application\controllers\
+XmlController.php
+XmlController.php	16310	05.04.2010 20:36	A.....
+/test.bildelspriser.dk/bdpgui/application\controllers\XmlController.php
+#StartRow#;12
+File
+/test.bildelspriser.dk/bdpgui/application\forms\
+DojoSearch.php
+DojoSearch.php	3194	09.09.2010 09:12	A.....
+/test.bildelspriser.dk/bdpgui/application\forms\DojoSearch.php
+#StartRow#;13
+File
+/test.bildelspriser.dk/bdpgui/application\forms\
+DojoUser.php
+DojoUser.php	401	13.08.2010 22:55	A.....
+/test.bildelspriser.dk/bdpgui/application\forms\DojoUser.php
+#StartRow#;14
+File
+/test.bildelspriser.dk/bdpgui/application\forms\
+HtmlSearch.php
+HtmlSearch.php	3282	04.11.2010 21:48	A.....
+/test.bildelspriser.dk/bdpgui/application\forms\HtmlSearch.php
+#StartRow#;15
+File
+/test.bildelspriser.dk/bdpgui/application\forms\
+Login.php
+Login.php	1210	31.03.2010 11:37	A.....
+/test.bildelspriser.dk/bdpgui/application\forms\Login.php
+#StartRow#;16
+File
+/test.bildelspriser.dk/bdpgui/application\layouts\scripts\
+layout.phtml
+layout.phtml	6114	06.11.2010 18:59	A.....
+/test.bildelspriser.dk/bdpgui/application\layouts\scripts\layout.phtml
+#StartRow#;17
+File
+/test.bildelspriser.dk/bdpgui/application\layouts\scripts\
+nav1.phtml
+nav1.phtml	1297	15.09.2010 21:05	A.....
+/test.bildelspriser.dk/bdpgui/application\layouts\scripts\nav1.phtml
+#StartRow#;18
+File
+/test.bildelspriser.dk/bdpgui/application\models\
+Base.php
+Base.php	3513	28.02.2010 01:12	A.....
+/test.bildelspriser.dk/bdpgui/application\models\Base.php
+#StartRow#;19
+File
+/test.bildelspriser.dk/bdpgui/application\models\
+BaseWithTraceability.php
+BaseWithTraceability.php	12626	04.10.2010 06:54	A.....
+/test.bildelspriser.dk/bdpgui/application\models\BaseWithTraceability.php
+#StartRow#;20
+File
+/test.bildelspriser.dk/bdpgui/application\models\
+CarMakes.php
+CarMakes.php	4483	02.10.2010 14:34	A.....
+/test.bildelspriser.dk/bdpgui/application\models\CarMakes.php
+#StartRow#;21
+File
+/test.bildelspriser.dk/bdpgui/application\models\
+CarMakesMapper.php
+CarMakesMapper.php	7824	04.11.2010 21:47	A.....
+/test.bildelspriser.dk/bdpgui/application\models\CarMakesMapper.php
+#StartRow#;22
+File
+/test.bildelspriser.dk/bdpgui/application\models\
+CarModels.php
+CarModels.php	7033	29.01.2010 23:13	A.....
+/test.bildelspriser.dk/bdpgui/application\models\CarModels.php
+#StartRow#;23
+File
+/test.bildelspriser.dk/bdpgui/application\models\
+CarModelsMapper.php
+CarModelsMapper.php	6808	04.03.2010 16:31	A.....
+/test.bildelspriser.dk/bdpgui/application\models\CarModelsMapper.php
+#StartRow#;24
+File
+/test.bildelspriser.dk/bdpgui/application\models\
+CarModelsToSparePartPrices.php
+CarModelsToSparePartPrices.php	3606	24.08.2010 07:18	A.....
+/test.bildelspriser.dk/bdpgui/application\models\CarModelsToSparePartPrices.php
+#StartRow#;25
+File
+/test.bildelspriser.dk/bdpgui/application\models\
+CarModelsToSparePartPricesMapper.php
+CarModelsToSparePartPricesMapper.php	3590	01.09.2010 22:04	A.....
+/test.bildelspriser.dk/bdpgui/application\models\CarModelsToSparePartPricesMapper.php
+#StartRow#;26
+File
+/test.bildelspriser.dk/bdpgui/application\models\DbTable\
+CarMakes.php
+CarMakes.php	291	29.12.2009 15:48	A.....
+/test.bildelspriser.dk/bdpgui/application\models\DbTable\CarMakes.php
+#StartRow#;27
+File
+/test.bildelspriser.dk/bdpgui/application\models\DbTable\
+CarModels.php
+CarModels.php	316	29.12.2009 15:51	A.....
+/test.bildelspriser.dk/bdpgui/application\models\DbTable\CarModels.php
+#StartRow#;28
+File
+/test.bildelspriser.dk/bdpgui/application\models\DbTable\
+CarModelsToSparePartPrices.php
+CarModelsToSparePartPrices.php	367	24.08.2010 07:12	A.....
+/test.bildelspriser.dk/bdpgui/application\models\DbTable\CarModelsToSparePartPrices.php
+#StartRow#;29
+File
+/test.bildelspriser.dk/bdpgui/application\models\DbTable\
+PriceParserRuns.php
+PriceParserRuns.php	328	29.08.2010 21:09	A.....
+/test.bildelspriser.dk/bdpgui/application\models\DbTable\PriceParserRuns.php
+#StartRow#;30
+File
+/test.bildelspriser.dk/bdpgui/application\models\DbTable\
+SparePartCategories.php
+SparePartCategories.php	325	29.12.2009 15:49	A.....
+/test.bildelspriser.dk/bdpgui/application\models\DbTable\SparePartCategories.php
+#StartRow#;31
+File
+/test.bildelspriser.dk/bdpgui/application\models\DbTable\
+SparePartPrices.php
+SparePartPrices.php	314	29.12.2009 15:49	A.....
+/test.bildelspriser.dk/bdpgui/application\models\DbTable\SparePartPrices.php
+#StartRow#;32
+File
+/test.bildelspriser.dk/bdpgui/application\models\DbTable\
+SparePartSuppliers.php
+SparePartSuppliers.php	375	29.12.2009 16:14	A.....
+/test.bildelspriser.dk/bdpgui/application\models\DbTable\SparePartSuppliers.php
+#StartRow#;33
+File
+/test.bildelspriser.dk/bdpgui/application\models\DbTable\
+XmlHttpRequest.php
+XmlHttpRequest.php	327	29.12.2009 15:49	A.....
+/test.bildelspriser.dk/bdpgui/application\models\DbTable\XmlHttpRequest.php
+#StartRow#;34
+File
+/test.bildelspriser.dk/bdpgui/application\models\
+DynBase.php
+DynBase.php	4019	29.08.2010 22:46	A.....
+/test.bildelspriser.dk/bdpgui/application\models\DynBase.php
+#StartRow#;35
+File
+/test.bildelspriser.dk/bdpgui/application\models\
+DynPriceParserRun.php
+DynPriceParserRun.php	490	29.08.2010 23:07	A.....
+/test.bildelspriser.dk/bdpgui/application\models\DynPriceParserRun.php
+#StartRow#;36
+File
+/test.bildelspriser.dk/bdpgui/application\models\
+IMapperBase.php
+IMapperBase.php	8458	04.10.2010 06:51	A.....
+/test.bildelspriser.dk/bdpgui/application\models\IMapperBase.php
+#StartRow#;37
+File
+/test.bildelspriser.dk/bdpgui/application\models\
+SparePartCategories.php
+SparePartCategories.php	7042	25.12.2009 16:01	A.....
+/test.bildelspriser.dk/bdpgui/application\models\SparePartCategories.php
+#StartRow#;38
+File
+/test.bildelspriser.dk/bdpgui/application\models\
+SparePartPriceSearcer.php
+SparePartPriceSearcer.php	9151	05.11.2010 00:44	A.....
+/test.bildelspriser.dk/bdpgui/application\models\SparePartPriceSearcer.php
+#StartRow#;39
+File
+/test.bildelspriser.dk/bdpgui/application\models\
+SparePartPrices.php
+SparePartPrices.php	12824	13.10.2010 20:49	A.....
+/test.bildelspriser.dk/bdpgui/application\models\SparePartPrices.php
+#StartRow#;40
+File
+/test.bildelspriser.dk/bdpgui/application\models\
+SparePartPricesMapper.php
+SparePartPricesMapper.php	5365	02.10.2010 13:25	A.....
+/test.bildelspriser.dk/bdpgui/application\models\SparePartPricesMapper.php
+#StartRow#;41
+File
+/test.bildelspriser.dk/bdpgui/application\models\
+SparePartSuppliers.php
+SparePartSuppliers.php	8984	22.10.2010 00:38	A.....
+/test.bildelspriser.dk/bdpgui/application\models\SparePartSuppliers.php
+#StartRow#;42
+File
+/test.bildelspriser.dk/bdpgui/application\models\
+SparePartSuppliersMapper.php
+SparePartSuppliersMapper.php	10332	03.10.2010 08:55	A.....
+/test.bildelspriser.dk/bdpgui/application\models\SparePartSuppliersMapper.php
+#StartRow#;43
+File
+/test.bildelspriser.dk/bdpgui/application\models\SqlScripts\
+XmlHttpRequest.create.sql
+XmlHttpRequest.create.sql	889	21.09.2009 23:29	A.....
+/test.bildelspriser.dk/bdpgui/application\models\SqlScripts\XmlHttpRequest.create.sql
+#StartRow#;44
+File
+/test.bildelspriser.dk/bdpgui/application\models\
+XmlHttpRequest.php
+XmlHttpRequest.php	3861	03.10.2010 08:49	A.....
+/test.bildelspriser.dk/bdpgui/application\models\XmlHttpRequest.php
+#StartRow#;45
+File
+/test.bildelspriser.dk/bdpgui/application\models\
+XmlHttpRequestMapper.php
+XmlHttpRequestMapper.php	6557	29.08.2010 07:26	A.....
+/test.bildelspriser.dk/bdpgui/application\models\XmlHttpRequestMapper.php
+#StartRow#;46
+File
+/test.bildelspriser.dk/bdpgui/application\views\scripts\error\
+error.phtml
+error.phtml	1623	29.08.2010 07:27	A.....
+/test.bildelspriser.dk/bdpgui/application\views\scripts\error\error.phtml
+#StartRow#;47
+File
+/test.bildelspriser.dk/bdpgui/application\views\scripts\index\
+autocompletecarmakes.phtml
+autocompletecarmakes.phtml	1075	30.03.2010 13:27	A.....
+/test.bildelspriser.dk/bdpgui/application\views\scripts\index\autocompletecarmakes.phtml
+#StartRow#;48
+File
+/test.bildelspriser.dk/bdpgui/application\views\scripts\index\
+autocompletecarmodels.phtml
+autocompletecarmodels.phtml	1075	30.03.2010 14:46	A.....
+/test.bildelspriser.dk/bdpgui/application\views\scripts\index\autocompletecarmodels.phtml
+#StartRow#;49
+File
+/test.bildelspriser.dk/bdpgui/application\views\scripts\index\
+beta.phtml
+beta.phtml	502	09.09.2010 09:16	A.....
+/test.bildelspriser.dk/bdpgui/application\views\scripts\index\beta.phtml
+#StartRow#;50
+File
+/test.bildelspriser.dk/bdpgui/application\views\scripts\index\
+brands.phtml
+brands.phtml	2189	03.10.2010 14:21	A.....
+/test.bildelspriser.dk/bdpgui/application\views\scripts\index\brands.phtml
+#StartRow#;51
+File
+/test.bildelspriser.dk/bdpgui/application\views\scripts\index\
+datasearchresults.phtml
+datasearchresults.phtml	2444	07.08.2010 01:13	A.....
+/test.bildelspriser.dk/bdpgui/application\views\scripts\index\datasearchresults.phtml
+#StartRow#;52
+File
+/test.bildelspriser.dk/bdpgui/application\views\scripts\index\
+details.phtml
+details.phtml	1950	21.10.2010 14:25	A.....
+/test.bildelspriser.dk/bdpgui/application\views\scripts\index\details.phtml
+#StartRow#;53
+File
+/test.bildelspriser.dk/bdpgui/application\views\scripts\index\
+dojo.phtml
+dojo.phtml	11717	22.10.2010 00:17	A.....
+/test.bildelspriser.dk/bdpgui/application\views\scripts\index\dojo.phtml
+#StartRow#;54
+File
+/test.bildelspriser.dk/bdpgui/application\views\scripts\index\
+dojo_data.phtml
+dojo_data.phtml	631	29.03.2010 22:22	A.....
+/test.bildelspriser.dk/bdpgui/application\views\scripts\index\dojo_data.phtml
+#StartRow#;55
+File
+/test.bildelspriser.dk/bdpgui/application\views\scripts\index\
+fast.phtml
+fast.phtml	9084	22.10.2010 00:15	A.....
+/test.bildelspriser.dk/bdpgui/application\views\scripts\index\fast.phtml
+#StartRow#;56
+File
+/test.bildelspriser.dk/bdpgui/application\views\scripts\index\
+index.phtml
+index.phtml	12449	05.11.2010 00:45	A.....
+/test.bildelspriser.dk/bdpgui/application\views\scripts\index\index.phtml
+#StartRow#;57
+File
+/test.bildelspriser.dk/bdpgui/application\views\scripts\index\
+jump-to.phtml
+jump-to.phtml	1426	13.10.2010 21:02	A.....
+/test.bildelspriser.dk/bdpgui/application\views\scripts\index\jump-to.phtml
+#StartRow#;58
+File
+/test.bildelspriser.dk/bdpgui/application\views\scripts\index\
+jump_to.phtml
+jump_to.phtml	203	02.10.2010 23:49	A.....
+/test.bildelspriser.dk/bdpgui/application\views\scripts\index\jump_to.phtml
+#StartRow#;59
+File
+/test.bildelspriser.dk/bdpgui/application\views\scripts\index\
+jumpto.php
+jumpto.php	203	02.10.2010 23:48	A.....
+/test.bildelspriser.dk/bdpgui/application\views\scripts\index\jumpto.php
+#StartRow#;60
+File
+/test.bildelspriser.dk/bdpgui/application\views\scripts\index\
+newsearch.phtml
+newsearch.phtml	6200	04.11.2010 23:09	A.....
+/test.bildelspriser.dk/bdpgui/application\views\scripts\index\newsearch.phtml
+#StartRow#;61
+File
+/test.bildelspriser.dk/bdpgui/application\views\scripts\index\
+phpinfo.phtml
+phpinfo.phtml	621	23.05.2009 13:27	A.....
+/test.bildelspriser.dk/bdpgui/application\views\scripts\index\phpinfo.phtml
+#StartRow#;62
+File
+/test.bildelspriser.dk/bdpgui/application\views\scripts\soap\
+client.phtml
+client.phtml	742	23.05.2009 14:58	A.....
+/test.bildelspriser.dk/bdpgui/application\views\scripts\soap\client.phtml
+#StartRow#;63
+File
+/test.bildelspriser.dk/bdpgui/application\views\scripts\user\
+filelist-json.phtml
+filelist-json.phtml	5716	24.08.2010 20:51	A.....
+/test.bildelspriser.dk/bdpgui/application\views\scripts\user\filelist-json.phtml
+#StartRow#;64
+File
+/test.bildelspriser.dk/bdpgui/application\views\scripts\user\
+filelist.phtml
+filelist.phtml	1565	04.03.2010 23:10	A.....
+/test.bildelspriser.dk/bdpgui/application\views\scripts\user\filelist.phtml
+#StartRow#;65
+File
+/test.bildelspriser.dk/bdpgui/application\views\scripts\user\
+fileupload.phtml
+fileupload.phtml	251	15.09.2010 20:58	A.....
+/test.bildelspriser.dk/bdpgui/application\views\scripts\user\fileupload.phtml
+#StartRow#;66
+File
+/test.bildelspriser.dk/bdpgui/application\views\scripts\user\
+form.phtml
+form.phtml	518	24.08.2010 19:59	A.....
+/test.bildelspriser.dk/bdpgui/application\views\scripts\user\form.phtml
+#StartRow#;67
+File
+/test.bildelspriser.dk/bdpgui/application\views\scripts\user\
+index.php
+index.php	51	17.01.2010 14:20	A.....
+/test.bildelspriser.dk/bdpgui/application\views\scripts\user\index.php
+#StartRow#;68
+File
+/test.bildelspriser.dk/bdpgui/application\views\scripts\user\
+index.phtml
+index.phtml	504	24.08.2010 19:58	A.....
+/test.bildelspriser.dk/bdpgui/application\views\scripts\user\index.phtml
+#StartRow#;69
+File
+/test.bildelspriser.dk/bdpgui/application\views\scripts\user\
+login.phtml
+login.phtml	1528	10.08.2010 23:09	A.....
+/test.bildelspriser.dk/bdpgui/application\views\scripts\user\login.phtml
+#StartRow#;70
+File
+/test.bildelspriser.dk/bdpgui/application\views\scripts\user\
+phpinfo.phtml
+phpinfo.phtml	621	23.05.2009 13:27	A.....
+/test.bildelspriser.dk/bdpgui/application\views\scripts\user\phpinfo.phtml
+#StartRow#;71
+File
+/test.bildelspriser.dk/bdpgui/application\views\scripts\user\
+procesfile.phtml
+procesfile.phtml	789	16.03.2010 22:41	A.....
+/test.bildelspriser.dk/bdpgui/application\views\scripts\user\procesfile.phtml
+#StartRow#;72
+File
+/test.bildelspriser.dk/bdpgui/application\views\scripts\xml\
+add.phtml
+add.phtml	108	18.07.2009 07:45	A.....
+/test.bildelspriser.dk/bdpgui/application\views\scripts\xml\add.phtml
+#StartRow#;73
+File
+/test.bildelspriser.dk/bdpgui/application\views\scripts\xml\
+index.php
+index.php	51	17.01.2010 14:20	A.....
+/test.bildelspriser.dk/bdpgui/application\views\scripts\xml\index.php
+#StartRow#;74
+File
+/test.bildelspriser.dk/bdpgui/application\views\scripts\xml\
+index.phtml
+index.phtml	132	15.07.2009 04:26	A.....
+/test.bildelspriser.dk/bdpgui/application\views\scripts\xml\index.phtml
+#StartRow#;75
+File
+/test.bildelspriser.dk/bdpgui/application\views\scripts\xml\
+schema.phtml
+schema.phtml	39	22.07.2009 05:44	A.....
+/test.bildelspriser.dk/bdpgui/application\views\scripts\xml\schema.phtml
+#StartRow#;76
+File
+/test.bildelspriser.dk/bdpgui/application\views\scripts\xml\
+show.phtml
+show.phtml	111	29.07.2009 00:11	A.....
+/test.bildelspriser.dk/bdpgui/application\views\scripts\xml\show.phtml
+#StartRow#;77
+File
+/test.bildelspriser.dk/bdpgui/application\views\scripts\xml\
+xmlhttp.phtml
+xmlhttp.phtml	105	21.07.2009 06:27	A.....
+/test.bildelspriser.dk/bdpgui/application\views\scripts\xml\xmlhttp.phtml
+#StartRow#;78
+File
+/test.bildelspriser.dk/bdpgui/
+build.xml
+build.xml	3359	05.11.2010 23:48	A.....
+/test.bildelspriser.dk/bdpgui/build.xml
+#StartRow#;79
+File
+/test.bildelspriser.dk/bdpgui/library\
+ArrayToXML.php
+ArrayToXML.php	2973	26.09.2009 21:19	A.....
+/test.bildelspriser.dk/bdpgui/library\ArrayToXML.php
+#StartRow#;80
+File
+/test.bildelspriser.dk/bdpgui/library\
+BildelspriserAuth.php
+BildelspriserAuth.php	6064	29.08.2010 23:33	A.....
+/test.bildelspriser.dk/bdpgui/library\BildelspriserAuth.php
+#StartRow#;81
+File
+/test.bildelspriser.dk/bdpgui/library\Bildelspriser\Base\
+SingletonBase.php
+SingletonBase.php	5433	14.08.2010 03:38	A.....
+/test.bildelspriser.dk/bdpgui/library\Bildelspriser\Base\SingletonBase.php
+#StartRow#;82
+File
+/test.bildelspriser.dk/bdpgui/library\Bildelspriser\XmlImport\
+PriceParser.php
+PriceParser.php	36514	01.09.2010 22:02	A.....
+/test.bildelspriser.dk/bdpgui/library\Bildelspriser\XmlImport\PriceParser.php
+#StartRow#;83
+File
+/test.bildelspriser.dk/bdpgui/library\Bildelspriser\XmlImport\
+XmlDomReader.php
+XmlDomReader.php	17261	01.09.2010 20:41	A.....
+/test.bildelspriser.dk/bdpgui/library\Bildelspriser\XmlImport\XmlDomReader.php
+#StartRow#;84
+File
+/test.bildelspriser.dk/bdpgui/library\Bildelspriser\XmlImport\
+XmlRequestPersist.php
+XmlRequestPersist.php	4451	05.04.2010 20:37	A.....
+/test.bildelspriser.dk/bdpgui/library\Bildelspriser\XmlImport\XmlRequestPersist.php
+#StartRow#;85
+File
+/test.bildelspriser.dk/bdpgui/library\Bildelspriser\
+all.inc.php
+all.inc.php	1556	29.01.2010 16:05	A.....
+/test.bildelspriser.dk/bdpgui/library\Bildelspriser\all.inc.php
+#StartRow#;86
+File
+/test.bildelspriser.dk/bdpgui/library\Bildelspriser\
+db.inc.php
+db.inc.php	3869	25.07.2009 08:01	A.....
+/test.bildelspriser.dk/bdpgui/library\Bildelspriser\db.inc.php
+#StartRow#;87
+File
+/test.bildelspriser.dk/bdpgui/library\Bildelspriser\
+trace.inc.php
+trace.inc.php	4685	29.07.2009 21:52	A.....
+/test.bildelspriser.dk/bdpgui/library\Bildelspriser\trace.inc.php
+#StartRow#;88
+File
+/test.bildelspriser.dk/bdpgui/library\
+googleanalyticstracking.php
+googleanalyticstracking.php	485	11.09.2010 23:16	A.....
+/test.bildelspriser.dk/bdpgui/library\googleanalyticstracking.php
+#StartRow#;89
+File
+/test.bildelspriser.dk/bdpgui/library\
+simple_to_excel_schema.xsl
+simple_to_excel_schema.xsl	849	22.07.2009 06:44	A.....
+/test.bildelspriser.dk/bdpgui/library\simple_to_excel_schema.xsl
+#StartRow#;90
+File
+/test.bildelspriser.dk/bdpgui/media\
+bdp_default_image_200_200.jpg
+bdp_default_image_200_200.jpg	9066	17.10.2010 22:51	A.....
+/test.bildelspriser.dk/bdpgui/media\bdp_default_image_200_200.jpg
+#StartRow#;91
+File
+/test.bildelspriser.dk/bdpgui/media\css\
+basis.css
+basis.css	2763	04.11.2010 22:55	A.....
+/test.bildelspriser.dk/bdpgui/media\css\basis.css
+#StartRow#;92
+File
+/test.bildelspriser.dk/bdpgui/media\images\
+body.jpg
+body.jpg	444	18.08.2009 15:29	A.....
+/test.bildelspriser.dk/bdpgui/media\images\body.jpg
+#StartRow#;93
+File
+/test.bildelspriser.dk/bdpgui/media\images\
+nav.jpg
+nav.jpg	324	18.08.2009 15:29	A.....
+/test.bildelspriser.dk/bdpgui/media\images\nav.jpg
+#StartRow#;94
+File
+/test.bildelspriser.dk/bdpgui/media\
+request.js
+request.js	4366	20.10.2010 20:23	A.....
+/test.bildelspriser.dk/bdpgui/media\request.js
+#StartRow#;95
+File
+/test.bildelspriser.dk/bdpgui/
+prod.properties
+prod.properties	241	11.09.2010 21:11	A.....
+/test.bildelspriser.dk/bdpgui/prod.properties
+#StartRow#;96
+File
+/test.bildelspriser.dk/bdpgui/public\
+.htaccess
+.htaccess	247	07.08.2010 23:03	A.....
+/test.bildelspriser.dk/bdpgui/public\.htaccess
+#StartRow#;97
+File
+/test.bildelspriser.dk/bdpgui/public\
+2.htaccess
+2.htaccess	264	22.09.2009 22:08	A.....
+/test.bildelspriser.dk/bdpgui/public\2.htaccess
+#StartRow#;98
+File
+/test.bildelspriser.dk/bdpgui/public\
+Xmlhttp_Request_ExcelAndreas_2009-09-23 000156.xml
+Xmlhttp_Request_ExcelAndreas_2009-09-23 000156.xml	182	23.09.2009 01:01	A.....
+/test.bildelspriser.dk/bdpgui/public\Xmlhttp_Request_ExcelAndreas_2009-09-23 000156.xml
+#StartRow#;99
+File
+/test.bildelspriser.dk/bdpgui/public\
+bdp.dojo.profile.js
+bdp.dojo.profile.js	2139	27.09.2010 22:01	A.....
+/test.bildelspriser.dk/bdpgui/public\bdp.dojo.profile.js
+#StartRow#;100
+File
+/test.bildelspriser.dk/bdpgui/public\css\
+b2b_user.css
+b2b_user.css	1223	17.03.2010 00:50	A.....
+/test.bildelspriser.dk/bdpgui/public\css\b2b_user.css
+#StartRow#;101
+File
+/test.bildelspriser.dk/bdpgui/public\css\
+basis.css
+basis.css	981	09.09.2010 20:21	A.....
+/test.bildelspriser.dk/bdpgui/public\css\basis.css
+#StartRow#;102
+File
+/test.bildelspriser.dk/bdpgui/public\
+dbtest.php
+dbtest.php	284	20.12.2009 10:22	A.....
+/test.bildelspriser.dk/bdpgui/public\dbtest.php
+#StartRow#;103
+File
+/test.bildelspriser.dk/bdpgui/public\
+dbtest_pdo.php
+dbtest_pdo.php	284	20.12.2009 10:26	A.....
+/test.bildelspriser.dk/bdpgui/public\dbtest_pdo.php
+#StartRow#;104
+File
+/test.bildelspriser.dk/bdpgui/public\
+dnd.css
+dnd.css	922	27.09.2010 22:03	A.....
+/test.bildelspriser.dk/bdpgui/public\dnd.css
+#StartRow#;105
+File
+/test.bildelspriser.dk/bdpgui/public\
+dojo.css
+dojo.css	1571	27.09.2010 22:03	A.....
+/test.bildelspriser.dk/bdpgui/public\dojo.css
+#StartRow#;106
+File
+/test.bildelspriser.dk/bdpgui/public\
+dojoGrid.php
+dojoGrid.php	1922	03.04.2010 00:05	A.....
+/test.bildelspriser.dk/bdpgui/public\dojoGrid.php
+#StartRow#;107
+File
+/test.bildelspriser.dk/bdpgui/public\
+flushtest.php
+flushtest.php	1581	20.08.2010 21:43	A.....
+/test.bildelspriser.dk/bdpgui/public\flushtest.php
+#StartRow#;108
+File
+/test.bildelspriser.dk/bdpgui/public\
+html_test.html
+html_test.html	639	04.03.2010 21:22	A.....
+/test.bildelspriser.dk/bdpgui/public\html_test.html
+#StartRow#;109
+File
+/test.bildelspriser.dk/bdpgui/public\
+index.php
+index.php	771	22.09.2009 22:46	A.....
+/test.bildelspriser.dk/bdpgui/public\index.php
+#StartRow#;110
+File
+/test.bildelspriser.dk/bdpgui/public\
+latest_trace.html
+latest_trace.html	92460	25.07.2009 08:16	A.....
+/test.bildelspriser.dk/bdpgui/public\latest_trace.html
+#StartRow#;111
+File
+/test.bildelspriser.dk/bdpgui/public\
+one_dojo.js
+one_dojo.js	320815	27.09.2010 20:29	A.....
+/test.bildelspriser.dk/bdpgui/public\one_dojo.js
+#StartRow#;112
+File
+/test.bildelspriser.dk/bdpgui/public\prod\
+index.php
+index.php	868	29.09.2009 07:14	A.....
+/test.bildelspriser.dk/bdpgui/public\prod\index.php
+#StartRow#;113
+File
+/test.bildelspriser.dk/bdpgui/public\
+ren.htaccess
+ren.htaccess	264	22.09.2009 22:08	A.....
+/test.bildelspriser.dk/bdpgui/public\ren.htaccess
+#StartRow#;114
+File
+/test.bildelspriser.dk/bdpgui/public\skins\blues\css\
+form.css
+form.css	538	02.09.2009 09:53	A.....
+/test.bildelspriser.dk/bdpgui/public\skins\blues\css\form.css
+#StartRow#;115
+File
+/test.bildelspriser.dk/bdpgui/public\skins\blues\css\
+layout.css
+layout.css	1671	04.11.2010 22:54	A.....
+/test.bildelspriser.dk/bdpgui/public\skins\blues\css\layout.css
+#StartRow#;116
+File
+/test.bildelspriser.dk/bdpgui/public\skins\blues\css\
+nav.css
+nav.css	321	07.09.2009 05:16	A.....
+/test.bildelspriser.dk/bdpgui/public\skins\blues\css\nav.css
+#StartRow#;117
+File
+/test.bildelspriser.dk/bdpgui/public\skins\blues\css\
+text.css
+text.css	80	02.09.2009 09:53	A.....
+/test.bildelspriser.dk/bdpgui/public\skins\blues\css\text.css
+#StartRow#;118
+File
+/test.bildelspriser.dk/bdpgui/public\skins\blues\images\
+body.jpg
+body.jpg	444	18.08.2009 15:29	A.....
+/test.bildelspriser.dk/bdpgui/public\skins\blues\images\body.jpg
+#StartRow#;119
+File
+/test.bildelspriser.dk/bdpgui/public\skins\blues\images\
+nav.jpg
+nav.jpg	324	18.08.2009 15:29	A.....
+/test.bildelspriser.dk/bdpgui/public\skins\blues\images\nav.jpg
+#StartRow#;120
+File
+/test.bildelspriser.dk/bdpgui/public\skins\blues\
+skin.xml
+skin.xml	239	07.09.2009 05:13	A.....
+/test.bildelspriser.dk/bdpgui/public\skins\blues\skin.xml
+#StartRow#;121
+File
+/test.bildelspriser.dk/bdpgui/public\test\
+dojo.html
+dojo.html	2430	04.04.2010 15:59	A.....
+/test.bildelspriser.dk/bdpgui/public\test\dojo.html
+#StartRow#;122
+File
+/test.bildelspriser.dk/bdpgui/public\test\
+test_layout.php
+test_layout.php	857	29.03.2010 13:19	A.....
+/test.bildelspriser.dk/bdpgui/public\test\test_layout.php
+#StartRow#;123
+File
+/test.bildelspriser.dk/bdpgui/public\xsd\
+car_make.xsd
+car_make.xsd	1046	03.02.2010 17:33	A.....
+/test.bildelspriser.dk/bdpgui/public\xsd\car_make.xsd
+#StartRow#;124
+File
+/test.bildelspriser.dk/bdpgui/public\xsd\
+car_makes.xml
+car_makes.xml	214	20.07.2009 05:21	A.....
+/test.bildelspriser.dk/bdpgui/public\xsd\car_makes.xml
+#StartRow#;125
+File
+/test.bildelspriser.dk/bdpgui/public\xsd\
+car_makes.xsd
+car_makes.xsd	1011	30.07.2009 09:05	A.....
+/test.bildelspriser.dk/bdpgui/public\xsd\car_makes.xsd
+#StartRow#;126
+File
+/test.bildelspriser.dk/bdpgui/
+test.properties
+test.properties	241	11.09.2010 21:15	A.....
+/test.bildelspriser.dk/bdpgui/test.properties
+#StartRow#;127
+File
+/test.bildelspriser.dk/bdpgui/tests\
+ControllerTestCase.php
+ControllerTestCase.php	593	25.03.2010 21:01	A.....
+/test.bildelspriser.dk/bdpgui/tests\ControllerTestCase.php
+#StartRow#;128
+File
+/test.bildelspriser.dk/bdpgui/tests\
+ModelTestCase.php
+ModelTestCase.php	588	25.03.2010 21:03	A.....
+/test.bildelspriser.dk/bdpgui/tests\ModelTestCase.php
+#StartRow#;129
+File
+/test.bildelspriser.dk/bdpgui/tests\
+TestHelper.php
+TestHelper.php	382	21.03.2010 23:06	A.....
+/test.bildelspriser.dk/bdpgui/tests\TestHelper.php
+#StartRow#;130
+File
+/test.bildelspriser.dk/bdpgui/tests\application\
+bootstrap.php
+bootstrap.php	0	18.05.2009 11:19	A.....
+/test.bildelspriser.dk/bdpgui/tests\application\bootstrap.php
+#StartRow#;131
+File
+/test.bildelspriser.dk/bdpgui/tests\application\models\
+CarMakesTest.php
+CarMakesTest.php	2864	25.03.2010 22:56	A.....
+/test.bildelspriser.dk/bdpgui/tests\application\models\CarMakesTest.php
+#StartRow#;132
+File
+/test.bildelspriser.dk/bdpgui/tests\application\models\
+SparePartSupplierTest.php
+SparePartSupplierTest.php	3390	25.03.2010 23:27	A.....
+/test.bildelspriser.dk/bdpgui/tests\application\models\SparePartSupplierTest.php
+#StartRow#;133
+File
+/test.bildelspriser.dk/bdpgui/tests\
+bootstrap.php
+bootstrap.php	1549	25.03.2010 23:34	A.....
+/test.bildelspriser.dk/bdpgui/tests\bootstrap.php
+#StartRow#;134
+File
+/test.bildelspriser.dk/bdpgui/tests\library\
+XmlParseUnitTest.php
+XmlParseUnitTest.php	2832	25.03.2010 22:59	A.....
+/test.bildelspriser.dk/bdpgui/tests\library\XmlParseUnitTest.php
+#StartRow#;135
+File
+/test.bildelspriser.dk/bdpgui/tests\library\
+bootstrap.php
+bootstrap.php	0	18.05.2009 11:19	A.....
+/test.bildelspriser.dk/bdpgui/tests\library\bootstrap.php
+#StartRow#;136
+File
+/test.bildelspriser.dk/bdpgui/tests\log\
+testdox.html
+testdox.html	142	12.09.2010 00:14	A.....
+/test.bildelspriser.dk/bdpgui/tests\log\testdox.html
+#StartRow#;137
+File
+/test.bildelspriser.dk/bdpgui/tests\
+phpunit.xml
+phpunit.xml	731	21.03.2010 23:08	A.....
+/test.bildelspriser.dk/bdpgui/tests\phpunit.xml
+#StartRow#;138
+File
+/test.bildelspriser.dk/bdpgui/tests\
+runtests.bat
+runtests.bat	8	21.03.2010 23:01	A.....
+/test.bildelspriser.dk/bdpgui/tests\runtests.bat
+#StartRow#;139
+File
+/test.bildelspriser.dk/bdpgui/tests\
+xmlparseunittest.php
+xmlparseunittest.php	1412	15.01.2010 00:29	A.....
+/test.bildelspriser.dk/bdpgui/tests\xmlparseunittest.php

@@ -10,10 +10,10 @@ vagrantfile-local:
         network:
             private_network: 192.168.56.101
             forwarded_port:
-                B3V5e0xO1npg:
+                0fLMRhf6ea5m:
                     host: '6487'
                     guest: '22'
-                MySQL:
+                BunA33FvYsVd:
                     host: '3306'
                     guest: '3306'
         post_up_message: ''
@@ -35,7 +35,7 @@ vagrantfile-local:
                     - '--hiera_config /vagrant/puphpet/puppet/hiera.yaml'
                     - '--parser future'
         synced_folder:
-            rDH9VkQjCpSs:
+            iYHDlp0Q7TZV:
                 source: ./
                 target: /var/www
                 sync_type: default
@@ -80,11 +80,11 @@ apache:
     modules:
         - rewrite
     vhosts:
-        zTz6z9JTmgNJ:
+        7lhOtV6HhGFT:
             servername: bildelspriser.dev
             serveraliases:
                 - www.bildelspriser.dev
-            docroot: /var/www/bdp
+            docroot: /var/www/bildelspriser.dev/
             port: '80'
             setenv:
                 - 'APP_ENV dev'
@@ -95,8 +95,6 @@ apache:
                 - Indexes
                 - FollowSymLinks
                 - MultiViews
-            loglevel:
-                - debug
             engine: php
             custom_fragment: ''
             ssl_cert: ''
@@ -104,29 +102,6 @@ apache:
             ssl_chain: ''
             ssl_certs_dir: ''
     mod_pagespeed: 0
-nginx:
-    install: '0'
-    settings:
-        default_vhost: 1
-        proxy_buffer_size: 128k
-        proxy_buffers: '4 256k'
-    vhosts:
-        qoD8RChYR61D:
-            server_name: awesome.dev
-            server_aliases:
-                - www.awesome.dev
-            www_root: /var/www/awesome
-            listen_port: '80'
-            location: \.php$
-            index_files:
-                - index.html
-                - index.htm
-                - index.php
-            envvars:
-                - 'APP_ENV dev'
-            engine: php
-            ssl_cert: ''
-            ssl_key: ''
 php:
     install: '1'
     version: '54'
@@ -146,7 +121,7 @@ php:
         error_reporting: '-1'
         session.save_path: /var/lib/php/session
     timezone: Europe/Copenhagen
-    mod_php: 0
+    mod_php: '1'
 hhvm:
     install: '0'
     nightly: 0
@@ -176,7 +151,7 @@ drush:
 ruby:
     install: '1'
     versions:
-        60wnFzRfL1Ep:
+        guxOMKmEzqu4:
             version: ''
 nodejs:
     install: '0'
@@ -185,14 +160,15 @@ python:
     install: '1'
     packages: {  }
     versions:
-        6vuAldPmUZzV:
+        79LezasyAhSG:
             version: ''
 mysql:
     install: '1'
+    override_options: {  }
     root_password: '123'
     adminer: '1'
     databases:
-        an7wlnJV6ECT:
+        N2yF7Wg4IcKS:
             grant:
                 - ALL
             name: bdp_dev
@@ -211,6 +187,7 @@ postgresql:
     adminer: 0
 mariadb:
     install: '0'
+    override_options: {  }
     root_password: '123'
     adminer: 0
     databases: {  }

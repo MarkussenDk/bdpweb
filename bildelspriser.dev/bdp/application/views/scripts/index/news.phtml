@@ -1,0 +1,86 @@
+<H2>Nyheder</H2>
+<?php 
+
+			$news = array();
+
+			$news[] = array('headline'=>'Håndtering af sider, der flytter',
+					'text'=>"Vi kan nu håndterer når fx biltema flytter deres sider."
+					." Biltema fortæller os ikke når de flytter deres sider,"
+					." derfor sender viser vi nu en søgeside, hvis vi ikke kan finde den rigtige side.",
+					'date'=>"26. maj 2012"
+			);
+
+			$news[] = array('headline'=>'Forbedret information om detaljer på varer',
+					'text'=>"Vi har forbedret teksten, og gjort mere ud af,"
+					." at fortælle hvilken butik der forhandler den viste varer."
+					." Dette er blevet indført i overskriften og i skemaet,"
+					." hvor teksten ”Vis i butik” er blevet fremhævet, "
+					."og rækken ”Butikkens navn” er tilføjet, "
+					."med link til web katalog for butikken. ",
+					'date'=>"20. maj 2012"
+			);
+			
+			$news[] = array('headline'=>'Oprydning i Mærker og Modeller for Toyota',
+							'text'=>"Oprydning i Mærker og Modeller for Toyota. Der mangler en del mærker, og dette vil blive prioritet yderligere.",
+							'date'=>"2. maj 2012"
+							);
+
+			$news[] = array('headline'=>'Oprydning i Mærker og Modeller for Daewoo',
+					'text'=>"Oprydning i Mærker og Modeller for Daewoo",
+					'date'=>"3. april 2012"
+			);
+
+			
+			$news[] = array('headline'=>'Oprydning i Mærker og Modeller for Opel & Peugeut',
+					'text'=>"Oprydning i Mærker og Modeller for Opel & Peugeut",
+					'date'=>"9. marts 2012"
+			);
+
+			$news[] = array('headline'=>'Oprydning i Mærker og Modeller for Hummer & Austin',
+					'text'=>"Oprydning i Mærker og Modeller for Hummer & Austin",
+					'date'=>"4. sept 2011"
+			);
+
+			$news[] = array('headline'=>'Oprydning i Mærker og Modeller for Citroen, Renault & Seat',
+					'text'=>"Oprydning i Mærker og Modeller for Citroen, Renault & Seat",
+					'date'=>"20. august 2011"
+			);
+				
+			
+			$news[] = array('headline'=>'Mindre rettelser',
+							'text'=>"På siden 'detaljevisning' er 'passer til' listen nu sorteret efter bilmærke.</br>
+									 Bilmodeller fx '155' indeholder nu ikke fejlagtigt et bilmærke fx. 'Alfa Romeo 155'.						
+							",
+							'date'=>"8. aug 2011"
+							);
+			
+			$news[] = array('headline'=>'Fejl rettet på <a href="/index/brands">Alle Bilmærker</a> siden',
+							'text'=>"Der er rettet et par fejl, og lavet en flottere side på opslag af bildele.",
+							'date'=>"3. aug 2011"
+							);
+			$news[] = array('headline'=>'Nu er der 4 butikker på <a href="http://bildelspriser.dk">bildelspriser.dk</a>',
+							'text'=>"Vi har nu fået priser fra følgende butikker<br>
+								<li>biltema 
+								<li>thansen 
+								<li>cm-carparts  
+								<li>og nv-autodele</li><br/>Flere er på vej!",
+							'date'=>"27. juli 2011"
+							);							
+
+			$table = $this->HtmlTable();
+			/* @var $table Zend_View_Helper_HtmlTable */
+			$table->setCaption ( 'Nyheder/opdateringer på bildelspriser.dk' );
+			//$table->
+			// set table tag attributes
+			$table->setAttribs ( array ('summary' => '', 'class' => 'bdp_std_table', 'style'=>'padding: .5 em;' ) );
+			$table->setData($news);
+			$table->setColumns ( array (
+									'date' =>array ('text' => 'Dato', 'td_class' => 'news'),
+									'headline' =>array ('text' => 'Overskrift' , 'td_class' => 'news' ),
+									'text' => array ('text' => 'Nyhedstekst', 'td_class' => 'news' )
+			 ) );
+			$table->setNotFoundText ( 'Ingen nyheder' );
+
+echo $table;
+
+echo "<a href='mailto:tilmeld-nyhedsbrev@bildelspriser.dk?subject=tilmeld-nyhedsbrev' >Skriv til os, hvis du vil have en mail når der kommer flere butikker på eller der sker store opdateringer.</a>";

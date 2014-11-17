@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<LINK REL=StyleSheet HREF="/bdp/public/css/b2b_user_.css" TYPE="text/css" MEDIA=screen>
+<title>bdp - process file - <?=$this->price_parser_run_id ?></title>
+	<style type="text/css" ></style>
+</head>
+<body>
+<div style='color:white;' >1234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901234567890
+</div>
+<a href="/user/filelist">Jump to File List</a>
+<h2>Proces File - <?php echo utf8_encode($this->filename);?> </h2>
+<?php 
+$allow_email = false;
+/** @var $pp Bildelspriser_XmlImport_PriceParser */
+/** @var pp Bildelspriser_XmlImport_PriceParser */
+$pp = $this->pp;
+//$pp = new Bildelspriser_XmlImport_PriceParser();
+$db_pp = new Default_Model_DynPriceParserRun();
+if(isset($this->price_parser_run_id)){
+	bdp::log("Loading a price parser from id = $this->price_parser_run_id ");
+	$db_pp->load($this->price_parser_run_id);
+	$this->filename = $this->path.$db_pp->file_base_name;
+	bdp::log("Found filename = <b>'".$db_pp->file_base_name.'</b>');
+	//Kint::dump($db_pp);
+}
+$filename = $this->filename;
+$result = null;
+
+				try{
+					//$pp->setPath($filename);
+					//$result = $pp->parseString($xml_source);
+					bdp::set_logger_type();
+					bdp::log('Logger type is now direct');
+					$result = $pp->parseFileName($this->filename,null,$this->reset_status);
+					$result .= '(no exceptions)';
+				}
+				catch(XmlParserException $xpe){
+					$result.="ExPE"; 
+					$this->xml_parser_exception = $xpe;					
+				}
+				catch(Exception $e){
+					$result .= '<br>Standard Exception<hr>'.$e->getFile().':'.$e->getLine().'<hr>'.$e->getMessage().Kint::trace($e->getTrace());
+				}
+				$log = $pp->get_log_as_html();
+				//$this->view->file_size;
+				$this->parseResult = $result;
+				$this->message = "Parsed xml file.<br/>";
+				if($result){//SUCCESS
+					// if no errors rename the file to 'Parsed_yymmdd_'.filename.xml
+					$date = date('Y-m-d');
+					$ext_start = strrpos($filename,'.');
+					$raw_file_name = substr($filename,0,$ext_start+1);
+					$file_ext = substr($filename,$ext_start);
+					if($file_ext=='parsed'){
+						$date_start = $ext_start-len($date);
+						$raw_file_name = substr($filename,0,$date_start+1);
+						$new_file_name = $raw_file_name.$date.'.parsed';						
+					}
+					else
+					{
+						$new_file_name = $raw_file_name.$date.'.parsed';
+					}
+					//echo "New filename = ".$new_file_name;
+					//return;
+				}	
+//Kint::dump($this);
+				?>
+	<table class='bdp_std_table' style='font:11px;color:blue;background-colorr:silver; width:100%;margin:3px;padding:2px;' >
+		<tr>  <td>User Name		</td> 	<td><?=$this->username?></td>  </tr>
+		<tr>  <td>File Name		</td> 	<td><?=basename($this->filename)?> </td>  </tr>
+		<tr>  <td>File Size		</td> 	<td><?=$pp->file_size?>bytes</td>  </tr>
+		<tr>  <td>Parse Result		</td> 	<td><?=$result?>		</td>  </tr>
+		<tr>  <td>Message		</td> 	<td><?=$this->message?>		</td>  </tr>
+	</table>
+	<?php 
+	if(isset($this->xml_parser_exception)){
+		echo "<br>Xml Parse Exception occured<font size=2>font2";
+		echo Zend_Debug::dump($this->xml_parser_exeption,'xml_parser_exception');
+		echo "</font>";		
+	}
+	
+	echo '<br><h1>LOG:</H1>'.$log;
+?>
+</body>
+</html>

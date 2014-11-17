@@ -2,6 +2,9 @@
 composer.phar
 vendor/
 
+#vagrant
+.vagrant/
+
 # Local configs
 config/autoload/*.local.php
 
@@ -25,3 +28,5 @@ cache
 # Legacy ZF1
 demos/
 extras/documentation
+/bdp/nbproject/private/
+/bildelspriser.dev/bdp/nbproject/private/

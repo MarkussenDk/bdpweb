@@ -1,0 +1,152 @@
+﻿<?php
+//echo nl2br(var_export($this,true));
+$spp = $this->spare_part_price;
+$supplier = $this->supplier;
+if($this->no_show_message){
+	echo "<div class='forward_message' >$this->no_show_message</div>";
+}
+//exit();
+if(!isset($spp)){
+	error( "spp var ikke sat fra IndexController");
+}	
+if(!isset($supplier)){
+	error("supplier var ikke sat fra IndexController");
+}
+
+$js_vars = array();
+/*
+function setJavaScriptGlobalVar($name,$value){
+	global $js_vars;
+	$js_vars[$name]=$value;
+}
+/ *
+function getJavaScriptGlobalVars($js_code){
+	global $js_vars;
+	$js = "";
+	foreach ($js_vars as $key=>$value){
+		$js .="\nvar $key = '$value';// set from PHP";
+	}
+	return "<script language='JavaScript' >$js \n $js_code </script>";
+}*/
+
+$page_val_results = $spp->validate_supplier_page_behind_supplier_url();
+echo "\n<!-- page_val_results $page_val_results -->";
+$page_moved = false;
+if($page_val_results && isset($supplier->_part_not_found_fall_back_url)){
+	$new_url = $supplier->_part_not_found_fall_back_url.$spp->supplier_part_number;
+	echo "<!-- $page_val_results  \norg url = ".$spp->getSpare_part_url()
+	."\nNew_url = ".$new_url." -->";
+	$spp->setSpare_part_url($new_url);
+	$page_moved=true;
+}
+
+
+if(is_null($supplier->part_not_found_text) or $supplier->part_not_found_text == ''){
+	//error("$supplier->part_not_found_text");
+}
+//setJavaScriptGlobalVar('js_vars_from_php', 1);// for testing that this works
+//Kint::dump($supplier);
+//setJavaScriptGlobalVar('part_not_found_text', $supplier->_part_not_found_text);
+//setJavaScriptGlobalVar('part_not_found_fall_back_url', $supplier->_part_not_found_fall_back_url);
+
+//echo getJavaScriptGlobalVars(';');
+
+/*echo "<br/>Url".$spp->getSpare_part_url();
+echo "<br/>Name is ".$spp->getName();
+echo "<br/>Spare_part_url".$spp->Spare_part_url;*/
+$class_vars = get_class_methods($spp);
+/*echo "UL<hr><UL>";
+foreach($class_vars as $key){
+	$method = $key;
+	$val="";
+	//$val = $spp->$method();
+	echo "<li> $method $key - $val </li>";
+}
+echo "</UL>";
+echo "<hr>";*/
+$url = $spp->Spare_part_url;
+//$url = 'http://jp.dk';
+$return_url = "/index/details/spare_part_price_id/".$spp->Spare_part_price_id.'/format/html';
+$return_name = $spp->Name;
+$form = new Zend_Form();
+$jt = $this->jump_to_record;
+$jt_id = $this->jump_to_id;
+/**
+ * @var $jt Default_Model_DynJumpTo
+ */
+$options = $jt->getPartPurchasedEnumValues();
+$dk_options = $jt->dk_parts_purchased_names;
+$links='';
+$href='javascript:sendPurchased(this);return false;';
+$width_in_pct = (100 / sizeof($dk_options))-5; 
+foreach ($dk_options as $key=>$value) {
+	$space = ' &nbsp; ';
+	//$space = '<br/>';
+	$start = '<span class="link_button" >';
+	$end = '</span>';
+	$start = "<td width='$width_in_pct%' >";
+	$end = '</td>';
+	$links.="  $space $start <a class='link_button' target='iframe' href='/index/ajax-html/cmd/setPurchasedState/jt_id/$jt_id/state/$key/format/html-no-layout'>$value</a>$end ";
+	;
+}
+$links = "<table width=100% ><tr>$links</tr></table>";
+//$form_input_radio_box = new Zend_Form_Element_Radio($options);
+//$form_input_radio_box->setLabel('Købte du varen?')->setName('part_purchased');
+//$form->addElement($form_input_radio_box,'radio_part_purchased');
+//$form->setName('myJumpToForm');
+
+
+
+echo "<a href='$return_url'>Return til $return_name </a><br>";
+//TODO: REINSERT THIS THING - REMOVED DUE TO DATA FAILIURE
+//$div_answer_box="<h1>Vi har behov for dit input! - Købte du varen?</h1><div id='jump_to_large_box' ><br>$links</div>";
+echo "<h3>Varen hos butikken</H3>";
+if(strpos($url,'autostumper')>0){
+	echo "<div class='bdp-user-warning' ><em>Webbutikken www.autostumper.dk er desv�rre ikke tilg�ngelig. <br/>Kontakt Autostumper direkte,"
+			." eller find vare hos en leverandør, "
+			."hvor webbutikken er aktiv.<br/><br/>mvh<br/>bildelspriser.dk</em></div>";	
+}
+else{
+	
+	$headline = 'Gå direkte til varen hos butikken';
+	if($page_moved){
+		$headline = 'Butikken har flyttet varen...<br> vi sender dig videre til deres søgeside';
+		
+	}
+	
+	echo "<table style='vertical-align: top; width:100%;' width='100%' ><tr>"
+		."<td style='vertical-align: top;text-align:center' ><center>$div_answer_box</center></td></tr>"
+		."<tr><td style='width:100%;border:' >"
+		."<h1><a href = '".$url."' >$headline<br/>"
+		."</a></h1><iframe id='iframe' target='iframe' name='iframe' style='border:2px green' width='100%' height='800px '  src='$url' ></iframe>"
+		."</td></tr></table>";
+}
+
+
+/*
+ *    '_spare_part_price_id' => 290195,
+   '_name' => NULL,
+   '_description' => NULL,
+   '_spare_part_url' => NULL,
+   '_spare_part_image_url' => NULL,
+   '_spare_part_category_id' => NULL,
+   '_spare_part_category_free_text' => NULL,
+   '_part_placement' => NULL,
+   '_part_placement_left_right' => NULL,
+   '_part_placement_front_back' => NULL,
+   '_supplier_part_number' => NULL,
+   '_original_part_number' => NULL,
+   '_price_inc_vat' => NULL,
+   '_producer_make_name' => NULL,
+   '_producer_part_number' => NULL,
+   '_spare_part_supplier_id' => NULL,
+   '_created' => NULL,
+   '_created_by' => NULL,
+   '_updated' => NULL,
+    '_updated_by' => NULL,
+   '_mapper'
+*/
+
+echo "<style>#pageWrapper_ {width: 95%;} nooption_{width: 95%;} div#bdp-div-page {width: 95%; </style>";
+
+

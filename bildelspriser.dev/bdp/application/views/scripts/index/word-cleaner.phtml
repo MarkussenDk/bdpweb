@@ -1,0 +1,123 @@
+<h2>Ord renser</h2>
+<i>Formålet med denne side er at få alle ord kategoriseret. <br/>
+Når et ord er kategoriseret, forsvinder det fra listen, næste gang siden indlæses igen.<br>
+Ord kan kategoriseres som Fabrikat, Model, Variant, Generation, Varenavn osv.
+</i>
+<!-- 
+<?php 
+Zend_Debug::dump($this->words[1],'First row of words');
+/*First row of words array(6) {
+  ["tag_id"] => int(2)
+  ["tag_name"] => string(2) "a4"
+  ["no_of_prices"] => int(985)
+  ["name1"] => string(31) "&Oslash;jenskygger A4 1,6 94-00"
+  ["url1"] => string(121) "http://www.biltema.dk/da/Bil%2d%2d%2dMC/Stoddampere-Fjedersystem-og-Hjul/Spiralfjeder/Audi/A4/67372-SPIRALFJEDER-AUDI-A4/"
+  ["name2"] => string(33) "Viskosekobling A4 I 1,6 1/95-7/00"
+  ["url2"] => string(73) "http://www.thansen.dk/product.asp?c=5247666347&n=994437023&pn=-2067054131"
+}*/
+
+$tab_index=1;
+
+$tag_type_options = html_key_val_to_options($this->tag_type_pairs);
+?>
+ -->
+<script type="text/javascript">
+<!--
+
+function updateStatusJson(xmlreply, td_status) {
+	if (xmlreply.status == Http.Status.OK) {
+		var xmlDoc = xmlreply.responseXML;
+		var JSON_text = xmlreply.responseText;
+		var myObject = eval('(' + JSON_text + ')');
+		// JSON Inspiration - http://www.json.org/js.html
+		if(myObject == null){
+			alert("JSON parsing did not work");
+		}
+		items = myObject.items;
+		if (items.length > 0) {
+			modelSelect.options.length = 0;
+			modelSelect.length = items.length+1;
+			modelSelect[0].text = 'Alle modeller';
+			modelSelect.disabled = false;
+			var item;
+			for (i = 0; i < items.length; i++) {
+				item = items[i];
+				modelSelect.length++;
+				modelSelect[i+1].value = item.id;
+				modelSelect[i+1].text = item.name;
+			}
+		} else {
+			document.body.innerHTML +="<br/>Child Nodes was null " + JSON_text;
+			modelSelect.disabled = true;
+			modelSelect.length = 1;
+			modelSelect[0].text = '-V�lg f�rst m�rke';
+		}
+	} else {
+		alert('Cannot handle the AJAX call.');
+	}
+}
+
+function updateStatus(xmlreply, td_status) {
+	if (xmlreply.status == Http.Status.OK) {
+		var JSON_text = xmlreply.responseText;
+		var myObject = eval('(' + JSON_text + ')');
+		// JSON Inspiration - http://www.json.org/js.html
+		if(myObject == null){
+			alert("JSON parsing did not work\n"+JSON_text);
+		}
+		var msg = "Reply\n"+myObject.msg+"\n";
+		if (myObject.exception) {
+			msg = msg + "Exception\n"+myObject.exception;
+		}		 
+		if (myObject.error==true) {
+			msg = msg + "Fejl på serveren\n";
+			alert(msg);
+		}
+		td_status.innerText = msg;
+	} else {
+		alert('Cannot handle the AJAX call.');
+	}
+}
+
+function saveTagType(tag_id,tag_type_id,td_status){
+	td_status.innerHTML = 'Gemmer '+tag_id+' and '+tag_type_id;
+	///index/ajax-html/cmd/SaveTagType/tag_id/6711/tag_type_id/14
+	Http.get({		
+		url: '/index/ajax-html/cmd/SaveTagType/tag_id/' + tag_id + '/tag_type_id/' + tag_type_id, 
+		callback: updateStatus,
+		cache: Http.Cache.Get
+	}, [td_status]);	
+}
+function setTagType(tag_id,td_select){
+	if(tag_id==null) alert("tag_id was null");
+	var td_status_name = 'td_status_tag_id_'+tag_id;
+	var td_status = document.getElementById(td_status_name);
+	if(td_status){
+		td_status.innerHTML = "Gemmer Data "+tag_id;
+		var td_select_value = td_select[td_select.selectedIndex].value;
+		saveTagType(tag_id, td_select_value, td_status);
+	}
+	else
+		alert('uable to find name '+td_name);
+}	
+//-->
+</script>
+<table class="bdp_price_all_details" >
+<thead>
+<tr><th>Navn</th><th>Kategori</th><th>Antal</th><th>Eksempel 1</th><th>Eksempel 2</th><th>Server Svar</th></tr>
+</thead>
+<?php foreach ($this->words as $row) : ?>
+<?php $tag_id =$row['tag_id']; ?>
+	<tr id="tr_tag_id_<?=$row['tag_id']?>">
+		<td><?= $row['tag_name']?></td>
+		<td>
+			<select taborder='<?php echo $tab_index; ?>>' onblur='setTagType(<?php echo $tag_id ?>,this);' id='select_tag_id_<?php echo $tag_id ?>' >
+				<?=$tag_type_options?></select></td>		
+		<td><?= $row['no_of_prices']?></td>
+		<td><a href='<?= $row['url1'] ?>' target='_bdp_other_window' taborder='99999' ><?= $row['name1']?></a></td>		
+		<td><a href='<?= $row['url2'] ?>' target='_bdp_other_window' taborder='99999' ><?= $row['name2']?></a></td>
+		<td width='200px' style='font-size-adjust: -2px;' id="td_status_tag_id_<?=$row['tag_id']?>">(status)</td>
+		</tr>
+
+<?php endforeach; ?>
+</table>

@@ -1,0 +1,19 @@
+# behat.yml
+default:
+ #   filters:
+ #       tags: "~@wip&&~@postponed&&~@disabled"
+    extensions:
+        Behat\MinkExtension:
+#            goutte: ~
+            selenium2: ~
+            sessions:
+                first_session:
+                    selenium2: ~
+                second_session:
+#                    goutte: ~
+                    selenium2: ~
+                third_session:
+                    selenium2: ~
+    suites:
+        first:
+            mink_javascript_session: selenium2                    

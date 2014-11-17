@@ -1,0 +1,34 @@
+<?php
+//http://www.childofthemachine.com/blog/2009/08/zend_navigation-tricks-true-tab-navigation-with-sub-menus-part-1/
+	$container;
+	if(isset($this))
+		$container = $this->container;
+	else{
+		$pages = array(
+			array( 'label'      => 'Write new article',
+				//'module'     => 'index',
+               	'controller' => 'index',
+                'aciton'     => 'beta'
+            )
+		);
+		$container = new Zend_Navigation($pages);
+	}
+    echo '<div id="bdp-span-nav-bar" >';
+    // loop root level (only has Home, but later may have an Admin root page?)
+    $sep = "";
+    foreach ($this->container as $page) {
+        // check if it is active (not recursive)
+        $isActive = $page->isActive(false);
+        $liClass = $isActive ? ' class="active"' : '';
+        echo $sep;
+        echo '<span id="bdp-span-nav-item" ' . $liClass . '>' . $this->menu()->htmlify($page) . '</span>', PHP_EOL;
+        // loop next level
+        /*foreach ($page as $page) {
+            // check if it is active (recursive)
+            $isActive = $page->isActive(true);
+            $liClass = $isActive ? ' class="active"' : '';
+            echo '<li ' . $liClass . '>' . $this->menu()->htmlify($page) . '</li>', PHP_EOL;
+        }*/
+        $sep = "  ";
+    }
+    echo '</span>';

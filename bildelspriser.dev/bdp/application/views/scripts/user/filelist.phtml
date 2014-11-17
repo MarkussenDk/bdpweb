@@ -1,0 +1,60 @@
+<div id="header">
+		<a href='/user/logout'>Logout</a> |  <a href='/user/filelist'>List Files</a> | <a href='/user/fileupload'>Upload File</a>
+	</div>
+<h2>Proces Files</h2>
+<form action="/user/procesfile/" method = "POST">
+<table class='user_process_file' >
+<tr><th >Select</th><th>Filename</th><th>Created Date</th><th>Size</th></tr>
+<?php
+
+//echo $this->form;
+$date_format= 'h:i:s d-m-Y';
+/*
+ * @var $this->db Zend_Db_Adapter_Mysqli
+ */
+
+$rows = array();
+if(isset($this->user_file_directory_iterator)){
+	$c = ' class="user_process_file" ';
+	echo "<b>Uploaded Files</b>";
+	foreach ($this->user_file_directory_iterator as $file){
+
+		$fn = $file->getFilename();
+		if($file->isDir()){
+			continue; // to ignore . and ..			
+		}
+		$bn = basename($fn);
+		$q = $this->db->select()
+			  ->from('price_parse_runs')
+			  ->where('file_base_name = ?',$bn)
+			  ->where('file_size = ?',$file->getSize())
+			  //->where('status in (?)',"'parsing file', 'success'")
+			  ->order('file_size DESC')
+			  //->order('price_parser_run_id DESC')
+			  ;
+		$row = $this->db->fetchRow($q);
+		$rows[] = $row;
+		die(Zend_Debug::dump($row,'fecthing Row',true));
+		$unix_timestamp = $file->getCTime();
+		$fs = round($file->getSize()/1024,1);
+		$date = date($date_format, $unix_timestamp);
+		echo "<tr><td $c ><input type='radio' name='filename' value='$fn'></td><td $c >$bn</td><td $c >$date</td><td $c>&nbsp;$fs kb</td> </tr>";
+	}	
+}
+else
+{
+	echo "Unable to process files - no iterator";
+	echo "Directory ".nl2br(var_export($this,true));
+}
+
+
+
+?>
+</table>
+<?php 
+echo "<h1>Priting rows</h1>";
+foreach($rows as $row ){
+	echo Zend_Debug::dump($row,'fecthing Row',true);
+}?>
+<button type="submit" >Process File</button>
+</form>

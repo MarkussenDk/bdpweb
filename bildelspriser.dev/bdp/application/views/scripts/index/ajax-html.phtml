@@ -1,0 +1,35 @@
+<?php 
+if(!isset($this->data)){
+	$this->data = array('msg'=>'No data');
+}
+
+function dump_array($ar,$level = 5){
+	if($level<1){
+		return "Level 5 reached";
+	}
+	$result = '<table class="bdp_std_table">';
+	if(is_array($ar)){
+		foreach ($ar as $k=>$v){
+			$vstr = $v;
+			if(is_array($v))
+				$vstr = dump_array($v,$level-1);
+			$result.='<tr><td>'.$k.'</td><td>'.$vstr.'</td></tr>';
+		}
+	}else{
+		$result .= $ar;
+	}
+	$result .= '</table>';
+	return $result;
+}
+
+switch ($this->format) {
+	case 'html-no-layout':
+		echo dump_array($this->data);
+	;
+	break;
+	
+	default:
+		echo Zend_Json::encode($this->data);
+		;
+	break;
+}
